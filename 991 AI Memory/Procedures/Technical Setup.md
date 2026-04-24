@@ -8,7 +8,6 @@ tags:
 - mcp
 - ai-integration
 connections:
-- '[[AI Toolchain and Workflows]]'
 - '[[OpenAI Agents SDK]]'
 ai_generated: false
 human_approved: false
