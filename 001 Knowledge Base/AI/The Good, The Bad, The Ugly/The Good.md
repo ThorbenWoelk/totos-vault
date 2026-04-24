@@ -1,0 +1,38 @@
+---
+created: 2025-10-06
+last_edited: 2026-04-24
+tags:
+- ai
+- automation
+- no-code
+- small-tasks
+- probabilistic-outcome
+connections:
+- '[[AI Agent Development]]'
+- '[[AI Coding Guidelines]]'
+- '[[The Bad]]'
+ai_generated: false
+human_approved: false
+category:
+- AI
+---
+## Humans and AI
+
+Humans are incredibly good at building an abstract understanding of things. They compress  complex issues to navigate them efficiently - though it may introduce information loss at times. 
+AI has a much higher short-term memory for previously processed details which allows them to consider more specific instances of ideas sometimes. Humans counter that with a meta understanding of where they SHOULD be looking at instead of maintaining the very details present at all times. 
+
+In that sense, AI often fails in an ADHD-like way. It takes ALL signals at face value. It doesn't filter. The reason it still functions well is the vast amount of resources it can use. An ADHD person is overwhelmed by all details very much so because the incoming signals are overwhelm the limited cognitive capacity.
+
+Or another way i construct this in a mental model is this:  
+- LLMs has the complete deep knowledge graph encoded in it's weights. But it executes on a subset of regions and neighboring areas. It does not necessarily realize when it has to jump to another region to solve the task in a better way. 
+- Human knowledge separates the graph in layers of 1st to N-order nodes. They consciously select which layer to operate on which takes up more or less cognitive power. When evaluating the work of an AI model, they interpret on a relatively high-level. They recognize when the model needs a hint towards another knowledge area. 
+
+## Business process automation with AI
+
+It's 2025. And so far, for a relatively small set of well-defined specific tasks that only comprise a small number of steps - yes, AI can automate them without any coding necessary. Drawback: Probabilistic outcome may always involve errors. Guarding against that is real effort. Maybe more so then creating a deterministic machine. 
+
+## No more learning syntax
+
+#2026-03 
+In a sense, I'm not a traditional programmer. I never saw much value in the vocabulary of coding for starters. There sure is tons of knowledge on the concepts, architecture, and inner workings of software and programming languages on many levels. And this knowledge is still relevant if you want to be a great engineer - using AI for coding or not. But the mere writing of a specific statement or definition from scratch was replaced long before AI could code. In the stackoverflow days, this just was a hell lotta more effort. 
+

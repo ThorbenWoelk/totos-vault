@@ -1,0 +1,15 @@
+# Generated inventory files are useful in Obsidian, but noisy as graph nodes.
+_index.md
+_summaries.md
+_health_report.md
+**/_index.md
+**/_summaries.md
+**/_health_report.md
+
+# Agent/control files are instructions, not knowledge-base content.
+AGENTS.md
+**/AGENTS.md
+
+# Obsidian config and archive material should not shape the core semantic graph.
+.obsidian/
+**/.obsidian/
