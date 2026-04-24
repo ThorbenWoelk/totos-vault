@@ -37,7 +37,6 @@ last_updated: 2026-04-24
 
 - [[Haystack]]
 - [[OpenAI Agents SDK]]
-- [[Vibe Engineering]]
 
 ## Retrieval And Memory
 

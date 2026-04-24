@@ -12,7 +12,6 @@ tags:
 - destructive-laziness
 connections:
 - '[[Evals for AI Systems]]'
-- '[[Vibe Engineering]]'
 - '[[The Ugly]]'
 ai_generated: false
 human_approved: false

@@ -13,7 +13,6 @@ tags:
 - cloud-costs
 - tech-trends
 connections:
-- '[[Vibe Engineering]]'
 - '[[Everything is a Tradeoff]]'
 - '[[The Bad]]'
 ai_generated: false

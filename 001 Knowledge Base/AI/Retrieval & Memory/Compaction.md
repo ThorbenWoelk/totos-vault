@@ -10,7 +10,6 @@ tags:
 connections:
 - '[[Agentic Memory]]'
 - '[[AI Agent Development]]'
-- '[[Vibe Engineering]]'
 ai_generated: false
 human_approved: false
 category:

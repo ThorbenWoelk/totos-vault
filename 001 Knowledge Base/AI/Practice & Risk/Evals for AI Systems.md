@@ -9,7 +9,6 @@ tags:
 - openai
 connections:
 - '[[AI Coding Guidelines]]'
-- '[[Vibe Engineering]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 ai_generated: false
 human_approved: false
