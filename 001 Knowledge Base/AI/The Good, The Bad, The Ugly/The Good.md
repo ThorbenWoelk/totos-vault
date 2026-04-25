@@ -29,15 +29,15 @@ In a sense, I'm not a traditional programmer. I never saw much value in the voca
 #2026-04
 You know who else thinks like this? [Uncle Bob from Clean Code](https://x.com/unclebobmartin/status/2042952202847744198). Though it turns out by reading his Twitter feed that his opinions are to be taken with more than a grain of salt lately. 
 
-## Humans and AI
+## Humans and contemporary AI are complements, not substitutes
 
-#2025-10
-Humans are incredibly good at building an abstract understanding of things. They compress  complex issues to navigate them efficiently - though it may introduce information loss at times. 
-AI has a much higher short-term memory for previously processed details which allows them to consider more specific instances of ideas sometimes. Humans counter that with a meta understanding of where they SHOULD be looking at instead of maintaining the very details present at all times. 
+#2026-03
+Humans are incredibly good at **building an abstract understanding** of things. They **compress  complex issues** to navigate them efficiently - though it may introduce information loss at times. 
+Humans have a **meta-understanding** of where they SHOULD be looking to find a fact instead of holding the very details salient at all times in their thoughts. 
 
-In that sense, AI often fails in an ADHD-like way. It takes ALL signals at face value. It doesn't filter. The reason it still functions well is the vast amount of resources it can use. An ADHD person is overwhelmed by all details very much so because the incoming signals are overwhelm the limited cognitive capacity.
+AI excels at **short-term memory for previously processed details** (context window). Which allows them to consider a massive amount of very specific ideas and facts at the same time Though humans are still not satisfied with this amount and imperfect precision. That's because AI often fails in an ADHD-like way. It takes ALL signals at face value. It doesn't filter or put relative weights on information. Still, an ADHD person might be overwhelmed by incoming signals > limited cognitive capacity. An AI has much higher capacity technically added as GPU power.
 
-Or another way i construct this in a mental model is this:  
+Another way to think about this:  
 - LLMs has the complete deep knowledge graph encoded in it's weights. But it executes on a subset of regions and neighboring areas. It does not necessarily realize when it has to jump to another region to solve the task in a better way. 
 - Human knowledge separates the graph in layers of 1st to N-order nodes. They consciously select which layer to operate on which takes up more or less cognitive power. When evaluating the work of an AI model, they interpret on a relatively high-level. They recognize when the model needs a hint towards another knowledge area. 
 
