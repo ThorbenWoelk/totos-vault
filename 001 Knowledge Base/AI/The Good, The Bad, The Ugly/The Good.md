@@ -16,6 +16,10 @@ human_approved: false
 category:
 - AI
 ---
+## AI lowers the entry barrier to coding
+#2026-04 
+
+This was a great thing about cloud compute and serverless before. Now, AI crushes any barrier that still existed except for, maybe, the financial one. 
 
 ## No more learning syntax
 
