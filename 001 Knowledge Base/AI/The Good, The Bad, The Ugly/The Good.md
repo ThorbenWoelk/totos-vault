@@ -44,7 +44,7 @@ Or another way i construct this in a mental model is this:
 ## Business process automation with AI
 
 #2025-10
-For a relatively small set of well-defined specific tasks that only comprise a small number of steps - yes, AI can automate them - and without any coding necessary. 
+For a relatively small set of well-defined specific tasks that only comprise a small number of steps - yes, AI can automate them - and without any coding skill necessary. 
 
 Still, probabilistic outcome may involve errors. Guarding against that is real effort. Often times more so then just creating a deterministic machine. And you might actually use AI to create one in the first place.
 
