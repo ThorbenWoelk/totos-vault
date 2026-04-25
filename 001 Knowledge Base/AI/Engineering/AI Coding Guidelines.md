@@ -14,8 +14,8 @@ tags:
   - todo-pattern
 connections:
   - "[[AI Agent Development Guidelines]]"
-ai_generated: false
-human_approved: true
+ai_generated: true
+human_approved: false
 category:
   - AI
 ---
