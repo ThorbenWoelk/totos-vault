@@ -8,7 +8,7 @@ tags:
   - small-tasks
   - probabilistic-outcome
 connections:
-  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Agents - Engineering Guidelines]]"
   - "[[AI Coding Guidelines]]"
   - "[[The Bad]]"
 ai_generated: false

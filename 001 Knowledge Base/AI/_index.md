@@ -23,13 +23,13 @@ last_updated: 2026-04-24
 
 ## Engineering
 
-- [[AI Agent Development Guidelines]]
+- [[AI Agents - Engineering Guidelines]]
 - [[AI Coding Guidelines]]
 - [[AI Tooling Models and Harnesses]]
-- [[Code Concepts]]
+- [[AI Coding Concepts]]
 - [[Contextvars]]
 - [[AI Developer Practices]]
-- [[Levels of Autonomy]]
+- [[Levels of AI Autonomy]]
 - [[OpenClaw]]
 
 ## Agent Frameworks

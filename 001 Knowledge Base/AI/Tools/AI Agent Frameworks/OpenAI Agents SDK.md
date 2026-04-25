@@ -11,7 +11,7 @@ tags:
   - skills
   - agents-md
 connections:
-  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Agents - Engineering Guidelines]]"
   - "[[AI Tooling Models and Harnesses]]"
   - "[[AI Agent Protocol Architecture]]"
 ai_generated: true

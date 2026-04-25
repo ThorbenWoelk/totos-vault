@@ -2,19 +2,19 @@
 created: 2025-12-19
 last_edited: 2026-04-24
 tags:
-- ai-models
-- ai-harnesses
-- security-approval
-- provider-variability
-- model-quality
+  - ai-models
+  - ai-harnesses
+  - security-approval
+  - provider-variability
+  - model-quality
 connections:
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[2026-03]]'
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[2026-03]]"
 ai_generated: false
-human_approved: true
+human_approved: false
 category:
-- Tools & Setup
-- AI Tools
+  - Tools & Setup
+  - AI Tools
 ---
 It's not only about the models to, e.g., vibe code but also about which harness/client you use to run them - Claude Code, Cursor, Antigravity, Warp, Kilo, Crush, Windsurf, Mistral vibe CLI, gemini CLI ... 
 

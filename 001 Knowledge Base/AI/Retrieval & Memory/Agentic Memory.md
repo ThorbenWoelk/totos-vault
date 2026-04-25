@@ -19,6 +19,8 @@ human_approved: false
 category:
 - AI
 ---
+## Types of Memory
+
 | type       | primary       | secondary        | avoid           | insight                 |
 | ---------- | ------------- | ---------------- | --------------- | ----------------------- |
 | short-term | LLM context   | in-memory buffer | SQL             | fast and ephemeral      |

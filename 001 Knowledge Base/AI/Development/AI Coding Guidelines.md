@@ -13,7 +13,7 @@ tags:
   - code-review
   - todo-pattern
 connections:
-  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Agents - Engineering Guidelines]]"
 ai_generated: true
 human_approved: false
 category:

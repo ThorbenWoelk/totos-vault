@@ -12,9 +12,9 @@ tags:
   - google-deepmind
 connections:
   - "[[AI Weaknesses]]"
-  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Agents - Engineering Guidelines]]"
   - "[[Agentic Memory]]"
-  - "[[Levels of Autonomy]]"
+  - "[[Levels of AI Autonomy]]"
 ai_generated: true
 human_approved: false
 category:
@@ -76,5 +76,5 @@ The threat surface for agents is qualitatively different from the threat surface
 
 - Closely related to prompt injection but significantly broader — covers memory, multi-agent dynamics, and human oversight
 - Relevant to anyone building agentic systems that browse untrusted content (web agents, research agents, RPA)
-- Pairs well with work on agent memory architectures ([[Agentic Memory]]) and autonomy levels ([[Levels of Autonomy]])
+- Pairs well with work on agent memory architectures ([[Agentic Memory]]) and autonomy levels ([[Levels of AI Autonomy]])
 
