@@ -2,23 +2,23 @@
 created: 2026-04-16
 last_edited: 2026-04-24
 tags:
-- openai
-- agents-sdk
-- ai-agent-framework
-- sandboxing
-- agent-harness
-- mcp
-- skills
-- agents-md
+  - openai
+  - agents-sdk
+  - ai-agent-framework
+  - sandboxing
+  - agent-harness
+  - mcp
+  - skills
+  - agents-md
 connections:
-- '[[AI Agent Development]]'
-- '[[AI Tooling Models and Harnesses]]'
-- '[[AI Agent Protocol Architecture]]'
+  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Tooling Models and Harnesses]]"
+  - "[[AI Agent Protocol Architecture]]"
 ai_generated: true
 human_approved: false
 category:
-- AI
-- AI Agent Frameworks
+  - AI
+  - AI Agent Frameworks
 ---
 ## Core idea
 

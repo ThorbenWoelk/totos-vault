@@ -2,29 +2,33 @@
 created: 2025-09-23
 last_edited: 2026-04-24
 tags:
-- ai-coding
-- best-practices
-- human-in-loop
-- agent-architecture
-- iterative-task-management
-- monitoring
-- templates
-- workflow
-- code-review
-- todo-pattern
+  - ai-coding
+  - best-practices
+  - human-in-loop
+  - agent-architecture
+  - iterative-task-management
+  - monitoring
+  - templates
+  - workflow
+  - code-review
+  - todo-pattern
 connections:
-- '[[AI Agent Development]]'
+  - "[[AI Agent Development Guidelines]]"
 ai_generated: false
 human_approved: true
 category:
-- AI
+  - AI
 ---
-## Agentic Coding Best Practices
+What does it mean to be good at AI-based coding? This is a collection of things you can and should learn and practice to call yourself "master of the harnesses". 
 
-# Codebase agent readiness
+## Choosing the right model for the right task
+
+It's the job of the developer to decide how complicated an issue is. When letting AI analyze and fix a critical but, it might be that only the highest reasoning models go a particular route and find the issue in the depth of the dependency tree. Choosing a lower reasoning model would then be a waste of tokens and energy in the best case and hallucinating new bugs in the worst case.
+
+## Codebase agent readiness
 #2026-01 https://factory.ai/news/agent-readiness
 
-# Basic workflow
+## Basic workflow
 
 #2026-03
 - There are four distinct "species" of agents in production use, each suited to different problems:
@@ -47,7 +51,7 @@ category:
 - Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again. 
 https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s (2025-12)
 
-# Iterative task management
+## Iterative task management
 
 **Key insight from Manus**: let agent update a `todo.md` file. 
 
@@ -84,50 +88,6 @@ The risk of AI coding:
 - Productivity dividend on the time spent coding decreases
 - Junior developers miss fundamental software engineering concepts
 - Basic concepts still needed when vibe-coding - often to guide the AI
-
-## Agent Architecture Principles
-
-### Modularity & Interoperability
-- Each agent is focused, independent service (microservice-style)
-- Agents communicate via open standards:
-  - **A2A**: Agent-to-agent communication
-  - **MCP**: Agent-to-tool/data communication
-- Extensibility through new agents or MCP servers
-- Security & privacy: explicit, consented, auditable data/tool access
-
-### Agent Cards
-- Each agent exposes HTTP endpoint
-- `/.well-known/agent.json` describes skills
-
-## Practical Tools & Resources
-
-### Prototyping
-- [v0.dev](https://v0.dev/) - Vercel's UI component generator
-- [21st.dev](https://21st.dev/) - UI component discovery and sharing
-
-### Templates & Rules
-- [cursor.directory](https://cursor.directory/rules) - Cursor rules templates
-
-### Monitoring
-- [CursorLens](https://www.cursorlens.com/) - Insights into AI usage
-
-### Best Practices References
-- [Nathan LeClaire's Claude Code Best Practices](https://nleeclaire.com/)
-- [Anthropic Claude Code Best Practices](https://docs.anthropic.com/)
-
-## Implementation Notes
-
-### Todo.md Pattern
-When working on complex tasks:
-1. Create `todo.md` file at project start
-2. Break down task into concrete steps
-3. Update file throughout process
-4. Check off completed items
-5. Add new items as they emerge
-6. Keep it visible in context
-
-This keeps both human and AI focused on objectives and prevents scope drift.
-
 ### Context Truncation Strategy
 Based on Manus insights:
 - Prefer file-based memory over context compression

@@ -2,24 +2,24 @@
 created: 2026-04-15
 last_edited: 2026-04-24
 tags:
-- ai-agents
-- ai-safety
-- multi-agent-systems
-- security
-- adversarial-attacks
-- prompt-injection
-- agent-vulnerabilities
-- google-deepmind
+  - ai-agents
+  - ai-safety
+  - multi-agent-systems
+  - security
+  - adversarial-attacks
+  - prompt-injection
+  - agent-vulnerabilities
+  - google-deepmind
 connections:
-- '[[AI Weaknesses]]'
-- '[[AI Agent Development]]'
-- '[[Agentic Memory]]'
-- '[[Levels of Autonomy]]'
+  - "[[AI Weaknesses]]"
+  - "[[AI Agent Development Guidelines]]"
+  - "[[Agentic Memory]]"
+  - "[[Levels of Autonomy]]"
 ai_generated: true
 human_approved: false
 category:
-- AI
-- Papers
+  - AI
+  - Papers
 source: https://ssrn.com/abstract=6372438
 doi: 10.2139/ssrn.6372438
 ---

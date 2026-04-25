@@ -2,19 +2,19 @@
 created: 2026-03-23
 last_edited: 2026-04-24
 tags:
-- lcm
-- context-memory
-- ai
-- knowledge-base
-- compression
+  - lcm
+  - context-memory
+  - ai
+  - knowledge-base
+  - compression
 connections:
-- '[[Agentic Memory]]'
-- '[[AI Agent Development]]'
+  - "[[Agentic Memory]]"
+  - "[[AI Agent Development Guidelines]]"
 ai_generated: false
 human_approved: false
 category:
-- Knowledge Base
-- AI
+  - Knowledge Base
+  - AI
 tagging_processed_count: 1
 tagging_last_processed: 2026-04-24
 ---

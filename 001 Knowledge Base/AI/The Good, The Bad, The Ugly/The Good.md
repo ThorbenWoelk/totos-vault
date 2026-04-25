@@ -2,19 +2,19 @@
 created: 2025-10-06
 last_edited: 2026-04-24
 tags:
-- ai
-- automation
-- no-code
-- small-tasks
-- probabilistic-outcome
+  - ai
+  - automation
+  - no-code
+  - small-tasks
+  - probabilistic-outcome
 connections:
-- '[[AI Agent Development]]'
-- '[[AI Coding Guidelines]]'
-- '[[The Bad]]'
+  - "[[AI Agent Development Guidelines]]"
+  - "[[AI Coding Guidelines]]"
+  - "[[The Bad]]"
 ai_generated: false
 human_approved: false
 category:
-- AI
+  - AI
 ---
 ## AI lowers the entry barrier to coding
 #2026-04 

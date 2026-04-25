@@ -2,21 +2,21 @@
 created: 2025-07-25
 last_edited: 2026-04-24
 tags:
-- ai-agent
-- kv-cache
-- filesystem-context
-- error-recovery
-- attention-manipulation
-- context-engineering
-- agent-architecture
+  - ai-agent
+  - kv-cache
+  - filesystem-context
+  - error-recovery
+  - attention-manipulation
+  - context-engineering
+  - agent-architecture
 connections:
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[Attention Optimization for LLMs]]'
-- '[[AI Coding Guidelines]]'
-ai_generated: false
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[Attention Optimization for LLMs]]"
+  - "[[AI Coding Guidelines]]"
+ai_generated: true
 human_approved: false
 category:
-- AI
+  - AI
 ---
 #### Design Around KV-Cache
 - KV-cache hit rate is the single most important metric for production AI agents
