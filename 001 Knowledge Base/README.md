@@ -16,7 +16,7 @@ Structured repository of concepts, references, guidelines, and technical documen
 
 ## Start Here
 
-Use [[_index]] and the generated category indexes as inventories. Use note-level `connections` and body links for navigation.
+Use [[001 Knowledge Base/_index]] and the generated category indexes as inventories. Use note-level `connections` and body links for navigation.
 
 ## Generated Indexes
 

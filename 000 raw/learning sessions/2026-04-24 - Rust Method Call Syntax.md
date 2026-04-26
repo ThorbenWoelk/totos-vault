@@ -2,17 +2,17 @@
 created: 2026-04-24
 last_edited: 2026-04-24
 tags:
-- learning-session
-- rust
-- programming
+  - learning-session
+  - rust
+  - programming
 connections:
-- '[[raw/_index|Raw Source Index]]'
-- '[[Rust]]'
-- '[[Technical Vocabulary Ledger]]'
+  - "[[000 raw/_index|Raw Source Index]]"
+  - "[[Rust]]"
+  - "[[Technical Vocabulary Ledger]]"
 ai_generated: true
 human_approved: false
 category:
-- programming
+  - programming
 type: learning-session
 topic: Rust method call syntax
 ---
