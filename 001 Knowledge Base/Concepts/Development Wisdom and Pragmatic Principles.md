@@ -28,19 +28,23 @@ Pragmatic development wisdom and experience-based principles that complement for
 ### "Done is Better Than Perfect" / "Make it Work, Then Make it Right"
 **Philosophy**: Prioritize shipping functional solutions over endless optimization.
 
-**Why this matters**:
+**Pro**:
 - Prevents **analysis paralysis** and perfectionism
 - Enables rapid feedback and iteration cycles
 - Real user feedback beats theoretical perfection
 - Working software delivers value; perfect software often never ships
-- Technical debt can be addressed iteratively
+
+**Contra**
+- Technical debt must be addressed. Sometimes hard to make time for that after feature has been released already. 
+- Can feel like building everything twice. 
+
+**Note**
+- No alternative to testing main hypotheses in a PoC that never goes live
 
 **Application strategy**:
 1. **Make it work**: Focus on core functionality first
 2. **Make it right**: Refactor based on actual usage patterns
 3. **Make it fast**: Optimize where metrics show it matters
-
-**When to apply**: Early-stage products, prototypes, proof-of-concepts, tight deadlines
 
 ### Collaborative Development Wisdom
 
@@ -58,39 +62,29 @@ Pragmatic development wisdom and experience-based principles that complement for
 **Beyond backup**: Git history tells the story of your project.
 
 **Best practices from experience**:
-- Commit messages should explain *why*, not *what*
+- Commit messages should explain *why* + *what*
 - Small, focused commits enable better debugging
-- Branch naming conventions help team coordination
-- Merge vs. rebase strategies affect team workflow
+- Branch naming conventions help team coordination and should help commit discipline
 - Git blame is for understanding, not assigning fault
 
 ### Interface-Driven Development Wisdom
 
-#### "Developers Work Against Interfaces" 
-**German wisdom**: "EntwicklerInnen arbeiten gegen Schnittstellen. Schnittstellen kann man mocken."
+#### "Developers Work Against Interfaces. Interfaces can be mocked." 
 
-**Translation**: Developers work against interfaces. Interfaces can be mocked.
-
-**Practical benefits**:
+As long as the interface is agreed upon early, there's some practical benefits to this mindset: 
 - Enables parallel development of dependent components
 - Makes unit testing significantly easier
 - Reduces coupling between team members' work
 - Allows development to proceed before all dependencies are complete
-- Facilitates contract-first development
 
 **Implementation wisdom**:
-- Define interfaces before implementation
+- Define interfaces before implementation and document interface contracts clearly
 - Mock external dependencies from day one
-- Use dependency injection consistently
-- Document interface contracts clearly
 - Version interfaces explicitly
 
 ### Team Coordination Principles
 
 #### "Parallel Work Shortens Delivery Cycles"
-**German insight**: "Paralleles Arbeiten verkürzt den Lieferzyklus."
-
-**Translation**: Parallel work shortens the delivery cycle.
 
 **Enabling strategies**:
 - Clear interface definitions allow simultaneous development
@@ -107,41 +101,14 @@ Pragmatic development wisdom and experience-based principles that complement for
 
 ### Contextual Wisdom
 
-#### "Move Fast and Break Things" - With Wisdom
-**When appropriate**:
-- Early-stage products finding product-market fit
-- Internal tools with low external impact
-- Experimental features with limited scope
-- Learning and discovery phases
-
-**Required safeguards**:
-- Good monitoring and alerting
-- Quick rollback capabilities
-- Clear blast radius boundaries
-- Learning from what breaks
-
-**When NOT appropriate**:
-- Production systems with user dependencies
-- Financial or safety-critical applications
-- Established products with stable user base
-
-#### The "Good Enough" Principle
-**Insight**: Perfect is the enemy of done, but "good enough" requires clear standards.
-
-**Defining "good enough"**:
-- Meets user requirements and acceptance criteria
-- Passes agreed-upon quality gates
-- Has acceptable performance characteristics
-- Includes necessary error handling
-- Is maintainable by the team
-
 ### Code Evolution Wisdom
 
 #### Incremental Improvement Over Wholesale Rewrites
 **Experience shows**:
-- Big bang rewrites usually fail or massively overrun
+- Big bang rewrites often fail or massively overrun 
+- Bit less so in the age of AI - but still matters
 - Incremental refactoring is less risky and more sustainable
-- Strangler fig pattern for legacy system replacement
+- *Strangler fig pattern* for legacy system replacement
 - Feature flags enable gradual rollouts
 
 #### Technical Debt is Not Always Bad
@@ -183,8 +150,6 @@ Pragmatic development wisdom and experience-based principles that complement for
 **Data-driven decisions**:
 - Measure what users actually experience
 - Optimize based on real usage patterns
-- Set performance budgets and stick to them
-- Synthetic monitoring vs. real user metrics
 
 ### Communication and Documentation
 
@@ -221,20 +186,10 @@ Pragmatic development wisdom and experience-based principles that complement for
 - Dogmatic adherence to principles can be counterproductive
 - Pragmatism beats purity in most real-world scenarios
 
-## Integration with Formal Principles
+## Cross-References
 
-### Relationship to Software Design Principles
-This document complements [[Software Design Principles - Comprehensive Guide]] by:
-- Providing practical application wisdom for formal principles
-- Sharing experience-based insights on when and how to apply principles
-- Offering pragmatic alternatives when formal approaches are too heavy
-- Bridging the gap between theory and practice
+This document complements [[Software Design Principles - Comprehensive Guide]].
 
-### Tradeoff Awareness
-All wisdom here connects to [[Everything is a Tradeoff]] by:
-- Acknowledging that every principle has costs and benefits
-- Providing context for when tradeoffs are worth making
-- Sharing experience about how tradeoffs play out in practice
+All wisdom here connects to [[Everything is a Tradeoff]] by acknowledging that every principle has costs and benefits.
 
 The key insight is that development wisdom comes from understanding not just what to do, but when, why, and how to do it in real-world contexts with real constraints and real teams.
-
