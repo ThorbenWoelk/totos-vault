@@ -1,0 +1,34 @@
+arena allocation
+attention
+backpressure
+beam search
+bloom filter
+circuit breaker
+copy-on-write (cow)
+crdt
+discriminated union
+dispatch
+duck typing
+embedding
+faiss
+gradient checkpointing
+idempotency
+linearizability
+macro
+mmap (memory-mapped files)
+monomorphization
+mvcc
+outbox pattern
+phantom types
+pinning
+predicate
+quantization
+schema drift
+state bag
+structured concurrency
+trait object
+type erasure
+variance
+vector clock
+write-ahead log (wal)
+zero-copy
