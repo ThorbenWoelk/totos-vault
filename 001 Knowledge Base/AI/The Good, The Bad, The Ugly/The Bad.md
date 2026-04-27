@@ -24,6 +24,12 @@ The bad stuff - as well as the good stuff - changes quickly. In 2024, we thought
 
 # General 
 
+## Productivity - Does it even make us more productive?
+
+#2026-04 Frankly, I'm not so sure. Obviously, the big AI labs that are built AI-native from their beginning are shipping insanely fast and thanks to AI. But what about any other environment? Setting up AI so it fits existing standards can take days to weeks by itself. This investment is similar to traditional onboarding of engineers to the company's tech stack, etc. However, it's also more subject to change so it's not a "one-time investment" either. 
+
+There's no such thing as "cleaner with every piece added" with AIs. The slop just grows and grows. It's hard to see a workflow that prevents time-consuming cleanup sessions every other week. Even if AI can be used to deslop, it's not entirely clear how to make it detect slop in the first place. Every sentence or line of code that is not broken looks good to the AI. Incoherent designs are much harder to detect. 
+
 ## Compounding Errors and hallucinations
 
 Because the model samples from a probability distribution for every prediction, a single early mistake shifts the context and causes subsequent predictions to diverge exponentially.
