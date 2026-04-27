@@ -7,7 +7,7 @@ tags:
   - vocabulary
 connections:
   - "[[001 Knowledge Base/_index|Knowledge Base Index]]"
-  - "[[Technical Vocabulary Ledger]]"
+  - "[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]"
 ai_generated: true
 human_approved: false
 category:

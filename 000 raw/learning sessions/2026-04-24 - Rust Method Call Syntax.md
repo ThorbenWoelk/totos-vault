@@ -8,7 +8,7 @@ tags:
 connections:
   - "[[000 raw/_index|Raw Source Index]]"
   - "[[Rust]]"
-  - "[[Technical Vocabulary Ledger]]"
+  - "[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]"
 ai_generated: true
 human_approved: false
 category:
