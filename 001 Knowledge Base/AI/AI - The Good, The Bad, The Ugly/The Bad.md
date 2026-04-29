@@ -24,6 +24,17 @@ The bad stuff - as well as the good stuff - changes quickly. In 2024, we thought
 
 # AI Coding
 
+## "I don't even look at the code anymore"
+
+The logic is compelling at first: 
+*If AIs are writing the code and AIs are reviewing and refactoring it, why should we even care if it's readable any more?* 
+
+Well for one thing: 
+**Readability influences maintainability** directly. Even AIs benefit from, e.g., explicit and specific naming. 
+
+Also: **Clean code is about more than readability**. 
+Once you type "but it worked before!!" in all-caps into the keyboard, it's too late to clean up the codebase. AIs make dumb mistakes that compound. At some point in every project, there needs to be a developer deeply involved with the code or it goes downhill. 
+
 ## Slopification
 
 Companies ship so fast, it's as if their life depends on it. Because it does. And as a result, everything breaks. As a developer, you build a workflow around using a gazillion tools that are <1 years old. And one day you wake up and the harness you're using decided to not support whatever it is you were doing. And you need to invest another afternoon to work out a workaround. 
