@@ -1,6 +1,6 @@
 ---
 created: 2026-01-03
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - ai
 - transformer
@@ -21,5 +21,6 @@ Dense transformers create a problem. Every neuron connects to thousands of other
 
 The insight was to enforce sparsity during training. The model learns with most weights fixed to zero. Each neuron keeps only a small number of connections, which limits interference by design.
 
-https://huggingface.co/openai/circuit-sparsity?utm_source=alphasignal&utm_campaign=2025-12-15&lid=16wpBB3uP8sLhbliE
+## References
 
+- OpenAI. (n.d.). *[Circuit sparsity](https://huggingface.co/openai/circuit-sparsity?utm_source=alphasignal&utm_campaign=2025-12-15&lid=16wpBB3uP8sLhbliE).* Hugging Face.

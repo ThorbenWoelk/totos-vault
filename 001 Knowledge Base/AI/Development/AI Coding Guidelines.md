@@ -1,6 +1,6 @@
 ---
 created: 2025-09-23
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - ai-coding
   - best-practices
@@ -28,14 +28,12 @@ A good agent task:
 - is a closed loop. I.e. the agent has a way to evaluate its own work
 - is not mission critical - boring stuff, side projects, rubber-ducking
 
-[Mario Zechner (2026), YouTube](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2)
-
 ## Choosing the right model for the right task
 
 It's the job of the developer to decide how complicated an issue is. When letting AI analyze and fix a critical but, it might be that only the highest reasoning models go a particular route and find the issue in the depth of the dependency tree. Choosing a lower reasoning model would then be a waste of tokens and energy in the best case and hallucinating new bugs in the worst case.
 
 ## Codebase agent readiness
-#2026-01 https://factory.ai/news/agent-readiness
+#2026-01
 
 ## Basic workflow
 
@@ -57,8 +55,13 @@ It's the job of the developer to decide how complicated an issue is. When lettin
 - Create a plan. A prompt can create a plan. Once verified, the plan can then be used for the implementation. 
 - A verification harness. Tests or app to run, scripts to run that create an artifact from which the model can learn what it did wrong. 
 - Context. "Here is how I like to do things". Nowadays, the models get actually *better* once they see a larger codebase containing good practice examples. 
-- Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again. 
-https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s (2025-12)
+- Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again.
+
+## References
+
+- AI Engineer. (2026, April 16). *[Building pi in a World of Slop - Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2)* [Video]. YouTube.
+- Factory. (2026, January 20). *[Introducing Agent Readiness](https://factory.ai/news/agent-readiness).* Factory.ai.
+- Theo - t3.gg. (2025, December 4). *[How I code with AI right now](https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s)* [Video]. YouTube.
 
 ## Iterative task management
 
@@ -105,4 +108,3 @@ Based on Manus insights:
 - Keep references (URLs, file paths) even when dropping content
 - Make all compression reversible
 - Use filesystem as unlimited persistent context
-

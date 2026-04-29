@@ -1,6 +1,6 @@
 ---
 created: 2026-01-11
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - meme-origin
 - internet-culture
@@ -17,5 +17,7 @@ category:
 - AI
 ---
 Where does "vibe coding" come from?
-https://knowyourmeme.com/memes/vibe-coding
 
+## References
+
+- Know Your Meme. (2025, March 19). *[Vibe coding](https://knowyourmeme.com/memes/vibe-coding).* Know Your Meme.

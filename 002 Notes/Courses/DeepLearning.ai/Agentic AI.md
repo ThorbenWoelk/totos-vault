@@ -1,6 +1,6 @@
 ---
 created: 2025-11-26
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - agentic-ai
 - multi-agent
@@ -20,7 +20,9 @@ category:
 - Notes
 - DeepLearning.ai
 ---
-[Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai/lesson/bvuwkr/agentic-ai-applications)
+## References
+
+- DeepLearning.AI. (n.d.). *[Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/lesson/bvuwkr/agentic-ai-applications).* DeepLearning.AI.
 
 ## General Takeaways
 
@@ -57,4 +59,3 @@ More consistent results can be achieved when giving it a **rubric** of binary cr
 ## Design Decisions in AI systems
 
 - planning with code execution: when to use hardcoded tools and when to let the AI generate code at runtime. Generally, the latter works great https://arxiv.org/abs/2402.01030
-

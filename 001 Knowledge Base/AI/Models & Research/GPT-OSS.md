@@ -1,6 +1,6 @@
 ---
 created: 2025-12-27
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - gpt
 - open-source
@@ -20,5 +20,6 @@ category:
 ---
 ![[Pasted image 20251227153210.png]]
 
-https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss?utm_source=alphasignal&utm_campaign=2025-08-20&asuniq=9589ff20
+## References
 
+- Alammar, J. (n.d.). *[The illustrated GPT-OSS](https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss?utm_source=alphasignal&utm_campaign=2025-08-20&asuniq=9589ff20).* Language Models & Co.

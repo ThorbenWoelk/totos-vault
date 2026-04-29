@@ -1,6 +1,6 @@
 ---
 created: 2025-12-27
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - transformer
 - llm
@@ -19,7 +19,9 @@ category:
 - DeepLearning.ai
 tagging_processed_count: 1
 ---
-[DeepL.ai course](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings)
+## References
+
+- DeepLearning.AI. (n.d.). *[How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings).* DeepLearning.AI.
 
 ## From Neural Networks to Transformers
 
@@ -125,4 +127,3 @@ The process works through several steps:
 **Generating output**: The model samples from these probabilities to select the next word, adds it to the sequence, and repeats the process. Each new word becomes part of the context for predicting subsequent words.
 
 The model's knowledge comes from statistical patterns absorbed during training, where it processed vast amounts of text and adjusted its internal numbers to better predict how sentences continue. What appears as understanding or reasoning emerges from the model finding and applying these learned patterns to new inputs.
-

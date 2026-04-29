@@ -1,6 +1,6 @@
 ---
 created: 2025-09-01
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - ai-limitations
 - context-drift
@@ -107,5 +107,6 @@ The old critique still stands for direct tool-calling patterns. The ecosystem ha
 
 Note: code execution introduces its own complexity — sandboxing, resource limits, monitoring. The operational overhead is real. Weigh it against the token and latency savings before adopting.
 
-https://www.anthropic.com/engineering/code-execution-with-mcp
+## References
 
+- Anthropic. (n.d.). *[Code execution with MCP: Building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp).* Anthropic.

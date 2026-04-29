@@ -1,6 +1,6 @@
 ---
 created: 2026-01-28
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - english
 - glossary
@@ -48,7 +48,7 @@ The **cat theory** of [Deng Xiaoping](https://en.wikipedia.org/wiki/Deng_Xiaopin
 
 ### Felting
 
-[https://www.shaydacampbell.com/post/needle-felting-for-beginners](https://www.shaydacampbell.com/post/needle-felting-for-beginners)
+- Campbell, S. (2021, January 29). *[Needle felting for beginners](https://www.shaydacampbell.com/post/needle-felting-for-beginners).* Shayda Campbell.
 
 ### Friendly Captcha
 

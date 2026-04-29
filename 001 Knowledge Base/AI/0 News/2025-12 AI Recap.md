@@ -1,6 +1,6 @@
 ---
 created: 2026-01-07
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - ai-news
 - large-language-models
@@ -16,5 +16,6 @@ category:
 - AI
 - 0 News
 ---
-https://simonwillison.net/2025/Dec/31/the-year-in-llms/
+## References
 
+- Willison, S. (2025, December 31). *[2025: The year in LLMs](https://simonwillison.net/2025/Dec/31/the-year-in-llms/).* Simon Willison's Weblog.

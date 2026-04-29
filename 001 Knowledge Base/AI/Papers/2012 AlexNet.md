@@ -1,6 +1,6 @@
 ---
 created: 2025-12-27
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - alexnet
 - cnn
@@ -22,7 +22,10 @@ category:
 - AI
 - Papers
 ---
-https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+## References
+
+- Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). *[ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf).* Advances in Neural Information Processing Systems.
+
 #### Design choices that were _new_ at the time
 
 | Innovation                                                 | Why it mattered                                                                                                                                                                                                                                                                                                                           |
@@ -33,4 +36,3 @@ https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-
 | Data augmentation (random crops, flips, colour jitter)     | Generated virtually unlimited training examples → better generalisation on ImageNet.                                                                                                                                                                                                                                                      |
 | Local Response Normalization (LRN)                         | At the time thought to help generalisation; later replaced by BatchNorm.                                                                                                                                                                                                                                                                  |
 | Overlapping max‑pooling (3×3 stride 2)                     | Slightly smoother down‑sampling, improved accuracy.                                                                                                                                                                                                                                                                                       |
-

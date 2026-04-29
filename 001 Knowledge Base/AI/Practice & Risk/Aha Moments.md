@@ -1,6 +1,6 @@
 ---
 created: 2025-11-26
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - autonomous-factory
 - agentic-ide
@@ -39,7 +39,8 @@ Reading the abstract of [Attention is All You Need](https://proceedings.neurips.
 
 
 ## 2025-07 The ADE Moment
-[https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/](https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/)
+
+- Eastman, D. (2025, July 3). *[Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI](https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/).* The New Stack.
 
 ## 2025-05 Reasoning of deepseek-r1
 When I first saw deepseek-r1 think in real time, running on my local laptop. Making condescending statements as though I wasn't listening in.
@@ -110,4 +111,3 @@ Like:
 
 ## 2025-03 Anthropics MCP
 The announcement in march 2025 that Google and others will endorse MCP as the standard protocol to connect agents to tools was, for me, the main inflection point so far. It was settled: Now that AI is getting standardized, I will be part of the journey.
-

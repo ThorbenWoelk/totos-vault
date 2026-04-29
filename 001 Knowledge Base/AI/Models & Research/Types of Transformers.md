@@ -1,6 +1,6 @@
 ---
 created: 2025-12-16
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - transformer
 - encoder-only
@@ -37,5 +37,7 @@ Originally, BERT saw immediate use in tasks such as classification, whereas GPT-
 We’ve seen that masked language models like RoBERTa, originally designed for fill-in-the-blank tasks, can be repurposed into fully generative engines by interpreting variable-rate masking as a discrete diffusion process. By gradually corrupting text with `<MASK>` tokens and training the model to iteratively denoise at increasing mask intensities, we effectively turn the standard MLM objective into a step-by-step generation procedure.
 
 Even without architectural changes, a fine-tuned RoBERTa can generate coherent looking text after slightly modifying the training objective, validating the idea that BERT-style models are essentially just text diffusion models trained on one masking rate.
-https://nathan.rs/posts/roberta-diffusion/
 
+## References
+
+- Nathan. (n.d.). *[BERT is just a single text diffusion step](https://nathan.rs/posts/roberta-diffusion/).* nathan.rs.
