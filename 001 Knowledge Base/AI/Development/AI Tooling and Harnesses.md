@@ -31,7 +31,7 @@ I manage my SKILLS.md setup in a central space and symlink all harnesses' skill 
 
 **Skill Management Skill** - it tells AI how to manage my skills so that it can set up a new one or edit an existing one without messing up symlink structure or templating approach.
 
-
+**Ship it!** - How we ship
 
 **Openclaw Setup** - The skillI use for AI to manage my openclaw server and setup. 
 
