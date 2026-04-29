@@ -16,7 +16,7 @@ category:
   - Tools & Setup
   - AI Tools
 ---
-## Current Setup
+# Current Setup
 
 #2026-04 
 
@@ -26,6 +26,10 @@ Editor: Cursor
 Shell: Warp
 
 I manage my SKILLS.md setup in a central space and symlink all harnesses' skill locations to them. 
+
+## Codex App Workflow
+
+I work on 1-4 chats and projects at the same time. I heavily use queuing to push the time-till-next-input up and reduce the mental tax that comes with context-switching.
 
 ## Most important skills - here to stay
 
