@@ -14,7 +14,6 @@ category:
 - Psychology
 - Health Psychology
 tagging_processed_count: 2
-tagging_last_processed: 2026-04-19
 ---
 # Health Behavior Change
 

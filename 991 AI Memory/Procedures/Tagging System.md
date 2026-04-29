@@ -85,7 +85,7 @@ AI tagging runs after metadata normalization unless the command uses `--dry-run`
 The tagging agent:
 
 - Uses Rig with Ollama.
-- Uses model `glm-4.7-flash:latest` by default.
+- Uses model `deepseek-v4-flash:cloud` by default.
 - Reads the note with `read_note`.
 - Replaces the `tags` property with `update_tags`.
 - May add, replace, or delete tags when the note content supports it.
@@ -105,7 +105,6 @@ AI processing is tracked in frontmatter:
 
 ```yaml
 tagging_processed_count: 1
-tagging_last_processed: 2026-04-24
 ```
 
 `tagging_processed_count` increments on each AI run and stops at `10`. Notes at `10` are skipped by the AI tagging pass.
@@ -211,7 +210,7 @@ cargo run -- \
   --vault-root "$VAULT_ROOT" \
   --once \
   --tag-empty-only \
-  --tag-model glm-4.7-flash:latest \
+  --tag-model deepseek-v4-flash:cloud \
   --max-tags 10 \
   --agent-max-retries 5 \
   --rate-limit-base-seconds 15 \

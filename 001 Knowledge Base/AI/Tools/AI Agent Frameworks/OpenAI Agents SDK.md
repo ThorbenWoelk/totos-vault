@@ -12,7 +12,7 @@ tags:
   - agents-md
 connections:
   - "[[AI Agents - Engineering Guidelines]]"
-  - "[[AI Tooling Models and Harnesses]]"
+  - "[[AI Tooling and Harnesses]]"
   - "[[AI Agent Protocol Architecture]]"
 ai_generated: true
 human_approved: false

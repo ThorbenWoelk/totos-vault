@@ -18,7 +18,6 @@ category:
 - Notes
 - DeepLearning.ai
 tagging_processed_count: 1
-tagging_last_processed: 2026-02-19
 ---
 [DeepL.ai course](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings)
 

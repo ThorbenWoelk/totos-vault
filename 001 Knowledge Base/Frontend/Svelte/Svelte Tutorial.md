@@ -17,7 +17,6 @@ category:
 - Frontend
 - Svelte
 tagging_processed_count: 1
-tagging_last_processed: 2026-04-24
 ---
 ## Component Rendering
 

@@ -19,7 +19,6 @@ category:
 - Knowledge Base
 - AI
 tagging_processed_count: 1
-tagging_last_processed: 2026-04-24
 ---
 The layers of an onion of AI autonomy: 
 LLMs < Agents < Multi-agents < Claws < Multi-claws ...

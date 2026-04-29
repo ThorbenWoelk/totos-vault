@@ -16,7 +16,6 @@ category:
 - Notes
 - DeepLearning.ai
 tagging_processed_count: 1
-tagging_last_processed: 2026-02-19
 ---
 [HuggingFace Transformers library for model download](https://pypi.org/project/transformers/)
 

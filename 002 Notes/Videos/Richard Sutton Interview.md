@@ -13,7 +13,6 @@ human_approved: true
 category:
 - Notes
 tagging_processed_count: 1
-tagging_last_processed: 2026-02-19
 ---
 LLMs are an imitation game. They don't have a world model to base predictions on. They only predict **what people would say** (who have a world model). 
 

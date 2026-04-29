@@ -25,7 +25,7 @@ last_updated: 2026-04-24
 
 - [[AI Agents - Engineering Guidelines]]
 - [[AI Coding Guidelines]]
-- [[AI Tooling Models and Harnesses]]
+- [[AI Tooling and Harnesses]]
 - [[AI Coding Concepts]]
 - [[Contextvars]]
 - [[AI Developer Practices]]

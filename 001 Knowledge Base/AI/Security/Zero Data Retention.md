@@ -16,7 +16,6 @@ category:
 - AI
 - Security
 tagging_processed_count: 1
-tagging_last_processed: 2026-04-24
 ---
 How are Model providers and popular harnesses (e.g. Cursor) dealing with sensitive data? 
 What are current rules and differences regarding **Zero Data Retention** setups?

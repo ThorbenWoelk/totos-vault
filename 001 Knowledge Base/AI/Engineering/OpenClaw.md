@@ -21,7 +21,6 @@ category:
 - Knowledge Base
 - AI
 tagging_processed_count: 1
-tagging_last_processed: 2026-04-24
 ---
 # Memory and Compaction
 
