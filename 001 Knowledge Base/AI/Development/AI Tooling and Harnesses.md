@@ -75,4 +75,8 @@ Frequently changing providers and harnesses makes it all the more challenging fo
 
 ## Out of Scope
 
-I don't spawn subagents. Sometimes the harness does. I don't run multiple worktrees, it's too much overhead. Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main. Things break but tests help. I try to avoid multi-project work. The context switch is too taxing. 
+I don't spawn subagents. Sometimes the harness does. 
+
+I don't run multiple worktrees, it's too much overhead. 
+
+Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main most of the time. 
