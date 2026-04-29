@@ -19,9 +19,9 @@ human_approved: false
 category:
   - AI
 ---
-What does it mean to be good at AI-based coding? This is a collection of things you can and should learn and practice to call yourself an "AI coding wizard". 
+What does it mean to be good at AI-based coding? This is a collection of things you should learn and do as a software engineer in the age of AI. 
 
-## Define the task 
+## Start with the task 
 
 A good agent task:
 - is scoped so that agent doesn't need to read entire codebase

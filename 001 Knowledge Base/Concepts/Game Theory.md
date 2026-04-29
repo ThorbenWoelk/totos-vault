@@ -1,6 +1,6 @@
 ---
 created: 2025-10-06
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - game-theory
 - prisoners-dilemma
@@ -16,5 +16,7 @@ category:
 - Concepts
 ---
 # Axelrod's repeated prisoner's dilemma
-https://www.youtube.com/watch?v=mScpHTIi-kM
 
+## References
+
+- Veritasium. (2023, December 23). *[This game theory problem will change the way you see the world](https://www.youtube.com/watch?v=mScpHTIi-kM)* [Video]. YouTube.

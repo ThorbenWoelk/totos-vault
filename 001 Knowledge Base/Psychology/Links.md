@@ -1,6 +1,6 @@
 ---
 created: 2026-01-03
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - psychology
 - psychometrics
@@ -15,6 +15,8 @@ category:
 - Psychology
 ---
 Open Psychological Tests
-https://openpsychometrics.org/
-https://www.psytoolkit.org/survey-library/
 
+## References
+
+- Open Source Psychometrics Project. (n.d.). *[Take a personality test](https://openpsychometrics.org/).* Open Source Psychometrics Project.
+- PsyToolkit. (n.d.). *[PsyToolkit's survey library](https://www.psytoolkit.org/survey-library/).* PsyToolkit.

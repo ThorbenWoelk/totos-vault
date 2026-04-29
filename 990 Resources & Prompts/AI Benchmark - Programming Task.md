@@ -1,6 +1,6 @@
 ---
 created: 2025-12-19
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - prompt
 - reinforcement-learning
@@ -30,5 +30,6 @@ category:
 
 `Save to index.html`
 
-https://openai.com/index/gpt-5-1-codex-max/
+## References
 
+- OpenAI. (n.d.). *[GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/).* OpenAI.

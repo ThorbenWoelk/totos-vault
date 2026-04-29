@@ -1,6 +1,6 @@
 ---
 created: 2025-12-16
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - memory-techniques
 - spaced-repetition
@@ -32,5 +32,6 @@ Revisions:
 2d later
 2w later
 
-https://www.youtube.com/watch?v=Rne0p7yYTV4
+## References
 
+- simple, actually. (2025, December 4). *[How to memorize anything so fast it feels like cheating](https://www.youtube.com/watch?v=Rne0p7yYTV4)* [Video]. YouTube.
