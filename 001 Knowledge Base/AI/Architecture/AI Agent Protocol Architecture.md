@@ -1,6 +1,6 @@
 ---
 created: 2025-07-25
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - agent-protocol-stack
   - model-context-protocol
@@ -179,6 +179,6 @@ Protocols work across different transport mechanisms:
 This protocol stack provides the foundation for building scalable, interoperable agent systems that can evolve from simple single-agent applications to complex multi-agent ecosystems while maintaining standardized communication patterns.
 
 ## References
-https://github.com/ag-ui-protocol
-https://www.youtube.com/watch?v=T6TEQY2AYr0
 
+- AG-UI Protocol. (n.d.). *[AG-UI Protocol repositories](https://github.com/ag-ui-protocol).* GitHub.
+- WorldofAI. (2025, June 2). *[AG-UI: First-Ever Agent UI - Bring Agents into Frontend Applications! (Opensource)](https://www.youtube.com/watch?v=T6TEQY2AYr0)* [Video]. YouTube.

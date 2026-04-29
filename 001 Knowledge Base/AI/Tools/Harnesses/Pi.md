@@ -3,4 +3,5 @@ Pi is what happens when you rethink harnesses from scratch. Starting as minimal 
 
 In a way, it democratizes the Claude Code / Codex CLI developer team and process. 
 ## References
-[Building pi in a World of Slop — Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2)
+
+- AI Engineer. (2026, April 16). *[Building pi in a World of Slop - Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2)* [Video]. YouTube.

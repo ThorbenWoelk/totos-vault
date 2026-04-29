@@ -1,6 +1,6 @@
 ---
 created: 2026-04-19
-last_edited: 2026-04-19
+last_edited: 2026-04-29
 tags:
 - observability
 - parquet
@@ -75,6 +75,6 @@ The optimization was contributed upstream to Apache Arrow instead of kept in a L
 
 The broader lesson fits [[Everything is a Tradeoff]]: spend a small amount of write-time memory to reduce read-time I/O and storage waste. It also fits [[Software Design Principles - Comprehensive Guide]] because a better default removes a tuning burden from users.
 
-## Sources
-- Garcia Badaracco, "Bloom filter folding in Parquet: faster point lookups for observability", Pydantic Logfire Blog, 2026-04-15, https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin
+## References
 
+- Garcia Badaracco, A. (2026, April 15). *[Bloom filter folding in Parquet: Faster point lookups for observability](https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin).* Pydantic Logfire.

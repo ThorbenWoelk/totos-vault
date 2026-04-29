@@ -1,6 +1,6 @@
 ---
 created: 2026-04-24
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - learning-session
   - rust
@@ -53,7 +53,6 @@ input.lines().map(|line| line.trim())
 
 - 2026-04-24 20:29 - How Rust resolves method calls when multiple traits provide methods with the same name.
 
-## Source Thread
+## References
 
-- Started from Codex learning-session on 2026-04-24.
-
+- Codex. (2026, April 24). *Codex learning-session thread.*

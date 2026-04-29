@@ -1,6 +1,6 @@
 ---
 created: 2026-04-02
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - rag
   - search
@@ -94,8 +94,8 @@ Grounded high-level example from `<video-transcript-rag-app>`:
 BM25 FTS leg + vector leg + RRF fusion + rerank
 ```
 
-Source:
-- `<video-transcript-rag-app>/docs/search-indexing.md`
+Reference:
+- Local project source. (n.d.). `<video-transcript-rag-app>/docs/search-indexing.md`.
 
 ### RAG
 
@@ -145,8 +145,8 @@ Grounded example from `<journal-memory-app>`:
 
 That is effectively a top-k semantic retrieval flow.
 
-Source:
-- `<journal-memory-app>/backend/src/rag/mod.rs`
+Reference:
+- Local project source. (n.d.). `<journal-memory-app>/backend/src/rag/mod.rs`.
 
 Strengths:
 - simple
@@ -175,8 +175,8 @@ let planned = ... prompt_with_fallback("chat_query_plan", ...)
 retrieval_passes = pass_count
 ```
 
-Source:
-- `<video-transcript-rag-app>/backend/src/services/chat/retrieval.rs`
+Reference:
+- Local project source. (n.d.). `<video-transcript-rag-app>/backend/src/services/chat/retrieval.rs`.
 
 This is much better for:
 - synthesis

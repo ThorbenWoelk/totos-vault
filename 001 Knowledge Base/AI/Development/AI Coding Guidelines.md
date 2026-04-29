@@ -14,12 +14,21 @@ tags:
   - todo-pattern
 connections:
   - "[[AI Agents - Engineering Guidelines]]"
-ai_generated: true
+ai_generated: false
 human_approved: false
 category:
   - AI
 ---
-What does it mean to be good at AI-based coding? This is a collection of things you can and should learn and practice to call yourself "master of the harnesses". 
+What does it mean to be good at AI-based coding? This is a collection of things you can and should learn and practice to call yourself an "AI coding wizard". 
+
+## Define the task 
+
+A good agent task:
+- is scoped so that agent doesn't need to read entire codebase
+- is a closed loop. I.e. the agent has a way to evaluate its own work
+- is not mission critical - boring stuff, side projects, rubber-ducking
+
+[Mario Zechner (2026), YouTube](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2)
 
 ## Choosing the right model for the right task
 
@@ -73,7 +82,9 @@ Vibe coding is prone to exploding codebase fast:
 - Integrate AI review and refactoring sessions often
 - Use AI in PR review
 - Use pre-commit hooks, linting, testing (commitizen, ruff, black, vitetest) to e.g. catch unused variables, legacy code, premature commits
-- **Peer review**: Treat AI changes like any developer's work and peer review it yourself
+- **Peer review**: 
+	- For non-critical code... skip?
+	- For critical code: Treat AI changes like any developer's work and peer review every line... yourself!
 
 ### Learning vs Speed Trade-off
 The more time you take to 

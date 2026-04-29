@@ -1,6 +1,6 @@
 ---
 created: 2026-04-04
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - rag
   - indexing
@@ -22,9 +22,10 @@ category:
 
 Commercial tools like Cursor and Tabnine look like they do local RAG, but they mostly don't. Cursor computes file hashes locally, ignores files via .gitignore/.cursorignore, uploads only changed files, and does chunking and embedding on the server. Tabnine is even more explicit: for chat RAG, it computes vector embeddings on server GPUs because doing that locally would stress the user's machine.
 
-Sources:
-- https://cursor.com/security/
-- https://docs.tabnine.com/main/welcome/readme/personalization
+## References
+
+- Cursor. (n.d.). *[Security](https://cursor.com/security/).* Cursor.
+- Tabnine. (n.d.). *[Personalization](https://docs.tabnine.com/main/welcome/readme/personalization).* Tabnine Docs.
 
 So when you build local RAG and your machine hammers, it is not because local RAG is inherently flawed. It is because you are doing the expensive parts that commercial tools offload.
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-17
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - rag
   - graph-rag
@@ -396,9 +396,8 @@ Start narrow.
 
 This keeps the architecture honest. The first goal is not a perfect knowledge brain. The first goal is a system that can find the right passages, name the right people, and show where the answer came from.
 
-## Sources
+## References
 
-- [Hugging Face Text Embeddings Inference docs](https://huggingface.co/docs/text-embeddings-inference)
-- [Hugging Face text-embeddings-inference GitHub repository](https://github.com/huggingface/text-embeddings-inference)
-- Linked benchmark note provided on 2026-04-18
-
+- Hugging Face. (n.d.). *[Text Embeddings Inference](https://huggingface.co/docs/text-embeddings-inference).* Hugging Face.
+- Hugging Face. (n.d.). *[text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference).* GitHub.
+- Linked benchmark note. (2026, April 18).

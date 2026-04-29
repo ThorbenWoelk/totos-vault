@@ -1,6 +1,6 @@
 ---
 created: 2025-07-25
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - ai-agent
   - kv-cache
@@ -50,5 +50,5 @@ category:
 - Use different serialization templates, alternate phrasing, controlled randomness
 
 ## References
-https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
 
+- Manus. (2025, July 18). *[Context engineering for AI agents: Lessons from building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus).* Manus.

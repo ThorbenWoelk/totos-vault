@@ -1,6 +1,6 @@
 ---
 created: 2026-04-16
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - gemini
   - tts
@@ -94,7 +94,6 @@ Less obvious fit:
 
 ## References
 
-- [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/) - Google announcement, 2026-04-15.
-- [Text-to-speech generation](https://ai.google.dev/gemini-api/docs/speech-generation) - Gemini API developer docs.
-- [Google Vids voiceovers powered by Gemini 3.1 Flash TTS](https://workspaceupdates.googleblog.com/2026/04/new-more-expressive-ai-voiceovers-in-Google-Vids-and-16-additional-languages-powered-by-Gemini-3.1-Flash-TTS.html) - Google Workspace rollout note, 2026-04-15.
-
+- Google. (2026, April 15). *[Gemini 3.1 Flash TTS: The next generation of expressive AI speech](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/).* The Keyword.
+- Google AI for Developers. (n.d.). *[Text-to-speech generation](https://ai.google.dev/gemini-api/docs/speech-generation).* Gemini API.
+- Google Workspace Updates. (2026, April 15). *[New more expressive AI voiceovers in Google Vids, and 16 additional languages, powered by Gemini 3.1 Flash TTS](https://workspaceupdates.googleblog.com/2026/04/new-more-expressive-ai-voiceovers-in-Google-Vids-and-16-additional-languages-powered-by-Gemini-3.1-Flash-TTS.html).* Google Workspace Updates.

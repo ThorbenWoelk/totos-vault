@@ -1,6 +1,6 @@
 ---
 created: 2026-04-16
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
   - openai
   - agents-sdk
@@ -88,6 +88,5 @@ Less obvious fit:
 
 ## References
 
-- [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) - OpenAI product announcement, 2026-04-15.
-- [Agents SDK docs](https://developers.openai.com/api/docs/guides/agents) - OpenAI developer documentation.
-
+- OpenAI. (2026, April 15). *[The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/).* OpenAI.
+- OpenAI. (n.d.). *[Agents SDK](https://developers.openai.com/api/docs/guides/agents).* OpenAI API.

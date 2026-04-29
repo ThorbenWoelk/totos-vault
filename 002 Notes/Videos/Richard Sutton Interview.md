@@ -1,6 +1,6 @@
 ---
 created: 2025-12-19
-last_edited: 2026-04-24
+last_edited: 2026-04-29
 tags:
 - reinforcement-learning
 - world-model
@@ -20,5 +20,4 @@ What we really want though (quoting Alan Turing) is to have a technology that ca
 
 ## References
 
-https://www.youtube.com/watch?v=21EYKqUsPfg
-
+- Patel, D. (2025, September 26). *[Richard Sutton - Father of RL thinks LLMs are a dead end](https://www.youtube.com/watch?v=21EYKqUsPfg)* [Video]. YouTube.
