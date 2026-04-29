@@ -22,7 +22,11 @@ category:
 
 The bad stuff - as well as the good stuff - changes quickly. In 2024, we thought LLMs might never be able to do maths. In 2025, we knew better. Only one example of our belief system being shattered. Below, some of the still relevant, annoying things AI models suffer from are listed.
 
-# General 
+# AI Coding
+
+## Slopification
+
+Companies ship so fast, it's as if their life depends on it. Because it does. And as a result, everything breaks. As a developer, you build a workflow around using a gazillion tools that are <1 years old. And one day you wake up and the harness you're using decided to not support whatever it is you were doing. And you need to invest another afternoon to work out a workaround. 
 
 ## Productivity - Does it even make us more productive?
 
@@ -35,8 +39,6 @@ There's no such thing as "cleaner with every piece added" with AIs. The slop jus
 Because the model samples from a probability distribution for every prediction, a single early mistake shifts the context and causes subsequent predictions to diverge exponentially.
 
 This compounding error rate makes hallucinations a fundamental flaw rather than a fixable bug.
-
-# Coding
 
 ## Documentation and User Guides
 
