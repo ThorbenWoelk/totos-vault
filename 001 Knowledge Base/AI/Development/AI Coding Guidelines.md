@@ -21,19 +21,29 @@ category:
 ---
 What does it mean to be good at AI-based coding? This is a collection of things you should learn and do as a software engineer in the age of AI. 
 
-## Start with the task 
+## The Task 
 
-A good agent task:
-- is scoped so that agent doesn't need to read entire codebase
-- is a closed loop. I.e. the agent has a way to evaluate its own work
-- is not mission critical - boring stuff, side projects, rubber-ducking
+Features that make a good agent task:
+
+### Narrow Scope
+
+It should be scoped so that agent doesn't need to read entire codebase
+
+### Closed Loop
+
+The agent should have a way to evaluate its own work and provide artifacts for easier human eval.
+
+1. think about how to evaluate the task beforehand and 
+2. include the eval guidelines into the prompt
+	1. e.g. let it assemble screenshots or make a video the human can review
+
+### Low Criticality
+
+ Agent tasks should not touch mission critical issues. Use it for the boring stuff, side projects, rubber-ducking.
 
 ## Choosing the right model for the right task
 
 It's the job of the developer to decide how complicated an issue is. When letting AI analyze and fix a critical but, it might be that only the highest reasoning models go a particular route and find the issue in the depth of the dependency tree. Choosing a lower reasoning model would then be a waste of tokens and energy in the best case and hallucinating new bugs in the worst case.
-
-## Codebase agent readiness
-#2026-01
 
 ## Basic workflow
 
@@ -43,13 +53,6 @@ It's the job of the developer to decide how complicated an issue is. When lettin
 	- Dark Factories (fully autonomous with eval gates), 
 	- Auto Research (metric optimization), and 
 	- Orchestration Frameworks (workflow routing with specialized roles
-- I use Coding Harnesses. They use skills and guidelines I and their devs wrote. 
-- Basically still:
-	- creating specs or minimal prompt
-	- implementing + auto testing + manually testing 
-	- iterate...
-- **Yolo projects**: I don't spawn subagents. Sometimes the harness does. I don't run multiple worktrees, it's too much overhead. Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main. Things break but tests help. I try to avoid multi-project work. The context switch is too taxing. 
-- **More control**: use gt. One change at a time. 
 
 #2025-12
 - Create a plan. A prompt can create a plan. Once verified, the plan can then be used for the implementation. 

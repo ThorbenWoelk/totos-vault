@@ -18,6 +18,21 @@ category:
 ---
 # Current Setup
 
+```yaml
+harness: codex-app
+llm: gpt-5.5
+editor: cursor
+subscriptions: 
+	- codex
+	- cursor
+```
+
+#2026-03 
+
+I use harnesses, skills, and specs. 
+
+The workflow is (a) creating specs or minimal prompt, (b) letting AI implement + test + eval, (c) eval myself, (d) iterate...
+
 #2026-04 
 
 For a month now, I've been using Codex app with a $200 subscription (that I got for free on an [AI Beavers](https://ai-beavers.com/) Meetup - shoutout to them). Before, I've been switching between several harnesses to max out smaller subscriptions: Antigravity, Warp, Cursor, Claude Code. 
@@ -58,3 +73,6 @@ Codex App & CLI, Claude Code, Antigravity & gemini CLI, Warp, Kilo, Crush, Winds
 
 Frequently changing providers and harnesses makes it all the more challenging for companies that usually have a long security and approval process to allow the use of a new technology.
 
+## Out of Scope
+
+I don't spawn subagents. Sometimes the harness does. I don't run multiple worktrees, it's too much overhead. Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main. Things break but tests help. I try to avoid multi-project work. The context switch is too taxing. 
