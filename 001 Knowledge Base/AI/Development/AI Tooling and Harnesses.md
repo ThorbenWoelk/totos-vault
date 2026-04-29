@@ -66,7 +66,7 @@ The harness you use to run AI models matters a lot for the quality of results of
 
 Harnesses - as well as models - don't necessarily get better all the time. Sometimes, like in early 2025 (Claude Code) or early 2026 (Codex), they decline in quality. For instance when a new model comes out and the AI company has a hard time managing the rush on their hardware. After a while, they might cook again (e.g. at the end of 2025 when ralph wiggum pattern made Claude Code taking over competition entirely). 
 
-## List of Harnesses I know enough about to list them
+## List of Harnesses I know
 
 Codex App & CLI, Claude Code, Antigravity & gemini CLI, Warp, Kilo, Crush, Windsurf, Mistral vibe CLI.
 
@@ -80,3 +80,13 @@ I don't spawn subagents. Sometimes the harness does.
 I don't run multiple worktrees, it's too much overhead. 
 
 Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main most of the time. 
+
+## To be explored later
+
+### Better Context Mgmt
+
+See the `/tree` command in Pi. It let's you revert to a point in time where `context = context - recent deadend sidequest`. 
+
+## References 
+
+- [A love letter to Pi | Lucas Meijer](https://www.youtube.com/watch?v=fdbXNWkpPMY&list=WL&index=2)
