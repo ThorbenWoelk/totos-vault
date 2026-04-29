@@ -19,4 +19,4 @@ category:
 
 ## References
 
-- OpenAI. (n.d.). *[How evals drive the next chapter in AI for businesses](https://openai.com/index/evals-drive-next-chapter-of-ai/).* OpenAI.
+- OpenAI. (n.d.). [How evals drive the next chapter in AI for businesses](https://openai.com/index/evals-drive-next-chapter-of-ai/). OpenAI.

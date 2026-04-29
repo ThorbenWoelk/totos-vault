@@ -24,4 +24,4 @@ Q.: Why is it not done, yet? What's blocking?
 
 ## References
 
-- Pioneer Works. (2025, December 12). *[Do LLMs understand? AI pioneer Yann LeCun spars with DeepMind's Adam Brown](https://www.youtube.com/watch?v=ykfQD1_WPBQ&t=838s)* [Video]. YouTube.
+- Pioneer Works. (2025, December 12). [Do LLMs understand? AI pioneer Yann LeCun spars with DeepMind's Adam Brown](https://www.youtube.com/watch?v=ykfQD1_WPBQ&t=838s). YouTube video.

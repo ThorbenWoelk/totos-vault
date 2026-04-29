@@ -23,4 +23,4 @@ The insight was to enforce sparsity during training. The model learns with most 
 
 ## References
 
-- OpenAI. (n.d.). *[Circuit sparsity](https://huggingface.co/openai/circuit-sparsity?utm_source=alphasignal&utm_campaign=2025-12-15&lid=16wpBB3uP8sLhbliE).* Hugging Face.
+- OpenAI. (n.d.). [Circuit sparsity](https://huggingface.co/openai/circuit-sparsity?utm_source=alphasignal&utm_campaign=2025-12-15&lid=16wpBB3uP8sLhbliE). Hugging Face.

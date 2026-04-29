@@ -25,4 +25,4 @@ Svelte works differently: the component 'runs' once, and subsequent updates are 
 
 ## References
 
-- Svelte. (n.d.). *[Keyed each blocks](https://svelte.dev/tutorial/svelte/keyed-each-blocks).* Svelte Tutorial.
+- Svelte. (n.d.). [Keyed each blocks](https://svelte.dev/tutorial/svelte/keyed-each-blocks). Svelte Tutorial.

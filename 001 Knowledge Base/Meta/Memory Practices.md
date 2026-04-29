@@ -34,4 +34,4 @@ Revisions:
 
 ## References
 
-- simple, actually. (2025, December 4). *[How to memorize anything so fast it feels like cheating](https://www.youtube.com/watch?v=Rne0p7yYTV4)* [Video]. YouTube.
+- simple, actually. (2025, December 4). [How to memorize anything so fast it feels like cheating](https://www.youtube.com/watch?v=Rne0p7yYTV4). YouTube video.

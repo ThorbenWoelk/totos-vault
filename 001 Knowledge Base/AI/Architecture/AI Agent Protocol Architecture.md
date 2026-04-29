@@ -180,5 +180,5 @@ This protocol stack provides the foundation for building scalable, interoperable
 
 ## References
 
-- AG-UI Protocol. (n.d.). *[AG-UI Protocol repositories](https://github.com/ag-ui-protocol).* GitHub.
-- WorldofAI. (2025, June 2). *[AG-UI: First-Ever Agent UI - Bring Agents into Frontend Applications! (Opensource)](https://www.youtube.com/watch?v=T6TEQY2AYr0)* [Video]. YouTube.
+- AG-UI Protocol. (n.d.). [AG-UI Protocol repositories](https://github.com/ag-ui-protocol). GitHub.
+- WorldofAI. (2025, June 2). [AG-UI: First-Ever Agent UI - Bring Agents into Frontend Applications! (Opensource)](https://www.youtube.com/watch?v=T6TEQY2AYr0). YouTube video.

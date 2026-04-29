@@ -24,8 +24,8 @@ Commercial tools like Cursor and Tabnine look like they do local RAG, but they m
 
 ## References
 
-- Cursor. (n.d.). *[Security](https://cursor.com/security/).* Cursor.
-- Tabnine. (n.d.). *[Personalization](https://docs.tabnine.com/main/welcome/readme/personalization).* Tabnine Docs.
+- Cursor. (n.d.). [Security](https://cursor.com/security/). Cursor.
+- Tabnine. (n.d.). [Personalization](https://docs.tabnine.com/main/welcome/readme/personalization). Tabnine Docs.
 
 So when you build local RAG and your machine hammers, it is not because local RAG is inherently flawed. It is because you are doing the expensive parts that commercial tools offload.
 

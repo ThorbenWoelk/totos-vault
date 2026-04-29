@@ -21,7 +21,7 @@ tagging_processed_count: 1
 ---
 ## References
 
-- DeepLearning.AI. (n.d.). *[How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings).* DeepLearning.AI.
+- DeepLearning.AI. (n.d.). [How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings). DeepLearning.AI.
 
 ## From Neural Networks to Transformers
 

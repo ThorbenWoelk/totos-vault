@@ -55,4 +55,4 @@ input.lines().map(|line| line.trim())
 
 ## References
 
-- Codex. (2026, April 24). *Codex learning-session thread.*
+- Codex. (2026, April 24). Codex learning-session thread.

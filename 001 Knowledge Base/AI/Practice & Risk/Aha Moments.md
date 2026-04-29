@@ -40,7 +40,7 @@ Reading the abstract of [Attention is All You Need](https://proceedings.neurips.
 
 ## 2025-07 The ADE Moment
 
-- Eastman, D. (2025, July 3). *[Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI](https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/).* The New Stack.
+- Eastman, D. (2025, July 3). [Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI](https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/). The New Stack.
 
 ## 2025-05 Reasoning of deepseek-r1
 When I first saw deepseek-r1 think in real time, running on my local laptop. Making condescending statements as though I wasn't listening in.

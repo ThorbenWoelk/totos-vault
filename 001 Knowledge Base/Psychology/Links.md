@@ -18,5 +18,5 @@ Open Psychological Tests
 
 ## References
 
-- Open Source Psychometrics Project. (n.d.). *[Take a personality test](https://openpsychometrics.org/).* Open Source Psychometrics Project.
-- PsyToolkit. (n.d.). *[PsyToolkit's survey library](https://www.psytoolkit.org/survey-library/).* PsyToolkit.
+- Open Source Psychometrics Project. (n.d.). [Take a personality test](https://openpsychometrics.org/). Open Source Psychometrics Project.
+- PsyToolkit. (n.d.). [PsyToolkit's survey library](https://www.psytoolkit.org/survey-library/). PsyToolkit.

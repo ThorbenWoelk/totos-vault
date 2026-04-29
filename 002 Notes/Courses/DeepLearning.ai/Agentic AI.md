@@ -22,7 +22,7 @@ category:
 ---
 ## References
 
-- DeepLearning.AI. (n.d.). *[Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/lesson/bvuwkr/agentic-ai-applications).* DeepLearning.AI.
+- DeepLearning.AI. (n.d.). [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/lesson/bvuwkr/agentic-ai-applications). DeepLearning.AI.
 
 ## General Takeaways
 

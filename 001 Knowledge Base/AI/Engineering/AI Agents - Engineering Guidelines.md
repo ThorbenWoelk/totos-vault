@@ -51,4 +51,4 @@ category:
 
 ## References
 
-- Manus. (2025, July 18). *[Context engineering for AI agents: Lessons from building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus).* Manus.
+- Manus. (2025, July 18). [Context engineering for AI agents: Lessons from building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus). Manus.

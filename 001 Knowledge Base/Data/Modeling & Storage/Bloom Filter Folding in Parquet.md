@@ -77,4 +77,4 @@ The broader lesson fits [[Everything is a Tradeoff]]: spend a small amount of wr
 
 ## References
 
-- Garcia Badaracco, A. (2026, April 15). *[Bloom filter folding in Parquet: Faster point lookups for observability](https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin).* Pydantic Logfire.
+- Garcia Badaracco, A. (2026, April 15). [Bloom filter folding in Parquet: Faster point lookups for observability](https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin). Pydantic Logfire.

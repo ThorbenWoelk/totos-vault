@@ -32,4 +32,4 @@ category:
 
 ## References
 
-- OpenAI. (n.d.). *[GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/).* OpenAI.
+- OpenAI. (n.d.). [GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/). OpenAI.

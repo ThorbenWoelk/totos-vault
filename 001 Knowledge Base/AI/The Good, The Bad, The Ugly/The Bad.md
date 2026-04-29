@@ -109,4 +109,4 @@ Note: code execution introduces its own complexity — sandboxing, resource limi
 
 ## References
 
-- Anthropic. (n.d.). *[Code execution with MCP: Building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp).* Anthropic.
+- Anthropic. (n.d.). [Code execution with MCP: Building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp). Anthropic.
