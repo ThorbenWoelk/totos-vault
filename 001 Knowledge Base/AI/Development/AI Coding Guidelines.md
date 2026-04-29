@@ -57,12 +57,6 @@ It's the job of the developer to decide how complicated an issue is. When lettin
 - Context. "Here is how I like to do things". Nowadays, the models get actually *better* once they see a larger codebase containing good practice examples. 
 - Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again.
 
-## References
-
-- AI Engineer. (2026, April 16). [Building pi in a World of Slop - Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2). YouTube video.
-- Factory. (2026, January 20). [Introducing Agent Readiness](https://factory.ai/news/agent-readiness). Factory.ai.
-- Theo - t3.gg. (2025, December 4). [How I code with AI right now](https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s). YouTube video.
-
 ## Iterative task management
 
 **Key insight from Manus**: let agent update a `todo.md` file. 
@@ -108,3 +102,9 @@ Based on Manus insights:
 - Keep references (URLs, file paths) even when dropping content
 - Make all compression reversible
 - Use filesystem as unlimited persistent context
+
+## References
+
+- AI Engineer. (2026, April 16). [Building pi in a World of Slop - Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2). YouTube video.
+- Factory. (2026, January 20). [Introducing Agent Readiness](https://factory.ai/news/agent-readiness). Factory.ai.
+- Theo - t3.gg. (2025, December 4). [How I code with AI right now](https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s). YouTube video.

@@ -19,10 +19,6 @@ category:
 - DeepLearning.ai
 tagging_processed_count: 1
 ---
-## References
-
-- DeepLearning.AI. (n.d.). [How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings). DeepLearning.AI.
-
 ## From Neural Networks to Transformers
 
 In contrast to the simple "bag-of-words" (counting of words that are in/ are not in a text), neural networks (NNs) can be used to encode text instead. 
@@ -127,3 +123,7 @@ The process works through several steps:
 **Generating output**: The model samples from these probabilities to select the next word, adds it to the sequence, and repeats the process. Each new word becomes part of the context for predicting subsequent words.
 
 The model's knowledge comes from statistical patterns absorbed during training, where it processed vast amounts of text and adjusted its internal numbers to better predict how sentences continue. What appears as understanding or reasoning emerges from the model finding and applying these learned patterns to new inputs.
+
+## References
+
+- DeepLearning.AI. (n.d.). [How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings). DeepLearning.AI.

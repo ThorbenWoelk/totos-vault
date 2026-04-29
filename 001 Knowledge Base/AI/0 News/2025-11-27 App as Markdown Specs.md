@@ -15,6 +15,7 @@ category:
 - AI
 - 0 News
 ---
+
 ## References
 
 - Vesely, T. (2025, September 30). [Spec-driven development: Using Markdown as a programming language when building with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/). The GitHub Blog.

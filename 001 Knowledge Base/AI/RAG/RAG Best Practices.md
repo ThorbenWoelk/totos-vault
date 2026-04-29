@@ -22,11 +22,6 @@ category:
 
 Commercial tools like Cursor and Tabnine look like they do local RAG, but they mostly don't. Cursor computes file hashes locally, ignores files via .gitignore/.cursorignore, uploads only changed files, and does chunking and embedding on the server. Tabnine is even more explicit: for chat RAG, it computes vector embeddings on server GPUs because doing that locally would stress the user's machine.
 
-## References
-
-- Cursor. (n.d.). [Security](https://cursor.com/security/). Cursor.
-- Tabnine. (n.d.). [Personalization](https://docs.tabnine.com/main/welcome/readme/personalization). Tabnine Docs.
-
 So when you build local RAG and your machine hammers, it is not because local RAG is inherently flawed. It is because you are doing the expensive parts that commercial tools offload.
 
 ### The Six Ways Local RAG Goes Wrong
@@ -152,3 +147,8 @@ The gap between "my machine is dying running local RAG" and "Cursor/Tabnine seem
 5. Coarse vs. fine chunking
 
 Fix the first four and local RAG is practical even on a laptop.
+
+## References
+
+- Cursor. (n.d.). [Security](https://cursor.com/security/). Cursor.
+- Tabnine. (n.d.). [Personalization](https://docs.tabnine.com/main/welcome/readme/personalization). Tabnine Docs.

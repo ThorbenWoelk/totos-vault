@@ -18,13 +18,6 @@ human_approved: false
 category:
 - AI
 ---
-## References
-
-- Becker, J., Rush, N., Barnes, E., & Rein, D. (2025, July 12). [Measuring the impact of early-2025 AI on experienced open-source developer productivity](https://arxiv.org/abs/2507.09089). arXiv.
-
-- Surprisingly, we find that allowing AI actually increases completion time by 19%--AI tooling slowed developers down. This slowdown also contradicts predictions from experts in economics (39% shorter) and ML (38% shorter).
-    
-
 My take:
 
 - It depends.
@@ -33,3 +26,9 @@ My take:
 - state of codebase
 - it is important to manage expectations of management. this study helps. coding is complex.
 - **verdict: after all, this study doesn't say much about the value of ai in coding**. we have to use it carefully and learn how to use it best. Learning new tools takes time. AI-based coding will arrive. I'm positive it will by now.
+
+## References
+
+- Becker, J., Rush, N., Barnes, E., & Rein, D. (2025, July 12). [Measuring the impact of early-2025 AI on experienced open-source developer productivity](https://arxiv.org/abs/2507.09089). arXiv.
+
+- Surprisingly, we find that allowing AI actually increases completion time by 19%--AI tooling slowed developers down. This slowdown also contradicts predictions from experts in economics (39% shorter) and ML (38% shorter).
