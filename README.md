@@ -39,7 +39,4 @@ Full plugin state is declared in `.obsidian/community-plugins.json`, `.obsidian/
 | Local REST API            | `obsidian-local-rest-api`   | 3.2.0   | Local automation that reads and changes notes through an API.                      |
 | Local GPT                 | `local-gpt`                 | 4.0.0   | Local AI assistance in the vault.                                                  |
 | AI Providers              | `ai-providers`              | 1.9.2   | Shared provider configuration for OpenAI-compatible, Ollama, and related AI tools. |
-| Meta Bind                 | `obsidian-meta-bind-plugin` | 1.4.6   | Interactive fields, metadata displays, and buttons inside notes.                   |
-| Dataview                  | `dataview`                  | 0.5.68  | Query-backed views over note metadata and structured vault data.                   |
 | Virtual Linker / Glossary | `virtual-linker`            | 1.5.2   | Virtual links, glossary behavior, and unlinked mention discovery.                  |
-
