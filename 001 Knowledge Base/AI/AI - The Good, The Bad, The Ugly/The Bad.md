@@ -54,6 +54,9 @@ In the end, once you type "but it worked before!!" in all-caps into the keyboard
 *But isn't all code ephemeral right now?*
 Yes, potentially. If the code is modularized in a way that it can be described 
 
+*But can't you just talk to AI to understand and iteratively tweak how the system is designed?*
+Generally, that's the workflow agent IDEs are pushing us towards. In #2026-04, however, talking to the models is still not a pleasant experience. Deciphering their convoluted explanations and artificial language is tedious. Filtering the BS from the important details is a puzzle to solve on its own. I'd rather be closer to the code again. 
+
 ## Slopification
 
 Companies ship so fast, it's as if their life depends on it. Because it does. And as a result, everything breaks. As a developer, you build a workflow around using a gazillion tools that are <1 years old. And one day you wake up and the harness you're using decided to not support whatever it is you were doing. And you need to invest another afternoon to work out a workaround. 
