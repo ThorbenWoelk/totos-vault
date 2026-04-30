@@ -25,9 +25,11 @@ What does it mean to be good at AI-based coding? This is a collection of things 
 
 Features that make a good agent task:
 
-### Narrow Scope
+### Scope
 
-It should be scoped so that agent doesn't need to read entire codebase
+**Realm of the known issues**: The problem should be cut into issues that have been solved before. If it's a known issue, AI can solve it from it's training data or web search. If it's more complex than that, results may vary.
+
+**Narrow**: Tasks should be scoped so that agent doesn't need to read entire codebase. For the sake of the context window and avoiding the dumb zone. 
 
 ### Closed Loop
 
