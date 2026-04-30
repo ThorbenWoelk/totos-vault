@@ -24,6 +24,19 @@ The bad stuff - as well as the good stuff - changes quickly. In 2024, we thought
 
 # AI Coding
 
+## Token-maxxing
+
+AI subscriptions are heavily subsidized by the AI companies. Yet, they're expansive. So if you have one of the big ones, you want to make sure you'll use the hell out of it. Which is becoming less hard with loops and multi-agent frameworks you can spin up in #2026-04. This isn't sustainable though. 
+
+1. AI companies currently don't make money while burning through resources and venture capital
+2. You're breaking a healthy project cycle of planning - implementing - retrospective and replacing it with an addiction like *always-on grind*. 
+
+## Addiction and burnout
+
+In token-maxxing mode, you start ignoring the outcome (quality). As long as the screen is flickering, you've got the impression to be productive. It feels more like a video game than work - because it is. 
+
+You'll feel the exhaustion afterwards. Regular work starts to feel extremely challenging and uncomfortable. Sitting down and focusing intensely on an issue with little to no outcome after hours of work (because 99% of the progress happens internally)? That doesn't sound too compelling. Unfortunately, that's how we learn as humans. 
+
 ## "I don't even look at the code anymore"
 
 The logic is compelling at first: 
