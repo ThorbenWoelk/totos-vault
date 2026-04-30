@@ -33,7 +33,13 @@ Well for one thing:
 **Readability influences maintainability** directly. Even AIs benefit from, e.g., explicit and specific naming. 
 
 Also: **Clean code is about more than readability**. 
-Once you type "but it worked before!!" in all-caps into the keyboard, it's too late to clean up the codebase. AIs make dumb mistakes that compound. At some point in every project, there needs to be a developer deeply involved with the code or it goes downhill. 
+It's about simplicity which also decreases context size.
+It's about testing which helps against regressions in a deterministic way. 
+
+In the end, once you type "but it worked before!!" in all-caps into the keyboard, it might be too late to clean up the codebase. AIs make dumb mistakes that compound. At some point in every project, there needs to be a developer deeply involved with the code or it goes downhill. 
+
+*But isn't all code ephemeral right now?*
+Yes, potentially. If the code is modularized in a way that it can be described 
 
 ## Slopification
 

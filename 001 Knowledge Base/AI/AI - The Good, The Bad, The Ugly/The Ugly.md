@@ -23,6 +23,19 @@ category:
 - The Good, The Bad, The Ugly
 tagging_processed_count: 1
 ---
+# Preface
+
+Ugly means chaotic. Ugly means we're unsure what to make of it at this point in time. 
+
+## Originality vs. hype
+
+Claude can write a C Compiler in a couple of hours for $20,000 in token use. That sounds impressive. But: 
+- it wasn't asked to actually do something new which humanity hasn't already solved, yet
+- it was trained on the very data that it was asked to reproduce
+Copying isn't the issues here. The issue is in the task itself. 
+
+That said, most industry problems can be split into already solved issues - customized to the company's data. AI should be able to work comfortably inside this realm. 
+
 # Velocity
 
 #2026-04 
