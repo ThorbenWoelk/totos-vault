@@ -16,6 +16,16 @@ human_approved: false
 category:
   - AI
 ---
+## Top X Use Cases for AI
+
+### Automate the boring stuff. 
+Massive file edits. 
+Content distillation. 
+System operations. 
+Programming environment setup. 
+
+These are the tasks AI does the most brilliant job on. They're not complex - but sometimes complicated. They're challenging for their massive amount of operations you would have to do. Or commands you'd need to know of the top of your head (or stackoverflow). 
+
 ## AI lowers the entry barrier to coding
 #2026-04 
 

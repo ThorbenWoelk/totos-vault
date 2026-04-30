@@ -60,9 +60,12 @@ The main challenge has always been to set standards that won't be crushed with t
 
 # One-shotting a nightmare
 
-From my experience, one-shotting apps with a massive and 4h running AI coding sessions is a delusion. The AI generates a compelling surface with a wow effect (except maybe for the frontend design if you're using openAI models). Then you start trying to make it work and the facade starts to crumble before your eyes. 
+#2026-03 
+Sorry Lovable, but one-shotting apps with a massive 4h running AI coding sessions is a delusion. 
 
-A much better strategy seems to be implementing small increments, trying to restrain the AI and oneself. Fool-proofing against future regressions, then continuing. This way, stable and maintainable apps are generated. But it takes patience.  
+Mostly, AI generates a compelling surface with a wow effect (except maybe for the frontend when you're using OpenAI models). After that, you try to make it actually work the way you intended to... and the facade starts to crumble before your eyes. 
+
+A much better strategy seems to be implementing small increments, trying to restrain the AI (and oneself) as much as possible. Fool-proofing against future regressions, then continuing. You know. The way software engineering has always been.  
 
 # The Mess It Created
 
