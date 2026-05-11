@@ -1,0 +1,77 @@
+{
+  "identifier": "CH-445",
+  "title": "Phase 1: replace hardcoded identities with Firestore-backed accounts",
+  "url": "https://linear.app/code-and-heart/issue/CH-445/phase-1-replace-hardcoded-identities-with-firestore-backed-accounts",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Replace hardcoded prototype identity selection with persisted users or invite-backed onboarding.\n* Back auth users by the Firestore/Firebase-compatible account model from CH-444.\n* Use dAstIll as implementation reference for Firebase Auth mechanics: client sign-in, emulator support, backend token verification, and server-side access context.\n* Preserve a documented local development login path.\n* Move browser auth toward secure cookie sessions unless a Linear issue explicitly chooses direct Firebase bearer-token calls.\n\nAcceptance criteria:\n\n* Login/onboarding is driven by persisted users or invites.\n* Frontend auth UI no longer exposes a fixed identity picker.\n* Session verification does not depend on hardcoded personal names or emails.\n* Backend resolves user, active household, membership, and role before returning household data.\n* Local development setup remains documented.\n\nValidation:\n\n* cargo fmt --check\n* cargo test\n* frontend lint or typecheck for touched auth UI\n* Manual login/onboarding notes for local development.\n\nBlocker rules:\n\n* Depends on CH-444 data model decisions.\n* Do not use client-only Firebase as the app authority.\n* Do not require production Firebase credentials for local tests.\n* If copying dAstIll behavior conflicts with household privacy, preserve household privacy and document the difference.",
+  "created_at": "2026-04-28T10:31:57.349Z",
+  "updated_at": "2026-04-28T13:25:37.014Z",
+  "completed_at": "2026-04-28T13:25:36.992Z",
+  "priority": 4,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "[codex] Replace prototype identity picker",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/4",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "Coordinator security fix: pending household invites now require a verified Firebase email before auto-claiming membership. Local backend validation passed: `cargo fmt --check`, `cargo clippy -- -D warnings`, and `cargo test`.",
+      "createdAt": "2026-04-28T13:19:55.857Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Coordinator update: merged current main into PR #4 branch after CH-451/CH-452 landed. Push d1cfe27 includes the release docs baseline plus the CI placeholder fix. Waiting for the new GitHub checks.",
+      "createdAt": "2026-04-28T13:15:06.780Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Coordinator update: PR #4 frontend CI failed because Next production build had no public Firebase env values. Added CI-only placeholder NEXT_PUBLIC_FIREBASE_* values to the frontend build step in commit 79b669c. Local `bun run build` passed with those placeholders. Waiting for GitHub checks again.",
+      "createdAt": "2026-04-28T13:14:17.562Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: Confirmed CH-445 was Todo and moved it to In Progress before implementation.\n- Done: Confirmed CH-444 is Done and used its household auth model decisions.\n- Done: Replaced the frontend fixed identity picker with Firebase Auth sign-in and backend session exchange.\n- Done: Added backend Firebase ID-token verification, Firestore user/invite/membership resolution, and backend-owned cookie session payloads.\n- Done: Scoped product Firestore reads, writes, cache entries, websocket updates, and notification checks to the active household.\n- Done: Persisted household invites and documented local Firebase Auth emulator bootstrap.\n- Done: Ran required validation.\n- Done: Created branch, committed, pushed, and opened draft PR.\n\nAcceptance criteria:\n- Done: Login/onboarding is driven by Firebase-authenticated persisted users, pending invites, or documented local bootstrap.\n- Done: Frontend auth UI no longer exposes a fixed identity picker.\n- Done: Session verification no longer depends on hardcoded personal names or emails.\n- Done: Backend resolves user, active household, membership, and role before returning household data.\n- Done: Local development setup remains documented in `docs/setup.md` and `backend/.env.example`.\n\nValidation:\n- Passed: `cargo fmt --check`.\n- Passed: `cargo test` (34 backend tests).\n- Passed: `bun run typecheck`.\n- Passed: `bun run lint`.\n- Passed: `git diff --check`.\n- Manual login/onboarding notes: local development uses Firebase Auth emulator settings in untracked env files. With `AUTH_LOCAL_BOOTSTRAP=true`, the first Firebase-authenticated local user is persisted as a backend user plus owner membership for the configured local household. Production users require Firebase Auth plus Firestore memberships or pending household invites.\n\nBlockers:\n- None.\n\nCommit:\n- `ed317af` Replace prototype identity picker.\n\nPR:\n- Draft PR: https://github.com/ThorbenWoelk/putz-munter/pull/4",
+      "createdAt": "2026-04-28T12:54:29.287Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Auth decision note: replace prototype identities with Firebase-backed users and backend-owned household memberships. Do not introduce anonymous household data access.",
+      "createdAt": "2026-04-28T11:03:50.774Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Production safety checklist for this issue:\n\n- No unauthenticated household reads.\n- No client-only Firestore writes.\n- No cross-household reads, writes, cache entries, websocket updates, or notifications.\n- No migration against production without explicit Linear scope and dry-run evidence.\n- No secrets in comments, commits, logs, PRs, screenshots, or docs.\n- No production deployment automation unless the Linear issue explicitly scopes fresh setup for putz-munter-prod.",
+      "createdAt": "2026-04-28T11:03:48.683Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

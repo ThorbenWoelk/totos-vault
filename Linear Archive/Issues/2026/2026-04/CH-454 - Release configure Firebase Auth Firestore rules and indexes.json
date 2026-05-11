@@ -1,0 +1,45 @@
+{
+  "identifier": "CH-454",
+  "title": "Release: configure Firebase Auth, Firestore rules, and indexes",
+  "url": "https://linear.app/code-and-heart/issue/CH-454/release-configure-firebase-auth-firestore-rules-and-indexes",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Configure Firebase Auth for the selected sign-in providers and local emulator flow.\n* Add Firestore Security Rules and indexes for the finalized household-scoped model.\n* Keep backend-owned authorization as the source of truth.\n* Deny direct client writes to household data unless a Linear issue explicitly changes the authority model.\n\nAcceptance criteria:\n\n* Firebase Auth provider setup is documented for local, staging if used, and putz-munter-prod.\n* Firestore rules prevent unauthenticated household reads and client-only writes.\n* Required Firestore indexes are committed or documented.\n* Emulator validation path exists for rules and auth flows.\n\nValidation:\n\n* Firebase emulator or rules-unit validation where practical.\n* Backend tests still pass.\n* Manual setup checklist confirms putz-munter-prod provider state without printing secrets.\n\nBlocker rules:\n\n* Depends on CH-444 and CH-445.\n* Do not relax rules to satisfy frontend behavior.\n* Do not store Firebase service credentials in Git.",
+  "created_at": "2026-04-28T11:15:25.979Z",
+  "updated_at": "2026-04-28T14:22:35.106Z",
+  "completed_at": "2026-04-28T14:22:35.093Z",
+  "priority": 3,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-454: configure Firebase rules and indexes",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/14",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "Coordinator decision: PR #14 is CI-green and repo-safe, so I am landing the committed Firebase rules/index/config files. The live Firebase Auth provider gap is split to CH-467, because enabling production Google sign-in requires human-owned OAuth/provider material and must not print or commit secrets.\n\nCH-454 can close after the repo changes land; CH-467 tracks the remaining production console/provider setup.",
+      "createdAt": "2026-04-28T14:22:05.488Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: started from current `origin/main`, rebased after `origin/main` moved, and worked on `thorben/ch-454-release-configure-firebase-auth-firestore-rules-and-indexes`.\n- Done: inspected existing Firebase/Auth/Firestore model, active project issues, and open PR overlap.\n- Done: added Firebase config, Firestore rules, indexes, emulator rules-unit validation, and release/setup docs within CH-454 scope.\n- Done: committed, pushed, opened a draft PR, and passed PR CI.\n- Done: deployed Firestore rules and indexes to staging and production.\n- Done: created Firebase Web app entries for staging and production.\n- Blocked: production Google sign-in provider still needs OAuth client material.\n\nAcceptance criteria:\n- Firebase Auth provider setup is documented for local, staging if used, and `putz-munter-prod`: done in `docs/setup.md`.\n- Firestore rules prevent unauthenticated household reads and client-only writes: done in `firestore.rules`, validated by rules-unit tests, deployed to staging and production.\n- Required Firestore indexes are committed or documented: done in `firestore.indexes.json` and `docs/firestore-model.md`, deployed to staging and production.\n- Emulator validation path exists for rules and auth flows: done in `firebase.json`, `frontend/package.json`, `frontend/src/firebase/firestore.rules.test.mjs`, `docs/setup.md`, and `docs/test-strategy.md`.\n\nLive Firebase state:\n- `putz-munter-staging`: Firestore rules/indexes deployed. Firebase Web app `Putz Munter Web Staging` exists. Redacted Identity Toolkit check shows Google provider configured and enabled.\n- `putz-munter-prod`: Firestore rules/indexes deployed. Firebase Web app `Putz Munter Web` exists. Redacted Identity Toolkit check shows authorized domains include `putz-munter-prod.firebaseapp.com`, `putz-munter-prod.web.app`, `app.putzmunter.de`, and `putzmunter.de`.\n\nValidation:\n- Passed: `cd frontend && bun install --frozen-lockfile`.\n- Passed: `cd frontend && bun run test:firestore-rules`.\n- Passed: `cd backend && cargo test`.\n- Passed: `cd frontend && bun run lint && bun x tsc --noEmit && bun run test`.\n- Passed: GitHub PR checks: Repo Hygiene, Frontend Checks, Backend Checks.\n- Passed: `firebase deploy --project putz-munter-staging --config firebase.json --only firestore:rules,firestore:indexes`.\n- Passed: `firebase deploy --project putz-munter-prod --config firebase.json --only firestore:rules,firestore:indexes`.\n- Partial production checklist: `putz-munter-prod` project and Web app exist, domains are configured, Firestore rules/indexes are deployed. Google provider remains missing.\n\nBlockers:\n- `putz-munter-prod` Google sign-in provider is not configured through the Identity Toolkit provider endpoint. The supported endpoint requires OAuth client material and rejects an enabled Google provider without a `client_id`.\n- Production Auth config reports email/password as configured. The documented target keeps email/password local-emulator only unless a Linear issue expands production providers. Do not disable it until Google sign-in is configured, or production would have no confirmed sign-in provider.\n- CH-444 and CH-445 are Done.\n- Active overlap scan: CH-447 has an open frontend UI/auth PR; CH-466 is active for backend onboarding/invite endpoints. This branch avoided those owned files.\n\nCommit:\n- `d1beb1d` (`CH-454 configure Firebase rules and indexes`).\n\nPR:\n- Draft PR: https://github.com/ThorbenWoelk/putz-munter/pull/14.\n- Issue moved to Blocked. Do not move to In Review until the production Google provider blocker is resolved and the checklist passes.",
+      "createdAt": "2026-04-28T14:05:41.814Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

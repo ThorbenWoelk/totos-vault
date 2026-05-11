@@ -1,0 +1,45 @@
+{
+  "identifier": "CH-460",
+  "title": "Quality: add unit and E2E scenario test foundation",
+  "url": "https://linear.app/code-and-heart/issue/CH-460/quality-add-unit-and-e2e-scenario-test-foundation",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Establish the test foundation for product-quality autonomous development.\n* Add or document backend unit tests, frontend/native UI unit or component tests, and native E2E scenario tests for critical app behavior.\n* Choose the right E2E layer for the native app path once CH-457 selects it, such as Playwright only for web-shell checks, Detox/Appium/Maestro/native platform UI tests for mobile, or another maintained native scenario runner.\n* Cover the core user scenarios as test specs or automated flows: unauthenticated access, login, household creation, room/task setup, completing a task, assignment/role behavior, household switching, logout, notifications where feasible, and protected API behavior.\n* Make tests runnable locally and in CI where practical.\n\nAcceptance criteria:\n\n* Repo has a documented test strategy for backend unit tests, frontend/native unit or component tests, and native E2E scenario tests.\n* At least one automated smoke scenario runs against the selected app surface with deterministic test data or mocks.\n* Test commands exist for the stable automated layers.\n* CI runs the stable automated test subset or documents why a test stays local/manual for now.\n* Future feature issues can point to the test foundation and add scenario coverage incrementally.\n\nValidation:\n\n* cargo test\n* frontend/native unit/typecheck command from the chosen setup\n* E2E/native smoke command from a clean local build or documented blocker if app/auth/native wrapper foundation is not ready\n* GitHub Actions validation if CI is changed\n\nBlocker rules:\n\n* Do not make E2E tests depend on production Firebase or real household data.\n* Do not commit test credentials, device signing material, or screenshots with private data.\n* If auth/onboarding or native wrapper is not ready yet, add scaffolding and mark concrete scenarios blocked on CH-445/CH-447/CH-457.",
+  "created_at": "2026-04-28T11:16:58.719Z",
+  "updated_at": "2026-04-28T13:37:41.650Z",
+  "completed_at": "2026-04-28T13:37:41.638Z",
+  "priority": 3,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-460: add test foundation",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/7",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: inspected repo test/build structure from current origin/main.\n- Done: added documented backend/frontend/E2E test strategy scoped to CH-460.\n- Done: added deterministic frontend smoke scenario with mocked household data.\n- Done: wired stable frontend test commands into local scripts and CI.\n\nAcceptance criteria:\n- Done: repo has documented test strategy in `docs/test-strategy.md` for backend unit tests, frontend unit/component direction, current web/API smoke, and future native E2E.\n- Done: automated smoke scenario runs with deterministic mocked household data in `frontend/src/e2e/core-smoke.test.js`.\n- Done: frontend test commands exist: `bun run test`, `bun run test:unit`, `bun run test:smoke`.\n- Done: CI runs the stable automated frontend subset with `bun run test`.\n- Done: future feature issues can point to `docs/test-strategy.md` and add scenario coverage incrementally.\n\nValidation:\n- Passed: `cargo fmt --check`\n- Passed: `cargo clippy -- -D warnings`\n- Passed: `cargo build`\n- Passed: `cargo test`\n- Passed: `bun run lint`\n- Passed: `bun run typecheck`\n- Passed: `bun run test`\n- Passed: `NEXT_PUBLIC_FIREBASE_API_KEY=ci-firebase-placeholder NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=putz-munter-ci.firebaseapp.com NEXT_PUBLIC_FIREBASE_PROJECT_ID=putz-munter-ci bun run build`\n- Passed: GitHub Actions on PR #7: Repo Hygiene, Backend Checks, Frontend Checks.\n\nBlockers / coordination:\n- CH-446 is In Progress with PR #6 touching only `backend/src/state/db.rs`; no file overlap with this PR.\n- Native E2E remains blocked until CH-457 selects the native wrapper/installable app surface.\n- Household creation/switching, onboarding, and role-aware UI scenarios remain blocked until CH-447 provides those app surfaces.\n- No production Firebase, real household data, credentials, signing material, or private screenshots were used.\n\nCommit / PR:\n- Commit: `5774c48` (`Add CH-460 test foundation`)\n- PR: https://github.com/ThorbenWoelk/putz-munter/pull/7",
+      "createdAt": "2026-04-28T13:27:12.953Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Queued as the parallel quality lane. Establish test strategy and stable automated foundation now. Keep native E2E runner selection conditional on CH-457; do not depend on production Firebase or private data. Avoid auth/Firestore implementation edits while CH-446 is active.",
+      "createdAt": "2026-04-28T13:26:10.161Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

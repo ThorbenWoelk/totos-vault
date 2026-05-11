@@ -1,0 +1,45 @@
+{
+  "identifier": "CH-470",
+  "title": "Audit: harden audit-write atomicity and failure semantics",
+  "url": "https://linear.app/code-and-heart/issue/CH-470/audit-harden-audit-write-atomicity-and-failure-semantics",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nFollow-up from CH-468 review.\n\nScope:\n\n* Decide and implement the production policy for audit-write failures around household mutations.\n* Avoid returning API success when required audit evidence is missing, and avoid returning a post-mutation 500 that encourages unsafe retries after the domain mutation already committed.\n* Prefer an atomic Firestore write batch/transaction for domain mutation plus audit event where the repository supports it. If atomic writes are not practical for a path, document whether audit is best-effort or fail-closed and why.\n* Cover chore mutations, invite/member role actions, household creation/switching, auth session events, and service-only jobs.\n\nAcceptance criteria:\n\n* Audit failure behavior is explicit and consistent by route class.\n* At least one mutation path test proves the chosen behavior.\n* No audit metadata includes secrets, raw tokens, invite tokens, SMTP/push payloads, or sensitive household free text.\n* Operations docs mention the chosen failure policy.\n\nValidation:\n\n* Backend tests pass.\n* Focused review of retry/idempotency behavior.\n\nBlocker rules:\n\n* Do not weaken household authorization or Firestore tenancy to make audit writes pass.\n* Do not paste production household data or secrets into tests, logs, Git, or Linear.",
+  "created_at": "2026-04-28T15:13:44.758Z",
+  "updated_at": "2026-04-28T15:23:59.554Z",
+  "completed_at": "2026-04-28T15:23:59.544Z",
+  "priority": 0,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-470: Harden audit write failure policy",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/21",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Inspected CH-468 audit implementation across auth, household, chore, service job, repository, and operations docs.\n- Added explicit audit route classes and write policies.\n- Moved chore room mutations to Firestore transactions that commit room/log changes with the audit event.\n- Converted post-commit/non-atomic classes to explicit best-effort audit handling to avoid returning retryable post-mutation 500s.\n- Updated production operations docs with policy and retry/idempotency notes.\n\nAcceptance criteria:\n- Audit failure behavior explicit and consistent by route class: done in `backend/src/audit.rs` and `docs/production-operations.md`.\n- At least one mutation path test proves chosen behavior: done via audit route-class policy tests covering chore mutations and post-commit household profile mutations.\n- Audit metadata excludes secrets, raw tokens, invite tokens, SMTP/push payloads, and sensitive household free text: preserved existing sanitizer; reviewed changed audit metadata keys.\n- Operations docs mention the chosen failure policy: done.\n\nValidation:\n- Passed: `cargo test` in `backend` on 2026-04-28.\n- Passed: `git diff --check`.\n- Focused retry/idempotency review: chore mutations now fail before success when the atomic commit fails; auth session creation fails before cookie success; best-effort post-commit classes are documented with inspect-before-retry guidance.\n\nBlockers:\n- None.\n\nCommit:\n- `51c25e7` fix: harden audit write failure policy\n\nPR:\n- https://github.com/ThorbenWoelk/putz-munter/pull/21",
+      "createdAt": "2026-04-28T15:15:36.820Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Coordination handoff for Symphony:\n\nCH-468 is Done and introduced audit writes. This issue owns the follow-up policy for audit write failure semantics. Prefer a small implementation: define a consistent helper/policy, add at least one backend test proving the chosen behavior, and update production operations docs. If Firestore atomic batch/transaction support is not locally practical, document route classes as best-effort or fail-closed with retry/idempotency notes. Do not weaken auth/tenancy and do not include secrets or private household data.",
+      "createdAt": "2026-04-28T15:14:18.111Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

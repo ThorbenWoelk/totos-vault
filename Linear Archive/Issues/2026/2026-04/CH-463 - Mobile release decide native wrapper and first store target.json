@@ -1,0 +1,37 @@
+{
+  "identifier": "CH-463",
+  "title": "Mobile release: decide native wrapper and first store target",
+  "url": "https://linear.app/code-and-heart/issue/CH-463/mobile-release-decide-native-wrapper-and-first-store-target",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Decide the first native publication path for Putz & Munter. Compare Capacitor, native shell, Trusted Web Activity for Android-only, React Native rewrite slice, and any clearly better store-accepted path.\n* Verify current Apple App Store and Google Play technical constraints before recommending the path.\n* Choose the first store target and explain what can be tested on Thorben's Mac before store submission.\n* Define how the native app reaches the production backend and Firebase Auth flow without localhost as the primary QA path.\n* Create or update follow-up issues for implementation, signing/assets, native E2E, and store readiness.\n\nAcceptance criteria:\n\n* A repo doc records the chosen wrapper/runtime path, first store target, and rejected alternatives.\n* The decision includes current store constraint notes with source links and dates checked.\n* The decision names the local Mac QA path: simulator/emulator/device, build command, backend target, and expected smoke journey.\n* Follow-up Linear issues are linked or updated with precise implementation scope.\n\nValidation:\n\n* Documentation review only.\n* No native build is required in this issue.\n* No signing keys, provisioning profiles, store API credentials, or secrets are committed or pasted into Linear.\n\nBlocker rules:\n\n* Do not implement a wrapper before the decision is written.\n* Do not choose client-only Firebase unless a dedicated Linear issue explicitly changes the authority model.\n* If current store requirements are unclear, stop at a documented blocker with links to the exact missing account/tooling access.",
+  "created_at": "2026-04-28T13:39:03.340Z",
+  "updated_at": "2026-04-28T13:55:50.022Z",
+  "completed_at": "2026-04-28T13:55:49.996Z",
+  "priority": 0,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-463: decide Android TWA mobile release path",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/10",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: verified current Apple App Store, Google Play, Capacitor, TWA, and Next.js constraints from primary sources.\n- Done: compared Capacitor, native iOS shell, native Android shell, Android TWA, React Native rewrite slice, and PWA-only path.\n- Done: added `docs/mobile-release-decision.md` with the selected Android TWA / Google Play first path.\n- Done: linked downstream Linear work through comments on CH-465, CH-464, CH-461, and CH-458.\n- Done: committed, pushed, and opened PR.\n\nAcceptance criteria:\n- Done: repo doc records the chosen wrapper/runtime path, first store target, and rejected alternatives.\n- Done: decision includes store constraint notes with source links and date checked: 2026-04-28.\n- Done: decision names the local Mac QA path: Android emulator/device, Bubblewrap commands, production HTTPS backend target, and smoke journey.\n- Done: follow-up Linear issues were updated with precise implementation, signing/assets, native QA, and store readiness scope.\n\nValidation:\n- Passed: documentation review only, per CH-463.\n- Passed: `git diff --check origin/main...HEAD`.\n- Native build intentionally not run; CH-463 explicitly requires no native build.\n\nBlockers:\n- None.\n\nCommit:\n- `2a3bb3a` docs: decide Android TWA mobile release path\n\nPR:\n- https://github.com/ThorbenWoelk/putz-munter/pull/10",
+      "createdAt": "2026-04-28T13:50:18.796Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

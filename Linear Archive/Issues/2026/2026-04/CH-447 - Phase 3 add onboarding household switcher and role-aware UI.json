@@ -1,0 +1,53 @@
+{
+  "identifier": "CH-447",
+  "title": "Phase 3: add onboarding, household switcher, and role-aware UI",
+  "url": "https://linear.app/code-and-heart/issue/CH-447/phase-3-add-onboarding-household-switcher-and-role-aware-ui",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Add generic onboarding screens for creating a household, inviting members, choosing roles, and configuring starter rooms/tasks.\n* Add household switcher for accounts with multiple memberships.\n* Hide or disable mutation controls for viewer role.\n* Replace identity-specific copy with concise German product copy.\n* Add or extend E2E scenario coverage for the main user journeys touched by this issue.\n\nAcceptance criteria:\n\n* Unauthenticated users see onboarding/login and cannot view household data pages.\n* A user can create or select a household from the UI.\n* A user can invite members and choose roles.\n* Viewer role cannot mutate tasks from the UI.\n* E2E or scenario tests cover login/onboarding, household creation or selection, role-aware viewer state, and logout/login behavior where backend support exists.\n\nValidation:\n\n* frontend lint or typecheck\n* E2E scenario command for onboarding and household switching, or documented blocker tied to missing backend endpoints\n* Manual browser notes for onboarding, household switch, role-aware viewer state, and logout/login\n\nBlocker rules:\n\n* Depends on CH-444, CH-445, and CH-446.\n* Coordinate with the quality test foundation issue if E2E tooling is not in place.\n* Do not invent a client-only Firebase authority.\n* If backend endpoints are missing, add UI behind typed API boundaries and file backend follow-up issues.",
+  "created_at": "2026-04-28T10:31:57.788Z",
+  "updated_at": "2026-04-28T14:17:42.500Z",
+  "completed_at": "2026-04-28T14:17:42.484Z",
+  "priority": 4,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-447: add onboarding and role-aware UI",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/11",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "Coordinator update after CH-466 landed:\n\n- Rebased the frontend PR on main after backend household endpoints merged.\n- Added a first-household flow for Firebase-authenticated users without an existing backend session. The frontend now keeps the Firebase ID token in memory after session exchange fails and passes it to POST /api/households.\n- Validation passed locally after the patch: npm run typecheck, npm run lint, bun run test.\n\nCommit added to PR #11: ff5d7a8 fix: wire first-household onboarding token.",
+      "createdAt": "2026-04-28T14:14:58.029Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Completed: started from current `origin/main` on branch `thorben/ch-447-phase-3-add-onboarding-household-switcher-and-role-aware-ui`.\n- Completed: inspected existing Firebase session, household, invite, role, and E2E smoke surfaces.\n- Completed: implemented frontend auth gates, household onboarding/switcher API-boundary UI, invite role selection, and viewer-safe task UI.\n- Completed: extended smoke scenario coverage for login/onboarding API boundaries, household creation/switching calls, invite role payload, viewer role helpers, protected reads, and logout.\n\nAcceptance criteria:\n- Unauthenticated users see login/onboarding surfaces before household data hooks mount.\n- Household creation and switching UI exists behind typed backend API boundaries.\n- Member invite UI includes role choice and sends the role payload.\n- Viewer role cannot mutate tasks from task cards, FAB, task creation, or task edit UI.\n- E2E smoke scenario covers login/onboarding boundaries, household creation/switching requests, viewer role behavior, protected read rejection, and logout/login API flow.\n\nValidation:\n- Passed: `npm run typecheck`.\n- Passed: `npm run lint`.\n- Passed: `bun run test`.\n- Passed: `bun run test:smoke`.\n- Manual browser: blocked by missing local backend runtime config. `./start_app.sh` compiled the backend, then stopped with `PROJECT_ID or FIRESTORE_PROJECT_ID must be set` before frontend startup. `./end_app.sh` was run afterward and ports were clear.\n\nBlockers:\n- Backend endpoints for `GET /api/households`, `POST /api/households`, and `POST /api/auth/switch-household` are missing on this base.\n- Invite role persistence needs backend support; frontend sends the typed role payload.\n- Filed follow-up `CH-466` in Backlog for backend household onboarding, switching, starter setup, and invite role persistence.\n\nCommit:\n- `e872bb2` CH-447 add onboarding and role-aware UI.\n\nPR:\n- Draft PR: https://github.com/ThorbenWoelk/putz-munter/pull/11",
+      "createdAt": "2026-04-28T13:50:15.773Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Production safety checklist for this issue:\n\n- No unauthenticated household reads.\n- No client-only Firestore writes.\n- No cross-household reads, writes, cache entries, websocket updates, or notifications.\n- No migration against production without explicit Linear scope and dry-run evidence.\n- No secrets in comments, commits, logs, PRs, screenshots, or docs.\n- No production deployment automation unless the Linear issue explicitly scopes fresh setup for putz-munter-prod.",
+      "createdAt": "2026-04-28T11:03:49.313Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "identifier": "CH-451",
+  "title": "Architecture: compare Cloud Run backend with Firebase-only app",
+  "url": "https://linear.app/code-and-heart/issue/CH-451/architecture-compare-cloud-run-backend-with-firebase-only-app",
+  "description": "Repository: ThorbenWoelk/putz-munter\n\nScope:\n\n* Compare long-run cost and operational tradeoffs for Cloud Run backend plus Firestore versus a Firebase-only app.\n* Include auth, authorization, household tenancy, notifications, scheduler/service jobs, migrations, audit logging, local development, and CI/CD.\n* Decide whether Firebase-only is viable for Putz & Munter or whether the Rust backend remains the cost/security sweet spot.\n\nAcceptance criteria:\n\n* Cost model includes expected low-traffic household usage and growth scenario.\n* Security model covers household data isolation and role enforcement.\n* Service-job alternatives are documented for notifications, scheduling, migrations, and audit logging.\n* Recommendation is explicit: keep backend, move parts to Firebase, or create a staged migration issue.\n\nValidation:\n\n* Architecture note committed to repo docs.\n* Decision references current code paths and Firebase/GCP services.\n\nBlocker rules:\n\n* Do not migrate implementation in this issue.\n* Do not choose client-only Firebase without Firestore Security Rules, service-job alternative, and rollback plan.\n* If pricing inputs are missing, document assumptions and keep the issue in Backlog.",
+  "created_at": "2026-04-28T10:52:41.716Z",
+  "updated_at": "2026-04-28T13:03:58.661Z",
+  "completed_at": "2026-04-28T13:03:58.650Z",
+  "priority": 3,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-451: Compare backend and Firebase-only architecture",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/3",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: started from current `origin/main` on `thorben/ch-451-architecture-compare-cloud-run-backend-with-firebase-only`.\n- Done: inspected current Rust backend, Next.js frontend, Firestore/Firebase usage, service-job paths, auth/session paths, CI, and docs.\n- Done: checked current official Google/Firebase pricing sources for Cloud Run, Firestore, Firebase Auth / Identity Platform, Cloud Scheduler, Secret Manager, Firebase Hosting, and Cloud Run functions.\n- Done: added `docs/cloud-run-vs-firebase-only.md` comparing Cloud Run backend plus Firestore with Firebase-only for `putz-munter-prod`.\n- Done: created Backlog follow-up `CH-462` for fresh production deployment design.\n- Done: committed, pushed, and opened PR.\n\nAcceptance criteria:\n- Done: cost model includes expected low-traffic household usage and growth scenario.\n- Done: security model covers household data isolation and role enforcement.\n- Done: service-job alternatives documented for notifications, scheduling, migrations, and audit logging.\n- Done: recommendation is explicit: keep the Rust Axum backend plus Firestore; move Firebase Auth/client identity and household-scoped Firestore model forward; do not choose client-only Firebase from this issue.\n\nValidation:\n- Passed: architecture note committed to repo docs in `docs/cloud-run-vs-firebase-only.md`.\n- Passed: decision references current code paths, including `backend/src/main.rs`, `backend/src/auth.rs`, `backend/src/routes/auth.rs`, `backend/src/routes/chores.rs`, `backend/src/routes/ws.rs`, `backend/src/state/db.rs`, `backend/src/auth_model.rs`, `backend/src/notifications.rs`, `frontend/src/lib/api.ts`, `frontend/src/components/auth/AuthProvider.tsx`, and `.github/workflows/ci.yml`.\n- Passed: decision references Firebase/GCP services: Firebase Auth / Identity Platform, Cloud Run, Firestore, Secret Manager, Cloud Scheduler, Firebase Hosting, and Cloud Run functions.\n- Passed: `git diff --check`.\n- Passed: `test -f docs/cloud-run-vs-firebase-only.md && rg -n \"Cost model|Security model|Service-Job Alternatives|Recommendation|CH-462|backend/src/main.rs|backend/src/auth.rs|backend/src/state/db.rs|backend/src/notifications.rs|frontend/src/lib/api.ts|Firebase Auth|Cloud Run|Firestore|Secret Manager|Cloud Scheduler|Cloud Run functions\" docs/cloud-run-vs-firebase-only.md`.\n\nBlockers:\n- None.\n- Active Linear work `CH-445` and `CH-446` touches auth/Firestore implementation; this issue stayed docs-only and did not edit shared implementation files.\n\nCommit:\n- `37a8746` docs: compare backend and firebase-only architecture\n\nPR:\n- https://github.com/ThorbenWoelk/putz-munter/pull/3\n\nNotes:\n- Open PRs were clear before implementation and before PR creation.\n- No Terraform, Cloud Run service, Docker image, scheduler, workload identity, or deployment automation was added.",
+      "createdAt": "2026-04-28T12:57:24.969Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Queued as the release architecture lane for Symphony. Keep this docs-only: compare Cloud Run backend, Firebase-only, and staged options for putz-munter-prod; create or link implementation follow-ups; do not add deployment code in this issue.",
+      "createdAt": "2026-04-28T12:56:40.271Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Clean-start note: old toto-chores deployment setup has been removed from the repo. Cost comparison should assume fresh deployment design for putz-munter-prod, with no inherited Terraform, Docker image repository, Cloud Run service, scheduler, or WIF binding.",
+      "createdAt": "2026-04-28T10:58:47.685Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Scope note: compare Cloud Run backend vs Firebase-only using putz-munter-prod as the target Firebase/GCP project. Include expected low-traffic cost assumptions for that production home.",
+      "createdAt": "2026-04-28T10:54:44.009Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

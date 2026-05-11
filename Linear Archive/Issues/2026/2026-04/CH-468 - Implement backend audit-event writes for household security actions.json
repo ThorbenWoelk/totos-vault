@@ -1,0 +1,45 @@
+{
+  "identifier": "CH-468",
+  "title": "Implement backend audit-event writes for household security actions",
+  "url": "https://linear.app/code-and-heart/issue/CH-468/implement-backend-audit-event-writes-for-household-security-actions",
+  "description": "Follow-up from CH-456.\n\nThe production operations runbook documents audit-event inspection under `households/{householdId}/audit_events/{eventId}`, and the repo has `AuditEvent` models plus Firestore audit indexes. Code review for CH-456 did not find backend writes for security-relevant audit events.\n\nScope:\n\n* Add backend-owned audit-event writes for membership invites, role changes, household settings changes, chore mutations, auth/session security events where useful, and service-only job events.\n* Keep audit writes household-scoped in Firestore.\n* Never write secrets, raw session tokens, Firebase ID tokens, invite tokens, SMTP payloads, push keys, or sensitive household free text into audit metadata.\n* Preserve backend authority for actor, household, target, and timestamp fields.\n\nAcceptance criteria:\n\n* Security-relevant household actions create append-only audit events.\n* Audit events can be queried by latest household events, actor user id, and target document.\n* Tests cover at least one write path, one role/security path, and metadata redaction constraints.\n* Production operations docs remain accurate after implementation.",
+  "created_at": "2026-04-28T14:57:09.056Z",
+  "updated_at": "2026-04-28T15:13:56.536Z",
+  "completed_at": "2026-04-28T15:13:56.522Z",
+  "priority": 0,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-468 Implement backend audit event writes",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/20",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Done: started branch `thorben/ch-468-implement-backend-audit-event-writes-for-household-security` from current `origin/main`.\n- Done: inspected existing `AuditEvent` model, Firestore indexes, backend auth/session/household/chore/service write paths, and operations docs.\n- Done: added backend-owned household-scoped audit writes for current security-relevant paths without metadata secrets or sensitive free text.\n- Done: added focused tests for a normal audit write path, role/security actor context, and metadata redaction.\n- Done: updated operations/model docs so audit inspection reflects the implemented backend write path.\n\nAcceptance criteria:\n- Done: security-relevant household actions create append-only audit events via Firestore `insert` under `households/{householdId}/audit_events/{eventId}`.\n- Done: audit events can be queried by latest household events, actor user id, and target document through backend helper methods matching committed indexes.\n- Done: tests cover one write path, one role/security path, and metadata redaction constraints.\n- Done: production operations docs remain accurate after implementation.\n\nValidation:\n- Passed: `cd backend && cargo test` (57 tests).\n- Passed: `git diff --check`.\n- Docs drift check: no stale CH-468 readiness note, pending-write-path note, or planned-audit-filter wording remains.\n\nCoordination:\n- Open PR check before push: PR #19 / CH-458 touches `docs/google-play-readiness.md` and `docs/google-play-store-release-package.md`; no overlap with CH-468 files.\n\nBlockers:\n- None.\n\nCommit:\n- `99604c3` (`CH-468 add backend audit event writes`).\n\nPR:\n- https://github.com/ThorbenWoelk/putz-munter/pull/20",
+      "createdAt": "2026-04-28T15:01:34.365Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    },
+    {
+      "body": "Coordination handoff for Symphony:\n\nCH-456 created this follow-up because the repo has audit-event models/indexes and operations docs, but backend write paths are not implemented. Implement backend-owned household-scoped audit event writes for security-relevant actions. Keep metadata redacted: no secrets, raw session cookies, Firebase ID tokens, invite tokens, SMTP payloads, VAPID/private push keys, or sensitive household free text. Add tests for at least one normal write path, one role/security path, and metadata redaction. Active parallel issue CH-458 owns store listing/privacy docs; avoid release docs unless production-operations accuracy needs a small link/update.",
+      "createdAt": "2026-04-28T15:00:38.190Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

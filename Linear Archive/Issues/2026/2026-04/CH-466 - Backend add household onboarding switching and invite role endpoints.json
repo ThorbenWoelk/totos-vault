@@ -1,0 +1,37 @@
+{
+  "identifier": "CH-466",
+  "title": "Backend: add household onboarding, switching, and invite role endpoints",
+  "url": "https://linear.app/code-and-heart/issue/CH-466/backend-add-household-onboarding-switching-and-invite-role-endpoints",
+  "description": "Created from CH-447.\n\nScope:\n\n* Add backend-owned endpoints for `GET /api/households`, `POST /api/households`, and `POST /api/auth/switch-household`.\n* Create households, memberships, starter rooms, and starter tasks server-side in Firestore.\n* Return a refreshed backend session token after household creation or switch.\n* Extend household invite handling to accept and persist selected roles, including viewer.\n* Keep Firebase ID-token verification and server-side household access resolution as the authority.\n\nAcceptance criteria:\n\n* No client-only Firestore writes.\n* A Firebase-authenticated user without an existing household can create one through the backend.\n* An authenticated user with multiple memberships can switch active household through the backend.\n* Invite role selection persists as owner/member/viewer according to backend authorization rules.\n* Tests cover no cross-household membership access and viewer role behavior.",
+  "created_at": "2026-04-28T13:56:58.847Z",
+  "updated_at": "2026-04-28T14:11:37.407Z",
+  "completed_at": "2026-04-28T14:11:37.388Z",
+  "priority": 0,
+  "state": {
+    "name": "Done",
+    "type": "completed"
+  },
+  "project": {
+    "name": "Putz & Munter"
+  },
+  "assignee": null,
+  "labels": [],
+  "attachments": [
+    {
+      "title": "CH-466: add backend household onboarding endpoints",
+      "url": "https://github.com/ThorbenWoelk/putz-munter/pull/13",
+      "subtitle": null,
+      "sourceType": "github"
+    }
+  ],
+  "comments": [
+    {
+      "body": "## Codex Workpad\n\nPlan:\n- Inspect active project issues and open PRs for overlapping ownership. Done: CH-447 owns frontend onboarding/API client work; CH-462 owned deployment docs and landed during this work. This change stayed backend-only.\n- Start an issue branch from current origin/main. Done: `thorben/ch-466-backend-add-household-onboarding-switching-and-invite-role`.\n- Implement backend-owned household onboarding, switching, and invite role persistence in Firestore. Done.\n- Add focused tests for cross-household membership access and viewer role behavior. Done.\n- Run validation, then commit, push, open PR. Done.\n\nAcceptance criteria:\n- No client-only Firestore writes. Backend endpoints now own household creation, membership creation, starter rooms/tasks, household switching, and invite role persistence.\n- Firebase-authenticated user without a household can create one through `POST /api/households` using a Firebase ID token.\n- Authenticated user with multiple memberships can switch active household through `POST /api/auth/switch-household`.\n- Invite role selection persists as owner/member/viewer via `POST /api/household/invite`.\n- Tests cover requested household rejection without membership and viewer mutation denial.\n\nValidation:\n- Rebased on latest `origin/main` after CH-462 landed.\n- `cd backend && cargo fmt --check` passed.\n- `cd backend && cargo clippy -- -D warnings` passed.\n- `cd backend && cargo build` passed.\n- `cd backend && cargo test` passed: 54 tests.\n- `git diff --check` passed.\n\nBlockers:\n- None.\n\nCommit:\n- `12ce42a` CH-466 add backend household onboarding endpoints.\n\nPR:\n- https://github.com/ThorbenWoelk/putz-munter/pull/13",
+      "createdAt": "2026-04-28T14:01:15.264Z",
+      "user": {
+        "displayName": "thorben",
+        "name": "Thorben Wölk"
+      }
+    }
+  ]
+}

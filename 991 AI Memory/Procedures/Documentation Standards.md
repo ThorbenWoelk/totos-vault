@@ -2,12 +2,15 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-- documentation-standards
+- documentation
+- standards
+- obsidian
 - frontmatter
 - tagging
-- title-standards
-- file-structure
 - metadata
+- style
+- guide
+- procedure
 connections:
 - '[[Tagging System]]'
 - '[[Learning Protocol]]'
@@ -17,6 +20,8 @@ human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 1
+tagging_last_processed: 2026-05-11
 ---
 Guidelines for creating consistent, readable, and searchable notes across the Obsidian vaults.
 

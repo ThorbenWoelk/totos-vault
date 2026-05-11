@@ -2,13 +2,14 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
+- deprecated
 - continuous-learning
 - learning-protocol
 - feedback-loop
-- verification
 - pattern-recognition
 - quality-standards
-- obsidian-workflow
+- obsidian
+- workflow
 - collaboration
 connections:
 - '[[AI Coding Guidelines]]'
@@ -17,6 +18,8 @@ human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 1
+tagging_last_processed: 2026-05-11
 ---
 # DEPRECATED: Dynamic framework for continuous improvement in AI-human collaboration
 
