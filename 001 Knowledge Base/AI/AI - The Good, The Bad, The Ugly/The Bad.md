@@ -35,6 +35,10 @@ AI subscriptions are heavily subsidized by the AI companies. Yet, they're expans
 1. AI companies currently don't make money while burning through resources and venture capital
 2. You're breaking a healthy project cycle of planning - implementing - retrospective and replacing it with an addiction like *always-on grind*. 
 
+## Small steps > big leaps
+
+Good engineering means making small, robust steps that add up to a well-designed system. AI does too much, too fast, without hardening. Theoretically, this could be done by multi-agent systems. The issue seems to be that the models are not very good at identifying the individual small steps that are the right to take considering the complex context. 
+
 ## Addiction and burnout
 
 In token-maxxing mode, you start ignoring the outcome (quality). As long as the screen is flickering, you've got the impression to be productive. It feels more like a video game than work - because it is. 
