@@ -2,18 +2,18 @@
 created: 2026-04-16
 last_edited: 2026-04-24
 tags:
-- meta
-- index
-- knowledge-base
+  - meta
+  - index
+  - knowledge-base
 connections:
-- '[[001 Knowledge Base/0 - TIL/_index|0 - TIL Index]]'
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[001 Knowledge Base/Concepts/_index|Concepts Index]]'
-- '[[001 Knowledge Base/Data/_index|Data Index]]'
+  - "[[000 raw/_inbox/0 - TIL/_index|0 - TIL Index]]"
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[001 Knowledge Base/Concepts/_index|Concepts Index]]"
+  - "[[001 Knowledge Base/Data/_index|Data Index]]"
 ai_generated: true
 human_approved: false
 category:
-- Knowledge Base
+  - Knowledge Base
 description: LLM-maintained top-level Knowledge Base index
 last_updated: 2026-04-15
 tagging_processed_count: 10
@@ -27,7 +27,7 @@ tagging_last_processed: 2026-05-15
 
 | Section | Articles | Last Updated |
 |---------|----------|--------------|
-| [[001 Knowledge Base/0 - TIL/_index\|0 - TIL]] | 1 | 2026-04-15 |
+| [[000 raw/_inbox/0 - TIL/_index\|0 - TIL]] | 1 | 2026-04-15 |
 | [[001 Knowledge Base/AI/_index\|AI]] | 46 | 2026-04-15 |
 | [[001 Knowledge Base/Concepts/_index\|Concepts]] | 8 | 2026-04-15 |
 | [[001 Knowledge Base/Data/_index\|Data]] | 14 | 2026-04-15 |

@@ -2,18 +2,18 @@
 created: 2026-04-16
 last_edited: 2026-04-24
 tags:
-- index
-- raw
-- automation
-- manifest
+  - index
+  - raw
+  - automation
+  - manifest
 connections:
-- '[[001 Knowledge Base/0 - TIL/_index|0 - TIL Index]]'
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[001 Knowledge Base/Concepts/_index|Concepts Index]]'
+  - "[[000 raw/_inbox/0 - TIL/_index|0 - TIL Index]]"
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[001 Knowledge Base/Concepts/_index|Concepts Index]]"
 ai_generated: true
 human_approved: false
 category:
-- raw
+  - raw
 description: LLM-maintained manifest of all raw source documents
 last_updated: 2026-04-24
 tagging_processed_count: 10
