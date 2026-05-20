@@ -31,9 +31,15 @@ Configuration documentation for the AI memory vault infrastructure.
 **Purpose**: Enables AI to read/write vault content via Model Context Protocol
 
 ## Required Plugins
-- Obsidian Git - Version control
-- Local REST API - MCP connectivity
-- Any other community plugins for enhanced functionality
+
+Shared across all three vaults (`totos-vault`, `totos-journal`, `totos-job-vault`). Sync script: `/Users/thorben.woelk/repos/_obsidian/scripts/sync-obsidian-setup.sh`.
+
+- Obsidian Git — version control
+- Local REST API — MCP connectivity
+- Local GPT and AI Providers — in-vault AI
+- Dataview and Meta Bind — queries and forms (Skill Map in job vault)
+- Virtual Linker — glossary-style links
+- Open in Terminal — dev workflow
 
 ---
 *Configuration enables seamless AI-human knowledge collaboration*

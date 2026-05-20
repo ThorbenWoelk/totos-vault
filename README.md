@@ -39,10 +39,15 @@ Full plugin state is declared in `.obsidian/community-plugins.json`, `.obsidian/
 
 ### Community plugins
 
-| Plugin                    | ID                          | Version | Where it is used                                                                   |
-| ------------------------- | --------------------------- | ------- | ---------------------------------------------------------------------------------- |
-| Git                       | `obsidian-git`              | 2.34.0  | Git backup and version-control workflows inside Obsidian.                          |
-| Local REST API            | `obsidian-local-rest-api`   | 3.2.0   | Local automation that reads and changes notes through an API.                      |
-| Local GPT                 | `local-gpt`                 | 4.0.0   | Local AI assistance in the vault.                                                  |
-| AI Providers              | `ai-providers`              | 1.9.2   | Shared provider configuration for OpenAI-compatible, Ollama, and related AI tools. |
-| Virtual Linker / Glossary | `virtual-linker`            | 1.5.2   | Virtual links, glossary behavior, and unlinked mention discovery.                  |
+Shared across `totos-vault`, `totos-journal`, and `totos-job-vault`. Re-sync with `/Users/thorben.woelk/repos/_obsidian/scripts/sync-obsidian-setup.sh`. Workspace reference: `OBSIDIAN_SETUP.md`.
+
+| Plugin | ID | Version | Role |
+| --- | --- | --- | --- |
+| Git | `obsidian-git` | 2.35.2 | Git backup and version control inside Obsidian |
+| Local REST API | `obsidian-local-rest-api` | 3.2.0 | MCP and local automation |
+| Local GPT | `local-gpt` | 4.2.1 | In-vault AI actions |
+| AI Providers | `ai-providers` | 1.10.0 | Ollama and provider routing |
+| Meta Bind | `obsidian-meta-bind-plugin` | 1.4.6 | Form inputs and views |
+| Dataview | `dataview` | 0.5.68 | Query blocks and dashboards |
+| Virtual Linker | `virtual-linker` | 1.5.2 | Glossary-style virtual links |
+| Open in Terminal | `open-in-terminal` | 0.6.0 | Open note path in terminal |

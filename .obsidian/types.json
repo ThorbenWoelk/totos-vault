@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "ai_generated": "checkbox",
+    "category": "multitext",
+    "connections": "multitext",
+    "created": "date",
+    "cssclasses": "multitext",
+    "checked": "checkbox",
+    "human_approved": "checkbox",
+    "last_edited": "date",
+    "tagging_last_processed": "date",
+    "tagging_processed_count": "number",
+    "tags": "tags"
+  }
+}

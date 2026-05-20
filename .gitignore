@@ -1,6 +1,16 @@
 # === Obsidian ===
-.obsidian/
-*.obsidian/
+# Ignore volatile UI-related state
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/plugins/obsidian-local-rest-api/data.json
+
+# Ignore system and editor files (more specific to what I do)
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
 999 Images/
 
 # === Raw captured sources ===
