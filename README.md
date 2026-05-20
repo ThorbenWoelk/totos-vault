@@ -39,7 +39,7 @@ Full plugin state is declared in `.obsidian/community-plugins.json`, `.obsidian/
 
 ### Community plugins
 
-Shared across `totos-vault`, `totos-journal`, and `totos-job-vault`. Re-sync with `/Users/thorben.woelk/repos/_obsidian/scripts/sync-obsidian-setup.sh`. Workspace reference: `OBSIDIAN_SETUP.md`.
+Shared across `totos-vault`, `totos-journal`, and `totos-job-vault` via each repo's `.obsidian/` directory.
 
 | Plugin | ID | Version | Role |
 | --- | --- | --- | --- |

@@ -32,7 +32,7 @@ Configuration documentation for the AI memory vault infrastructure.
 
 ## Required Plugins
 
-Shared across all three vaults (`totos-vault`, `totos-journal`, `totos-job-vault`). Sync script: `/Users/thorben.woelk/repos/_obsidian/scripts/sync-obsidian-setup.sh`.
+Shared across all three vault repos via each `.obsidian/community-plugins.json`.
 
 - Obsidian Git — version control
 - Local REST API — MCP connectivity
