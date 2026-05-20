@@ -2,15 +2,15 @@
 created: 2025-08-04
 last_edited: 2026-04-24
 tags:
-- youtube-monitoring
-- youtube-api
-- rss
+- youtube
+- monitoring
 - python
 - automation
-- cli
-- configuration
-- implementation-guide
-- transcript-processing
+- rss
+- api
+- transcripts
+- guide
+- implementation
 connections:
 - '[[001 Knowledge Base/Technical/_index|Technical Index]]'
 - '[[2026-03-31 Claude Code Leak]]'
@@ -19,6 +19,8 @@ ai_generated: false
 human_approved: false
 category:
 - Technical
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 **Purpose**: Complete technical guide for implementing YouTube channel monitoring in transcript loader applications
 

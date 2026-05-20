@@ -7,10 +7,9 @@ tags:
 - prompt-injection
 - rce
 - sandboxing
-- security-risks
 - llm-limitations
-- cybersecurity
 - zero-trust
+- context-compression
 connections:
 - '[[Common AI Development Prompts]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -20,7 +19,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Memory and Compaction
 

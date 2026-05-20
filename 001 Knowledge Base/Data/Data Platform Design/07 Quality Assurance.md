@@ -2,22 +2,23 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - data-quality
-  - dbt
-  - schema-tests
-  - custom-tests
-  - data-freshness
-  - statistical-testing
-  - testing-strategy
+- data-quality
+- dbt
+- data-engineering
+- schema-tests
+- data-freshness
+- statistical-testing
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## The Philosophy
 In Data Engineering, **Trust is the Product**. If the numbers are wrong once, business users lose trust. Integrating tests should be in the definition of "done".

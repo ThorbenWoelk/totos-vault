@@ -5,13 +5,9 @@ tags:
 - nested-learning
 - catastrophic-forgetting
 - continual-learning
-- multi-timescale-optimization
-- continuum-memory
-- deep-momentum-gradient-descent
 - large-language-models
-- hierarchical-optimization
-- self-modifying-architectures
-- memory-modules
+- continuum-memory
+- memory
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2017 Attention Is All You Need - Vaswani et al]]'
@@ -20,6 +16,8 @@ human_approved: false
 category:
 - AI
 - Papers
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Google introduces nested learning in 2025 to tackle catastrophic forgetting and anterograde amnesia (limitedness to immediate context) in LLMs. 
 

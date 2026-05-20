@@ -4,10 +4,9 @@ last_edited: 2026-04-24
 tags:
 - connectionism
 - neural-networks
-- distributed-representation
 - parallel-processing
 - computational-cognition
-- backpropagation
+- distributed-representation
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 - '[[Reinforcement Learning]]'
@@ -16,6 +15,8 @@ human_approved: false
 category:
 - Psychology
 - Computational Modeling of Cognition
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Connectionism (Parallel Distributed Processing)
 

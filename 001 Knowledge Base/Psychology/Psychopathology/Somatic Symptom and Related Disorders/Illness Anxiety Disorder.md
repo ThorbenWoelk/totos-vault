@@ -4,11 +4,12 @@ last_edited: 2026-04-24
 tags:
 - illness-anxiety-disorder
 - hypochondriasis
-- somatic-symptom-related-disorders
-- cognitive-behavioral-therapy
+- somatic-disorders
+- cbt
 - dsm-5
 - icd-11
-- anxiety-disorders
+- anxiety
+- psychopathology
 connections:
 - '[[Somatic Symptom Disorder]]'
 - '[[Generalized Anxiety Disorder]]'
@@ -19,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Somatic Symptom and Related Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Illness Anxiety Disorder (Hypochondriasis)
 

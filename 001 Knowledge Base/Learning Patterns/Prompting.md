@@ -2,18 +2,22 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - prompt-engineering
-  - video-generation
-  - generative-ai
+- prompting
+- video-generation
+- learning-pattern
+- grok
+- replication
 connections:
-  - "[[Common AI Development Prompts]]"
-  - "[[001 Knowledge Base/Learning Patterns/_index|Learning Patterns Index]]"
-  - "[[AI Coding Concepts]]"
+- '[[Common AI Development Prompts]]'
+- '[[001 Knowledge Base/Learning Patterns/_index|Learning Patterns Index]]'
+- '[[AI Coding Concepts]]'
 ai_generated: false
 human_approved: false
 category:
-  - Knowledge Base
-  - Learning Patterns
+- Knowledge Base
+- Learning Patterns
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Navigate to Grok > Imagine. Write a prompt to replicate a short video to the best of your abilities. Then use prompt to create a video and validate how close you are.
 

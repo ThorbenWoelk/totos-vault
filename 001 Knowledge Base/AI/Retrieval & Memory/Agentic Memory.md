@@ -2,7 +2,7 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- memory
+- agentic-memory
 - short-term-memory
 - episodic-memory
 - semantic-memory
@@ -18,6 +18,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Types of Memory
 

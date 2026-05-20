@@ -2,16 +2,16 @@
 created: 2025-07-08
 last_edited: 2026-04-24
 tags:
-- software-design-principles
-- solid-principles
-- dry-principle
-- kiss-principle
-- event-driven-architecture
-- microservices
-- distributed-systems
-- clean-architecture
-- scalability-principles
+- design-principles
+- solid
+- software-architecture
 - architectural-patterns
+- distributed
+- systems
+- microservices
+- scalability
+- event-driven
+- clean-architecture
 connections:
 - - Development Wisdom and Pragmatic Principles
 - - Everything is a Tradeoff
@@ -19,6 +19,8 @@ ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Comprehensive collection of software design principles, from foundational coding practices to complex distributed system patterns. These principles guide the creation of maintainable, scalable, and robust software systems.

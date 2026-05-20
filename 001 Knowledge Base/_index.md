@@ -4,6 +4,7 @@ last_edited: 2026-04-24
 tags:
 - meta
 - index
+- knowledge-base
 connections:
 - '[[001 Knowledge Base/0 - TIL/_index|0 - TIL Index]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -13,8 +14,10 @@ ai_generated: true
 human_approved: false
 category:
 - Knowledge Base
-description: 'LLM-maintained top-level Knowledge Base index'
+description: LLM-maintained top-level Knowledge Base index
 last_updated: 2026-04-15
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Knowledge Base Index
 

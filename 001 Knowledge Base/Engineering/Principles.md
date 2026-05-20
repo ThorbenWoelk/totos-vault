@@ -2,15 +2,16 @@
 created: 2026-01-28
 last_edited: 2026-04-24
 tags:
-- engineering-principles
-- amdahl-law
-- cap-theorem
-- kiss-principle
-- moore-law
-- paxos
-- yagni
-- distributed-systems
+- engineering
+- principles
+- laws
+- distributed
+- systems
+- architecture
 - scalability
+- simplicity
+- algorithms
+- consensus
 connections:
 - '[[001 Knowledge Base/Engineering/_index|Engineering Index]]'
 - '[[Software Design Principles - Comprehensive Guide]]'
@@ -20,6 +21,8 @@ human_approved: false
 category:
 - Knowledge Base
 - Engineering
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Laws, theorems, and normative statements.
 

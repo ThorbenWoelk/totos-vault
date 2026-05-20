@@ -2,21 +2,31 @@
 created: 2025-12-19
 last_edited: 2026-04-29
 tags:
-  - ai-models
-  - ai-harnesses
-  - security-approval
-  - provider-variability
-  - model-quality
+- harnesses
+- agents
+- workflow
+- skills
+- codex
+- cursor
+- claude-code
+- quality
+- ai
 connections:
-  - "[[001 Knowledge Base/AI/_index|AI Index]]"
-  - "[[2026-03]]"
+- '[[001 Knowledge Base/AI/_index|AI Index]]'
+- '[[2026-03]]'
 ai_generated: false
 human_approved: false
 category:
-  - Tools & Setup
-  - AI Tools
+- Tools & Setup
+- AI Tools
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
-# Current Setup
+## What is a harness?
+
+![[Pasted image 20260511150656.png]]
+
+## Current Setup
 
 ```yaml
 harness: codex-app
@@ -42,11 +52,11 @@ Shell: Warp
 
 I manage my SKILLS.md setup in a central space and symlink all harnesses' skill locations to them. 
 
-## Codex App Workflow
+### Codex App Workflow
 
 I work on 1-4 chats and projects at the same time. I heavily use queuing to push the time-till-next-input up and reduce the mental tax that comes with context-switching.
 
-## Most important skills - here to stay
+### Most important skills - here to stay
 
 **Skill Management Skill** - it tells AI how to manage my skills so that it can set up a new one or edit an existing one without messing up symlink structure or templating approach.
 
@@ -54,26 +64,26 @@ I work on 1-4 chats and projects at the same time. I heavily use queuing to push
 
 **Openclaw Setup** - The skillI use for AI to manage my openclaw server and setup. 
 
-## Questionable
+### Questionable
 
 **tskills CLI** - CLI to help templating skills and skill-execution (set up with a similar idea to what gstack does). 
 
 **Agent TOMLs** - A set of what Codex calls "prompts". As codex doesnt use them by it's own and they need to be explicitly invoked, I'm not sure if I'll keep them.
 
-## Quality
+### Quality
 
 The harness you use to run AI models matters a lot for the quality of results of your agents. For instance, Anthropic models perform differently when run inside Claude Code or Cursor. 
 
 Harnesses - as well as models - don't necessarily get better all the time. Sometimes, like in early 2025 (Claude Code) or early 2026 (Codex), they decline in quality. For instance when a new model comes out and the AI company has a hard time managing the rush on their hardware. After a while, they might cook again (e.g. at the end of 2025 when ralph wiggum pattern made Claude Code taking over competition entirely). 
 
-## List of Harnesses I know
+### List of Harnesses I know
 
 Codex App & CLI, Claude Code, Antigravity & gemini CLI, Warp, Kilo, Crush, Windsurf, Mistral vibe CLI.
 
 
 Frequently changing providers and harnesses makes it all the more challenging for companies that usually have a long security and approval process to allow the use of a new technology.
 
-## Out of Scope
+### Out of Scope
 
 I don't spawn subagents. Sometimes the harness does. 
 
@@ -81,9 +91,9 @@ I don't run multiple worktrees, it's too much overhead.
 
 Most of the time I run multiple agents on different parts of codebase in same project and branch. Messy git log but fast. I push to main most of the time. 
 
-## To be explored later
+### To be explored later
 
-### Better Context Mgmt
+#### Better Context Mgmt
 
 See the `/tree` command in Pi. It let's you revert to a point in time where `context = context - recent deadend sidequest`. 
 

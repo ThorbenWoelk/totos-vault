@@ -4,12 +4,8 @@ last_edited: 2026-04-24
 tags:
 - optimization
 - gradient-descent
-- learning-rate
-- momentum
-- adam
-- loss-function
-- deep-learning
 - machine-learning
+- deep-learning
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025 Nested Learning - Behrouz et al]]'
@@ -18,6 +14,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 In machine learning, we have a **loss function** that measures how wrong our model's predictions are. We want to minimize the loss function. 
 

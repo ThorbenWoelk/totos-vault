@@ -3,12 +3,14 @@ created: 2025-12-19
 last_edited: 2026-04-24
 tags:
 - ai
+- llm
 - case-study
 - decision-support
-- corporate-use
-- integration-issues
-- model-issues
-- large-language-models
+- instability
+- reasoning
+- streaming
+- integration
+- api
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025-11-26 Reward Hacking and Misalignment]]'
@@ -17,6 +19,8 @@ ai_generated: false
 human_approved: true
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # The age of AI-influence everywhere
 

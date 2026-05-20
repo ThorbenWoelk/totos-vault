@@ -2,13 +2,16 @@
 created: 2025-12-19
 last_edited: 2026-04-24
 tags:
-- tagging-system
+- tagging
+- frontmatter
 - automation
-- metadata
-- standardization
+- obsidian
+- rust
+- ollama
 - procedure
-- ai-memory
-- obsidian-standardizer
+- standardization
+- metadata
+- ai
 connections:
 - '[[Documentation Standards]]'
 - '[[Local Speaker Discovery and Control]]'
@@ -18,6 +21,8 @@ human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Tagging System
 

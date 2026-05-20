@@ -7,6 +7,7 @@ tags:
 - empathy
 - positive-regard
 - therapy-outcomes
+- psychotherapy
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 - '[[Cultural Competence]]'
@@ -17,6 +18,8 @@ category:
 - Knowledge Base
 - Psychology
 - Practice
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Common Factors Theory
 

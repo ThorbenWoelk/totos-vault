@@ -3,10 +3,11 @@ created: 2025-12-31
 last_edited: 2026-04-29
 tags:
 - llm
-- missing-capabilities
+- limitations
+- intelligence
 - alignment
-- safety
-- guardrails
+- understanding
+- ai-safety
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[The Ugly]]'
@@ -16,6 +17,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 A goal/drive/motivation. And guardrails/inhibition. 
 That given, they can improve human intelligence. 

@@ -3,8 +3,11 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - health-behavior-change
-- stages-of-change
-- behavior-change-models
+- transtheoretical-model
+- health-psychology
+- addiction
+- eating-disorders
+- motivation
 connections:
 - '[[../Substance-Related and Addictive Disorders/Alcohol Use Disorder]]'
 - '[[../Eating Disorders/Anorexia Nervosa]]'
@@ -13,7 +16,8 @@ human_approved: false
 category:
 - Psychology
 - Health Psychology
-tagging_processed_count: 2
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Health Behavior Change
 

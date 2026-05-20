@@ -3,11 +3,10 @@ created: 2026-04-01
 last_edited: 2026-04-24
 tags:
 - ai-security
-- agent-risk
+- agents
 - data-leakage
 - llm-vulnerability
-- system
-- prompt
+- exfiltration
 connections:
 - '[[Common AI Development Prompts]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -17,7 +16,8 @@ category:
 - Knowledge Base
 - AI
 - Security
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 AI Agenten sind `eval()` auf Steroiden:
 

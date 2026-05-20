@@ -2,30 +2,31 @@
 created: 2026-04-19
 last_edited: 2026-04-24
 tags:
-  - bloom-filter
-  - parquet
-  - observability
-  - data-structures
-  - query-optimization
-  - pydantic
-  - logfire
-  - apache-arrow
-  - data-engineering
+- bloom-filter
+- parquet
+- apache-arrow
+- observability
+- query-optimization
+- data-engineering
+- pydantic
+- logfire
+- open-source
 connections:
-  - "[[000 raw/_index|Raw Source Index]]"
-  - "[[Bloom Filter Folding in Parquet]]"
-  - "[[Databricks Data Engineer Professional]]"
+- '[[000 raw/_index|Raw Source Index]]'
+- '[[Bloom Filter Folding in Parquet]]'
+- '[[Databricks Data Engineer Professional]]'
 ai_generated: false
 human_approved: false
 category:
-  - raw
-  - articles
+- raw
+- articles
 compile_target: totos-vault/001 Knowledge Base/Data/Modeling & Storage/Bloom Filter Folding in Parquet.md
 compiled: true
 ingested_at: 2026-04-19
 source_type: article
 source_url: https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Bloom filter folding in Parquet: faster point lookups for observability | Pydantic Logfire Logfire Gateway Pydantic AI Pricing About Careers Blog Case Studies Pydantic AI + Logfire + Evals Pydantic Logfire + Evals Pydantic AI + Logfire Pydantic AI Docs Pydantic Validation Pydantic Logfire Pydantic AI Get in touch Get in touch Log in / Pydantic Logfire Smarter bloom filters in Parquet: how filter folding speeds up point lookups in Logfire Adrian Garcia Badaracco 5 mins 2026/04/15 If you've used Logfire to search for a sparse equality filter, say span_name = 'tool called' — you're doing a point lookup type query. A point lookup is a query that matches handful of rows out of potentially billions. The faster we can skip irrelevant data, the faster your query returns, filtering is the bottleneck for these sorts of queries.
 Bloom filters are one of the key mechanisms that make this possible in Parquet. We recently contributed an optimization to Apache Arrow that makes bloom filters both smaller and more effective. Here's what that means for Logfire.

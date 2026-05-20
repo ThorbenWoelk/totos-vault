@@ -2,11 +2,12 @@
 created: 2026-01-03
 last_edited: 2026-04-29
 tags:
-- ai
-- transformer
 - circuit-sparsity
-- model-compression
-- sparsity
+- transformer
+- mechanistic-interpretability
+- superposition
+- news
+- openai
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2026-03-31 Claude Code Leak]]'
@@ -16,6 +17,8 @@ category:
 - Knowledge Base
 - AI
 - 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Dense transformers create a problem. Every neuron connects to thousands of others, which causes feature overlap, also called _superposition_. That overlap makes internal behavior hard to trace.
 

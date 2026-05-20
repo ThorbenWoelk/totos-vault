@@ -5,7 +5,8 @@ tags:
 - cultural-competence
 - therapeutic-alliance
 - health-disparities
-- multicultural-therapy
+- cultural-bias
+- clinical-psychology
 connections:
 - '[[Therapeutic Alliance]]'
 ai_generated: true
@@ -13,6 +14,8 @@ human_approved: false
 category:
 - Psychology
 - Clinical and Counseling Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Cultural Competence in Therapy
 

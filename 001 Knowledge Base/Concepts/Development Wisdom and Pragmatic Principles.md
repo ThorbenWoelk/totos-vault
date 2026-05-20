@@ -3,14 +3,15 @@ created: 2025-07-08
 last_edited: 2026-04-24
 tags:
 - pragmatic-development
-- collaborative-development
-- interface-driven-development
-- parallel-development
+- software-craftsmanship
 - technical-debt
-- testing
-- performance
-- documentation
+- team-collaboration
 - tradeoffs
+- code-quality
+- testing
+- refactoring
+- documentation
+- performance
 connections:
 - - Software Design Principles - Comprehensive Guide
 - - Everything is a Tradeoff
@@ -19,6 +20,8 @@ ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Pragmatic development wisdom and experience-based principles that complement formal software design principles. These insights come from years of practical development experience and focus on real-world application rather than theoretical perfection.

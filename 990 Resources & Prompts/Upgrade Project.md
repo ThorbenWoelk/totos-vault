@@ -2,7 +2,7 @@
 created: 2025-12-19
 last_edited: 2026-04-24
 tags:
-- upgrade
+- migration
 - ai-sdk
 - typescript
 - bun
@@ -18,6 +18,8 @@ ai_generated: false
 human_approved: false
 category:
 - Prompt library
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Upgrade this project to use the latest version of the AI SDK (version 5). I have attached a guide on how to do the upgrade below. Please make sure to review the guide before starting your implementation [https://ai-sdk.dev/docs/migration-guides/migration-guide-5-0](https://ai-sdk.dev/docs/migration-guides/migration-guide-5-0)
 

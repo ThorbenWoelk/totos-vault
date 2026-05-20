@@ -6,6 +6,7 @@ tags:
 - markdown
 - generative-ai
 - github
+- news
 connections:
 - '[[Documentation Standards]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -14,6 +15,8 @@ human_approved: false
 category:
 - AI
 - 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 ## References

@@ -2,22 +2,24 @@
 created: 2025-07-08
 last_edited: 2026-04-24
 tags:
-- autonomy
-- mastery
-- purpose
+- motivation
 - self-determination-theory
 - flow
 - growth-mindset
 - psychological-safety
+- engagement
 - leadership
-- employee-engagement
-- motivation
+- job-design
+- autonomy
+- mastery
 connections:
 - - Everything is a Tradeoff
 ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Comprehensive guide to motivation principles based on Daniel Pink's "Drive" and extended with research on intrinsic motivation, employee engagement, and organizational psychology.

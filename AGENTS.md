@@ -2,24 +2,24 @@
 created: 2025-10-06
 last_edited: 2026-04-24
 tags:
-  - repository-guidelines
-  - project-structure
-  - coding-style
-  - testing-guidelines
-  - commit-guidelines
-  - knowledge-capture
-  - markdown-guidelines
-  - workflow
+- vault-guidelines
+- documentation
+- style
+- testing
+- knowledge-management
+- markdown
 connections:
-  - "[[Documentation Standards]]"
-  - "[[2025-11-27 App as Markdown Specs]]"
-  - "[[AI Coding Guidelines]]"
-  - "[[Levels of AI Autonomy]]"
+- '[[Documentation Standards]]'
+- '[[2025-11-27 App as Markdown Specs]]'
+- '[[AI Coding Guidelines]]'
+- '[[Levels of AI Autonomy]]'
 ai_generated: false
 human_approved: false
 category:
-  - Vault
-  - Repository Guidelines
+- Vault
+- Repository Guidelines
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Welcome to the vault
 

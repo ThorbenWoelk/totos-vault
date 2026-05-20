@@ -4,11 +4,9 @@ last_edited: 2026-04-29
 tags:
 - ai-impact
 - developer-productivity
-- early-2025-ai
-- open-source-development
 - productivity-paradox
-- management-expectations
-- research-summary
+- research
+- open-source-development
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025-11-27 App as Markdown Specs]]'
@@ -17,6 +15,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 My take:
 

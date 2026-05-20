@@ -2,11 +2,14 @@
 created: 2025-07-22
 last_edited: 2026-04-29
 tags:
-- technical-setup
 - obsidian
 - git
 - mcp
-- ai-integration
+- configuration
+- plugins
+- infrastructure
+- version-control
+- setup
 connections:
 - '[[OpenAI Agents SDK]]'
 ai_generated: false
@@ -14,6 +17,8 @@ human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Configuration documentation for the AI memory vault infrastructure.
 

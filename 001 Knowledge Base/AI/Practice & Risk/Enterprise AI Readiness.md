@@ -6,9 +6,8 @@ tags:
 - enterprise
 - data-infrastructure
 - data-ownership
-- data-governance
-- data-quality
-- ai-strategy
+- data-silos
+- andrew-ng
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[Zero Data Retention]]'
@@ -17,6 +16,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Data infra
 1. get basic data principles in place 

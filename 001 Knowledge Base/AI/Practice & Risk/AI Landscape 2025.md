@@ -3,15 +3,15 @@ created: 2025-07-25
 last_edited: 2026-04-24
 tags:
 - ai-landscape
+- llm
 - coding-assistants
-- large-language-models
-- agent-frameworks
-- vector-databases
+- ai-infrastructure
+- content-creation
+- enterprise-ai
 - ai-hardware
 - ai-safety-ethics
-- content-creation-tools
-- enterprise-ai
-- emerging-trends
+- productivity
+- computer-vision
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2026-03]]'
@@ -22,6 +22,8 @@ category:
 - Knowledge Base
 - AI
 - Practice & Risk
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 **Living document tracking the comprehensive AI tool ecosystem** 
 

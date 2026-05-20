@@ -2,26 +2,27 @@
 created: 2026-04-02
 last_edited: 2026-04-29
 tags:
-  - rag
-  - search
-  - retrieval
-  - semantic-search
-  - hybrid-search
-  - bm25
-  - vector-search
-  - pgvector
-  - lancedb
-  - ollama
+- rag
+- retrieval
+- semantic-search
+- hybrid-search
+- vector-search
+- agentic-rag
+- architecture
+- pgvector
+- lancedb
 connections:
-  - "[[RAG in Practice]]"
-  - "[[Entity Graph RAG Architecture]]"
-  - "[[RAG Best Practices]]"
+- '[[RAG in Practice]]'
+- '[[Entity Graph RAG Architecture]]'
+- '[[RAG Best Practices]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - AI
-  - RAG
+- Knowledge Base
+- AI
+- RAG
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## RAG-like architectures across repository patterns
 

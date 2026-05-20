@@ -2,14 +2,13 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- obstructive-sleep-apnea
-- hypopnea
-- cpap
+- sleep-apnea
 - dsm-5
 - icd-11
-- cardiovascular-risk
-- cognitive-deficits
-- sleep-disorder
+- cpap
+- cardiovascular
+- cognitive
+- comorbidity
 connections:
 - '[[Insomnia Disorder]]'
 - '[[Behavioral Medicine]]'
@@ -19,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Sleep-Wake Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Obstructive Sleep Apnea Hypopnea (OSAH)
 

@@ -8,7 +8,6 @@ tags:
 - comorbidity
 - dsm-5
 - icd-11
-- symptoms
 connections:
 - '[[Autism]]'
 - '[[Depression]]'
@@ -18,6 +17,8 @@ category:
 - Psychology
 - Psychopathology
 - Neurodevelopmental Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Attention-Deficit/Hyperactivity Disorder (ADHD)
 

@@ -17,6 +17,8 @@ human_approved: false
 category:
 - Psychology
 - Cognitive Neuroscience
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Neural Plasticity
 

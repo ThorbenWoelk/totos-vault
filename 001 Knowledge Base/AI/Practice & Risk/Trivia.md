@@ -2,10 +2,10 @@
 created: 2026-01-11
 last_edited: 2026-04-29
 tags:
+- vibe-coding
 - meme-origin
 - internet-culture
-- programming-meme
-- vibe-coding
+- ai-coding
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[AI Developer Practices]]'
@@ -15,6 +15,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 Where does "vibe coding" come from?
 

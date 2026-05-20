@@ -2,11 +2,12 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- psychodynamic-therapy
-- unconscious-motivation
+- psychodynamic
+- psychotherapy
+- unconscious
 - defense-mechanisms
 - transference
-- attachment-theory
+- attachment
 connections:
 - '[[Attachment Theory]]'
 - '[[Borderline Personality Disorder]]'
@@ -16,6 +17,8 @@ category:
 - Psychology
 - Clinical and Counseling Psychology
 - Psychotherapy Approaches
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Psychodynamic Therapy
 

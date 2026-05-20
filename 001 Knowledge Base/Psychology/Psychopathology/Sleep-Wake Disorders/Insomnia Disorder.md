@@ -3,11 +3,11 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - insomnia
-- cbt-i
+- psychopathology
 - dsm-5
 - icd-11
-- sleep-wake-disorder
-- psychopathology
+- cbt-i
+- sleep-disorders
 connections:
 - '[[Generalized Anxiety Disorder]]'
 - '[[Depression]]'
@@ -18,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Sleep-Wake Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Insomnia Disorder
 

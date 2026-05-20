@@ -2,26 +2,24 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - data-platform-architecture
-  - dbt
-  - layered-architecture
-  - naming-conventions
-  - ingestion
-  - transformation
-  - data-warehouse
-  - data-modeling
-  - orchestration
-  - monitoring
+- architecture
+- dbt
+- data-modeling
+- data-warehouse
+- elt
+- star-schema
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
-  - "[[03 Slowly Changing Dimensions]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
+- '[[03 Slowly Changing Dimensions]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Introduction
 A robust data platform is built on a foundation of clear, modular architecture. This ensures separation of concerns, modular replacement, and maintainability.

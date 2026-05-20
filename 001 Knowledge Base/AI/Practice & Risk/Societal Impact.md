@@ -3,7 +3,7 @@ created: 2026-01-13
 last_edited: 2026-04-24
 tags:
 - societal-impact
-- large-language-models
+- llm
 - ai-adoption
 - public-perception
 - ai-evangelism
@@ -16,6 +16,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 In contrast to previous technological development, users of all levels of understanding seem to apparently enjoy LLMs. Not always. Especially not in the earlier forms. But compared to traditional chat bots, resistance seems to crumble quite fast. Because it's just very, very useful. 
 

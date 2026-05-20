@@ -3,12 +3,13 @@ created: 2025-11-26
 last_edited: 2026-04-29
 tags:
 - agentic-ai
-- multi-agent
-- code-execution
+- llm
 - design-patterns
+- multi-agent
 - evaluation
 - prompting
-- llm
+- code-execution
+- deeplearning-ai
 connections:
 - '[[Common AI Development Prompts]]'
 - '[[How Transformer LLMs Work]]'
@@ -19,6 +20,8 @@ human_approved: false
 category:
 - Notes
 - DeepLearning.ai
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## General Takeaways
 

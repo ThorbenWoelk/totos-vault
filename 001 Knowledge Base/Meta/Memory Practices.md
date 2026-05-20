@@ -2,17 +2,19 @@
 created: 2025-12-16
 last_edited: 2026-04-29
 tags:
-- memory-techniques
+- memory
 - spaced-repetition
-- neural-glue
-- micro-reviews
 - visualization
+- mnemonics
+- learning
 connections:
 - '[[001 Knowledge Base/Meta/_index|Meta Index]]'
 ai_generated: false
 human_approved: false
 category:
 - Meta
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Neural Glue Mode
 

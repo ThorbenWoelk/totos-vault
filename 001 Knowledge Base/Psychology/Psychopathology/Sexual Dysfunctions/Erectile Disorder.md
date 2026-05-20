@@ -3,11 +3,12 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - erectile-dysfunction
-- performance-anxiety
+- sexual-dysfunction
 - dsm-5
 - icd-11
+- performance-anxiety
 - biopsychosocial
-- sexual-dysfunction
+- psychodiagnosis
 connections:
 - '[[Depression]]'
 - '[[Behavioral Medicine]]'
@@ -17,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Sexual Dysfunctions
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Erectile Disorder (Male Erectile Dysfunction)
 

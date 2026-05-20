@@ -3,8 +3,9 @@ created: 2026-01-28
 last_edited: 2026-04-29
 tags:
 - english
-- glossary
 - vocabulary
+- glossary
+- definitions
 connections:
 - '[[001 Knowledge Base/Languages/_index|Languages Index]]'
 - '[[UI Design Vocabulary]]'
@@ -13,6 +14,8 @@ human_approved: false
 category:
 - Knowledge Base
 - Languages
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## A
 

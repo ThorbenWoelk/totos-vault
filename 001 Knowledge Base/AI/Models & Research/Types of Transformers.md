@@ -18,6 +18,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## A Short History of Transformers
 

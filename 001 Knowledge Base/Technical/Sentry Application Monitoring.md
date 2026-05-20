@@ -2,23 +2,22 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-  - sentry
-  - error-tracking
-  - performance-monitoring
-  - distributed-tracing
-  - alerts
-  - integrations
-  - observability
-  - release-monitoring
-  - debugging
+- sentry
+- error-tracking
+- performance-monitoring
+- distributed-tracing
+- observability
+- devops
 connections:
-  - "[[001 Knowledge Base/Technical/_index|Technical Index]]"
-  - "[[Bloom Filter Folding in Parquet]]"
-  - "[[DevOps Principles]]"
+- '[[001 Knowledge Base/Technical/_index|Technical Index]]'
+- '[[Bloom Filter Folding in Parquet]]'
+- '[[DevOps Principles]]'
 ai_generated: true
 human_approved: false
 category:
-  - Technical
+- Technical
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Sentry is an open-source application monitoring and error tracking platform that helps developers detect, trace, and fix issues in real-time production environments.
 

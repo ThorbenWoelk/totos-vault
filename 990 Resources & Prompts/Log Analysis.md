@@ -3,11 +3,12 @@ created: 2025-12-27
 last_edited: 2026-04-24
 tags:
 - log-analysis
-- site-reliability
-- python
-- performance-optimization
-- bug-fix
-- error-reduction
+- observability
+- sre
+- performance
+- troubleshooting
+- gcp
+- prompt
 - tracing
 connections:
 - '[[AI Benchmark - Programming Task]]'
@@ -17,6 +18,8 @@ ai_generated: false
 human_approved: false
 category:
 - Prompt library
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Log Analysis & App Improvement Agent
 

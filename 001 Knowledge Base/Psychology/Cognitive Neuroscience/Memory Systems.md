@@ -2,14 +2,16 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- memory-systems
+- memory
 - declarative-memory
 - non-declarative-memory
 - episodic-memory
 - semantic-memory
 - procedural-memory
+- conditioning
 - amnesia
 - dementia
+- cognitive-neuroscience
 connections:
 - '[[Traumatic Brain Injury]]'
 - '[[Neurodegenerative Diseases]]'
@@ -18,6 +20,8 @@ human_approved: false
 category:
 - Psychology
 - Cognitive Neuroscience
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Memory Systems
 

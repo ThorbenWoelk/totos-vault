@@ -4,11 +4,9 @@ last_edited: 2026-04-24
 tags:
 - psychoneuroimmunology
 - immune
-- system
 - stress
 - inflammation
 - health-psychology
-- psychology
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 - '[[Stress and Coping]]'
@@ -17,7 +15,8 @@ human_approved: false
 category:
 - Psychology
 - Health Psychology
-tagging_processed_count: 2
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Psychoneuroimmunology (PNI)
 

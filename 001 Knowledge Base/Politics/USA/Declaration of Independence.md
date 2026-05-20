@@ -4,14 +4,14 @@ last_edited: 2026-04-24
 tags:
 - declaration-of-independence
 - american-revolution
-- john-locke
-- natural-rights
-- popular-sovereignty
 - enlightenment
-- us-history
+- natural-rights
+- thomas-jefferson
+- political-philosophy
+- slavery
 - founding-documents
-- colonial-america
 - human-rights
+- history
 connections:
 - '[[001 Knowledge Base/Politics/_index|Politics Index]]'
 - '[[US Constitution]]'
@@ -21,6 +21,8 @@ human_approved: false
 category:
 - Politics
 - USA
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 **The foundational document that declared American independence from Britain in 1776, establishing philosophical principles that shaped American political thought.**
 

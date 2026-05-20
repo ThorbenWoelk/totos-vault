@@ -2,14 +2,15 @@
 created: 2020-03-23
 last_edited: 2026-04-24
 tags:
-  - clean-code
-  - software-design
-  - programming
-  - functions
-  - data-structures
-  - error-handling
-  - testing
-  - object-oriented
+- clean-code
+- software-design
+- testing
+- oop
+- solid
+- error-handling
+- design-patterns
+- functions
+- refactoring
 connections:
 - '[[Safranski (2013) - Goethe]]'
 - '[[08 Advanced Features]]'
@@ -17,9 +18,10 @@ connections:
 ai_generated: false
 human_approved: false
 category:
-  - Notes
-  - Books
-tagging_processed_count: 1
+- Notes
+- Books
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Functions
 ## Arguments

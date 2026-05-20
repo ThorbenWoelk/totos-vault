@@ -2,22 +2,25 @@
 created: 2026-01-27
 last_edited: 2026-04-24
 tags:
-  - python
-  - sql
-  - sqlalchemy
-  - orm
-  - psycopg2
-  - postgresql
+- python
+- sql
+- database
+- orm
+- sqlalchemy
+- psycopg2
+- postgresql
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
-  - "[[06 DRY and Macros]]"
-  - "[[PySpark Concepts]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
+- '[[06 DRY and Macros]]'
+- '[[PySpark Concepts]]'
 ai_generated: true
 human_approved: false
 category:
-  - Knowledge Base
-  - Data
+- Knowledge Base
+- Data
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## psycopg2 vs SQLAlchemy
 

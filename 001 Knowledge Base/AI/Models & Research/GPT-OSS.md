@@ -6,8 +6,6 @@ tags:
 - open-source
 - transformer
 - llm
-- visual-guide
-- architecture
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[Types of Transformers]]'
@@ -17,6 +15,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ![[Pasted image 20251227153210.png]]
 

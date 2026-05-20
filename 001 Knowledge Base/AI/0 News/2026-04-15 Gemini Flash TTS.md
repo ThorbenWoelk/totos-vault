@@ -2,22 +2,22 @@
 created: 2026-04-16
 last_edited: 2026-04-29
 tags:
-  - gemini
-  - tts
-  - speech-generation
-  - audio-tags
-  - multi-speaker
-  - synthid
-  - google-ai-studio
-  - vertex-ai
-  - product-update
+- gemini
+- tts
+- google
+- product-update
+- ai
+- watermarking
+- vertex-ai
 connections:
-  - "[[AI Tooling and Harnesses]]"
+- '[[AI Tooling and Harnesses]]'
 ai_generated: true
 human_approved: false
 category:
-  - AI
-  - 0 News
+- AI
+- 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Core idea
 

@@ -6,7 +6,7 @@ tags:
 - predictive-coding
 - computational-modeling
 - perception
-- schizophrenia
+- bayesian-inference
 connections:
 - '[[Perception]]'
 ai_generated: true
@@ -14,6 +14,8 @@ human_approved: false
 category:
 - Psychology
 - Computational Modeling of Cognition
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # The Bayesian Brain
 

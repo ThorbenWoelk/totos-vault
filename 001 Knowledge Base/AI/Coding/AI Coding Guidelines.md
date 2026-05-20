@@ -2,22 +2,22 @@
 created: 2025-09-23
 last_edited: 2026-04-29
 tags:
-  - ai-coding
-  - best-practices
-  - human-in-loop
-  - agent-architecture
-  - iterative-task-management
-  - monitoring
-  - templates
-  - workflow
-  - code-review
-  - todo-pattern
+- ai-coding
+- best-practices
+- human-in-loop
+- workflow
+- code-review
+- context-management
+- prompt-engineering
+- productivity
 connections:
-  - "[[AI Agents - Engineering Guidelines]]"
+- '[[AI Agents - Engineering Guidelines]]'
 ai_generated: false
 human_approved: false
 category:
-  - AI
+- AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 What does it mean to be good at AI-based coding? This is a collection of things you should learn and do as a software engineer in the age of AI. 
 

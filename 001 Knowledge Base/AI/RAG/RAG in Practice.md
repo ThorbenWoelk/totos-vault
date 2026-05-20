@@ -2,25 +2,26 @@
 created: 2026-01-29
 last_edited: 2026-04-24
 tags:
-  - rag
-  - llm
-  - vector-space-model
-  - bm25
-  - vector-database
-  - indexing
-  - retrieval
-  - generation
-  - embeddings
+- rag
+- llm
+- retrieval
+- generation
+- indexing
+- embeddings
+- vector-database
+- bm25
 connections:
-  - "[[RAG Best Practices]]"
-  - "[[Entity Graph RAG Architecture]]"
-  - "[[RAG and Repository Search]]"
+- '[[RAG Best Practices]]'
+- '[[Entity Graph RAG Architecture]]'
+- '[[RAG and Repository Search]]'
 ai_generated: false
 human_approved: false
 category:
-  - Knowledge Base
-  - AI
-  - RAG
+- Knowledge Base
+- AI
+- RAG
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # RAG concepts
 

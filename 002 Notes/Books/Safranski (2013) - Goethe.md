@@ -2,20 +2,22 @@
 created: 2018-03-23
 last_edited: 2026-04-24
 tags:
-  - goethe
-  - literatur
-  - kunst
-  - geistige-analyse
-  - werk
-  - kultur
+- goethe
+- biographie
+- literatur
+- philosophie
+- geistesgeschichte
+- safranski
+- apercu
 connections:
 - '[[Clean Code]]'
 ai_generated: false
 human_approved: false
 category:
-  - Notes
-  - Books
-tagging_processed_count: 1
+- Notes
+- Books
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Vorwort
 

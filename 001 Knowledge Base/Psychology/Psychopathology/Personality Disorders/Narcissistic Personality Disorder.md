@@ -6,9 +6,9 @@ tags:
 - dsm-5
 - personality-disorders
 - grandiosity
-- lack-of-empathy
+- empathy
 - entitlement
-- need-for-admiration
+- admiration
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 ai_generated: true
@@ -17,6 +17,8 @@ category:
 - Psychology
 - Psychopathology
 - Personality Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Narcissistic Personality Disorder (NPD)
 

@@ -2,26 +2,25 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - dbt
-  - bigquery
-  - materialization
-  - incremental
-  - insert-overwrite
-  - merge
-  - partitioning
-  - clustering
-  - view
-  - ephemeral
+- dbt
+- bigquery
+- materialization
+- incremental
+- partitioning
+- clustering
+- data-engineering
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[05 Incremental Processing Patterns]]"
-  - "[[10 Modern Alternatives and Optimization]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[05 Incremental Processing Patterns]]'
+- '[[10 Modern Alternatives and Optimization]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Introduction
 "Materialization" defines how dbt persists your model in the database: as a Table, a View, or Ephemeral code. In a BigQuery environment processing terabytes of data, this choice dictates performance and cost.

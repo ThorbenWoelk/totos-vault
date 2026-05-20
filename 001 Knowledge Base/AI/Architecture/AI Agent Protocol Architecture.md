@@ -2,23 +2,25 @@
 created: 2025-07-25
 last_edited: 2026-04-29
 tags:
-  - agent-protocol-stack
-  - model-context-protocol
-  - agent-to-agent-protocol
-  - agent-user-interface
-  - event-driven
-  - transport-agnostic
-  - ai-architecture
+- ai-architecture
+- protocol-stack
+- model-context-protocol
+- agent-to-agent
+- agent-user-interface
+- multi-agent
+- event-driven
 connections:
-  - "[[001 Knowledge Base/AI/_index|AI Index]]"
-  - "[[Manus AI]]"
-  - "[[AI Enterprise Readiness]]"
+- '[[001 Knowledge Base/AI/_index|AI Index]]'
+- '[[Manus AI]]'
+- '[[AI Enterprise Readiness]]'
 ai_generated: true
 human_approved: false
 category:
-  - Knowledge Base
-  - AI
-  - Architecture
+- Knowledge Base
+- AI
+- Architecture
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Modern AI agent architectures require standardized protocols for different types of interactions. Three complementary protocols form the foundational layer of the agentic protocol stack, each serving distinct purposes in the agent ecosystem.
 

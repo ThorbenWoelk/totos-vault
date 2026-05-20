@@ -7,6 +7,7 @@ tags:
 - panic-attacks
 - dsm-5
 - icd-11
+- psychopathology
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 ai_generated: true
@@ -15,6 +16,8 @@ category:
 - Psychology
 - Psychopathology
 - Anxiety Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Panic Disorder
 

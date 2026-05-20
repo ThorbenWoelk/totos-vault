@@ -2,11 +2,12 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- neurodegenerative-diseases
+- neurodegenerative
+- dementia
+- neuropsychology
 - alzheimer-disease
 - parkinson-disease
 - frontotemporal-dementia
-- neuropsychological-testing
 connections:
 - '[[Assessment and Diagnosis]]'
 ai_generated: true
@@ -14,6 +15,8 @@ human_approved: false
 category:
 - Psychology
 - Neuropsychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Neurodegenerative Diseases
 

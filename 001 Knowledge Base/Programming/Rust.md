@@ -2,22 +2,22 @@
 created: 2026-01-07
 last_edited: 2026-04-24
 tags:
-  - rust
-  - axum
-  - serde
-  - declarative-macro
-  - procedural-macro
-  - literals
+- rust
+- literals
+- declarative-macro
+- procedural-macro
 connections:
-  - "[[001 Knowledge Base/Programming/_index|Programming Index]]"
-  - "[[2026-04]]"
-  - "[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]"
-  - "[[UI Design Vocabulary]]"
+- '[[001 Knowledge Base/Programming/_index|Programming Index]]'
+- '[[2026-04]]'
+- '[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]'
+- '[[UI Design Vocabulary]]'
 ai_generated: false
 human_approved: false
 category:
-  - Knowledge Base
-  - Programming
+- Knowledge Base
+- Programming
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ### literal
 A literal is a piece of source code that directly represents a value, without any function call or variable lookup.

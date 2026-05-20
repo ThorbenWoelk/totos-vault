@@ -2,14 +2,13 @@
 created: 2025-12-19
 last_edited: 2026-04-24
 tags:
-- data-platform
 - data-architecture
+- data-engineering
 - ingestion
 - elt
 - lakehouse
 - data-warehouse
 - data-lake
-- data-engineering
 connections:
 - '[[001 Knowledge Base/Data/_index|Data Index]]'
 - '[[01 Architecture and Layering]]'
@@ -18,6 +17,8 @@ ai_generated: false
 human_approved: false
 category:
 - Data
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Data Platform Engineering
 ## Architecture

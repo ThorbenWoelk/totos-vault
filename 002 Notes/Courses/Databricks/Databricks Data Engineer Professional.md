@@ -4,13 +4,14 @@ last_edited: 2026-04-24
 tags:
 - databricks
 - delta-lake
-- data-engineering
 - spark
-- etl
+- certification
+- data-engineering
 - streaming
-- cdc
 - optimization
-- data-modeling
+- cdc
+- unity-catalog
+- lakeflow
 connections:
 - '[[Databricks Data Engineer Associate]]'
 - '[[11 Iceberg vs Delta Lake]]'
@@ -21,7 +22,8 @@ category:
 - Notes
 - Courses
 - Databricks
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Delta Tables
 

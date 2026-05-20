@@ -2,16 +2,22 @@
 created: 2026-05-11
 last_edited: 2026-05-11
 tags:
-- linear
-- linear-archive
 - done-issue
+- tenancy
+- migration
+- testing
+- firestore
+- rust
+- household
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - Linear Archive
 - Issues
-- "Linear Archive/Putz & Munter"
+- Linear Archive/Putz & Munter
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # CH-449 - Phase 2: add tenancy tests and migration tooling

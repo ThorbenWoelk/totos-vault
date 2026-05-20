@@ -2,14 +2,15 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- aggression
-- antisocial
-- conduct
-- child-psychology
-- diagnosis
+- conduct-disorder
 - psychopathology
 - dsm-5
 - icd-11
+- child-psychology
+- callous-unemotional
+- antisocial
+- disruptive-behavior
+- aggression
 connections:
 - '[[Oppositional Defiant Disorder]]'
 - Antisocial Personality Disorder
@@ -19,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Disruptive, Impulse-Control, and Conduct Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Conduct Disorder (CD)
 

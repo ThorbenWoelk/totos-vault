@@ -8,8 +8,10 @@ tags:
 - bill-of-rights
 - separation-of-powers
 - checks-and-balances
-- constitutional-interpretation
-- constitutional-history
+- supreme-court
+- law
+- judicial-review
+- ratification
 connections:
 - '[[001 Knowledge Base/Politics/_index|Politics Index]]'
 - '[[US Government System Architecture]]'
@@ -19,6 +21,8 @@ human_approved: false
 category:
 - Politics
 - USA
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 **The supreme law of the United States, establishing the framework of federal government and defining the relationship between federal and state authority.**
 

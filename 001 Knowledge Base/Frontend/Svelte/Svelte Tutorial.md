@@ -4,9 +4,8 @@ last_edited: 2026-04-29
 tags:
 - svelte
 - frontend
-- svelte-tutorial
-- react-comparison
-- component-lifecycle
+- reactivity
+- rendering
 connections:
 - '[[001 Knowledge Base/_index|Knowledge Base Index]]'
 - '[[UI Design Vocabulary]]'
@@ -16,7 +15,8 @@ category:
 - 001 Knowledge Base
 - Frontend
 - Svelte
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Component Rendering
 

@@ -2,24 +2,25 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - dimensional-modeling
-  - star-schema
-  - surrogate-keys
-  - dbt
-  - bigquery
-  - data-warehouse
-  - sql
-  - kimball
+- kimball
+- dimensional-modeling
+- star-schema
+- fact-table
+- dimension-table
+- surrogate-keys
+- data-warehouse
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[03 Slowly Changing Dimensions]]"
-  - "[[01 Architecture and Layering]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[03 Slowly Changing Dimensions]]'
+- '[[01 Architecture and Layering]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Introduction
 **Dimensional Modeling** is a technique popularized by Ralph Kimball. It is designed to maximize query performance and ease of use for business analysts. The central concept is the **Star Schema**.

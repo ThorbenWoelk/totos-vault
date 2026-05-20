@@ -5,13 +5,11 @@ tags:
 - comfyui
 - local-image-gen
 - checkpoints
-- split-models
 - lora
 - k-sampling
-- fp8
-- gguf
 - quantization
 - macos
+- gguf
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025-12 AI Recap]]'
@@ -22,6 +20,8 @@ category:
 - Knowledge Base
 - AI
 - Local ImageGen
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ###  The Crash Course: Model Types
 

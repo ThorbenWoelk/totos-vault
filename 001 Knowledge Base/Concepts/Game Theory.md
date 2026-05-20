@@ -14,6 +14,8 @@ ai_generated: false
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Axelrod's repeated prisoner's dilemma
 

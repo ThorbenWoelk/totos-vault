@@ -2,22 +2,25 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - dbt
-  - macros
-  - dry
-  - business-logic
-  - best-practices
-  - sql
+- dbt
+- macros
+- dry
+- jinja
+- business-logic
+- best-practices
+- data-engineering
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
-  - "[[01 Architecture and Layering]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
+- '[[01 Architecture and Layering]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## The dbt Solution: Jinja Macros
 Macros are functions that write SQL for you.

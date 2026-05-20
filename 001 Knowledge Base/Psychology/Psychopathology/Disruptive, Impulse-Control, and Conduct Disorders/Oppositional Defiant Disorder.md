@@ -6,7 +6,9 @@ tags:
 - dsm-5
 - icd-11
 - disruptive-impulse-control
-- comorbid-adhd
+- childhood-disorder
+- conduct-disorder
+- adhd
 connections:
 - '[[Conduct Disorder]]'
 - '[[ADHD]]'
@@ -16,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Disruptive, Impulse-Control, and Conduct Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Oppositional Defiant Disorder (ODD)
 

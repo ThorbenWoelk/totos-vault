@@ -2,11 +2,12 @@
 created: 2025-12-15
 last_edited: 2026-04-24
 tags:
+- depression
 - major-depressive-disorder
 - mood-disorder
 - dsm-5
 - icd-11
-- attachment-theory
+- psychopathology
 connections:
 - '[[Attachment Theory]]'
 ai_generated: true
@@ -15,6 +16,8 @@ category:
 - Psychology
 - Psychopathology
 - Mood Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Depression (Major Depressive Disorder)
 

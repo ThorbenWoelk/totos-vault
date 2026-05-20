@@ -7,7 +7,6 @@ tags:
 - auditory-perception
 - top-down
 - bottom-up
-- sensory-processing
 - cognitive-neuroscience
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
@@ -17,6 +16,8 @@ human_approved: false
 category:
 - Psychology
 - Cognitive Neuroscience
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Perception
 

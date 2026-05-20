@@ -2,19 +2,25 @@
 created: 2026-04-24
 last_edited: 2026-04-29
 tags:
-  - learning-session
-  - rust
-  - programming
+- rust
+- methods
+- syntax
+- ufcs
+- iterators
+- closures
+- python
 connections:
-  - "[[000 raw/_index|Raw Source Index]]"
-  - "[[Rust]]"
-  - "[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]"
+- '[[000 raw/_index|Raw Source Index]]'
+- '[[Rust]]'
+- '[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]'
 ai_generated: true
 human_approved: false
 category:
-  - programming
+- programming
 type: learning-session
 topic: Rust method call syntax
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Rust Method Call Syntax
 

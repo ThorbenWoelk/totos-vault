@@ -3,9 +3,9 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - somatic-symptom-disorder
+- psychopathology
 - dsm-5
 - icd-11
-- psychopathology
 - health-anxiety
 connections:
 - '[[Generalized Anxiety Disorder]]'
@@ -16,6 +16,8 @@ category:
 - Psychology
 - Psychopathology
 - Somatic Symptom and Related Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Somatic Symptom Disorder (Bodily Distress Disorder)
 

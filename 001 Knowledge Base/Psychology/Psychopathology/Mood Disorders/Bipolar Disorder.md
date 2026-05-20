@@ -6,7 +6,10 @@ tags:
 - mood-disorder
 - dsm-5
 - icd-11
+- mania
+- hypomania
 - diagnosis
+- differential-diagnosis
 connections:
 - '[[Depression]]'
 ai_generated: true
@@ -15,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Mood Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Bipolar Disorder
 

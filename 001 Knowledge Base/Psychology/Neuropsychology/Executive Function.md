@@ -3,13 +3,11 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - executive-function
+- neuropsychology
+- cognition
 - inhibition
 - working-memory
 - cognitive-flexibility
-- adhd
-- traumatic-brain-injury
-- schizophrenia
-- depression
 connections:
 - '[[../Neurodevelopmental Disorders/ADHD]]'
 ai_generated: true
@@ -17,6 +15,8 @@ human_approved: false
 category:
 - Psychology
 - Neuropsychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Executive Function
 

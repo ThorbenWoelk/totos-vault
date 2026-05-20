@@ -8,6 +8,8 @@ tags:
 - icd-11
 - ssri
 - behavioral-therapy
+- anxiety
+- diagnosis
 connections:
 - '[[Erectile Disorder]]'
 - '[[Generalized Anxiety Disorder]]'
@@ -17,6 +19,8 @@ category:
 - Psychology
 - Psychopathology
 - Sexual Dysfunctions
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Premature Ejaculation (Male Early Ejaculation)
 

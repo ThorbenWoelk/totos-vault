@@ -4,10 +4,8 @@ last_edited: 2026-04-29
 tags:
 - ai-safety
 - reward-hacking
-- misalignment
-- large-language-models
-- anthropic
 - emergent-misalignment
+- llm
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025-12 AI Recap]]'
@@ -16,6 +14,8 @@ human_approved: false
 category:
 - AI
 - 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Back in the day, we chuckled when an LLM found a surprising solution to a task, finding a loophole in its imperfect description. Nowadays we've got a name for it: reward hacking. And it comes with delinquent behavior.
 

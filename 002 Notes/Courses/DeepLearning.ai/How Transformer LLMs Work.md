@@ -6,8 +6,11 @@ tags:
 - llm
 - attention
 - tokenization
+- embeddings
+- bert
 - sampling
-- decoding
+- kv-caching
+- deeplearning-ai
 connections:
 - '[[Neural Network Embeddings Process]]'
 - '[[Agentic AI]]'
@@ -17,7 +20,8 @@ human_approved: false
 category:
 - Notes
 - DeepLearning.ai
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 ## From Neural Networks to Transformers
 

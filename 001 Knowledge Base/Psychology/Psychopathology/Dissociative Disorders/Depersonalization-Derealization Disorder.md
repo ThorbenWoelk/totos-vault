@@ -2,16 +2,15 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- anxiety
-- dissociation
 - depersonalization
 - derealization
-- disorder
+- dissociation
+- dissociative-disorders
 - reality-testing
-- trauma
 - dsm-5
 - icd-11
 - psychopathology
+- diagnosis
 connections:
 - '[[Panic Disorder]]'
 - '[[Post-Traumatic Stress Disorder|PTSD]]'
@@ -21,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Dissociative Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Depersonalization-Derealization Disorder
 

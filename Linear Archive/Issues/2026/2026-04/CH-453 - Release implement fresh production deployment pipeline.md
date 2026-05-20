@@ -5,13 +5,22 @@ tags:
 - linear
 - linear-archive
 - done-issue
+- deployment
+- ci-cd
+- production
+- cloud-run
+- firebase
+- github-actions
+- infrastructure
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - Linear Archive
 - Issues
-- "Linear Archive/Putz & Munter"
+- Linear Archive/Putz & Munter
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # CH-453 - Release: implement fresh production deployment pipeline

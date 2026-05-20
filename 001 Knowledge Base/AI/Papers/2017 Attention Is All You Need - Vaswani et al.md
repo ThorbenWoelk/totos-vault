@@ -4,12 +4,12 @@ last_edited: 2026-04-24
 tags:
 - transformer
 - attention
-- multi-head-attention
-- positional-encoding
-- encoder-decoder
-- machine-translation
-- large-language-models
 - nlp
+- deep-learning
+- machine-translation
+- llm
+- paper
+- sequence-modeling
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2025 Nested Learning - Behrouz et al]]'
@@ -18,6 +18,8 @@ human_approved: false
 category:
 - AI
 - Papers
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 The 2017 paper **“Attention Is All You Need”** by Vaswani et al. marks a turning point in machine learning. It introduces the **Transformer**, a new neural network architecture for transductive sequence modeling such as language translation. Before this paper, the dominant models were **Recurrent Neural Networks (RNNs)** and their improved version, **Long Short-Term Memory networks (LSTMs)**. These models process text sequentially, word by word, keeping track of what came before through an internal state. While effective, this sequential nature limits parallel computation and makes training slow, especially on long sentences.
 

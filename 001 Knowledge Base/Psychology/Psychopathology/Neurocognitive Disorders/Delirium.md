@@ -4,10 +4,13 @@ last_edited: 2026-04-24
 tags:
 - delirium
 - neurocognitive-disorder
-- attention-disturbance
+- acute
+- attention
+- fluctuating
+- dsm-5
+- medical-emergency
 - hyperactive
 - hypoactive
-- sleep-wake-disturbance
 connections:
 - '[[Major Neurocognitive Disorder]]'
 - Attention
@@ -17,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Neurocognitive Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Delirium
 

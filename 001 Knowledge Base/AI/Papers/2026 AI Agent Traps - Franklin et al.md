@@ -2,26 +2,27 @@
 created: 2026-04-15
 last_edited: 2026-04-24
 tags:
-  - ai-agents
-  - ai-safety
-  - multi-agent-systems
-  - security
-  - adversarial-attacks
-  - prompt-injection
-  - agent-vulnerabilities
-  - google-deepmind
+- paper
+- deepmind
+- ai-agents
+- ai-safety
+- adversarial-attacks
+- multi-agent-systems
+- taxonomy
 connections:
-  - "[[AI Weaknesses]]"
-  - "[[AI Agents - Engineering Guidelines]]"
-  - "[[Agentic Memory]]"
-  - "[[Levels of AI Autonomy]]"
+- '[[AI Weaknesses]]'
+- '[[AI Agents - Engineering Guidelines]]'
+- '[[Agentic Memory]]'
+- '[[Levels of AI Autonomy]]'
 ai_generated: true
 human_approved: false
 category:
-  - AI
-  - Papers
+- AI
+- Papers
 source: https://ssrn.com/abstract=6372438
 doi: 10.2139/ssrn.6372438
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # AI Agent Traps
 

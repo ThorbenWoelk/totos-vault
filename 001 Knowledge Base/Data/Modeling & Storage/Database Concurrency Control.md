@@ -2,13 +2,14 @@
 created: 2026-04-16
 last_edited: 2026-04-24
 tags:
-- database-concurrency
+- databases
+- concurrency-control
 - transactions
 - mvcc
 - locking
 - optimistic-concurrency
 - crdt
-- last-write-wins
+- distributed
 connections:
 - '[[SQL in Python]]'
 ai_generated: false
@@ -16,6 +17,8 @@ human_approved: false
 category:
 - Knowledge Base
 - Data
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Core idea
 

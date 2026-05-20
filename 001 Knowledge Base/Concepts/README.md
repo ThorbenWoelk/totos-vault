@@ -2,7 +2,8 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-- core-concepts
+- index
+- concepts
 - mental-models
 - theories
 connections:
@@ -13,6 +14,8 @@ ai_generated: false
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Core ideas, theories, and mental models that form the foundation of understanding.
 

@@ -3,13 +3,11 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - binge-eating-disorder
-- eating-disorder
 - dsm-5
 - icd-11
-- prevalence
-- comorbidity
-- health-consequences
+- psychopathology
 - diagnosis
+- comorbidity
 connections:
 - '[[Bulimia Nervosa]]'
 - '[[Health Behavior Change]]'
@@ -20,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Eating Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Binge Eating Disorder (BED)
 

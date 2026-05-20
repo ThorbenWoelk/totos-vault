@@ -3,11 +3,9 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - trauma-informed-therapy
-- trauma-informed-care
-- post-traumatic-stress-disorder
+- trauma
+- ptsd
 - complex-ptsd
-- borderline-personality-disorder
-- clinical-psychology
 connections:
 - '[[../Trauma- and Stressor-Related Disorders/Post-Traumatic Stress Disorder]]'
 - '[[../Trauma- and Stressor-Related Disorders/Complex PTSD]]'
@@ -16,6 +14,8 @@ human_approved: false
 category:
 - Psychology
 - Clinical and Counseling Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Trauma-Informed Therapy
 

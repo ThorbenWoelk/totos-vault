@@ -2,13 +2,12 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-- neural-network
 - embeddings
 - transformer
 - tokenization
-- attention
-- pooling
 - nlp
+- deep-learning
+- attention
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2017 Attention Is All You Need - Vaswani et al]]'
@@ -19,6 +18,8 @@ category:
 - Knowledge Base
 - AI
 - Retrieval & Memory
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Token to Embedding Pipeline
 

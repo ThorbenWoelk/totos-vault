@@ -3,12 +3,13 @@ created: 2026-03-27
 last_edited: 2026-04-24
 tags:
 - ai-autonomy
-- llms
 - agents
 - multi-agent
+- token-limits
 - workflow
-- optimization
-- ai-maturity
+- productivity
+- engineering
+- practical-ai
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[AI Coding Guidelines]]'
@@ -18,7 +19,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 The layers of an onion of AI autonomy: 
 LLMs < Agents < Multi-agents < Claws < Multi-claws ...

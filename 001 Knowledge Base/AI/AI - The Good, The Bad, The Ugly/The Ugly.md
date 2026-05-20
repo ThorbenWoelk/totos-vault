@@ -2,16 +2,13 @@
 created: 2026-04-11
 last_edited: 2026-04-24
 tags:
-- ai-adoption
+- chaos
+- ai-coding
+- overconfidence
+- skill-degradation
+- hype
 - enterprise-ai
-- llm
-- strategy
-- software-development
-- guardrails
-- developer-experience
-- model-capability
-- cloud-costs
-- tech-trends
+- ai-risks
 connections:
 - '[[Everything is a Tradeoff]]'
 - '[[The Bad]]'
@@ -21,7 +18,8 @@ category:
 - Knowledge Base
 - AI
 - The Good, The Bad, The Ugly
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Preface
 

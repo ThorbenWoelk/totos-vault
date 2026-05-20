@@ -7,10 +7,9 @@ tags:
 - behavioral-activation
 - exposure-therapy
 - psychotherapy
-- evidence-based
 - mood-disorders
 - anxiety-disorders
-- obsessive-compulsive-disorder
+- ocd
 - eating-disorders
 connections:
 - '[[Depression]]'
@@ -21,6 +20,8 @@ category:
 - Psychology
 - Clinical and Counseling Psychology
 - Psychotherapy Approaches
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Cognitive Behavioral Therapy (CBT)
 

@@ -2,19 +2,22 @@
 created: 2025-10-06
 last_edited: 2026-04-24
 tags:
-  - ai
-  - automation
-  - no-code
-  - small-tasks
-  - probabilistic-outcome
+- ai
+- automation
+- no-code
+- coding
+- productivity
+- human-ai-complementarity
 connections:
-  - "[[AI Agents - Engineering Guidelines]]"
-  - "[[AI Coding Guidelines]]"
-  - "[[The Bad]]"
+- '[[AI Agents - Engineering Guidelines]]'
+- '[[AI Coding Guidelines]]'
+- '[[The Bad]]'
 ai_generated: false
 human_approved: false
 category:
-  - AI
+- AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Top X Use Cases for AI
 

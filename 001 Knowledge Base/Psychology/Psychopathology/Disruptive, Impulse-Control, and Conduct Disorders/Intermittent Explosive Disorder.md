@@ -2,14 +2,14 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
+- intermittent-explosive-disorder
+- impulse-control
 - aggression
 - anger
-- impulsivity
-- diagnosis
 - psychopathology
 - dsm-5
 - icd-11
-- ied
+- reactive-aggression
 connections:
 - '[[Oppositional Defiant Disorder]]'
 - '[[Borderline Personality Disorder]]'
@@ -19,6 +19,8 @@ category:
 - Psychology
 - Psychopathology
 - Disruptive, Impulse-Control, and Conduct Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Intermittent Explosive Disorder (IED)
 

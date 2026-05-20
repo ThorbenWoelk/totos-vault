@@ -2,13 +2,14 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
+- psychology
+- health-psychology
 - stress
 - coping
-- hpaa-axis
 - chronic-stress
+- hpa-axis
 - allostatic-load
-- health-psychology
-- psychology
+- fight-or-flight
 connections:
 - '[[../Anxiety Disorders/Generalized Anxiety Disorder]]'
 - '[[../Trauma- and Stressor-Related Disorders/Post-Traumatic Stress Disorder]]'
@@ -17,7 +18,8 @@ human_approved: false
 category:
 - Psychology
 - Health Psychology
-tagging_processed_count: 2
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Stress and Coping
 

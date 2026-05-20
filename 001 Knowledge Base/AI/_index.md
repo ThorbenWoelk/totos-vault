@@ -4,6 +4,8 @@ last_edited: 2026-04-24
 tags:
 - meta
 - index
+- ai
+- knowledge-base
 connections: []
 ai_generated: true
 human_approved: false
@@ -12,6 +14,8 @@ category:
 - AI
 description: AI section inventory and entrypoint
 last_updated: 2026-04-24
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## AI
 

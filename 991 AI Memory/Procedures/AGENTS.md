@@ -2,7 +2,7 @@
 created: 2025-07-08
 last_edited: 2026-04-24
 tags:
-- ai-memory
+- index
 - procedures
 - workflows
 - troubleshooting
@@ -15,6 +15,8 @@ human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Step-by-step processes, workflows, and standard operating procedures.
 

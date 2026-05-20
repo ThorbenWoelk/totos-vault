@@ -2,12 +2,14 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- did
+- dissociative-identity-disorder
 - dissociation
-- personality
 - trauma
-- diagnosis
 - psychopathology
+- dsm-5
+- icd-11
+- treatment
+- structural-dissociation
 connections:
 - '[[Post-Traumatic Stress Disorder|PTSD]]'
 - '[[Complex PTSD]]'
@@ -17,6 +19,8 @@ category:
 - Psychology
 - Psychopathology
 - Dissociative Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Dissociative Identity Disorder (DID)
 

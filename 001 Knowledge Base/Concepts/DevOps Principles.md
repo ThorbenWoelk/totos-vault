@@ -9,15 +9,17 @@ tags:
 - infrastructure-as-code
 - observability
 - sre
-- platform-engineering
 - devsecops
-- gitops
+- reliability
+- cloud-native
 connections:
 - - Software Design Principles - Comprehensive Guide
 ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Comprehensive guide to DevOps principles, from security foundations through automation and reliability. These principles enable teams to deliver software faster, more reliably, and more securely.

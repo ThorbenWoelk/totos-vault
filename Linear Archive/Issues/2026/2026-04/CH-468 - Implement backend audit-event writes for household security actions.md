@@ -2,7 +2,12 @@
 created: 2026-05-11
 last_edited: 2026-05-11
 tags:
-- linear
+- backend
+- audit
+- security
+- firestore
+- rust
+- household
 - linear-archive
 - done-issue
 connections: []
@@ -11,7 +16,9 @@ human_approved: false
 category:
 - Linear Archive
 - Issues
-- "Linear Archive/Putz & Munter"
+- Linear Archive/Putz & Munter
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # CH-468 - Implement backend audit-event writes for household security actions

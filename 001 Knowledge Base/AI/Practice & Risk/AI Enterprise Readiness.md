@@ -6,7 +6,6 @@ tags:
 - ai-frontend
 - ai-backend
 - ai-reliability
-- ai-architecture
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[The Ugly]]'
@@ -15,6 +14,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 For the majority of enterprise use cases, AI serves as an intelligent frontend layer. It can translate language input to technical steps and tool use. 
 The heavy lifting is done in the background by organizing data, modeling meaning, and programming the data access/tools. This is where the most skills and labor are needed. 

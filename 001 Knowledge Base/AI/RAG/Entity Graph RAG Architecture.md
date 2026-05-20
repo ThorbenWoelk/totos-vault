@@ -2,26 +2,28 @@
 created: 2026-04-17
 last_edited: 2026-04-29
 tags:
-  - rag
-  - graph-rag
-  - semantic-search
-  - entity-extraction
-  - qdrant
-  - falkordb
-  - nvembed
-  - embedding-inference
-  - gliner
-  - qwen
+- rag
+- graph-rag
+- architecture
+- entity-extraction
+- knowledge-graph
+- hybrid-retrieval
+- falkordb
+- qdrant
+- embeddings
+- tei
 connections:
-  - "[[RAG in Practice]]"
-  - "[[RAG Best Practices]]"
-  - "[[RAG and Repository Search]]"
+- '[[RAG in Practice]]'
+- '[[RAG Best Practices]]'
+- '[[RAG and Repository Search]]'
 ai_generated: true
 human_approved: false
 category:
-  - Knowledge Base
-  - AI
-  - RAG
+- Knowledge Base
+- AI
+- RAG
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Entity Graph RAG Architecture
 

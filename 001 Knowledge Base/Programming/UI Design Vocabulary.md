@@ -2,22 +2,23 @@
 created: 2026-04-02
 last_edited: 2026-04-24
 tags:
-  - ui
-  - ux
-  - frontend
-  - design
-  - vocabulary
-  - glossary
+- ui
+- ux
+- design
+- frontend
+- glossary
 connections:
-  - "[[001 Knowledge Base/Programming/_index|Programming Index]]"
-  - "[[English]]"
-  - "[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]"
-  - "[[Rust]]"
+- '[[001 Knowledge Base/Programming/_index|Programming Index]]'
+- '[[English]]'
+- '[[001 Knowledge Base/Tech/Vocabs/AGENTS.md]]'
+- '[[Rust]]'
 ai_generated: true
 human_approved: false
 category:
-  - Knowledge Base
-  - Programming
+- Knowledge Base
+- Programming
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # UI Design Vocabulary
 

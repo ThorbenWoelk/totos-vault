@@ -2,15 +2,13 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- traumatic-brain-injury
-- mild-tbi
-- severe-tbi
+- tbi
+- concussion
 - executive-function
 - memory
 - visuospatial
 - frontal-lobe
-- temporal-lobe
-- parietal-lobe
+- neuropsychology
 connections:
 - '[[Executive Function]]'
 - '[[Memory Systems]]'
@@ -19,6 +17,8 @@ human_approved: false
 category:
 - Psychology
 - Neuropsychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Traumatic Brain Injury (TBI)
 

@@ -3,14 +3,13 @@ created: 2025-07-25
 last_edited: 2026-04-24
 tags:
 - us-government
+- constitution
 - federalism
 - separation-of-powers
 - checks-and-balances
 - legislative-branch
 - executive-branch
 - judicial-branch
-- federal-agencies
-- government-corporations
 - administrative-state
 connections:
 - '[[001 Knowledge Base/Politics/_index|Politics Index]]'
@@ -21,6 +20,8 @@ human_approved: false
 category:
 - Politics
 - USA
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Constitutional Foundation
 

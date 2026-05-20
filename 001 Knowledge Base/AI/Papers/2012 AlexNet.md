@@ -6,12 +6,11 @@ tags:
 - cnn
 - deep-learning
 - image-classification
+- imagenet
+- paper
 - relu
 - dropout
-- data-augmentation
 - gpu
-- lrn
-- max-pooling
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[Attention Optimization for LLMs]]'
@@ -21,6 +20,8 @@ category:
 - Knowledge Base
 - AI
 - Papers
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 #### Design choices that were _new_ at the time
 

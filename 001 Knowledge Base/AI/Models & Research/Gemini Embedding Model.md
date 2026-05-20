@@ -2,14 +2,13 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-- gemini-embedding
 - embeddings
+- gemini
+- vertex-ai
 - multilingual
 - semantic-search
-- vertex-ai
-- pricing
-- google-genai
-- llm
+- rag
+- text-classification
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[RAG in Practice]]'
@@ -20,6 +19,8 @@ category:
 - Knowledge Base
 - AI
 - Models & Research
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 **Model**: gemini-embedding-001  
 

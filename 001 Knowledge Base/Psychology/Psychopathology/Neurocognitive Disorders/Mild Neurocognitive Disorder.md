@@ -2,14 +2,14 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- mild-neurocognitive-disorder
 - mci
 - dsm-5
 - icd-11
-- biomarkers
-- prodromal
-- dementia-risk
-- neurocognitive-disorder
+- cognitive-decline
+- diagnosis
+- neurocognitive
+- progression
+- alzheimer
 connections:
 - '[[Major Neurocognitive Disorder]]'
 - '[[Neurodegenerative Diseases|Alzheimer’s Disease]]'
@@ -19,6 +19,8 @@ category:
 - Psychology
 - Psychopathology
 - Neurocognitive Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Mild Neurocognitive Disorder (MCI)
 

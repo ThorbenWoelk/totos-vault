@@ -11,7 +11,6 @@ tags:
 - self-harm
 - identity-disturbance
 - attachment-theory
-- comorbidity
 connections:
 - '[[Depression]]'
 - '[[Attachment Theory]]'
@@ -21,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Personality Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Borderline Personality Disorder (BPD)
 

@@ -18,6 +18,8 @@ ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Comprehensive guide to product development principles, from user-centric design through product-market fit. These principles guide building products that solve real problems for real users.

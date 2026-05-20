@@ -2,13 +2,13 @@
 created: 2025-12-15
 last_edited: 2026-04-24
 tags:
-- autism-spectrum-disorder
+- autism
+- asd
 - neurodevelopmental-disorder
 - dsm-5
 - icd-11
-- social-communication
-- repetitive-behaviors
-- comorbidities
+- psychopathology
+- comorbidity
 connections:
 - '[[ADHD]]'
 - '[[Depression]]'
@@ -18,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Neurodevelopmental Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Autism Spectrum Disorder (ASD)
 

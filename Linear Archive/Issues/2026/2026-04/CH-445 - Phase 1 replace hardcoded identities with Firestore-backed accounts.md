@@ -2,16 +2,24 @@
 created: 2026-05-11
 last_edited: 2026-05-11
 tags:
-- linear
 - linear-archive
 - done-issue
+- firebase
+- firestore
+- authentication
+- backend
+- security
+- household
+- putz-munter
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - Linear Archive
 - Issues
-- "Linear Archive/Putz & Munter"
+- Linear Archive/Putz & Munter
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # CH-445 - Phase 1: replace hardcoded identities with Firestore-backed accounts

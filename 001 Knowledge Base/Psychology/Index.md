@@ -2,12 +2,14 @@
 created: 2025-11-26
 last_edited: 2026-04-24
 tags:
+- psychology
 - psychopathology
 - clinical-psychology
 - health-psychology
 - neuropsychology
 - cognitive-neuroscience
-- computational-modeling-of-cognition
+- computational-cognition
+- index
 connections:
 - '[[Generalized Anxiety Disorder]]'
 - '[[Panic Disorder]]'
@@ -17,6 +19,8 @@ ai_generated: false
 human_approved: false
 category:
 - Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # **Mental Disorders (Psychopathology)**
 

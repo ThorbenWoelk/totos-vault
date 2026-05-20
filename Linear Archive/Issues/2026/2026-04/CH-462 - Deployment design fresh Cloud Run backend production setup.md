@@ -2,16 +2,25 @@
 created: 2026-05-11
 last_edited: 2026-05-11
 tags:
-- linear
-- linear-archive
-- done-issue
+- deployment
+- cloud-run
+- gcp
+- backend
+- infrastructure
+- rust
+- axum
+- firebase
+- production
+- design
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - Linear Archive
 - Issues
-- "Linear Archive/Putz & Munter"
+- Linear Archive/Putz & Munter
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # CH-462 - Deployment: design fresh Cloud Run backend production setup

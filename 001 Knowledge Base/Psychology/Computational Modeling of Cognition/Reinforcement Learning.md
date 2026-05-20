@@ -5,9 +5,9 @@ tags:
 - reinforcement-learning
 - reward-prediction-error
 - temporal-difference
+- dopamine
 - addiction
 - habit-formation
-- dopamine
 - computational-cognition
 connections:
 - '[[../Substance-Related and Addictive Disorders/Alcohol Use Disorder]]'
@@ -17,6 +17,8 @@ human_approved: false
 category:
 - Psychology
 - Computational Modeling of Cognition
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Reinforcement Learning (RL)
 

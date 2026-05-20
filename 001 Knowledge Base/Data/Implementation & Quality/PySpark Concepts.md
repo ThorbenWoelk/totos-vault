@@ -2,21 +2,22 @@
 created: 2026-01-24
 last_edited: 2026-04-24
 tags:
-  - pyspark
-  - dataframes
-  - lazy-evaluation
-  - mental-shift
-  - python
+- pyspark
+- dataframes
+- lazy-evaluation
+- logical-plans
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[SQL in Python]]"
-  - "[[2026-03-31 Claude Code Leak]]"
-  - "[[Haystack]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[SQL in Python]]'
+- '[[2026-03-31 Claude Code Leak]]'
+- '[[Haystack]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
+- Knowledge Base
+- Data
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Code == Plan
 

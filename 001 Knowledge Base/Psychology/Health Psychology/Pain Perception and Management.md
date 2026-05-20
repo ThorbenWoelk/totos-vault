@@ -2,16 +2,12 @@
 created: 2025-12-16
 last_edited: 2026-04-24
 tags:
-- chronic-pain
 - pain
 - health-psychology
-- clinical
 - gate-control-theory
 - biopsychosocial
 - cbt
 - mindfulness
-- concept
-- mechanism
 connections:
 - '[[Cognitive Behavioral Therapy|CBT]]'
 ai_generated: true
@@ -19,6 +15,8 @@ human_approved: false
 category:
 - Psychology
 - Health Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Pain Perception and Management
 

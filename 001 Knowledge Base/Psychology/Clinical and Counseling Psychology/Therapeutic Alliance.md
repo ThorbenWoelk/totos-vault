@@ -4,6 +4,8 @@ last_edited: 2026-04-24
 tags:
 - therapeutic-alliance
 - psychotherapy
+- clinical-psychology
+- common-factors
 - ethics
 connections:
 - '[[Humanistic Therapy]]'
@@ -12,6 +14,8 @@ human_approved: false
 category:
 - Psychology
 - Clinical and Counseling Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Therapeutic Alliance
 

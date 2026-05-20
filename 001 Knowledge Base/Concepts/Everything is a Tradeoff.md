@@ -5,17 +5,17 @@ tags:
 - tradeoffs
 - decision-making
 - engineering
-- systems-thinking
-- optimization
+- philosophy
 - software-architecture
-- cap-theorem
-- project-management
+- systems
 connections:
 - - Coding Principles and Wisdom
 ai_generated: true
 human_approved: false
 category:
 - Concepts
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Context
 Fundamental principle in engineering and decision-making: recognizing that optimal solutions rarely exist in isolation, and every choice involves sacrificing something to gain something else.

@@ -2,13 +2,13 @@
 created: 2025-11-26
 last_edited: 2026-04-29
 tags:
-- autonomous-factory
+- aha-moments
+- agents
 - agentic-ide
-- transduction
+- anthropic
 - deepseek
+- llms
 - mcp
-- ai-standardization
-- large-language-models
 - reasoning
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -18,6 +18,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 ## 2026-03 OpenClaw, on second thought
 

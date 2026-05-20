@@ -2,20 +2,23 @@
 created: 2026-04-01
 last_edited: 2026-04-24
 tags:
+- procedure
 - speaker-discovery
-- local-network
 - mdns
+- avahi
 - bose
 - soundtouch
 - chromecast
 - airplay
-- procedure
+- nmap
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - AI Memory
 - Procedures
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Repeatable workflow for finding speaker devices from inside the local WLAN without preserving the real network map.
 

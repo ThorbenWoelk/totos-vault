@@ -4,11 +4,14 @@ last_edited: 2026-04-24
 tags:
 - iceberg
 - delta-lake
-- databricks
-- lakehouse
 - table-format
+- lakehouse
+- data-engineering
+- comparison
 - schema-evolution
 - partitioning
+- spark
+- metadata
 connections:
 - '[[Databricks Data Engineer Professional]]'
 ai_generated: false
@@ -17,6 +20,8 @@ category:
 - Knowledge Base
 - Data
 - Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Introduction
 A useful default framing is **not** "Iceberg is universally better than Delta Lake." The more accurate statement is:

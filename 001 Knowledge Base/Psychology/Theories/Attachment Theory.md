@@ -3,11 +3,11 @@ created: 2025-12-15
 last_edited: 2026-04-24
 tags:
 - attachment-theory
-- attachment-styles
+- psychology
 - developmental-psychology
 - child-development
-- interpersonal-relationships
-- mood-disorders
+- relationships
+- mental-health
 connections:
 - '[[Depression]]'
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
@@ -17,6 +17,8 @@ human_approved: false
 category:
 - Psychology
 - Theories
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Attachment Theory
 

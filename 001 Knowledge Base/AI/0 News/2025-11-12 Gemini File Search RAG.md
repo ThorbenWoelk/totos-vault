@@ -6,6 +6,7 @@ tags:
 - file-search
 - rag
 - product-update
+- api
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[2026-04-15 Gemini Flash TTS]]'
@@ -14,6 +15,8 @@ human_approved: false
 category:
 - AI
 - 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Gemini API now has [file search](https://blog.google/technology/developers/file-search-gemini-api/) - a streamlined RAG ootb
 

@@ -2,8 +2,10 @@
 created: 2026-04-16
 last_edited: 2026-04-24
 tags:
-- meta
 - index
+- raw
+- automation
+- manifest
 connections:
 - '[[001 Knowledge Base/0 - TIL/_index|0 - TIL Index]]'
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
@@ -14,6 +16,8 @@ category:
 - raw
 description: LLM-maintained manifest of all raw source documents
 last_updated: 2026-04-24
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Raw Source Index
 

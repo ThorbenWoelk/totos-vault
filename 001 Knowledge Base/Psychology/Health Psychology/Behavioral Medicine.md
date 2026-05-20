@@ -7,6 +7,8 @@ tags:
 - biopsychosocial
 - prevention
 - disease-management
+- chronic-illness
+- lifestyle
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 - '[[Pain Perception and Management]]'
@@ -15,7 +17,8 @@ human_approved: false
 category:
 - Psychology
 - Health Psychology
-tagging_processed_count: 2
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Behavioral Medicine
 

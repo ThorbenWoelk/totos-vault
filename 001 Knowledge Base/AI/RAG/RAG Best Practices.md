@@ -2,21 +2,25 @@
 created: 2026-04-04
 last_edited: 2026-04-29
 tags:
-  - rag
-  - indexing
-  - performance
-  - best-practices
-  - embeddings
-  - incremental-sync
+- rag
+- best-practices
+- local-rag
+- indexing
+- embedding
+- chunking
+- vector-search
+- performance
 connections:
-  - "[[RAG and Repository Search]]"
-  - "[[RAG in Practice]]"
+- '[[RAG and Repository Search]]'
+- '[[RAG in Practice]]'
 ai_generated: true
 human_approved: false
 category:
-  - Knowledge Base
-  - AI
-  - RAG
+- Knowledge Base
+- AI
+- RAG
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Pseudo-local RAG
 

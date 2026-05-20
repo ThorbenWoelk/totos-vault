@@ -5,7 +5,7 @@ tags:
 - narcolepsy
 - sleep-wake-disorders
 - cataplexy
-- hypocretin-deficiency
+- hypocretin
 - excessive-daytime-sleepiness
 - sleep-paralysis
 - hypnagogic-hallucinations
@@ -18,6 +18,8 @@ category:
 - Psychology
 - Psychopathology
 - Sleep-Wake Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Narcolepsy
 

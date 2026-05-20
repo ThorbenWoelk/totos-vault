@@ -6,12 +6,8 @@ tags:
 - dementia
 - dsm-5
 - icd-11
-- etiology
-- functional-impairment
-- severity
+- diagnosis
 - reversible-dementia
-- diagnostic-criteria
-- cognitive-decline
 connections:
 - '[[Neurodegenerative Diseases|Alzheimer’s Disease]]'
 - '[[Mild Neurocognitive Disorder]]'
@@ -21,6 +17,8 @@ category:
 - Psychology
 - Psychopathology
 - Neurocognitive Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Major Neurocognitive Disorder (Dementia)
 

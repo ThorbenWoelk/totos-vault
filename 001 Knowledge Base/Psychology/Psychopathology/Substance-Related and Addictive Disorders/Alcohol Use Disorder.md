@@ -7,6 +7,11 @@ tags:
 - dsm-5
 - icd-11
 - diagnostic-criteria
+- psychopathology
+- dependence
+- withdrawal
+- craving
+- tolerance
 connections:
 - '[[Depression]]'
 ai_generated: true
@@ -15,6 +20,8 @@ category:
 - Psychology
 - Psychopathology
 - Substance-Related and Addictive Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Alcohol Use Disorder (AUD)
 

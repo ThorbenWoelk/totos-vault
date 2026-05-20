@@ -2,15 +2,21 @@
 created: 2026-04-07
 last_edited: 2026-04-29
 tags:
-- ai-news
+- ai
+- news
 - resources
-- bookmarks
+- data-engineering
+- research
+- europe
+- podcasts
 connections:
 - '[[Common AI Development Prompts]]'
 ai_generated: true
 human_approved: false
 category:
 - Resources
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # AI News Quellen
 

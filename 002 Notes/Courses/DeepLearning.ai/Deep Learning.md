@@ -4,13 +4,12 @@ last_edited: 2026-04-24
 tags:
 - deeplearning
 - neural-networks
-- deep-learning-ai
-- activation-functions
 - backpropagation
 - gradient-descent
-- supervised-learning
-- logistic-regression
+- activation-functions
 - loss-functions
+- logistic-regression
+- forward-propagation
 connections:
 - '[[Yann Le Cun]]'
 - '[[Open Source Models with Hugging Face]]'
@@ -20,7 +19,8 @@ human_approved: false
 category:
 - Notes
 - DeepLearning.ai
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Deep Learning Specialization
 

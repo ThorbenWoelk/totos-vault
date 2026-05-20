@@ -5,10 +5,9 @@ tags:
 - technical
 - documentation
 - development
-- system-administration
+- administration
 - frameworks
 - tools
-- knowledge-base
 connections:
 - '[[001 Knowledge Base/Technical/_index|Technical Index]]'
 - '[[Development Wisdom and Pragmatic Principles]]'
@@ -16,6 +15,8 @@ ai_generated: false
 human_approved: false
 category:
 - Technical
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Technical concepts, frameworks, tools documentation, and implementation guides.
 

@@ -3,12 +3,12 @@ created: 2025-12-15
 last_edited: 2026-04-24
 tags:
 - complex-ptsd
+- ptsd
 - icd-11
 - dso
-- trauma
 - affect-dysregulation
 - negative-self-concept
-- interpersonal-relationship-difficulties
+- borderline-personality-disorder
 connections:
 - '[[Borderline Personality Disorder]]'
 ai_generated: true
@@ -17,6 +17,8 @@ category:
 - Psychology
 - Psychopathology
 - Trauma- and Stressor-Related Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Complex PTSD (C-PTSD)
 

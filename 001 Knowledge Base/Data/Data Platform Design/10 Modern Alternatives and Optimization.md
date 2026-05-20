@@ -2,25 +2,25 @@
 created: 2026-01-11
 last_edited: 2026-04-24
 tags:
-  - modern-data-stack
-  - dbt
-  - bigquery
-  - looker
-  - bi-engine
-  - denormalization
-  - pre-aggregation
-  - performance-optimization
-  - data-modelling
+- modern-data-stack
+- dbt
+- bigquery
+- denormalization
+- pre-aggregation
+- performance-optimization
+- data-modeling
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[03a BQ Optimization Guide]]"
-  - "[[04 Materialization and Storage]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[03a BQ Optimization Guide]]'
+- '[[04 Materialization and Storage]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Introduction
 The challenges faced in the `<client-dbt-project>` project are common in high-volume "Modern Data Stack" implementations. This module outlines how to move beyond classical modeling to solve performance and accessibility issues.

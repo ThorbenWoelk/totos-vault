@@ -2,24 +2,28 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - data-platform-design
-  - performance-bottlenecks
-  - full-refresh
-  - runtime-joins
-  - dbt-project-structure
-  - dimensional-modeling
-  - self-service-analytics
-  - kimball-paradox
+- data-platform-design
+- performance
+- bottlenecks
+- dimensional-modeling
+- dbt
+- looker
+- self-service-analytics
+- cost
+- tradeoffs
+- scaling
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
-  - "[[03 Slowly Changing Dimensions]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
+- '[[03 Slowly Changing Dimensions]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Introduction
 While the `<client-dbt-project>` project exhibits high engineering standards, real-world operation revealed several performance and organizational tradeoffs. These represent common scaling costs of classic dimensional modeling.

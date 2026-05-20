@@ -4,14 +4,14 @@ last_edited: 2026-04-24
 tags:
 - databricks
 - data-engineering
+- certification
 - delta-lake
 - spark
-- etl
-- data-governance
-- lakehouse
-- notebooks
-- cloud-data
-- best-practices
+- sql
+- auto-loader
+- unity-catalog
+- liquid-clustering
+- delta-sharing
 connections:
 - '[[Databricks Data Engineer Professional]]'
 - '[[11 Iceberg vs Delta Lake]]'
@@ -22,7 +22,8 @@ category:
 - Notes
 - Courses
 - Databricks
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Databricks Notebooks
 

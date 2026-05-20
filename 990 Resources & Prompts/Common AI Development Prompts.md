@@ -8,7 +8,6 @@ tags:
 - software-architecture
 - modular-coding
 - code-review
-- template-project
 - repo-management
 connections:
 - '[[AI Coding Guidelines]]'
@@ -18,6 +17,8 @@ ai_generated: false
 human_approved: false
 category:
 - Prompt library
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 take best practices from repos/ai-nexus/template-project and adjust them to this repo
 

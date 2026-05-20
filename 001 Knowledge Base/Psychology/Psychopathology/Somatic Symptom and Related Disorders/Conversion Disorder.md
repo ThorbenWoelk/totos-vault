@@ -7,8 +7,9 @@ tags:
 - dissociation
 - dsm-5
 - icd-11
-- cognitive-behavioral-therapy
-- physical-therapy
+- pnes
+- psychopathology
+- somatic-symptom-disorder
 connections:
 - '[[Dissociative Identity Disorder]]'
 - '[[Pain Perception and Management]]'
@@ -18,6 +19,8 @@ category:
 - Psychology
 - Psychopathology
 - Somatic Symptom and Related Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Conversion Disorder (Functional Neurological Symptom Disorder)
 

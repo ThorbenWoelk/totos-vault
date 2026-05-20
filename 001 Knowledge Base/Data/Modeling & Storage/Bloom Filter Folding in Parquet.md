@@ -2,14 +2,13 @@
 created: 2026-04-19
 last_edited: 2026-04-29
 tags:
-- observability
 - parquet
 - bloom-filter
-- data-engineering
 - performance
-- logfire
+- observability
+- data-engineering
 - apache-arrow
-- rust
+- optimization
 connections:
 - '[[Everything is a Tradeoff]]'
 - '[[Software Design Principles - Comprehensive Guide]]'
@@ -21,6 +20,8 @@ category:
 - Modeling & Storage
 source_url: https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin
 source_type: article
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Overview
 Bloom filter folding is an Apache Arrow Rust Parquet optimization used by Pydantic Logfire to make sparse point lookups faster while reducing Bloom filter storage overhead.

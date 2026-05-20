@@ -5,10 +5,7 @@ tags:
 - systemic-therapy
 - family-therapy
 - couples-therapy
-- circular-causality
-- homeostasis
-- boundaries
-- triangulation
+- psychotherapy
 connections:
 - '[[Anorexia Nervosa]]'
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
@@ -18,6 +15,8 @@ category:
 - Psychology
 - Clinical and Counseling Psychology
 - Psychotherapy Approaches
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Systemic Therapy (Family Systems Therapy)
 

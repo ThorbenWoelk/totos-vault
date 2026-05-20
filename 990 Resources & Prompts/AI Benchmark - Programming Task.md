@@ -3,13 +3,11 @@ created: 2025-12-19
 last_edited: 2026-04-29
 tags:
 - prompt
+- benchmark
 - reinforcement-learning
 - cartpole
-- policy-gradient
-- web-app
 - javascript
 - visualization
-- interactive
 connections:
 - '[[Common AI Development Prompts]]'
 - '[[Log Analysis]]'
@@ -18,6 +16,8 @@ ai_generated: true
 human_approved: true
 category:
 - Prompt library
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 `**Prompt:**` `Generate a single self-contained browser app that renders an interactive CartPole RL sandbox with canvas graphics, a tiny policy-gradient controller, metrics, and an SVG network visualizer.`
 

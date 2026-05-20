@@ -3,12 +3,14 @@ created: 2025-12-16
 last_edited: 2026-04-24
 tags:
 - gender-dysphoria
+- gender-incongruence
 - dsm-5
 - icd-11
-- minority-stress
 - depathologization
-- trans-health
+- minority-stress
+- gender-affirming-care
 - sexual-health
+- psychopathology
 - diagnostic-criteria
 connections:
 - '[[Erectile Disorder]]'
@@ -19,6 +21,8 @@ category:
 - Psychology
 - Psychopathology
 - Gender Dysphoria
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 # Gender Dysphoria (Gender Incongruence)
 

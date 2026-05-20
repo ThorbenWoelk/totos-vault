@@ -5,7 +5,9 @@ tags:
 - obsessive-compulsive-disorder
 - dsm-5
 - icd-11
-- comorbidity
+- psychopathology
+- obsessions
+- compulsions
 - diagnosis
 connections:
 - '[[Generalized Anxiety Disorder]]'
@@ -15,6 +17,8 @@ category:
 - Psychology
 - Psychopathology
 - Obsessive-Compulsive and Related Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Obsessive-Compulsive Disorder (OCD)
 

@@ -2,10 +2,10 @@
 created: 2026-01-03
 last_edited: 2026-04-24
 tags:
-- ai-good-practices
 - human-in-the-loop
-- responsible-ai
-- ai-workflows
+- agentic
+- creativity
+- ai-oversight
 connections:
 - '[[AI Coding Guidelines]]'
 - '[[Evals for AI Systems]]'
@@ -15,6 +15,8 @@ human_approved: false
 category:
 - Knowledge Base
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # The human bottleneck
 

@@ -2,21 +2,23 @@
 created: 2025-07-25
 last_edited: 2026-04-29
 tags:
-  - ai-agent
-  - kv-cache
-  - filesystem-context
-  - error-recovery
-  - attention-manipulation
-  - context-engineering
-  - agent-architecture
+- ai-agents
+- agent-architecture
+- context-engineering
+- kv-cache
+- error-recovery
+- prompt-engineering
+- cost-optimization
 connections:
-  - "[[001 Knowledge Base/AI/_index|AI Index]]"
-  - "[[Attention Optimization for LLMs]]"
-  - "[[AI Coding Guidelines]]"
+- '[[001 Knowledge Base/AI/_index|AI Index]]'
+- '[[Attention Optimization for LLMs]]'
+- '[[AI Coding Guidelines]]'
 ai_generated: true
 human_approved: false
 category:
-  - AI
+- AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 ## Best Practices
 

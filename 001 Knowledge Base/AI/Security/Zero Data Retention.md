@@ -4,8 +4,8 @@ last_edited: 2026-04-24
 tags:
 - ai
 - security
-- data-retention
 - privacy
+- zero-data-retention
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[Lethal Trifecta]]'
@@ -15,7 +15,8 @@ category:
 - Knowledge Base
 - AI
 - Security
-tagging_processed_count: 1
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-14
 ---
 How are Model providers and popular harnesses (e.g. Cursor) dealing with sensitive data? 
 What are current rules and differences regarding **Zero Data Retention** setups?

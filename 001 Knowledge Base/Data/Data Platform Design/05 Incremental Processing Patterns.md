@@ -2,26 +2,26 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - incremental-processing
-  - dbt
-  - bigquery
-  - cost-optimization
-  - late-arriving-data
-  - backfill
-  - sql-macro
-  - data-pipeline
-  - windowing
-  - join-optimization
+- incremental-processing
+- dbt
+- bigquery
+- cost-optimization
+- late-arriving-data
+- backfill
+- windowing
+- join-optimization
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[03a BQ Optimization Guide]]"
-  - "[[02 Dimensional Modeling Kimball]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[03a BQ Optimization Guide]]'
+- '[[02 Dimensional Modeling Kimball]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## The Challenge
 For "High Volume" , you cannot run `SELECT * FROM source` every day.

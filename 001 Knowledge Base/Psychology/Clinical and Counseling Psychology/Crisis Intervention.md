@@ -4,9 +4,9 @@ last_edited: 2026-04-24
 tags:
 - crisis-intervention
 - suicide-prevention
-- safety-planning
-- risk-assessment
-- resources
+- clinical-psychology
+- psychotherapy
+- assessment
 connections:
 - '[[Assessment and Diagnosis]]'
 ai_generated: true
@@ -14,6 +14,8 @@ human_approved: false
 category:
 - Psychology
 - Clinical and Counseling Psychology
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Crisis Intervention
 

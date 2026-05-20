@@ -2,24 +2,26 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-  - slowly-changing-dimensions
-  - dbt
-  - bigquery
-  - dimensional-modeling
-  - snapshots
-  - point-in-time-join
-  - asof-join
-  - range-join
+- scd
+- dbt
+- bigquery
+- dimensional-modeling
+- snapshots
+- range-join
+- data-engineering
+- star-schema
 connections:
-  - "[[001 Knowledge Base/Data/_index|Data Index]]"
-  - "[[02 Dimensional Modeling Kimball]]"
-  - "[[03a BQ Optimization Guide]]"
+- '[[001 Knowledge Base/Data/_index|Data Index]]'
+- '[[02 Dimensional Modeling Kimball]]'
+- '[[03a BQ Optimization Guide]]'
 ai_generated: true
 human_approved: true
 category:
-  - Knowledge Base
-  - Data
-  - Data Platform Design
+- Knowledge Base
+- Data
+- Data Platform Design
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## The Problem: Mutability
 Data in the real world changes.

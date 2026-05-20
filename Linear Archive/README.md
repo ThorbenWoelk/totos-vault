@@ -4,12 +4,17 @@ last_edited: 2026-04-11
 tags:
 - linear
 - archive
+- backup
+- automated
+- sync
 - issues
 connections: []
 ai_generated: true
 human_approved: false
 category:
 - Linear Archive
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 
 # Linear Archive

@@ -3,13 +3,15 @@ created: 2025-09-01
 last_edited: 2026-04-29
 tags:
 - ai-limitations
+- hallucinations
+- slop
+- code-quality
+- productivity
+- addiction
 - context-drift
-- code-deletion
-- custom-implementations
-- creativity-limitations
-- search-issues
-- revision-artifacts
-- destructive-laziness
+- creativity
+- mcp
+- burnout
 connections:
 - '[[Evals for AI Systems]]'
 - '[[The Ugly]]'
@@ -17,6 +19,8 @@ ai_generated: false
 human_approved: false
 category:
 - AI
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Preface
 

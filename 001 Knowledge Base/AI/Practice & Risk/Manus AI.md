@@ -3,14 +3,12 @@ created: 2025-07-25
 last_edited: 2026-04-24
 tags:
 - autonomous-agent
-- chinese-startup
-- venture-capital
-- investment-controversy
-- national-security
 - ai-coding
-- multi-agent-architecture
-- general-purpose-ai
-- competitive-landscape
+- china
+- controversy
+- multi-agent
+- venture-capital
+- national-security
 connections:
 - '[[001 Knowledge Base/AI/_index|AI Index]]'
 - '[[AI Coding Guidelines]]'
@@ -21,6 +19,8 @@ category:
 - Knowledge Base
 - AI
 - Practice & Risk
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Manus AI
 

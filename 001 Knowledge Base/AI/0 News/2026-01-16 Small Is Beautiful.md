@@ -16,6 +16,8 @@ category:
 - Knowledge Base
 - AI
 - 0 News
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 Small **TranslateGemma** beats big Gemmas **12B, 27B parameters** in translation
 

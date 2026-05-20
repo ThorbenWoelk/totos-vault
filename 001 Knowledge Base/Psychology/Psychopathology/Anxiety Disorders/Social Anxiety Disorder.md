@@ -4,10 +4,10 @@ last_edited: 2026-04-24
 tags:
 - social-anxiety-disorder
 - anxiety-disorders
+- psychopathology
 - dsm-5
 - icd-11
-- cultural-variants
-- diagnostic-criteria
+- phobia
 connections:
 - '[[001 Knowledge Base/Psychology/_index|Psychology Index]]'
 ai_generated: true
@@ -16,6 +16,8 @@ category:
 - Psychology
 - Psychopathology
 - Anxiety Disorders
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 # Social Anxiety Disorder (Social Phobia)
 

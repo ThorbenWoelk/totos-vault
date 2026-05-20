@@ -4,6 +4,7 @@ last_edited: 2026-04-24
 tags:
 - meta
 - index
+- concepts
 connections:
 - '[[DevOps Principles]]'
 - '[[Development Wisdom and Pragmatic Principles]]'
@@ -16,6 +17,8 @@ category:
 - Concepts
 description: LLM-maintained section index
 last_updated: 2026-04-23
+tagging_processed_count: 10
+tagging_last_processed: 2026-05-15
 ---
 ## Concepts
 
