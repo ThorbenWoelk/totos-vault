@@ -10,9 +10,12 @@ category:
 - AI
 - Coding
 ---
-## Basic workflow
+# Current
+#2026-05
 
 ## Models
+
+Generally GPT-5.5. 
 
 ## Harnesses
 
@@ -22,27 +25,27 @@ category:
 
 ## Flow
 
-**Choose between 2 paradigms:** 
-	1. Natural back and forth between planning and testing/implementing vs. 
-	2. strict "plan mode, then implement mode". 
+Generally follow "plan, then implement". Might have to go back and forth. 
 
-### Back and forth
+### Plan
 - Start with the end goal on a high level, as spec-ready and detailed as possible.
-- Roast the plan.
+- Let the AI roast the plan. Go back and forth. 
+- Write up the plan as html. 
+
+(Don't use plan mode. It's too restrictive.)
+
+### Implement
+- use shottr (or any good screenshot tool), annotate screenshots, and give feedback to model
+
+## Agents.md
+
+Keep as small as possible. Write it like a letter to the AI that you code with to steer it into the direction you want to go. 
 
 ## Skills
 
-In coding, skills remain optional. Counterintuitive to the hype. That said, they're helpful to shortcut prompting. 
+In coding, skills remain optional. This is counterintuitive to the hype. Don't start with a heavy baggage. Instead, distill into skills only what you absolutely need and build them continuously to improve your workflow. 
 
 2 ways to integrate them: 
 - have a skill installed into the harness
 - have an autocomplete shortcut in whisperflow
 
-
----
-
-#2025-12
-- Create a plan. A prompt can create a plan. Once verified, the plan can then be used for the implementation. 
-- A verification harness. Tests or app to run, scripts to run that create an artifact from which the model can learn what it did wrong. 
-- Context. "Here is how I like to do things". Nowadays, the models get actually *better* once they see a larger codebase containing good practice examples. 
-- Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again.
