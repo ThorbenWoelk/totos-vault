@@ -47,20 +47,6 @@ The agent should have a way to evaluate its own work and provide artifacts for e
 
 It's the job of the developer to decide how complicated an issue is. When letting AI analyze and fix a critical but, it might be that only the highest reasoning models go a particular route and find the issue in the depth of the dependency tree. Choosing a lower reasoning model would then be a waste of tokens and energy in the best case and hallucinating new bugs in the worst case.
 
-## Basic workflow
-
-#2026-03
-- There are four distinct "species" of agents in production use, each suited to different problems:
-	- Coding Harnesses (individual or project-scale), 
-	- Dark Factories (fully autonomous with eval gates), 
-	- Auto Research (metric optimization), and 
-	- Orchestration Frameworks (workflow routing with specialized roles
-
-#2025-12
-- Create a plan. A prompt can create a plan. Once verified, the plan can then be used for the implementation. 
-- A verification harness. Tests or app to run, scripts to run that create an artifact from which the model can learn what it did wrong. 
-- Context. "Here is how I like to do things". Nowadays, the models get actually *better* once they see a larger codebase containing good practice examples. 
-- Instead of letting model fix errors after an unsuccessful run, it might be better to inspect where it went wrong, adapt the plan, and run again.
 
 ## Iterative task management
 

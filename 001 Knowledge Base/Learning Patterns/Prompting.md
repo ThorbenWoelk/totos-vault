@@ -2,20 +2,20 @@
 created: 2026-01-18
 last_edited: 2026-04-24
 tags:
-- prompting
-- video-generation
-- learning-pattern
-- grok
-- replication
+  - prompting
+  - video-generation
+  - learning-pattern
+  - grok
+  - replication
 connections:
-- '[[Common AI Development Prompts]]'
-- '[[001 Knowledge Base/Learning Patterns/_index|Learning Patterns Index]]'
-- '[[AI Coding Concepts]]'
+  - "[[Common AI Development Prompts]]"
+  - "[[001 Knowledge Base/Learning Patterns/_index|Learning Patterns Index]]"
+  - "[[03 AI Coding Concepts]]"
 ai_generated: false
 human_approved: false
 category:
-- Knowledge Base
-- Learning Patterns
+  - Knowledge Base
+  - Learning Patterns
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---

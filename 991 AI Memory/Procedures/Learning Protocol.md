@@ -2,22 +2,22 @@
 created: 2025-07-22
 last_edited: 2026-04-24
 tags:
-- deprecated
-- continuous-learning
-- ai-collaboration
-- feedback
-- pattern-recognition
-- protocol
-- quality-standards
-- workflow
-- obsidian
+  - deprecated
+  - continuous-learning
+  - ai-collaboration
+  - feedback
+  - pattern-recognition
+  - protocol
+  - quality-standards
+  - workflow
+  - obsidian
 connections:
-- '[[AI Coding Guidelines]]'
+  - "[[02 AI Coding Guidelines]]"
 ai_generated: false
 human_approved: false
 category:
-- AI Memory
-- Procedures
+  - AI Memory
+  - Procedures
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-14
 ---

@@ -28,9 +28,9 @@ tagging_last_processed: 2026-05-15
 ## Engineering
 
 - [[AI Agents - Engineering Guidelines]]
-- [[AI Coding Guidelines]]
+- [[02 AI Coding Guidelines]]
 - [[AI Tooling and Harnesses]]
-- [[AI Coding Concepts]]
+- [[03 AI Coding Concepts]]
 - [[Contextvars]]
 - [[AI Developer Practices]]
 - [[Levels of AI Autonomy]]

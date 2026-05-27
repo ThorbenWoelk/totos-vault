@@ -39,6 +39,12 @@ AI subscriptions are heavily subsidized by the AI companies. Yet, they're expans
 
 Good engineering means making small, robust steps that add up to a well-designed system. AI does too much, too fast, without hardening. Theoretically, this could be done by multi-agent systems. The issue seems to be that the models are not very good at identifying the individual small steps that are the right to take considering the complex context. 
 
+## Slopification
+
+In the most basic scenario with minimal changes and maximal control on the direction - the AI still manages to output around 5% slop that I have to clean up. Any slop that slips through is technical debt and biases later outcome. 
+
+I tested this on a use case of creating a minimalistic, purely .md-based SKILLS.md framework from scratch, reading every single token produced. Because of the non-deterministic nature of language, this is in fact not the simplest case imaginable. But code is complex in the same way as human taste and preferences are involved. 
+
 ## Addiction and burnout
 
 In token-maxxing mode, you start ignoring the outcome (quality). As long as the screen is flickering, you've got the impression to be productive. It feels more like a video game than work - because it is. 

@@ -22,3 +22,11 @@ tagging_last_processed: 2026-05-15
 # Ralph Wiggum Loop
 while :; do cat PROMPT.md | claude ; done
 
+## "Agents"
+#2026-03
+- There are four distinct "species" of agents in production use, each suited to different problems:
+	- Coding Harnesses (individual or project-scale), 
+	- Dark Factories (fully autonomous with eval gates), 
+	- Auto Research (metric optimization), and 
+	- Orchestration Frameworks (workflow routing with specialized roles
+

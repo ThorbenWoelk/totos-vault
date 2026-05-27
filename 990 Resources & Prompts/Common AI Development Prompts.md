@@ -2,21 +2,21 @@
 created: 2026-01-13
 last_edited: 2026-04-24
 tags:
-- prompt-library
-- ai-development
-- best-practices
-- software-architecture
-- modular-coding
-- code-review
-- repo-management
+  - prompt-library
+  - ai-development
+  - best-practices
+  - software-architecture
+  - modular-coding
+  - code-review
+  - repo-management
 connections:
-- '[[AI Coding Guidelines]]'
-- '[[Upgrade Project]]'
-- '[[Everything is a Tradeoff]]'
+  - "[[02 AI Coding Guidelines]]"
+  - "[[Upgrade Project]]"
+  - "[[Everything is a Tradeoff]]"
 ai_generated: false
 human_approved: false
 category:
-- Prompt library
+  - Prompt library
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-14
 ---

@@ -2,16 +2,16 @@
 created: 2025-11-26
 last_edited: 2026-04-29
 tags:
-- ai
-- evals
-- benchmarking
+  - ai
+  - evals
+  - benchmarking
 connections:
-- '[[AI Coding Guidelines]]'
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
+  - "[[02 AI Coding Guidelines]]"
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
 ai_generated: false
 human_approved: false
 category:
-- AI
+  - AI
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---

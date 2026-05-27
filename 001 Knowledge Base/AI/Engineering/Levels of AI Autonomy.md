@@ -2,23 +2,23 @@
 created: 2026-03-27
 last_edited: 2026-04-24
 tags:
-- ai-autonomy
-- agents
-- multi-agent
-- token-limits
-- workflow
-- productivity
-- engineering
-- practical-ai
+  - ai-autonomy
+  - agents
+  - multi-agent
+  - token-limits
+  - workflow
+  - productivity
+  - engineering
+  - practical-ai
 connections:
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[AI Coding Guidelines]]'
-- '[[Optimization]]'
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[02 AI Coding Guidelines]]"
+  - "[[Optimization]]"
 ai_generated: false
 human_approved: false
 category:
-- Knowledge Base
-- AI
+  - Knowledge Base
+  - AI
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---

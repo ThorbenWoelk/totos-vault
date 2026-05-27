@@ -2,23 +2,23 @@
 created: 2025-07-25
 last_edited: 2026-04-24
 tags:
-- autonomous-agent
-- ai-coding
-- china
-- controversy
-- multi-agent
-- venture-capital
-- national-security
+  - autonomous-agent
+  - ai-coding
+  - china
+  - controversy
+  - multi-agent
+  - venture-capital
+  - national-security
 connections:
-- '[[001 Knowledge Base/AI/_index|AI Index]]'
-- '[[AI Coding Guidelines]]'
-- '[[AI Landscape 2025]]'
+  - "[[001 Knowledge Base/AI/_index|AI Index]]"
+  - "[[02 AI Coding Guidelines]]"
+  - "[[AI Landscape 2025]]"
 ai_generated: false
 human_approved: false
 category:
-- Knowledge Base
-- AI
-- Practice & Risk
+  - Knowledge Base
+  - AI
+  - Practice & Risk
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
