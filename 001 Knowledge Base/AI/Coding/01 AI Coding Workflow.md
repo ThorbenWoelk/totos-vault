@@ -45,6 +45,9 @@ So open a new thread and:
 
 Has always been a good idea in coding to "keep things simple, stupid". 
 
+Don't bother too much with:
+- parallel work. Context switching is a stressful burden to the human mind. Stay focused. Move light. 
+
 ## Agents.md
 
 Keep as small as possible. Write it like a letter to the AI that you code with to steer it into the direction you want to go. 
