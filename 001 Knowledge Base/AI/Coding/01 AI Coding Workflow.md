@@ -25,17 +25,18 @@ Generally GPT-5.5.
 
 ## Workflow
 
-Generally follow "plan, then implement". Might have to go back and forth. 
+Generally follow "plan, then implement" for each new task. Might have to go back and forth. 
+So open a new thread and:
 
-### Plan
+### 1 Plan
 - Start with the end goal on a high level, as spec-ready and detailed as possible.
 - Let the AI roast the plan. Go back and forth. 
 - Write up the plan as html. 
 
 (Don't use plan mode. It's too restrictive.)
 
-### Implement
-- use shottr (or any good screenshot tool), annotate screenshots, and give feedback to model
+### 2 Implement
+- use shottr (or any good screenshot tool), annotate screenshots to give feedback to model
 
 
 # Practices
