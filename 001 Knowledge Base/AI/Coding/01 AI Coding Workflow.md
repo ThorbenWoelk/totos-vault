@@ -36,7 +36,9 @@ So open a new thread and:
 (Don't use plan mode. It's too restrictive.)
 
 ### 2 Implement
+- (optional) open a new thread
 - use shottr (or any good screenshot tool), annotate screenshots to give feedback to model
+- review PRs with another AI
 
 
 # Practices
