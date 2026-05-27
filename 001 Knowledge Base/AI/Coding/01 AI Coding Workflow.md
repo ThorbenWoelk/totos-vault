@@ -10,10 +10,10 @@ category:
 - AI
 - Coding
 ---
-# Current
+# Current Flow
 #2026-05
 
-## Models
+## Model
 
 Generally GPT-5.5. 
 
@@ -23,7 +23,7 @@ Generally GPT-5.5.
 - **Cursor IDE** for review and in-depth coding
 - **pi** for fun - potentially replacing Codex app one day when basic setup is done
 
-## Flow
+## Workflow
 
 Generally follow "plan, then implement". Might have to go back and forth. 
 
@@ -37,13 +37,20 @@ Generally follow "plan, then implement". Might have to go back and forth.
 ### Implement
 - use shottr (or any good screenshot tool), annotate screenshots, and give feedback to model
 
+
+# Practices
+
+## KISS
+
+Has always been a good idea in coding to "keep things simple, stupid". 
+
 ## Agents.md
 
 Keep as small as possible. Write it like a letter to the AI that you code with to steer it into the direction you want to go. 
 
 ## Skills
 
-In coding, skills remain optional. This is counterintuitive to the hype. Don't start with a heavy baggage. Instead, distill into skills only what you absolutely need and build them continuously to improve your workflow. 
+Skills remain optional. This is counterintuitive to the hype. But don't start with a heavy baggage. Instead, distill into skills only what you absolutely need and build them continuously to improve your workflow. 
 
 2 ways to integrate them: 
 - have a skill installed into the harness
