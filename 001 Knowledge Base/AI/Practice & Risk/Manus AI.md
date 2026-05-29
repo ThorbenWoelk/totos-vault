@@ -25,7 +25,7 @@ tagging_last_processed: 2026-05-15
 # Manus AI
 
 ## Overview
-Manus (meaning "hands" in Latin) is an autonomous AI agent developed by Chinese startup Butterfly Effect (formerly Monica), based in Singapore and founded by Xiao Hong. Launched on March 6, 2025, it claims to be the world's first general-purpose AI agent capable of independent thinking, dynamic planning, and decision-making without continuous human supervision.
+Manus (meaning "hands" in Latin) is an autonomous AI agent developed by Chinese startup Butterfly Effect (formerly Monica), based in Singapore and founded by [[Xiao Hong]]. Launched on March 6, 2025, it claims to be the world's first general-purpose AI agent capable of independent thinking, dynamic planning, and decision-making without continuous human supervision.
 
 ## Key Capabilities
 - **Autonomous task execution**: Unlike traditional chatbots, Manus breaks down complex tasks into sub-components and executes them independently
@@ -37,7 +37,7 @@ Manus (meaning "hands" in Latin) is an autonomous AI agent developed by Chinese 
 
 ### Initial Hype
 - Described as "the second DeepSeek moment" due to its Chinese origin and unexpected capabilities
-- Praised by tech luminaries including Jack Dorsey and Hugging Face executives
+- Praised by tech luminaries including [[Jack Dorsey]] and Hugging Face executives
 - Outperforms OpenAI's Deep Research on GAIA benchmark according to company claims
 - Viral demos showing complex task completion
 

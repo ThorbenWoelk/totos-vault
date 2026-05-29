@@ -20,4 +20,4 @@ tagging_last_processed: 2026-05-15
 
 ## References
 
-- Willison, S. (2025, December 31). [2025: The year in LLMs](https://simonwillison.net/2025/Dec/31/the-year-in-llms/). Simon Willison's Weblog.
+- Willison, S. (2025, December 31). [2025: The year in LLMs](https://simonwillison.net/2025/Dec/31/the-year-in-llms/). [[Simon Willison]]'s Weblog.

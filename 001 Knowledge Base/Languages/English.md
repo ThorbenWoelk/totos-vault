@@ -43,7 +43,7 @@ guardian, keeper, custodian, repository, tender
 
 ## D
 
-### Deng Xiaoping's Cat
+### [[Deng Xiaoping]]'s Cat
 
 The **cat theory** of [Deng Xiaoping](https://en.wikipedia.org/wiki/Deng_Xiaoping), the [paramount leader of China](https://en.wikipedia.org/wiki/Paramount_leader_of_China) between 1978 and 1989, is a pragmatic economic philosophy which can be summarized by "it doesn't matter if a cat is black or white, as long as it catches mice. Deng argued that a [planned economy](https://en.wikipedia.org/wiki/Planned_economy) or a [market economy](https://en.wikipedia.org/wiki/Market_economy) are only tools for distributing resources and have nothing to do with [political institutions](https://en.wikipedia.org/wiki/Political_institution), in other words [socialism](https://en.wikipedia.org/wiki/Socialism) can have market and [capitalism](https://en.wikipedia.org/wiki/Capitalism) can have planning. The cat theory became widely known within the Chinese society […] and was an underlying ideology guiding the [reform and opening](https://en.wikipedia.org/wiki/Reform_and_opening) of China.
 

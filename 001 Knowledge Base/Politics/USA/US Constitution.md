@@ -42,7 +42,7 @@ tagging_last_processed: 2026-05-15
 - **Original Purpose**: Revise Articles of Confederation
 - **Actual Result**: Created entirely new government framework
 - **Secrecy**: Windows shuttered, delegates sworn to secrecy
-- **Key Figures**: James Madison ("Father of Constitution"), Alexander Hamilton, George Washington (President of Convention)
+- **Key Figures**: [[James Madison]] ("Father of Constitution"), [[Alexander Hamilton]], [[George Washington]] (President of Convention)
 
 ### Major Compromises
 
@@ -144,7 +144,7 @@ tagging_last_processed: 2026-05-15
 ## Ratification Debate (1787-1788)
 
 ### Federalists (Pro-Constitution)
-**Key Leaders**: Alexander Hamilton, James Madison, John Jay
+**Key Leaders**: [[Alexander Hamilton]], [[James Madison]], [[John Jay]]
 
 **Arguments**:
 - Strong national government needed for stability
@@ -157,7 +157,7 @@ tagging_last_processed: 2026-05-15
 - **Federalist 51** (Madison): Separation of powers and checks/balances
 
 ### Anti-Federalists (Opposition)
-**Key Leaders**: Patrick Henry, George Clinton, Mercy Otis Warren
+**Key Leaders**: [[Patrick Henry]], [[George Clinton]], [[Mercy Otis Warren]]
 
 **Arguments**:
 - Federal government too powerful

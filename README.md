@@ -22,7 +22,7 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
-Welcome to Toto's Obsidian vault.
+Welcome to [[Thorben Wölk|Toto]]'s Obsidian vault.
 
 It holds 
 - my personal knowledge base
@@ -38,8 +38,6 @@ That said, the only person this repo is really useful for is *me* - so don't bot
 Full plugin state is declared in `.obsidian/community-plugins.json`, `.obsidian/core-plugins.json`, and `.obsidian/plugins/*/manifest.json`. 
 
 ### Community plugins
-
-Shared across `totos-vault`, `totos-journal`, and `totos-job-vault` via each repo's `.obsidian/` directory.
 
 | Plugin | ID | Version | Role |
 | --- | --- | --- | --- |

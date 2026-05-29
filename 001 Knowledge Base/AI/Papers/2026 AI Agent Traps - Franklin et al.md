@@ -26,7 +26,7 @@ tagging_last_processed: 2026-05-15
 ---
 # AI Agent Traps
 
-**Authors:** Matija Franklin, Nenad Tomašev, Julian Jacobs, Joel Z. Leibo, Simon Osindero — Google DeepMind  
+**Authors:** Matija Franklin, Nenad Tomašev, Julian Jacobs, [[Joel]] Z. Leibo, [[Simon Nehls|Simon]] Osindero — Google DeepMind  
 **Date:** March 8, 2026 | 25 pages  
 **Keywords:** AI Agents, AI Agent Safety, Multi-Agent Systems, Security
 

@@ -32,26 +32,26 @@ tagging_last_processed: 2026-05-15
 - **1775**: First shots fired at Lexington and Concord (April 19)
 - **1775-1776**: Continental Congress gradually moved toward independence
 - **December 1775**: British Parliament banned trade with colonies
-- **January 1776**: Thomas Paine's "Common Sense" published, galvanizing public opinion
-- **June 7, 1776**: Richard Henry Lee introduced resolution for independence
-- **June 11-28, 1776**: Thomas Jefferson drafted the Declaration
+- **January 1776**: [[Thomas]] Paine's "Common Sense" published, galvanizing public opinion
+- **June 7, 1776**: [[Richard Henry Lee]] introduced resolution for independence
+- **June 11-28, 1776**: [[Thomas Jefferson]] drafted the Declaration
 - **July 2, 1776**: Continental Congress voted for independence
 - **July 4, 1776**: Declaration formally adopted after revisions
 - **August 2, 1776**: Formal signing ceremony
 
 ### The Committee of Five
 Congress appointed five men to draft the declaration:
-- **Thomas Jefferson** (Virginia) - Primary author
-- **John Adams** (Massachusetts)
-- **Benjamin Franklin** (Pennsylvania)
-- **Roger Sherman** (Connecticut)
-- **Robert Livingston** (New York)
+- **[[Thomas Jefferson]]** (Virginia) - Primary author
+- **[[John Adams]]** (Massachusetts)
+- **[[Benjamin Franklin]]** (Pennsylvania)
+- **[[Roger Sherman]]** (Connecticut)
+- **[[Robert Livingston]]** (New York)
 
 ## Philosophical Foundations
 
-### Influence of John Locke
-The Declaration heavily drew from English philosopher John Locke's theories:
-- **Natural Rights**: Life, liberty, and property (Jefferson changed to "pursuit of happiness")
+### Influence of [[John Locke]]
+The Declaration heavily drew from English philosopher [[John Locke]]'s theories:
+- **Natural Rights**: Life, liberty, and property ([[Thomas Jefferson|Jefferson]] changed to "pursuit of happiness")
 - **Social Contract**: Government derives power from consent of the governed
 - **Right of Revolution**: People can overthrow tyrannical government
 - **State of Nature**: All humans are naturally equal
@@ -156,7 +156,7 @@ The Declaration inspired:
 - Did not address slavery or women's rights
 
 ### Expanded Interpretations
-- **Abraham Lincoln**: Used Declaration to argue against slavery
+- **[[Abraham Lincoln]]**: Used Declaration to argue against slavery
 - **Women's Suffrage Movement**: Applied equality principle to gender
 - **Civil Rights Movement**: Used "all men created equal" for racial equality
 - **Modern Human Rights**: Universal application of principles
@@ -164,12 +164,12 @@ The Declaration inspired:
 ## Key Signers and Legacy
 
 ### Notable Signers
-- **John Hancock** (President of Congress) - Famous large signature
-- **Samuel Adams** - Organizer of Boston Tea Party
-- **Benjamin Franklin** - Diplomat and inventor
-- **John Adams** - Future president
-- **Thomas Jefferson** - Primary author, future president
-- **Benjamin Rush** - Physician and social reformer
+- **[[John Hancock]]** (President of Congress) - Famous large signature
+- **[[Samuel Adams]]** - Organizer of Boston Tea Party
+- **[[Benjamin Franklin]]** - Diplomat and inventor
+- **[[John Adams]]** - Future president
+- **[[Thomas Jefferson]]** - Primary author, future president
+- **[[Benjamin Rush]]** - Physician and social reformer
 
 ### Immediate Consequences
 - **International Recognition**: Enabled formal alliance with France
@@ -180,7 +180,7 @@ The Declaration inspired:
 ## Contradictions and Limitations
 
 ### Slavery Paradox
-- Jefferson originally blamed King George for slavery (removed by Congress)
+- [[Thomas Jefferson|Jefferson]] originally blamed King George for slavery (removed by Congress)
 - Many signers were slaveholders
 - "All men" didn't include enslaved people
 - Created tension between ideals and reality

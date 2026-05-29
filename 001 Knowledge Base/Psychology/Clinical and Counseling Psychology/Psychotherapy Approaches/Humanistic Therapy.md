@@ -24,7 +24,7 @@ tagging_last_processed: 2026-05-15
 Humanistic therapy posits that people have an innate capacity for self-actualization. The therapist's role is to create a supportive environment in which clients can discover their true selves and reach their potential.
 
 ## Core Concepts (Person-Centered Therapy)
-Developed by Carl Rogers, this approach emphasizes three core conditions for therapeutic change:
+Developed by [[Carl Rogers]], this approach emphasizes three core conditions for therapeutic change:
 1.  **Congruence (Genuineness)**: The therapist is authentic and transparent.
 2.  **Unconditional Positive Regard**: The therapist accepts the client without judgment.
 3.  **Empathic Understanding**: The therapist deeply understands the client's perspective and feelings.

@@ -17,7 +17,7 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
-# Axelrod's repeated prisoner's dilemma
+# [[Robert Axelrod|Axelrod]]'s repeated prisoner's dilemma
 
 ## References
 

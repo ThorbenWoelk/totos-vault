@@ -22,7 +22,7 @@ tagging_last_processed: 2026-05-15
 ---
 # Attachment Theory
 
-Attachment theory, originally developed by John Bowlby, describes the dynamics of long-term and short-term interpersonal relationships between humans. Its most important tenet is that an infant needs to develop a relationship with at least one primary caregiver for social and emotional development to occur normally.
+Attachment theory, originally developed by [[John Bowlby]], describes the dynamics of long-term and short-term interpersonal relationships between humans. Its most important tenet is that an infant needs to develop a relationship with at least one primary caregiver for social and emotional development to occur normally.
 
 ## Key Concepts
 - **Secure Attachment**: Children feel confident that the attachment figure will be available to meet their needs.

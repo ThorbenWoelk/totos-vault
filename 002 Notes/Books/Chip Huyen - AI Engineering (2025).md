@@ -55,7 +55,7 @@ Language models are *self-supervised*: The text input brings its own training sa
 
 - **2012 | AlexNet**
     
-    - **The Breakthrough:** Krizhevsky, Sutskever, and Hinton crush the ImageNet competition using deep convolutional neural networks (CNNs) trained on GPUs, officially kicking off the modern deep learning revolution.
+    - **The Breakthrough:** [[Alex Krizhevsky|Krizhevsky]], [[Ilya Sutskever|Sutskever]], and [[Geoffrey Hinton|Hinton]] crush the ImageNet competition using deep convolutional neural networks (CNNs) trained on GPUs, officially kicking off the modern deep learning revolution.
         
 - **2013 | Word2Vec & Deep Q-Networks (DQN)**
     
@@ -63,7 +63,7 @@ Language models are *self-supervised*: The text input brings its own training sa
         
 - **2014 | Generative Adversarial Networks (GANs)**
     
-    - **The Breakthrough:** Ian Goodfellow pits two neural networks against each other (a generator and a discriminator), enabling AI to create highly realistic synthetic images.
+    - **The Breakthrough:** [[Ian Goodfellow]] pits two neural networks against each other (a generator and a discriminator), enabling AI to create highly realistic synthetic images.
         
 - **2015 | ResNet**
     
@@ -71,7 +71,7 @@ Language models are *self-supervised*: The text input brings its own training sa
         
 - **2016 | AlphaGo**
     
-    - **The Breakthrough:** DeepMind’s AlphaGo defeats 18-time world champion Lee Sedol in the ancient game of Go—a feat experts thought was still decades away.
+    - **The Breakthrough:** DeepMind’s AlphaGo defeats 18-time world champion [[Lee Sedol]] in the ancient game of Go—a feat experts thought was still decades away.
         
 
 ---

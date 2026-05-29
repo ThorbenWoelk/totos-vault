@@ -28,7 +28,7 @@ Laws, theorems, and normative statements.
 
 ## A
 
-### Amdahl's Law
+### [[Gene Amdahl|Amdahl]]'s Law
 
 demonstrates the theoretical maximum speedup of an overall system and the concept of diminishing returns. If exactly 50% of the work can be parallelized, the best possible speedup is 2 times. If 95% of the work can be parallelized, the best possible speedup is 20 times. According to the law, even with an infinite number of processors, the speedup is constrained by the unparallelizable portion.
 
@@ -46,9 +46,9 @@ recommends keeping systems as simple as possible, in line with the quote at the 
 
 ## M
 
-### Moore’s law
+### [[Gordon Moore|Moore]]’s law
 
-is the observation that the number of transistors in an integrated circuit (IC, also: microchip) doubles about every two years. Moore’s law is an observation and projection of a historical trend. Rather than a law of physics, it is an empirical relationship. It is an experience-curve law, a type of law quantifying efficiency gains from experience in production.
+is the observation that the number of transistors in an integrated circuit (IC, also: microchip) doubles about every two years. [[Gordon Moore|Moore]]’s law is an observation and projection of a historical trend. Rather than a law of physics, it is an empirical relationship. It is an experience-curve law, a type of law quantifying efficiency gains from experience in production.
 
 ## P
 

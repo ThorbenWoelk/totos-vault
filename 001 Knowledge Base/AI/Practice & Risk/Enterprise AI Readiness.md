@@ -24,5 +24,5 @@ Data infra
 	1. break down silos, **own** your data. because otherwise, you cannot make links and draw conclusions from logically connected but seperately stored data (e.g. weather and sales)
 2. let applications pull forward data structures
 
-source: Andrew Ng
+source: [[Andrew Ng]]
 

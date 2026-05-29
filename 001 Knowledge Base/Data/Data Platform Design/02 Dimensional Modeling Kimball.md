@@ -23,7 +23,7 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Introduction
-**Dimensional Modeling** is a technique popularized by Ralph Kimball. It is designed to maximize query performance and ease of use for business analysts. The central concept is the **Star Schema**.
+**Dimensional Modeling** is a technique popularized by [[Ralph Kimball]]. It is designed to maximize query performance and ease of use for business analysts. The central concept is the **Star Schema**.
 ## The Star Schema
 In a Star Schema, data is organized into two types of tables:
 1.  **Fact Tables**: The center of the star. They contain the *metrics* of the business.

@@ -259,7 +259,7 @@ Generation and embedding should use different serving runtimes. Qwen3 30B can ru
    - semantic question: "What did we discuss about X?"
    - entity question: "Who owns Y?"
    - temporal question: "When did we decide Z?"
-   - mixed question: "What did Thomas decide about project Y last month?"
+   - mixed question: "What did [[Thomas]] decide about project Y last month?"
 3. Query planner creates retrieval tasks:
    - Qdrant vector search for meaning
    - FalkorDB graph traversal for entities and relationships
@@ -272,10 +272,10 @@ Generation and embedding should use different serving runtimes. Qwen3 30B can ru
 
 - "What did we decide about the onboarding project?"
 - "Who is responsible for the next action item?"
-- "When did Christoph mention the migration risk?"
+- "When did [[Christoph Mayer|Christoph]] mention the migration risk?"
 - "Find the Slack thread where we discussed Qdrant versus pgvector."
 - "What open decisions exist for the personal knowledge assistant?"
-- "Summarize all recent conversations involving Thomas and the RAG setup."
+- "Summarize all recent conversations involving [[Thomas]] and the RAG setup."
 
 ## Minimal Data Model
 

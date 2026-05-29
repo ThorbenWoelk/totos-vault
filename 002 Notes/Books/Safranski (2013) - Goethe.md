@@ -21,11 +21,11 @@ tagging_last_processed: 2026-05-15
 ---
 # Vorwort
 
-Goethe machte es sich zum Grundsatz, nur so viel Welt in sich aufzunehmen, wie er auch verarbeiten konnte. Worauf er nicht in irgendeiner Weise produktiv antworten konnte, das ging ihn nichts an. 
+[[Johann Wolfgang von Goethe|Goethe]] machte es sich zum Grundsatz, nur so viel Welt in sich aufzunehmen, wie er auch verarbeiten konnte. Worauf er nicht in irgendeiner Weise produktiv antworten konnte, das ging ihn nichts an. 
 
 **Er konnte wunderbar ignorieren: Ein gesunder "geistig-seelischer Stoffwechsel" mit der Welt.**
 
-Alles ist "Werk", auch Goethes Leben selbst. Es ragt aus den Zeitläufen heraus, mit Anfang und Ende, und dazwischen eine festumrissene Gestalt. Eine Insel der Bedeutsamkeit im Meer des Zufälligen und Gestaltlosen - erschreckend. **Alles muss Gestalt haben für Goethe.** 
+Alles ist "Werk", auch Goethes Leben selbst. Es ragt aus den Zeitläufen heraus, mit Anfang und Ende, und dazwischen eine festumrissene Gestalt. Eine Insel der Bedeutsamkeit im Meer des Zufälligen und Gestaltlosen - erschreckend. **Alles muss Gestalt haben für [[Johann Wolfgang von Goethe|Goethe]].** 
 
 Er wollte immer zu einem Ergebnis kommen, zu einem Werk. Sammler von Eindrücken jeglicher Art, doch stets im produktiven Umgang mit Ihnen, statt rein passiv-konsumierend.
 

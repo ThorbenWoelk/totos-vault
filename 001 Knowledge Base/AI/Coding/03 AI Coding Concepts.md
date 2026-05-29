@@ -19,7 +19,7 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
-# Ralph Wiggum Loop
+# [[Ralph Wiggum]] Loop
 while :; do cat PROMPT.md | claude ; done
 
 ## "Agents"

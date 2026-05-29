@@ -22,9 +22,9 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Context
-Comprehensive guide to motivation principles based on Daniel Pink's "Drive" and extended with research on intrinsic motivation, employee engagement, and organizational psychology.
+Comprehensive guide to motivation principles based on [[Daniel Pink]]'s "Drive" and extended with research on intrinsic motivation, employee engagement, and organizational psychology.
 
-## Daniel Pink's Drive Framework
+## [[Daniel Pink]]'s Drive Framework
 
 ### The Three Pillars of Intrinsic Motivation
 
@@ -115,7 +115,7 @@ Comprehensive guide to motivation principles based on Daniel Pink's "Drive" and 
 
 **Applications**: Design work and challenges to optimize flow states
 
-### Growth Mindset (Carol Dweck)
+### Growth Mindset ([[Carol Dweck]])
 **Belief system**: Intelligence and abilities can be developed through effort and learning.
 
 **Fixed mindset**: Abilities are static and unchangeable
@@ -129,10 +129,10 @@ Comprehensive guide to motivation principles based on Daniel Pink's "Drive" and 
 
 ## Employee Engagement Principles
 
-### Psychological Safety (Amy Edmondson)
+### Psychological Safety ([[Amy Edmondson]])
 **Definition**: Belief that you can speak up without risk of punishment or humiliation.
 
-**Four stages** (Timothy Clark):
+**Four stages** ([[Timothy Clark]]):
 1. **Inclusion safety**: Feel included and accepted
 2. **Learner safety**: Safe to learn and ask questions
 3. **Contributor safety**: Safe to contribute and participate

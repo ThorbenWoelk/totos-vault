@@ -288,7 +288,7 @@ tagging_last_processed: 2026-05-15
 - **[Prompt Engineering Guide](https://promptingguide.ai)** - Comprehensive guide to prompt engineering techniques
 - **[OpenAI Cookbook](https://github.com/openai/openai-cookbook)** - Practical examples and code for OpenAI models
 - **[Anthropic Claude Documentation](https://docs.anthropic.com)** - Official Claude API docs and best practices
-- **[DeepLearning.AI Courses](https://deeplearning.ai)** - Andrew Ng's AI and ML specializations
+- **[DeepLearning.AI Courses](https://deeplearning.ai)** - [[Andrew Ng]]'s AI and ML specializations
 - **[Google AI Education](https://ai.google/education)** - Free AI courses and resources
 
 ### Online Courses & Certifications
@@ -303,7 +303,7 @@ tagging_last_processed: 2026-05-15
 - **[Two Minute Papers](https://youtube.com/@TwoMinutePapers)** - Latest AI research explained simply
 - **[Sentdex](https://youtube.com/sentdex)** - Python programming for AI and ML
 - **[3Blue1Brown](https://youtube.com/@3blue1brown)** - Mathematical concepts behind AI
-- **[Lex Fridman Podcast](https://youtube.com/@lexfridman)** - AI researchers and thought leaders
+- **[Lex Fridman Podcast](https://youtube.com/@lexfridman)** ([[Lex Fridman]]) - AI researchers and thought leaders
 - **[Machine Learning with Phil](https://youtube.com/@MachineLearningwithPhil)** - Practical ML tutorials
 - **[Dave Ebbelaar](https://youtube.com/@daveebbelaar)** - AI roadmap and career guidance
 - **[Jeremy Howard](https://youtube.com/@howardjeremyp)** - Fast.ai founder's deep learning content
@@ -357,4 +357,3 @@ tagging_last_processed: 2026-05-15
 - **[PyTorch Tutorials](https://pytorch.org/tutorials)** - PyTorch deep learning tutorials
 - **[scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)** - ML fundamentals and algorithms
 - **[Keras Documentation](https://keras.io)** - High-level neural networks API
-

@@ -25,7 +25,7 @@ tagging_last_processed: 2026-05-15
 ---
 ## General Takeaways
 
-Andrew: "Let's use the term agentic for all LLM-based workflows and distinguish thm by autonomy". OK. 
+[[Andrew Ng|Andrew]]: "Let's use the term agentic for all LLM-based workflows and distinguish thm by autonomy". OK. 
 
 The best way to learn prompting is to read good prompts in other people's software. 
 

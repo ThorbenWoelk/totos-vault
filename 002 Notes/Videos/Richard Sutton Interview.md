@@ -18,7 +18,7 @@ tagging_last_processed: 2026-05-15
 ---
 LLMs are an imitation game. They don't have a world model to base predictions on. They only predict **what people would say** (who have a world model). 
 
-What we really want though (quoting Alan Turing) is to have a technology that can **learn from experience**. 
+What we really want though (quoting [[Alan Turing]]) is to have a technology that can **learn from experience**. 
 
 ## References
 

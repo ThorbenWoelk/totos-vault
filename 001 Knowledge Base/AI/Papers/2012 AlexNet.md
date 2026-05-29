@@ -36,4 +36,4 @@ tagging_last_processed: 2026-05-15
 
 ## References
 
-- Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). [ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf). Advances in Neural Information Processing Systems.
+- [[Alex Krizhevsky|Krizhevsky]], A., [[Ilya Sutskever|Sutskever]], I., & [[Geoffrey Hinton|Hinton]], G. E. (2012). [ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf). Advances in Neural Information Processing Systems.

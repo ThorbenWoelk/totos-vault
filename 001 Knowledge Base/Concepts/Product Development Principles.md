@@ -92,7 +92,7 @@ Comprehensive guide to product development principles, from user-centric design 
 **Benefits**: Reduces risk of building wrong products, increases innovation, improves user satisfaction
 
 ### Customer Development
-**Framework**: Steve Blank's methodology for understanding customers before building products.
+**Framework**: [[Steve Blank]]'s methodology for understanding customers before building products.
 
 **Four steps**:
 1. **Customer Discovery**: Find and understand the problem
@@ -163,7 +163,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - Usage is growing organically
 
 **Measurement**:
-- Sean Ellis test: >40% users would be "very disappointed" if product disappeared
+- [[Sean Ellis]] test: >40% users would be "very disappointed" if product disappeared
 - Net Promoter Score (NPS)
 - Product/market fit score
 - Cohort retention analysis
@@ -281,5 +281,5 @@ The key to successful product development is maintaining focus on user value whi
 - **User Story Map**: Maintains a mental map of all user stories to create a cohesive application vision.
 - **Prioritization**: Prioritizes stories to always test the most critical hypothesis.
 - **Documentation**: Writes clear documentation of learnings and future hurdles post-implementation.
-- **Scientific Approach**: Follows an agile, scientific method as advocated by Heiko Utter-Gonner.
+- **Scientific Approach**: Follows an agile, scientific method as advocated by [[Heiko Utter-Gonner]].
 

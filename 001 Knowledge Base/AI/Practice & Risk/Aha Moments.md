@@ -26,7 +26,7 @@ tagging_last_processed: 2026-05-14
 I was always saying, in a way, LLMs are just another kind of user interface. And they are. What I underestimated, though, is how suboptimal and sometimes broken user experience actually is. [Andrej Karpathy talks](https://www.youtube.com/watch?v=kwSVtQ7dziU&list=WL&index=3) about app store bloat. 5 apps to control home security setup. In his mind, it should be 1 agent to glue all APIs. And I kind of root for that. Destroy the middle layer of crappy and limited apps. Demand APIs of hardware providers to be available, reliable, and complete. 
 
 ## 2026-01-23 Ralph
-Loom Video of Ralph Wiggum Loop inventor Geoffrey Huntley. He's building a fully autonomous software factory. A true field researcher of the future of AI coding. 
+Loom Video of [[Ralph Wiggum]] Loop inventor [[Geoffrey Huntley]]. He's building a fully autonomous software factory. A true field researcher of the future of AI coding. 
 
 ##  2025-12 Claude Code with Opus 4.5 Thinking
 Just amazing what can I say. Best in class. 
