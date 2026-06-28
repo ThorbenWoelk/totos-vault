@@ -10,6 +10,8 @@ category:
 - Name Index
 source_vaults:
 - totos-vault
+tagging_processed_count: 1
+tagging_last_processed: 2026-06-28
 ---
 Name index from local mentions in `totos-vault`. Entry pages are stubs and can be expanded when details become relevant.
 

@@ -1,3 +1,21 @@
+---
+created: 2026-06-18
+last_edited: 2026-06-18
+tags:
+- glossary
+- cognitive-biases
+- psychology
+- heuristics
+- reference
+connections: []
+ai_generated: false
+human_approved: false
+category:
+- 003 Glossaries
+- Theories, Effects, and Biases
+tagging_processed_count: 1
+tagging_last_processed: 2026-06-28
+---
 
 - [ ] TODO: Order alphabetically
 - [ ] TODO: cross reference (only highly) related effects in descriptions - if any
