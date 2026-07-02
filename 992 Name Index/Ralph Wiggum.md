@@ -3,6 +3,9 @@ created: 2026-05-29
 last_edited: 2026-05-29
 tags:
 - name-index
+- simpsons
+- stub
+- character
 connections: []
 ai_generated: true
 human_approved: false
@@ -15,8 +18,8 @@ aliases:
 - Ralph Wigum
 source_vaults:
 - totos-vault
-tagging_processed_count: 1
-tagging_last_processed: 2026-06-28
+tagging_processed_count: 10
+tagging_last_processed: 2026-06-29
 ---
 Name-index entry from local repository mentions. Add details when they become relevant.
 

@@ -6,15 +6,15 @@ tags:
 - cognitive-biases
 - psychology
 - heuristics
-- reference
+- decision-making
 connections: []
 ai_generated: false
 human_approved: false
 category:
 - 003 Glossaries
 - Theories, Effects, and Biases
-tagging_processed_count: 1
-tagging_last_processed: 2026-06-28
+tagging_processed_count: 10
+tagging_last_processed: 2026-06-29
 ---
 
 - [ ] TODO: Order alphabetically
