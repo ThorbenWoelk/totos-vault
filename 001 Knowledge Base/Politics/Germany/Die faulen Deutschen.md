@@ -1,3 +1,26 @@
+---
+created: 2026-07-02
+last_edited: 2026-07-02
+tags:
+- germany
+- politics
+- healthcare
+- sick-leave
+- symbolpolitik
+- behavioral-economics
+- mental-health
+- friedrich-merz
+- policy-critique
+connections: []
+ai_generated: false
+human_approved: false
+category:
+- 001 Knowledge Base
+- Politics
+- Germany
+tagging_processed_count: 10
+tagging_last_processed: 2026-07-05
+---
 Friedrich Merz hat sich in den Kopf gesetzt, die nach seiner Meinung arbeitsfaulen Deutschen mit politischen Maßnahmen zum Arbeiten zu zwingen. Daher wird die ärztliche Krankschreibung ab Tag 1 nun Pflicht und die telefonische Krankschreibung wieder abgeschafft. Ich sehe zwei Probleme mit diesem Ansatz. 
 
 Falls er Recht hätte, dass die Deutschen seit Corona vermehrt krankmachen, obwohl sie eigentlich arbeitsfähig wären, würde dem vermutlich eine psychologische Abwehrhaltung gegen den Arbeitsplatz zugrunde liegen. Die umgesetzten Maßnahmen könnten auf diesem schon bestehenden Nährboden eine Trotzreaktion hervorrufen, die Krankschreibungen nur noch verstärkt. Wenn die Hürde des Arztbesuches ab sofort sowieso genommen werden muss, gibt es keinen Grund, nicht gleich auf eine längere Krankheitspause hinzuarbeiten, anstatt nur einen oder zwei Tage Ruhepause einzulegen. 

@@ -33,7 +33,7 @@ tagging_last_processed: 2026-05-15
 | [[001 Knowledge Base/Data/_index\|Data]] | 14 | 2026-04-15 |
 | [[001 Knowledge Base/Engineering/_index\|Engineering]] | 1 | 2026-04-15 |
 | [[001 Knowledge Base/Languages/_index\|Languages]] | 1 | 2026-04-15 |
-| [[001 Knowledge Base/Learning Patterns/_index\|Learning Patterns]] | 1 | 2026-04-15 |
+| [[001 Knowledge Base/Learning and Growth/_index\|Learning Patterns]] | 1 | 2026-04-15 |
 | [[001 Knowledge Base/Meta/_index\|Meta]] | 1 | 2026-04-15 |
 | [[001 Knowledge Base/Politics/_index\|Politics]] | 3 | 2026-04-15 |
 | [[001 Knowledge Base/Programming/_index\|Programming]] | 1 | 2026-04-15 |
