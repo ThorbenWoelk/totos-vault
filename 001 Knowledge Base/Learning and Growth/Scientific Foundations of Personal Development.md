@@ -10,14 +10,15 @@ tags:
 - flow
 - social-connection
 - personal-development
+- metacognition
 connections: []
 ai_generated: false
 human_approved: false
 category:
 - 001 Knowledge Base
 - Learning and Growth
-tagging_processed_count: 1
-tagging_last_processed: 2026-07-06
+tagging_processed_count: 10
+tagging_last_processed: 2026-07-07
 ---
 A system for personal development should be designed around what research knows about human behavior change, learning, and wellbeing. The following principles inform its structure:
 
