@@ -32,3 +32,4 @@ variance
 vector clock
 write-ahead log (wal)
 zero-copy
+sentinel object
