@@ -39,3 +39,4 @@ watermark
 exhaustiveness checking
 temperature
 context manager
+newtype pattern
