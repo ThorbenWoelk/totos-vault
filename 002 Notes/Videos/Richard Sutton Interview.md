@@ -23,3 +23,4 @@ What we really want though (quoting [[Alan Turing]]) is to have a technology tha
 ## References
 
 - Patel, D. (2025, September 26). [Richard Sutton - Father of RL thinks LLMs are a dead end](https://www.youtube.com/watch?v=21EYKqUsPfg). YouTube video.
+

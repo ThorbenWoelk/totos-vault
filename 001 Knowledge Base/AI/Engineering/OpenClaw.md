@@ -79,3 +79,4 @@ In effect, however, this is equal to a regression in autonomy. Back to the level
 Onyx AI summarizes OpenClaw enterprise readiness in its "CLAW-10" framework. In its raw form, OpenClaw falls short of the enterprise threshold on key requirements.
 
 ![[Pasted image 20260331120401.png]]
+

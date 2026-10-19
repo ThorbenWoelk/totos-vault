@@ -17,3 +17,4 @@ category:
 |---|---|---|
 | Concurrency | Structuring work so multiple tasks can make progress over the same period. | One chef switches between chopping vegetables, stirring a sauce, and checking the oven. |
 | Parallelism | Executing multiple tasks at the same time. | Several chefs work independently on different dishes. |
+

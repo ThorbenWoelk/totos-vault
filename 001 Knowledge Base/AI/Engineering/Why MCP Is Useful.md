@@ -12,15 +12,18 @@ category:
   - Engineering
 ---
 ## Ecosystem unlocks potential
+
 Like the IPhone in 2007 lacked the AppStore and die web in early 90s lacked TLS/SSL - arising ecosystems will
 transform everything all over again. Tool libraries and agent portfolios will the key drivers of AI creeping
 into real-world applications.
 ## Standardization as a signal for maturity and efficiency
+
 As an engineer, I know that standardization is the key for unlocking efficient development. Game recognizes
 game, in a sense, so I intuitively switched into this career when the MCP standard was crystalizing in March
 2025. Also, making private information accessible to the AI client in minutes, not hours or day, is just
 awesome.
 ## The N×M Integration Problem
+
 Without MCP, developers must create custom integrations for each data source with each AI model/framework they
 want to use. If they switch from GPT to Claude, or from a custom solution to LangChain, they must reimplement
 all these integrations. What is the Model Context Protocol
@@ -32,6 +35,7 @@ The "just use APIs" approach ignores this exponential complexity. As the number 
 variety of tools and data sources (M) increase, the complexity of creating custom integrations for each
 combination becomes unmanageable.
 ## The Subtle But Important Differences
+
 Runtime Discovery vs. Build-time DeclarationOne major difference is when and how tools are defined. In classic
 function calling, all possible functions must be declared upfront (at design time) in the prompt or through
 the API. The model can only call those fixed functions. In MCP, tools are discoverable at runtime – the AI can

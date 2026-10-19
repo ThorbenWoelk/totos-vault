@@ -25,11 +25,13 @@ tagging_last_processed: 2026-05-15
 Reinforcement learning models how agents take actions in an environment to maximize cumulative reward.
 
 ## Key Concepts
+
 - **Reward Prediction Error (RPE)**: The difference between expected and received reward.
 - **Dopamine**: Biological signal of RPE.
 - **Temporal Difference Learning**: Learning to predict future rewards.
 
 ## Clinical Relevance
+
 - **Addiction**: Drugs of abuse hijack the RL system by creating artificial RPEs (see **[[../Substance-Related and Addictive Disorders/Alcohol Use Disorder]]**).
 - **Habit Formation**: The transition from goal-directed to habitual control (see **[[Health Behavior Change]]**).
 

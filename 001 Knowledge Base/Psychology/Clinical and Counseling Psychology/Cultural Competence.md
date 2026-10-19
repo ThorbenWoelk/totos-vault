@@ -22,11 +22,13 @@ tagging_last_processed: 2026-05-15
 Cultural competence represents the therapist's ability to provide effective treatment for clients from diverse cultural backgrounds.
 
 ## Key Components
+
 1.  **Awareness**: Understanding one's own cultural background and biases.
 2.  **Knowledge**: Learning about the client's cultural background, worldview, and expectations for therapy.
 3.  **Skills**: Using culturally appropriate interventions and communication styles.
 
 ## Importance
+
 - Reduces health disparities.
 - Improves the **[[Therapeutic Alliance]]**.
 - Ensures diagnosis is accurate and not influenced by cultural bias.

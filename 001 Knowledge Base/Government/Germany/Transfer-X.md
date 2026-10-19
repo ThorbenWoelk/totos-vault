@@ -22,3 +22,4 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 Das vom Bundesministerium für Wirtschaft und Energie geförderte Projekt Transfer-X unterstützt Organisationen, insbesondere kleine und mittlere Unternehmen, dabei, den Einstieg in die datenbasierte Wertschöpfung zu meistern. Mit praxisnahen Transfermodulen und themenspezifischen Lernpfaden auf einer offenen Wissensplattform bereitet Transfer-X Forschungsergebnisse verständlich und anwendungsorientiert auf – neutral, skalierbar und kostenlos.
+

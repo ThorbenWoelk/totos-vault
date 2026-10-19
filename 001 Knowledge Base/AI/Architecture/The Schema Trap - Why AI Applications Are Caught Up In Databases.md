@@ -32,11 +32,13 @@ wardrobe app wants to actually make smart suggestions on, e.g., how to make spac
 definitely cannot get rid of the red baseball cap (though we never wear it anymore) for it's sentimental
 value. And that I still hope to one day fit in this jacket which I'm keeping since the time I was graduating.
 ## The Database Mindset Dies Hard
+
 We've spent decades optimizing for structured data. Even as we integrate AI into our applications, we're still
 thinking in tables and columns. It's time we start thinking IRL. That's the true value of this whole new age
 of AI is that we don't have to try fitting the complexities of human life into something artificial that rigid
 algorithms can grasp. We're finally free to be ourselves again.
 ## The AI-Native Alternative
+
 So how to flip the paradigm? Instead of conceding to database constraints we just let AI handle the complexity
 and store the mess? Well, there's some more nuanced approaches which might be beneficial to consider.
 For instance, we can store the raw human input alongside AI-generated structured interpretations, searchable
@@ -46,6 +48,7 @@ This isn't just about storage—it's about embracing AI's core strength: pattern
 AI models are remarkably good at extracting meaning from unstructured text, identifying relationships, and
 generating consistent interpretations. Why not lean into that capability?
 ## The Trade-offs Are Real
+
 This approach isn't without costs. Traditional schemas offer predictability, performance, and debuggability.
 When your database has clear columns, you can write efficient queries, generate reliable reports, and
 troubleshoot issues systematically.
@@ -53,6 +56,7 @@ AI-native storage introduces new complexities: How do you ensure consistent data
 updates? How do you debug when the AI misunderstands user input? How do you handle edge cases where the AI's
 interpretation diverges from user intent?
 ## A Glimpse of the Future
+
 The most innovative AI applications are already moving in this direction. Advanced AI assistants don't store
 your preferences in predefined fields—they build contextual understanding from your interactions. The best AI
 writing tools don't categorize your documents into rigid taxonomies—they understand context, tone, and

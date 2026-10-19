@@ -41,3 +41,4 @@ Und doch, welch Glück, geliebt zu werden,
 Und lieben, Götter, welch ein Glück!"
 
 Der gekränkte Geist ließ ihn kritisch werden ggenüber der franz. Kultur.
+

@@ -26,17 +26,21 @@ tagging_last_processed: 2026-05-14
 I was always saying, in a way, LLMs are just another kind of user interface. And they are. What I underestimated, though, is how suboptimal and sometimes broken user experience actually is. [Andrej Karpathy talks](https://www.youtube.com/watch?v=kwSVtQ7dziU&list=WL&index=3) about app store bloat. 5 apps to control home security setup. In his mind, it should be 1 agent to glue all APIs. And I kind of root for that. Destroy the middle layer of crappy and limited apps. Demand APIs of hardware providers to be available, reliable, and complete. 
 
 ## 2026-01-23 Ralph
+
 Loom Video of [[Ralph Wiggum]] Loop inventor [[Geoffrey Huntley]]. He's building a fully autonomous software factory. A true field researcher of the future of AI coding. 
 
 ##  2025-12 Claude Code with Opus 4.5 Thinking
+
 Just amazing what can I say. Best in class. 
 
 ##  2025-11 Antigravity
+
 VSCode clone and *agentic* IDE with agent manager view and Gemini Pro 3. Succeeds with 
 - more complex codebases
 - refactoring, reorganizing, and cleaning
 
 ## 2025-10 Transduction is all you need - or is it?
+
 Reading the abstract of [Attention is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), I realize the most important drawback of LLMs is that in contrast to inductive reasoning that makes human intelligent, AI is only capable of transductive reasoning which might seem impressive when executed on a large scale of input. However, it actually isn't the basis of intelligence. 
 
 
@@ -45,6 +49,7 @@ Reading the abstract of [Attention is All You Need](https://proceedings.neurips.
 - Eastman, D. (2025, July 3). [Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI](https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/). The New Stack.
 
 ## 2025-05 Reasoning of deepseek-r1
+
 When I first saw deepseek-r1 think in real time, running on my local laptop. Making condescending statements as though I wasn't listening in.
 
 Like:
@@ -112,4 +117,6 @@ Like:
 > ...done thinking.
 
 ## 2025-03 Anthropics MCP
+
 The announcement in march 2025 that Google and others will endorse MCP as the standard protocol to connect agents to tools was, for me, the main inflection point so far. It was settled: Now that AI is getting standardized, I will be part of the journey.
+

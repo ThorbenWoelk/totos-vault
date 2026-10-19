@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 A childhood disorder characterized by a recurrent pattern of angry/irritable mood, argumentative/defiant behavior, or vindictiveness toward authority figures.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 313.81
 - **Essential Features**:
     - A pattern of angry/irritable mood, argumentative/defiant behavior, or vindictiveness lasting at least **6 months**.
@@ -37,6 +38,7 @@ A childhood disorder characterized by a recurrent pattern of angry/irritable moo
     - **Exclusion**: Behaviors do not occur exclusively during psychotic, substance, depressive, or bipolar disorders.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6C90.1
 - **Essential Features**:
     - **Persistent pattern** (e.g., 6 months or more) of markedly defiant, disobedient, provocative, or spiteful behavior.
@@ -52,6 +54,7 @@ A childhood disorder characterized by a recurrent pattern of angry/irritable moo
     - **Specifiers**: ICD-11 explicitly includes specifiers for "chronic irritability-anger", helping to distinguish phenotypes that might overlap with DSM-5's disruptive mood dysregulation disorder.
 
 ## Clinical Context
+
 - **Developmental Course**: Often precedes Conduct Disorder, but many children with ODD do not progress to CD.
 - **Comorbidity**: Highly comorbid with **ADHD**.
 

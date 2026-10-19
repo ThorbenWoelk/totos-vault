@@ -34,6 +34,7 @@ NL understands deep learning models as a hierarchy of interconnected optimizatio
 For instance, the paper shows that gradient descent with momentum is a two-level nested optimization process. The authors propose **Deep Momentum Gradient Descent (DMGD)**, where the linear memory of momentum is replaced by a multi-layer perceptron (MLP).
 
 ## Titans
+
 A neural network that contains a **learnable long‑term memory (LLM) module** whose **update rule is itself a neural network**. During inference the model can **write into that memory** on the fly, rather than being frozen after pre‑training.
 
 ## Hope

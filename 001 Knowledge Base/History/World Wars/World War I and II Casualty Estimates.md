@@ -19,3 +19,4 @@ category:
 | World War II | 70–85 million | 21–25 million | 50–55 million |
 
 These are approximate ranges retained from the source note.
+

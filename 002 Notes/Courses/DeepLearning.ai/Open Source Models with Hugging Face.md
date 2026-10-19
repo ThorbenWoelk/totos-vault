@@ -19,8 +19,8 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-14
 ---
-
 ## References
 
 - DeepLearning.AI. (n.d.). [Open Source Models with Hugging Face](https://learn.deeplearning.ai/courses/open-source-models-hugging-face). DeepLearning.AI.
 - Hugging Face. (n.d.). [transformers](https://pypi.org/project/transformers/). PyPI.
+

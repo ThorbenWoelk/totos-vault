@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 A persistent pattern of ejaculation occurring before the individual wishes it, usually with minimal sexual stimulation.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 302.75
 - **Essential Features**:
     - A persistent or recurrent pattern of ejaculation occurring during partnered sexual activity **within approximately 1 minute** following vaginal penetration and before the individual wishes it.
@@ -39,6 +40,7 @@ A persistent pattern of ejaculation occurring before the individual wishes it, u
         - Severe: Prior to sexual activity, at start, or within 15 seconds.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Male Early Ejaculation** (Code 6C42)
 - **Essential Features**:
     - Ejaculation occurs prior to or within a very short duration of the initiation of vaginal penetration (or other relevant sexual stimulation).
@@ -50,6 +52,7 @@ A persistent pattern of ejaculation occurring before the individual wishes it, u
     - **Subjective Experience**: ICD-11 distinguishes between the subjective experience of orgasm and the physical act of ejaculation (relevant for rare cases where they dissociate).
 
 ## Clinical Context
+
 - **Most Common Dysfunction**: The most common sexual dysfunction in men under 40.
 - **Primary vs. Secondary**:
     - **Primary (Lifelong)**: Present since first sexual experience.

@@ -23,9 +23,11 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## The dbt Solution: Jinja Macros
+
 Macros are functions that write SQL for you.
 
 ### 1. Business Logic Macros
+
 This repository uses macros to centralize business rules.
 
 **Example: `clean_ressort`**
@@ -50,6 +52,7 @@ Located in `macros/business_logic/clean_ressort.sql`.
 * **Impact**: Change the rule in one file, update the entire warehouse.
 
 ### 2. Utility Macros
+
 Technical logic that is repetitive but not business-specific.
 
 **Example: `calculate_sk_for_id`**
@@ -58,12 +61,14 @@ Technical logic that is repetitive but not business-specific.
 * **Usage**: Used in every single Fact table to generate join keys.
 
 ### 3. Package Macros
+
 We also leverage macros from external packages (`dbt_utils`, `snowplow_utils`).
 * **Example**: `snowplow_utils.combine_column_versions`
 * **Problem**: Snowplow schema evolves. You might have `context_v1`, `context_v2`, `context_v3`.
 * **Macro Solution**: This macro coalesces them automatically into a single column, extracting the data from whichever version is present.
 
 ## Best Practices for Macros
+
 1.  **Arguments**: Make column names arguments, so the macro can be applied to any table.
 2.  **Modularity**: One macro, one specific job.
 3.  **Documentation**: Macros should be self-explanatory or commented, as they abstract away the underlying SQL.

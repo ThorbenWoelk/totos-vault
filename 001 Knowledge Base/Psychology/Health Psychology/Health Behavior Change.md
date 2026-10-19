@@ -24,6 +24,7 @@ tagging_last_processed: 2026-05-14
 Health behavior change refers to the motivational, volitional, and behavioral processes of abandoning health-compromising behaviors (e.g., smoking, poor diet) in favor of adopting and maintaining health-enhancing behaviors (e.g., exercise, healthy eating).
 
 ## Models of Change
+
 - **Transtheoretical Model (Stages of Change)**:
     1. **Precontemplation**: No intention to change in the near future.
     2. **Contemplation**: Considering change.
@@ -32,6 +33,7 @@ Health behavior change refers to the motivational, volitional, and behavioral pr
     5. **Maintenance**: Sustaining the change.
 
 ## Applications
+
 Crucial for treating:
 - **[[../Substance-Related and Addictive Disorders/Alcohol Use Disorder]]** (addiction recovery)
 - **[[../Eating Disorders/Anorexia Nervosa]]** and other eating disorders

@@ -29,6 +29,7 @@ The set of all tokens the model can work with is the model's *vocabulary*.
 Language models are *self-supervised*: The text input brings its own training samples for "predict the next word". Labels can thus be inferred from the input data. 
 
 ### Types of Language Models
+
 1. masked language model
 	- uses before and after to predict missing token
 	- e.g. BERT
@@ -41,11 +42,13 @@ Language models are *self-supervised*: The text input brings its own training sa
 ## Training
 
 ### Pre-training
+
 - Training for text completion
 - Starts at randomly initialized model weights
 - Most resource-intensitive
 
 ### Post-training and finetuning
+
 - post-training when done by model developers
 - tweak the model to the use case
 
@@ -114,3 +117,4 @@ Language models are *self-supervised*: The text input brings its own training sa
 - **2025–2026 | Agentic AI & Advanced Reasoning**
     
     - **The Breakthrough:** The focus shifts from pure pattern matching to native inference and reasoning (models that "think" and verify steps before responding) and autonomous AI agents capable of executing complex, multi-step workflows across web browsers, coding environments, and enterprise tools.
+

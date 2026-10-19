@@ -26,10 +26,12 @@ tagging_last_processed: 2026-05-15
 This is an Obsidian vault. It is a collection of .md files.
 
 ### Guidelines
+
 - Rule 0: keep this vault fresh
 - Include standard properties in every file
 
 ### Format
+
 - First line after properties is a headline, `##` for major sections, skip `#` as Obsidian uses filenames as titles. 
 - Use 1 empty line after each title and text paragraph.
 - For tabular data, stick to Markdown tables and avoid embedded HTML unless required.
@@ -48,3 +50,4 @@ We're intentionally improving the graph-structure of this vault:
 
 - Manually review links: follow internal wikilinks inside Obsidian and confirm external URLs resolve. 
 - If using markdownlint or spell-check extensions, resolve warnings before requesting review.
+

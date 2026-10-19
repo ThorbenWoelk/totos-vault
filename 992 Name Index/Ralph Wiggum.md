@@ -27,3 +27,4 @@ Name-index entry from local repository mentions. Add details when they become re
 
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Coding/03 AI Coding Concepts.md`
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Practice & Risk/Aha Moments.md`
+

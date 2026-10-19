@@ -17,3 +17,4 @@ Small proofs of concept for evaluating models and tools in a low-cost environmen
 
 - [ ] Run [IBM Granite 4.0 Tiny Preview](https://huggingface.co/ibm-granite/granite-4.0-tiny-preview) in
 Google Colab.
+

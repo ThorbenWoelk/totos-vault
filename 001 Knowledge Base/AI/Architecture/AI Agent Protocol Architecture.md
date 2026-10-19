@@ -37,6 +37,7 @@ The current agent ecosystem is built on three core protocols that work together:
 ## Protocol Layer Analysis
 
 ### MCP: Tool Access Layer
+
 **Purpose**: Standardizes how agents access external tools, data sources, and capabilities
 
 **Key Functions**:
@@ -57,6 +58,7 @@ Agent Core ← MCP Client → MCP Server → External Tools/Resources
 - Specialized tool access (code execution, web scraping, etc.)
 
 ### A2A: Inter-Agent Communication
+
 **Purpose**: Enables multiple agents to collaborate, coordinate, and share information
 
 **Key Functions**:
@@ -79,6 +81,7 @@ Agent A ↔ A2A Protocol ↔ Agent B
 - Hierarchical agent systems
 
 ### AG-UI: Human-Agent Interface
+
 **Purpose**: Standardizes how agents interact with users through frontend applications
 
 **Key Functions**:
@@ -121,12 +124,14 @@ Coordinator Agent ← A2A → Specialist Agent A ← MCP → Domain Tools A
 ## Protocol Design Principles
 
 ### Event-Driven Architecture
+
 All three protocols emphasize event-based communication:
 - **Asynchronous operations**: Non-blocking interactions
 - **Real-time updates**: Streaming data and state changes
 - **Loose coupling**: Components can evolve independently
 
 ### Transport Agnostic
+
 Protocols work across different transport mechanisms:
 - HTTP/REST for simple request-response
 - WebSockets for real-time bidirectional communication
@@ -134,6 +139,7 @@ Protocols work across different transport mechanisms:
 - Message queues for reliable delivery
 
 ### Flexible Integration
+
 - **Framework independence**: Not tied to specific agent frameworks
 - **Language agnostic**: SDKs available for multiple programming languages
 - **Middleware support**: Customizable processing layers
@@ -141,11 +147,13 @@ Protocols work across different transport mechanisms:
 ## Implementation Strategy
 
 ### For Simple Agents
+
 1. **Start with MCP**: Basic tool access for external capabilities
 2. **Add AG-UI**: User interface integration for direct interaction
 3. **Scale with A2A**: Multi-agent coordination as complexity grows
 
 ### For Complex Systems
+
 1. **Design agent roles**: Identify specialized agent functions
 2. **Map protocol usage**: Determine which protocols each agent needs
 3. **Define interaction patterns**: How agents communicate and coordinate
@@ -154,11 +162,13 @@ Protocols work across different transport mechanisms:
 ## Current Ecosystem Status
 
 ### Framework Support
+
 - **AG-UI**: Broad framework support (LangGraph, CrewAI, AG2, Mastra, etc.)
 - **MCP**: Growing adoption across agent platforms
 - **A2A**: Emerging standard with increasing implementation
 
 ### Development Tools
+
 - Quick-start templates and generators
 - SDK support for major languages
 - Reference implementations and examples
@@ -167,12 +177,14 @@ Protocols work across different transport mechanisms:
 ## Strategic Considerations
 
 ### When to Use Each Protocol
+
 - **MCP Only**: Single-agent applications with external tool needs
 - **AG-UI Only**: User-facing agents with minimal external dependencies
 - **A2A Only**: Backend agent coordination without direct user interaction
 - **Combined**: Complex applications requiring all three capabilities
 
 ### Architecture Evolution Path
+
 1. **Phase 1**: Single agent with MCP tool access
 2. **Phase 2**: Add AG-UI for user interaction
 3. **Phase 3**: Introduce A2A for multi-agent capabilities
@@ -184,3 +196,4 @@ This protocol stack provides the foundation for building scalable, interoperable
 
 - AG-UI Protocol. (n.d.). [AG-UI Protocol repositories](https://github.com/ag-ui-protocol). GitHub.
 - WorldofAI. (2025, June 2). [AG-UI: First-Ever Agent UI - Bring Agents into Frontend Applications! (Opensource)](https://www.youtube.com/watch?v=T6TEQY2AYr0). YouTube video.
+

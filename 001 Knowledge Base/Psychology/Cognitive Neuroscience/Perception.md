@@ -24,10 +24,12 @@ tagging_last_processed: 2026-05-15
 Perception is the organization, identification, and interpretation of sensory information in order to represent and understand the presented information or the environment.
 
 ## Modalities
+
 - **Visual Perception**: Processing light info (Occipital lobe).
 - **Auditory Perception**: Processing sound info (Temporal lobe).
 
 ## Top-Down vs. Bottom-Up
+
 - **Bottom-Up**: Reliability on sensory data.
 - **Top-Down**: Influence of prior knowledge, expectations, and attention on perception.
 

@@ -24,11 +24,13 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Overview
+
 Bloom filter folding is an Apache Arrow Rust Parquet optimization used by Pydantic Logfire to make sparse point lookups faster while reducing Bloom filter storage overhead.
 
 The technique starts with a conservatively large Split Block Bloom Filter, writes the row group, then folds adjacent blocks together until the filter reaches a target false-positive probability. This removes the need to estimate distinct-value counts before the data is known.
 
 ## What Bloom Filters Do
+
 A Bloom filter answers whether a value may exist in a group of rows. A negative answer is definitive, so the query engine can skip the row group without reading the data. A positive answer is probabilistic and may still require reading.
 
 This matters for observability queries such as:
@@ -40,6 +42,7 @@ This matters for observability queries such as:
 For selective point lookups, effective filters can skip most row groups and sharply reduce I/O.
 
 ## Sizing Problem
+
 Bloom filters need to be sized against the expected number of distinct values. That value is often unknown at write time.
 
 Common strategies are imperfect:
@@ -51,6 +54,7 @@ Common strategies are imperfect:
 The failure modes are practical: high-cardinality columns can saturate a small filter, while low-cardinality columns can waste space with an oversized filter.
 
 ## Folding Technique
+
 Bloom filter folding changes the flow:
 
 1. Allocate a conservatively large Split Block Bloom Filter.
@@ -61,6 +65,7 @@ Bloom filter folding changes the flow:
 Because Split Block Bloom Filters hash values into blocks, folding preserves the no-false-negatives guarantee. The filter gets smaller, but it still never rejects a value that was present.
 
 ## Logfire Impact
+
 Logfire stores traces, spans, and logs in Parquet. Folded Bloom filters help Logfire by:
 
 - skipping more irrelevant row groups for point lookups
@@ -72,6 +77,7 @@ Logfire stores traces, spans, and logs in Parquet. Folded Bloom filters help Log
 The article describes the write-time overhead as about 1 MiB of memory per Bloom filter, which is small compared with typical write buffers.
 
 ## Ecosystem Impact
+
 The optimization was contributed upstream to Apache Arrow instead of kept in a Logfire-specific fork. Projects using the Rust Parquet implementation, including DataFusion and Polars users through the shared ecosystem, can benefit as the change propagates.
 
 The broader lesson fits [[Everything is a Tradeoff]]: spend a small amount of write-time memory to reduce read-time I/O and storage waste. It also fits [[Software Design Principles - Comprehensive Guide]] because a better default removes a tuning burden from users.
@@ -79,3 +85,4 @@ The broader lesson fits [[Everything is a Tradeoff]]: spend a small amount of wr
 ## References
 
 - [[Adrian Garcia Badaracco|Garcia Badaracco]], A. (2026, April 15). [Bloom filter folding in Parquet: Faster point lookups for observability](https://pydantic.dev/articles/bloom-filter-folding-parquet-logfire?utm_source=linkedin). Pydantic Logfire.
+

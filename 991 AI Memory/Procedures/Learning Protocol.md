@@ -25,30 +25,36 @@ tagging_last_processed: 2026-05-14
 
 *Note from the editor: This document was an attempt to work iteratively with LLMs and make them learn from their mistakes and improve over time. Conceptually, it captures the idea of a SKILL.md that you or the agent can actively invoke. It already includes the idea of (a) triggers, (b) memory and compaction, and (c) dynamic repo state. What it was missing was a harness that makes the LLM be aware about this existing. I keep it for nostalgic reasons. But it's redundant now.*
 ## Session Start Protocol
+
 **MANDATORY: Read before any Obsidian work**
 
 ### Quick Context Load
+
 1. **Read this document first** - Current collaboration state and standards
 2. **Review Documentation Standards** - [[Documentation Standards]]
 3. **Check recent feedback patterns** - What mistakes have been repeated?
 4. **Scan current vault state** - What needs attention?
 
 ### Current Focus Areas
+
 - **No redundant headlines** - Filename serves as headline, never duplicate
 - **Visual interface awareness** - Think like a user, not just organizer
 - **Conceptual vs. descriptive naming** - Core ideas, not category descriptions
 - **Systematic understanding** - Extract principles, don't just apply fixes
 
 ### Intention Setting Questions
+
 - What type of Obsidian work am I doing?
 - What quality standards apply?
 - What past mistakes should I watch for?
 - How can I verify understanding before acting?
 
 ## Real-Time Learning Integration
+
 **Use during active collaboration**
 
 ### Understanding Verification Points
+
 **Before creating content:**
 "Here's what I think you want: [explanation]. My approach will be [method] because [reasoning]. Does this align?"
 
@@ -59,6 +65,7 @@ tagging_last_processed: 2026-05-14
 "I'm not sure about [specific issue]. Can you clarify [specific question]?"
 
 ### Immediate Feedback Capture Template
+
 When corrected, immediately document:
 
 ```
@@ -72,6 +79,7 @@ When corrected, immediately document:
 ```
 
 ### Pattern Recognition Triggers
+
 - "This seems similar to when we discussed..."
 - "The deeper principle here appears to be..."
 - "I should apply this same thinking to..."
@@ -80,12 +88,14 @@ When corrected, immediately document:
 ## Dynamic Standards Evolution
 
 ### Standards Update Process
+
 1. **Immediate capture** - Add insights to quality standards during conversation
 2. **Principle extraction** - Convert specific feedback to general rules
 3. **Example building** - Create concrete good/bad examples
 4. **Workflow refinement** - Adjust process based on what works
 
 ### Pattern Recognition System
+
 **Common Mistake Categories:**
 - Visual interface blindness (redundant headlines)
 - Surface fixes vs. deep understanding
@@ -93,6 +103,7 @@ When corrected, immediately document:
 - Compliance vs. comprehension
 
 ### Success Metrics
+
 - Fewer repeated corrections on same issues
 - Proactive questions before mistakes
 - Spontaneous pattern recognition
@@ -101,6 +112,7 @@ When corrected, immediately document:
 ## Activation Protocol for New Sessions
 
 ### How to Trigger This Framework
+
 **You should say:** "Use our Continuous Learning Protocol for this Obsidian work"
 
 **I will then:**
@@ -111,6 +123,7 @@ When corrected, immediately document:
 5. Capture any feedback immediately using the template
 
 ### Quick Reference Commands
+
 - **"CLP Start"** - Activate Continuous Learning Protocol
 - **"Understanding check"** - I state my understanding for verification
 - **"Pattern connection"** - Link current feedback to previous patterns
@@ -119,11 +132,13 @@ When corrected, immediately document:
 ## Framework Evolution Log
 
 ### 2025-07-18 - Initial Implementation
+
 - Created after repeated headline redundancy issues
 - Addresses gap between feedback and deep understanding
 - Transforms reactive correction to proactive verification
 
 ### Next Evolution Triggers
+
 - Update after any session where old patterns repeat
 - Refine based on effectiveness of verification points
 - Expand based on new collaboration patterns discovered

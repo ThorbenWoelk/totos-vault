@@ -28,12 +28,14 @@ tagging_last_processed: 2026-05-15
 Cognitive Behavioral Therapy (CBT) is a common type of talk therapy (psychotherapy). You work with a mental health counselor (psychotherapist or therapist) in a structured way, attending a limited number of sessions. CBT helps you become aware of inaccurate or negative thinking so you can view challenging situations more clearly and respond to them in a more effective way.
 
 ## Core Concepts
+
 - **The Cognitive Triangle**: The interconnectedness of thoughts, feelings, and behaviors. Changing one can influence the others.
 - **Cognitive Distortions**: Identifying irrational thought patterns (e.g., catastrophizing, black-and-white thinking).
 - **Behavioral Activation**: Engaging in activities to improve mood.
 - **Exposure**: Gradually facing feared situations.
 
 ## Applications
+
 CBT is an evidence-based treatment for a wide range of disorders, most notably:
 - **[[Depression]]**
 - **[[Generalized Anxiety Disorder]]** and other anxiety disorders

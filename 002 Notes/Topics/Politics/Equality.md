@@ -19,3 +19,4 @@ capable people merely to equalize outcomes.
 Where should that principle stop, and to which attributes should it apply? For example, does redistributing a
 portion of an ultra-wealthy person's income through taxation constitute a harmful handicap because it may
 reduce financial motivation and productivity?
+

@@ -23,10 +23,12 @@ tagging_last_processed: 2026-05-15
 Connectionism is an approach to the study of human cognition that utilizes mathematical models known as artificial neural networks.
 
 ## Key Principles
+
 - **Distributed Representation**: Information is not stored in a single node but is distributed across a network of connections.
 - **Parallel Processing**: Many operations occur simultaneously.
 - **Learning Rule**: Knowledge is acquired by adjusting the weights of connections based on experience (e.g., Backpropagation).
 
 ## Relevance
+
 - Bridge between biological brain structure (neurons) and cognitive function.
 

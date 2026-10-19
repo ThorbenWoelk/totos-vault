@@ -23,6 +23,7 @@ tagging_last_processed: 2026-05-15
 while :; do cat PROMPT.md | claude ; done
 
 ## "Agents"
+
 #2026-03
 - There are four distinct "species" of agents in production use, each suited to different problems:
 	- Coding Harnesses (individual or project-scale), 

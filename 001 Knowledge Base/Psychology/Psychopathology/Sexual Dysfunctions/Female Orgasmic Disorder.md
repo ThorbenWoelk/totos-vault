@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 A disorder characterized by persistent or recurrent delay, infrequent, or absent sensation of orgasm following a normal sexual excitement phase.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 302.73
 - **Essential Features**:
     - Presence of either of the following on **almost all or all (75-100%)** occasions of sexual activity:
@@ -40,6 +41,7 @@ A disorder characterized by persistent or recurrent delay, infrequent, or absent
     - **Severity**: Mild, Moderate, Severe.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Female Orgasmic Disorder** (Code 6C44)
 - **Essential Features**:
     - Persistent or recurrent pattern of:
@@ -53,6 +55,7 @@ A disorder characterized by persistent or recurrent delay, infrequent, or absent
     - ICD-11 emphasizes the context of "adequate sexual stimulation," acknowledging that inability to orgasm due to poor technique or stimulation is not a disorder.
 
 ## Clinical Context
+
 - **Context is Key**: Diagnosis should not be made if the difficulty is due to inadequate stimulation (e.g., lack of clitoral stimulation for many women).
 - **Secondary to Other Issues**: Often secondary to low desire, pain (dyspareunia), or relationship conflict.
 

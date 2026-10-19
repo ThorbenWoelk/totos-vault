@@ -34,3 +34,4 @@ trade-off between granularity and performance.
 
 The practical goal is a balanced system: efficient for common analyses, flexible enough for detailed
 investigation, and explicit about the cost of each level of detail.
+

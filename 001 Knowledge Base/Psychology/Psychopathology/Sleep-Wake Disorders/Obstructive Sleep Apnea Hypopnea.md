@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 A sleep-related breathing disorder characterized by repetitive episodes of shallow or stopped breathing during sleep due to upper airway obstruction.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 327.23 (G47.33)
 - **Essential Features**:
     - **Polysomnography evidence** showing:
@@ -35,6 +36,7 @@ A sleep-related breathing disorder characterized by repetitive episodes of shall
     - **Apnea**: Complete obstruction of airflow. **Hypopnea**: Reduction in airflow.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Obstructive Sleep Apnoea** (Code 7A41)
 - **Essential Features**:
     - Repetitive episodes of upper airway obstruction during sleep (apneas/hypopneas).
@@ -46,6 +48,7 @@ A sleep-related breathing disorder characterized by repetitive episodes of shall
     - **Comorbidities**: ICD-11 explicitly includes the presence of medical comorbidities (hypertension, diabetes, heart failure) as a qualifying criterion when the index is between 5-15, emphasizing the systemic health impact.
 
 ## Clinical Context
+
 - **Health Impact**: Major risk factor for cardiovascular disease and stroke.
 - **Psychological Impact**: Chronic fragmentation of sleep leads to cognitive deficits, depression, and irritability (often mimicking depression or ADHD).
 - **Treatment**: CPAP (Continuous Positive Airway Pressure) is the gold standard. Weight loss and behavioral changes are also critical.

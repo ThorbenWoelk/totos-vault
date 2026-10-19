@@ -27,3 +27,4 @@ Name-index entry from local repository mentions. Add details when they become re
 
 - `_obsidian/totos-vault/000 raw/articles/Bloom Filter Folding in Parquet - Pydantic Logfire Article.md`
 - `_obsidian/totos-vault/001 Knowledge Base/Data/Modeling & Storage/Bloom Filter Folding in Parquet.md`
+

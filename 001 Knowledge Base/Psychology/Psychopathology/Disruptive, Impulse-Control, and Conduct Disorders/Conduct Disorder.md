@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 A regular pattern of behavior in which the basic rights of others or major age-appropriate societal norms or rules are violated.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 312.81 (Childhood-onset) / 312.82 (Adolescent-onset) / 312.89 (Unspecified)
 - **Essential Features**:
     - A repetitive and persistent pattern of behavior violating the rights of others or societal norms.
@@ -40,6 +41,7 @@ A regular pattern of behavior in which the basic rights of others or major age-a
     - **Specifier**: **With Limited Prosocial Emotions** (Callous-Unemotional traits): Lack of remorse/guilt, callous/lack of empathy, unconcerned about performance, shallow or deficient affect.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Conduct-Dissocial Disorder** (Code 6C91)
 - **Essential Features**:
     - **Repetitive and persistent pattern** of behavior violating basic rights of others or major age-appropriate societal norms/laws.
@@ -54,6 +56,7 @@ A regular pattern of behavior in which the basic rights of others or major age-a
     - **Subtypes**: ICD-11 can further categorize into "Socialized" (peer relationships intact) vs "Unsocialized" (solitary/rejected), preserving a distinction from ICD-10.
 
 ## Clinical Context
+
 - **Progression**: Can be a precursor to **Antisocial Personality Disorder** in adulthood (diagnosis of APD requires evidence of CD before age 15).
 - **Severity**: The "Limited Prosocial Emotions" specifier indicates a more severe, persistent, and heritable form of the disorder, often with poorer treatment outcomes.
 

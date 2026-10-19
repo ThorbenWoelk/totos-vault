@@ -22,3 +22,4 @@ tagging_last_processed: 2026-05-15
 ## References
 
 - Veritasium. (2023, December 23). [This game theory problem will change the way you see the world](https://www.youtube.com/watch?v=mScpHTIi-kM). YouTube video.
+

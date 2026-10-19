@@ -18,6 +18,7 @@ category:
 strategy.
 We'll show how to evolve a prompt from basic to sophisticated using both frameworks.
 ## Level 1: Basic Prompt (Beginner)
+
 ### Basic Application
 
 **Task:** Analyze this data
@@ -32,6 +33,7 @@ Problems with this approach:
 - There is no example to learn from.
 - The required output format and tone are unspecified.
 ## Level 2: Structured Prompt (Intermediate)
+
 ### Google AI Framework (TCREI)
 
 **Task:** Create executive summary of customer satisfaction trends
@@ -53,6 +55,7 @@ executive summary similar to
 
 [Survey data attached]
 ## Level 3: Advanced Prompt (Expert)
+
 ### Combined framework implementation
 
 This version applies Anthropic's “Uncle Charlie Takes Every Dog Past Fancy Parks” framework.
@@ -136,7 +139,9 @@ Please analyze the provided survey data following these guidelines.
 ```
 
 ## Level 4: Master-Level with Advanced Techniques
+
 ### Incorporating Tree-of-Thought, Chain-of-Thought, and Prompt Chaining
+
 This version combines multiple expert roles, scenario testing, verification, and business constraints.
 
 ```text
@@ -421,3 +426,4 @@ Even at master level, we circle back to ensure:
 The master-level prompt adds multiple expert perspectives, competing scenarios, systematic verification,
 real-world constraints, implementation planning, and explicit risk handling. It turns a request for analysis
 into a structured decision-support process.
+

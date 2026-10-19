@@ -56,6 +56,7 @@ Use Elements to create outlines, templates, and organization by typing "/" in a 
 
 Here's an example of Elements:
 #### Element templates
+
 Think about how you structure project outlines. Then, create and organize your elements accordingly.
 
 For an article outline, for example, you could have elements such as a Hook, Introduction, Body, and
@@ -83,3 +84,4 @@ Here are a few free resources to help with Kortex:
 - Kortex team account.
 
 - Kortex tutorials on YouTube.
+

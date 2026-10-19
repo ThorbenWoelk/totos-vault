@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 Schizophrenia is a serious mental disorder in which people interpret reality abnormally. It may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Two (or more) of the following, each present for a significant portion of time during a 1-month period (or less if successfully treated). At least one of these must be (1), (2), or (3):
     1. Delusions.
     2. Hallucinations.
@@ -37,6 +38,7 @@ Schizophrenia is a serious mental disorder in which people interpret reality abn
 - **Criterion C**: Continuous signs of the disturbance persist for at least 6 months.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6A20
 - **Essential Features**:
     - Characterized by disturbances in multiple mental modalities, including thinking, perception, self-experience, cognition, volition, affect, and behavior.
@@ -55,11 +57,13 @@ Schizophrenia is a serious mental disorder in which people interpret reality abn
 
 
 ## Symptom Categories
+
 - **Positive Symptoms**: Hallucinations (hearing voices), delusions, thought disorders.
 - **Negative Symptoms**: Reduced ability to function normally, lack of emotion, loss of interest.
 - **Cognitive Symptoms**: Problems with attention, memory, and executive function.
 
 ## Etiology and Links
+
 - **Neurobiology**: The dopamine hypothesis is a longstanding theory.
 - **Genetic Overlap**: Significant genetic overlap with [[Autism]] and other neurodevelopmental conditions.
 

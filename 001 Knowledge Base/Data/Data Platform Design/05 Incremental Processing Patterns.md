@@ -24,14 +24,17 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## The Challenge
+
 For "High Volume" , you cannot run `SELECT * FROM source` every day.
 * **Full Refresh**: Processing 5 years of clickstream data might cost €100+ per run and take hours.
 * **Naive Incremental**: `WHERE timestamp > (select max(timestamp) from target)` is often inefficient in BigQuery because finding the `max()` requires scanning the huge target table.
 
 ## The Solution: Smart Windowing
+
 This project implements a sophisticated macro `configure_date_filter` to handle load windows deterministically.
 
 ### The Macro: `configure_date_filter`
+
 Located in `macros/load_variables/configure_date_filter.sql`.
 
 **Core Logic:**
@@ -59,11 +62,13 @@ It determines a `load_start_date` and `load_end_date` based on:
 ```
 
 ### Why "Today - 3 Days"?
+
 Why not just "Yesterday"?
 1.  **Late Arriving Data**: Mobile devices might be offline and upload tracking events 24 hours later. We re-process the last ~3 days to catch these "late arrivals" and update the partitions correctly (`insert_overwrite`).
 2.  **Safety**: If the pipeline breaks for a day, the next run covers the gap automatically without manual intervention.
 
 ### Optimizing Joins
+
 This macro is applied **on every side of a join**.
 When joining `Page Views` (Huge) to `Sessions` (Huge), we apply the filter to *both* CTEs before joining.
 * **Challenge**: Join 10 years of Sessions to usage.
@@ -83,3 +88,4 @@ select ... from source_data join session_data ...
 ```
 
 This pattern ensures that our daily costs remain flat and low, regardless of how much historical data we accumulate.
+

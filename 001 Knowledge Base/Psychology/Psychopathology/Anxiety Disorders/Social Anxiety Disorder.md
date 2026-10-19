@@ -24,6 +24,7 @@ tagging_last_processed: 2026-05-15
 Social anxiety disorder is a chronic mental health condition in which social interactions cause irrational anxiety.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others.
 - **Criterion B**: The individual fears that he or she will act in a way or show anxiety symptoms that will be negatively evaluated.
 - **Criterion C**: The social situations almost always provoke fear or anxiety.
@@ -32,6 +33,7 @@ Social anxiety disorder is a chronic mental health condition in which social int
 - **Criterion F**: The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B04
 - **Essential Features**:
     - Marked and excessive fear or anxiety consistently occurring in one or more social situations (e.g., social interactions, being observed, performing).

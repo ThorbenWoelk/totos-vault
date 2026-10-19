@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 An acquired syndrome of cognitive decline sufficient to interfere with independence in daily activities.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: Varies by etiology (e.g., 331.0 for Alzheimer's type).
 - **Essential Features**:
     - **Significant cognitive decline** from a previous level of performance in one or more cognitive domains (complex attention, executive function, learning and memory, language, perceptual-motor, or social cognition).
@@ -38,6 +39,7 @@ An acquired syndrome of cognitive decline sufficient to interfere with independe
     - **Severity**: Mild (instrumental ADLs affected), Moderate (basic ADLs affected), Severe (fully dependent).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Dementia** (Code 6D80-6D8Z)
 - **Essential Features**:
     - **Acquired cognitive decline** from a previously attained level of functioning.
@@ -48,5 +50,6 @@ An acquired syndrome of cognitive decline sufficient to interfere with independe
     - **Thresholds**: Both define the boundary between Mild and Major/Dementia based on the **loss of independence** in daily functioning (ADLs).
 
 ## Clinical Context
+
 - **Reversibility**: While most causes (Alzheimer's) are progressive and irreversible, some "reversible dementias" (vitamin B12 deficiency, hypothyroidism, normal pressure hydrocephalus) must be ruled out.
 

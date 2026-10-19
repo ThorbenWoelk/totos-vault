@@ -24,3 +24,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/000 raw/articles/Bloom Filter Folding in Parquet - Pydantic Logfire Article.md`
+

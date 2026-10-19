@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 Complex PTSD is a condition that results from chronic, long-term exposure to emotional trauma over which a victim has little or no control and from which there is little or no hope of escape.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B41
 - **Status**: Distinct formal diagnosis in ICD-11 (Not in DSM-5, which uses "PTSD" with possible dissociative specifiers or considers comorbid personality issues).
 - **Essential Features**:
@@ -37,5 +38,6 @@ Complex PTSD is a condition that results from chronic, long-term exposure to emo
 
 
 ## Connections
+
 - Often shares features with [[Borderline Personality Disorder]], leading to debates about differential diagnosis.
 

@@ -23,6 +23,7 @@ tagging_last_processed: 2026-05-15
 Configuration documentation for the AI memory vault infrastructure.
 
 ## Git Versioning
+
 - **Plugin**: Obsidian Git
 - **Purpose**: Version control for vault contents
 
@@ -50,3 +51,4 @@ Shared across all three vault repos via each `.obsidian/community-plugins.json`.
 - Dickson, P. (2025, April 13). [Automate note generation in Obsidian with AI Claude and MCP servers](https://www.youtube.com/watch?v=NnwwpASG1_4&t=125s). YouTube video.
 - MarkusPfundstein. (n.d.). [mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian). GitHub.
 - Obsidian Git. (n.d.). [Start here](https://publish.obsidian.md/git-doc/Start+here). Git Documentation.
+

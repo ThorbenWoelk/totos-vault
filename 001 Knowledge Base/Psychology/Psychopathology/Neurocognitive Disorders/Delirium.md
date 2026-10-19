@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 An acute, fluctuating disturbance in attention and awareness, typically initiated by a medical condition or substance.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 780.09 (R41.0)
 - **Essential Features**:
     - **Disturbance in Attention**: Reduced ability to direct, focus, sustain, and shift attention.
@@ -38,6 +39,7 @@ An acute, fluctuating disturbance in attention and awareness, typically initiate
     - **Exclusion**: Not better explained by a pre-existing neurocognitive disorder (though they often co-occur) and not occurring in the context of a severely reduced level of arousal (coma).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6D70
 - **Essential Features**:
     - **Disturbance of attention, orientation, and awareness**.
@@ -49,6 +51,7 @@ An acute, fluctuating disturbance in attention and awareness, typically initiate
     - **Sleep-Wake**: ICD-11 highlights sleep-wake disturbances and psychomotor disturbances even more explicitly as core features, though they are also recognized features in DSM-5 text.
 
 ## Clinical Context
+
 - **Medical Emergency**: Delirium is often a sign of acute medical instability (infection/sepsis, metabolic imbalance, organ failure) and requires immediate medical investigation.
 - **Vulnerability**: The "frail brain" (e.g., existing dementia) is highly susceptible to delirium even from minor insults (e.g., UTI).
 - **Subtypes**:

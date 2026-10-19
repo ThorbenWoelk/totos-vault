@@ -24,12 +24,14 @@ tagging_last_processed: 2026-05-15
 Panic disorder involves recurrent unexpected panic attacks—sudden periods of intense fear that come on quickly and reach their peak within minutes.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Recurrent unexpected panic attacks. A panic attack is an abrupt surge of intense fear or intense discomfort that reaches a peak within minutes, and during which time four (or more) symptoms occur (e.g., palpitations, sweating, trembling, sensation of shortness of breath, chest pain, fear of dying).
 - **Criterion B**: At least one of the attacks has been followed by 1 month (or more) of one or both of the following:
     1. Persistent concern or worry about additional panic attacks or their consequences (e.g., losing control, having a heart attack, "going crazy").
     2. A significant maladaptive change in behavior related to the attacks (e.g., behaviors designed to avoid having panic attacks).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B01
 - **Essential Features**:
     - Recurrent unexpected panic attacks that are not restricted to particular stimuli or situations.

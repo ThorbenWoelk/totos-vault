@@ -403,3 +403,4 @@ This keeps the architecture honest. The first goal is not a perfect knowledge br
 - Hugging Face. (n.d.). [Text Embeddings Inference](https://huggingface.co/docs/text-embeddings-inference). Hugging Face.
 - Hugging Face. (n.d.). [text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference). GitHub.
 - Linked benchmark note. (2026, April 18).
+

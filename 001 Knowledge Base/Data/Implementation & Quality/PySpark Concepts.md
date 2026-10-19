@@ -25,3 +25,4 @@ tagging_last_processed: 2026-05-15
 
 DataFrames are logical plans, not data.
 Python code constructs intent; execution happens later, elsewhere, and differently than it looks.
+

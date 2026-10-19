@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 A chronic neurological disorder typically caused by the brain's inability to regulate sleep-wake cycles normally, often resulting in sudden sleep attacks and rapid entry into REM sleep.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 347.00 (G47.419)
 - **Essential Features**:
     - **Irrepressible need to sleep**, lapsing into sleep, or napping occurring within the same day.
@@ -36,6 +37,7 @@ A chronic neurological disorder typically caused by the brain's inability to reg
         3.  **Polysomnography Findings**: REM sleep latency ≤15 minutes, or MSLT showing mean sleep latency ≤8 minutes and ≥2 Sleep-Onset REM Periods (SOREMPs).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Narcolepsy** (Code 7A20)
 - **Essential Features**:
     - **Daily periods** of irrepressible need to sleep or daytime lapses into sleep.
@@ -48,6 +50,7 @@ A chronic neurological disorder typically caused by the brain's inability to reg
     - **Biomarkers**: Both systems heavily emphasize objective biomarkers (Hypocretin, REM latency) unlike many other psychiatric diagnoses.
 
 ## Clinical Context
+
 - **Mechanism**: Type 1 is widely considered an autoimmune destruction of hypocretin (orexin) producing neurons in the hypothalamus.
 - **Symptoms**: "Tetrad of Narcolepsy" = Excessive Daytime Sleepiness (EDS), Cataplexy, Sleep Paralysis, Hypnagogic Hallucinations.
 

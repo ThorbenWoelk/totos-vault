@@ -62,3 +62,4 @@ Startpunkte für AI- und Data-Engineering-News. Regelmäßig als Ausgangspunkt n
 
 - The New York Times. (n.d.). [Hard Fork](https://hardfork.com/). Hard Fork.
 - NVIDIA. (n.d.). [Deep learning](https://blogs.nvidia.com/blog/category/deep-learning/). NVIDIA Blog.
+

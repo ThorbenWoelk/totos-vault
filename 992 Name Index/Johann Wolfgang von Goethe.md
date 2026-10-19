@@ -28,3 +28,4 @@ Name-index entry from local repository mentions. Add details when they become re
 
 - `_obsidian/totos-vault/002 Notes/Books/Clean Code.md`
 - `_obsidian/totos-vault/002 Notes/Books/Safranski (2013) - Goethe.md`
+

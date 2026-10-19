@@ -26,3 +26,4 @@ Kortex originally served as my second brain. Its useful conventions should carry
 - **Priority 1:** Most important or urgent.
 - **Priority 2:** Important, but with a lower cost–benefit ratio.
 - **Priority 3:** Other issues currently promise a better return on effort.
+

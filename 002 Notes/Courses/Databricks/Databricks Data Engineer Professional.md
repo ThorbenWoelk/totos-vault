@@ -81,9 +81,11 @@ dp.create_auto_cdc_flow(
 
 
 ### Optimizing
+
 Enabling deletion vectors allows Delta to efficiently track and manage rows that are deleted or updated without requiring full rewrites of the underlying files, which significantly reduces the overhead for CDC operations. Applying liquid clustering on the CDC merging keys organizes the data physically based on these keys, ensuring that related records are colocated and minimizing the amount of data scanned during updates and deletions. Together, these optimizations help maintain high ingestion and query performance, reduce latency for CDC workloads, and make the table more manageable at scale.
 
 ## Vacuum
+
 7 days is the default retention period for Delta Lake table history before VACUUM removes old files
 
 ## Multiple CDC changes in one batch
@@ -95,9 +97,11 @@ MERGE INTO fails on multiple changes to same row: `Cannot perform MERGE as multi
 ## CDF
 
 ### When to use
+
 ![[Pasted image 20260228200952.png]]
 
 ### VACUUM
+
 The files in the \_change\_data_ folder follow the retention policy of the table. Therefore, if you run the VACUUM command, change data feed data is also deleted.
 
 
@@ -113,11 +117,13 @@ ALTER TABLE employees SET ROW FILTER fr_filter ON (region);
 ## Aggregates
 
 ### Stateful (streaming) aggregates
+
 You must use watermarks when computing stateful aggregates. Omitting a watermark from a stateful aggregate query results in state information building up infinitely over time. This results in processing slowdowns and can lead to out-of-memory errors.
 
 You should not use a stateful aggregate to calculate statistics over an entire dataset. Databricks recommends using materialized views for incremental aggregate calculation on an entire dataset.
 
 ### Incremental updates
+
 Materialized views automatically track changes in the data source and apply appropriate updates to aggregate values on refresh.
 
 ## Cloning
@@ -132,17 +138,20 @@ Cloning can occur incrementally. Executing the `CREATE OR REPLACE TABLE` comma
 Now, If you run `DESCRIBE HISTORY orders_archive`, you will see a new version of CLONE operation occurred on the table.
 
 ## Time Travel
+
 Delta Lake’s default transaction log retention period is 30 days. If you want to keep deleted files the same period: 
 `ALTER TABLE x SET TBLPROPERTIES ('delta.deletedFileRetentionDuration' = 'interval 30 days')
 
 ## Sharing
 
 ### Protocols
+
 The Databricks-to-Databricks sharing protocol is the only Delta Sharing implementation that supports sharing not just static Delta tables, but also additional Unity Catalog assets such as Volumes, Models, and Notebooks. This protocol extends the open Delta Sharing standard, enabling seamless collaboration and governance between Databricks workspaces and organizations within the Databricks ecosystem.
 
 In contrast, the open Delta Sharing protocol and customer-managed implementations of the open-source Delta Sharing server are limited to sharing static Delta tables only. They do not support Unity Catalog assets or Databricks-native objects beyond data tables.
 
 ### WITH HISTORY
+
 Allows CDF & time travel. Automatically exposes the complete table directory, enabling CDF consumption and historical queries.
 
 
@@ -165,6 +174,7 @@ Non-time-based window operations are not supported on streaming DataFrames.
 Instead, these window operations need to be implemented inside a foreachBatch logic.
 
 ### Deletes on streaming source
+
 If you are using a table as a streaming source, deleting data breaks the append-only requirement of streaming sources, which makes the table no more streamable. To avoid this, you can use the ignoreDeletes option when streaming from this table. This option enables streaming processing from Delta tables with partition deletes.
 
 `option("ignoreDeletes", True)`
@@ -172,6 +182,7 @@ If you are using a table as a streaming source, deleting data breaks the append-
 ## Optimizer
 
 ### Dynamic File Pruning
+
 Dynamic file pruning in Apache Spark is an optimization technique that skips reading irrelevant data files during query execution by leveraging runtime filter information, which allows Spark to avoid scanning files that do not match the query predicates, thereby improving performance and reducing I/O.
 
 Dynamic file pruning triggers for queries that contain filter statements or `WHERE` clauses. You must use Photon-enabled compute to use dynamic file pruning in `MERGE`, `UPDATE`, and `DELETE` statements. Only `SELECT` statements leverage dynamic file pruning when Photon is not used.
@@ -179,6 +190,7 @@ Dynamic file pruning triggers for queries that contain filter statements or `WH
 # Lakeflow Spark Declarative Pipelines
 
 ## Flows
+
 **SDP**
 Append - streaming
 Materialized view - batch
@@ -187,15 +199,18 @@ Materialized view - batch
 AUTO CDC - streaming
 
 ## Targets
+
 A **streaming table** can have one or more streaming flows written into it.
 **Materialized views** differ from streaming tables in that you always define the flows implicitly as part of the materialized view definition.
 
 ## Sinks
+
 supports Delta tables, Apache Kafka topics, Azure EventHubs topics, and custom Python data sources.
 
 ## Pipeline Development Tools
 
 ### Dev mode
+
 When you run your LSDP pipeline in development mode, the system does the following:
 - Reuses a cluster to avoid the overhead of restarts. By default, clusters run for two hours when development mode is enabled. You can change this with the `pipelines.clusterShutdown.delay` setting in the [Configure classic compute for pipelines](https://docs.databricks.com/aws/en/ldp/configure-compute).
 - Disables pipeline retries so you can immediately detect and fix errors.
@@ -210,6 +225,7 @@ A job cannot have a group as an owner.
 ## Notebooks
 
 ### From scripts
+
 You can convert Python, SQL, Scala, and R scripts to single-cell notebooks by adding a comment to the first line of the file:
 `# Databricks notebook source`
 
@@ -220,9 +236,11 @@ You can convert Python, SQL, Scala, and R scripts to single-cell notebooks by ad
 ## Cluster Debugging
 
 ### Issue: Exploding joins
+
 If you see a few rows going into a node and magnitudes more coming out, you may be suffering from an exploding join or explode().
 
 ### Issue: One spark task
+
 If you see a long-running stage with just one task, that's likely a sign of a problem. While this one task is running only one CPU is utilized and the rest of the cluster may be idle. This happens most frequently in the following situations:
 
 - Expensive [UDF](https://docs.databricks.com/aws/en/udf/) on small data
@@ -258,6 +276,7 @@ Speeding up writes:
 # Unity Catalog
 
 ## Predictive Optimization
+
 Predictive Optimization in Databricks Unity Catalog automatically optimizes managed tables in Unity Catalog by:
 - Running background maintenance tasks like VACUUM, OPTIMIZE, and ANALYZE to reduce fragmentation and improve performance.
 - Collecting table statistics during writes, which helps the query optimizer make better decisions and improve query speed.

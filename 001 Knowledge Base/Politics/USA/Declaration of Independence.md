@@ -29,6 +29,7 @@ tagging_last_processed: 2026-05-15
 ## Historical Context and Creation
 
 ### Timeline Leading to Independence
+
 - **1775**: First shots fired at Lexington and Concord (April 19)
 - **1775-1776**: Continental Congress gradually moved toward independence
 - **December 1775**: British Parliament banned trade with colonies
@@ -40,6 +41,7 @@ tagging_last_processed: 2026-05-15
 - **August 2, 1776**: Formal signing ceremony
 
 ### The Committee of Five
+
 Congress appointed five men to draft the declaration:
 - **[[Thomas Jefferson]]** (Virginia) - Primary author
 - **[[John Adams]]** (Massachusetts)
@@ -50,6 +52,7 @@ Congress appointed five men to draft the declaration:
 ## Philosophical Foundations
 
 ### Influence of [[John Locke]]
+
 The Declaration heavily drew from English philosopher [[John Locke]]'s theories:
 - **Natural Rights**: Life, liberty, and property ([[Thomas Jefferson|Jefferson]] changed to "pursuit of happiness")
 - **Social Contract**: Government derives power from consent of the governed
@@ -57,6 +60,7 @@ The Declaration heavily drew from English philosopher [[John Locke]]'s theories:
 - **State of Nature**: All humans are naturally equal
 
 ### Other Intellectual Influences
+
 - **Natural Law Theory**: Universal moral principles
 - **Enlightenment Philosophy**: Reason and individual rights
 - **English Constitutional Tradition**: Limited government, rule of law
@@ -67,12 +71,14 @@ The Declaration heavily drew from English philosopher [[John Locke]]'s theories:
 The Declaration consists of five main sections:
 
 ### 1. Introduction
+
 **"When in the Course of human events..."**
 - Explains necessity of declaring independence
 - Appeals to "decent respect to the opinions of mankind"
 - Sets up justification for separation
 
 ### 2. Preamble - Statement of Principles
+
 **Key Philosophical Declarations:**
 
 **"We hold these truths to be self-evident:"**
@@ -87,6 +93,7 @@ The Declaration consists of five main sections:
 The longest section lists specific complaints against British rule, organized into four categories:
 
 #### Executive Abuses (Grievances 1-12)
+
 1. **Refused assent to necessary laws**
 2. **Forbidden governors to pass urgent laws**
 3. **Required legislative meetings in uncomfortable places**
@@ -101,6 +108,7 @@ The longest section lists specific complaints against British rule, organized in
 12. **Imposed taxes without consent**
 
 #### Legislative Usurpations (Grievances 13-22)
+
 13. **Deprived colonists of trial by jury**
 14. **Transported colonists overseas for trial**
 15. **Abolished free system of English laws in nearby province**
@@ -113,6 +121,7 @@ The longest section lists specific complaints against British rule, organized in
 22. **Declared themselves able to legislate in all cases**
 
 #### Military Actions (Grievances 23-27)
+
 23. **Abdicated government and waged war**
 24. **Plundered seas, ravaged coasts, burned towns**
 25. **Transported foreign mercenaries** (Hessian soldiers)
@@ -120,11 +129,13 @@ The longest section lists specific complaints against British rule, organized in
 27. **Excited domestic insurrections and frontier warfare**
 
 ### 4. Appeal to British People
+
 - Addressed "British brethren" directly
 - Explained attempts at reconciliation
 - Declared them "enemies in war, in peace friends"
 
 ### 5. Formal Declaration and Conclusion
+
 - **"These United Colonies are, and of Right ought to be Free and Independent States"**
 - Listed powers of independent nations
 - **"Divine Providence"** invoked for protection
@@ -133,6 +144,7 @@ The longest section lists specific complaints against British rule, organized in
 ## Revolutionary Ideas and Impact
 
 ### Radical Concepts for 1776
+
 - **Popular Sovereignty**: Government authority comes from people
 - **Natural Equality**: All humans born with equal rights
 - **Unalienable Rights**: Rights that cannot be taken away
@@ -140,6 +152,7 @@ The longest section lists specific complaints against British rule, organized in
 - **Written Justification**: First formal explanation of national independence
 
 ### Global Influence
+
 The Declaration inspired:
 - **French Revolution** (1789)
 - **Latin American independence movements**
@@ -150,12 +163,14 @@ The Declaration inspired:
 ## Evolution of Interpretation
 
 ### Original Intent (1776)
+
 - **Collective Rights**: Colonists as a people had right to self-government
 - **"All men created equal"** meant political equality, not individual equality
 - Limited to white male property owners
 - Did not address slavery or women's rights
 
 ### Expanded Interpretations
+
 - **[[Abraham Lincoln]]**: Used Declaration to argue against slavery
 - **Women's Suffrage Movement**: Applied equality principle to gender
 - **Civil Rights Movement**: Used "all men created equal" for racial equality
@@ -164,6 +179,7 @@ The Declaration inspired:
 ## Key Signers and Legacy
 
 ### Notable Signers
+
 - **[[John Hancock]]** (President of Congress) - Famous large signature
 - **[[Samuel Adams]]** - Organizer of Boston Tea Party
 - **[[Benjamin Franklin]]** - Diplomat and inventor
@@ -172,6 +188,7 @@ The Declaration inspired:
 - **[[Benjamin Rush]]** - Physician and social reformer
 
 ### Immediate Consequences
+
 - **International Recognition**: Enabled formal alliance with France
 - **Unified Colonial Resistance**: Created shared cause
 - **Escalated Conflict**: Made reconciliation impossible
@@ -180,12 +197,14 @@ The Declaration inspired:
 ## Contradictions and Limitations
 
 ### Slavery Paradox
+
 - [[Thomas Jefferson|Jefferson]] originally blamed King George for slavery (removed by Congress)
 - Many signers were slaveholders
 - "All men" didn't include enslaved people
 - Created tension between ideals and reality
 
 ### Limited Inclusion
+
 - Excluded women from political participation
 - Native Americans seen as enemies
 - Property requirements for voting

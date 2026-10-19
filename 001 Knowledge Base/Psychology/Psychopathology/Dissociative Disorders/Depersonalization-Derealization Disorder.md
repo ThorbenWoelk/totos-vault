@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-14
 A dissociative disorder characterized by persistent or recurrent episodes of depersonalization, derealization, or both, while reality testing generally remains intact.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: The presence of persistent or recurrent experiences of depersonalization, derealization, or both:
     1.  **Depersonalization**: Experiences of unreality, detachment, or being an outside observer with respect to one’s thoughts, feelings, sensations, body, or actions (e.g., perceptual alterations, distorted sense of time, unreal or absent self, emotional and/or physical numbing).
     2.  **Derealization**: Experiences of unreality or detachment with respect to surroundings (e.g., individuals or objects are experienced as unreal, dreamlike, foggy, lifeless, or visually distorted).
@@ -37,6 +38,7 @@ A dissociative disorder characterized by persistent or recurrent episodes of dep
 - **Criterion E**: The disturbance is not better explained by another mental disorder, such as schizophrenia, panic disorder, major depressive disorder, acute stress disorder, posttraumatic stress disorder, or another dissociative disorder.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B66
 - **Essential Features**:
     - **Persistent/Recurrent Experiences**:
@@ -47,6 +49,7 @@ A dissociative disorder characterized by persistent or recurrent episodes of dep
     - Criteria are virtually identical, emphasizing the subjective experience of detachment and the preservation of reality testing.
 
 ## Clinical Context
+
 - Often co-occurs with anxiety disorders (especially Panic Disorder) and depression.
 - Can be a symptom of acute stress or trauma.
 - "Reality testing intact" is the key differentiator from psychotic disorders like Schizophrenia, where the individual may believe the unreality is objective truth.

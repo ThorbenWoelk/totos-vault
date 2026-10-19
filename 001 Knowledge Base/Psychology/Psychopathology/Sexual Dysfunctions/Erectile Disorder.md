@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 A recurring inability to achieve or maintain an erection suitable for satisfactory sexual performance.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 602.3
 - **Essential Features**:
     - At least one of the following symptoms must be experienced on **almost all or all (75-100%)** occasions of sexual activity:
@@ -41,6 +42,7 @@ A recurring inability to achieve or maintain an erection suitable for satisfacto
     - **Severity**: Mild, Moderate, Severe.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Male Erectile Dysfunction** (Code 6C41)
 - **Essential Features**:
     - Inability or marked reduction in the ability to attain or sustain a penile erection of sufficient duration or rigidity for sexual activity.
@@ -52,6 +54,7 @@ A recurring inability to achieve or maintain an erection suitable for satisfacto
     - **Etiology**: ICD-11 moves away from the strict "organic vs. non-organic" dichotomy, encouraging an integrated biopsychosocial view.
 
 ## Clinical Context
+
 - **Etiology**: Often multifactorial (vascular, neurological, hormonal, and psychological).
 - **Performance Anxiety**: A common maintaining factor where the fear of failure creates a self-fulfilling prophecy.
 - **Relationship Impact**: Can lead to avoidance of intimacy and relationship strain.

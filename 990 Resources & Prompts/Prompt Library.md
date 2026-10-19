@@ -37,3 +37,4 @@ category:
 
 - [Cursor agent
 prompt](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/main/Cursor%20Prompts/Agent%20Prompt.txt)
+

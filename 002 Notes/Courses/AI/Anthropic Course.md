@@ -13,6 +13,7 @@ category:
   - AI
 ---
 ## Elements to a complex prompt
+
 Mnemonic: Uncle Charlie Takes Every Dog Past Fancy Parks
 1. "User:"
 2. Task context: Give Claude context about the role it should take on or what goals and overarching tasks you
@@ -52,9 +53,11 @@ Put the question at the bottom after any text or document
 ## API prompting techniques
 
 ### Prefilling
+
 Start assistant's answer by using "Assistant:" after "User:" in Claude API. Can be used to prime/influence not
 only the response style but also the factual response.
 ### Explicit reasoning
+
 Letting LLM respond in several steps: Giving Claude time to think step by step sometimes makes Claude more
 accurate, particularly for complex tasks. However, thinking only counts when it's out loud. You cannot ask
 Claude to think but output only the answer - in this case, no thinking has actually occurred.
@@ -81,3 +84,4 @@ not its general knowledge.
 ## References
 
 Anthropic's Interactive Prompt Engineering Tutorial
+

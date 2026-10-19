@@ -61,3 +61,4 @@ The Paxos algorithm is a consensus algorithm designed to achieve agreement among
 ### YAGNI (You ain’t gonna need it)
 
 warns against building something on the suspicion that you might need it later.
+

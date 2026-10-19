@@ -23,9 +23,11 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Introduction
+
 The challenges faced in the `<client-dbt-project>` project are common in high-volume "Modern Data Stack" implementations. This module outlines how to move beyond classical modeling to solve performance and accessibility issues.
 
 ## 1. OBT (One Big Table) for BI Performance
+
 **The Move**: Instead of keeping Facts and Dimensions separate in the final Mart, **denormalize everything** into a single, wide table.
 
 * **Why?**: Columnar databases like BigQuery are much faster at scanning one massive table than joining 10 smaller ones.
@@ -33,6 +35,7 @@ The challenges faced in the `<client-dbt-project>` project are common in high-vo
 * **Benefit**: Self-service analysts can drag and drop columns from a single table without needing to handle join logic or historical mapping (SCD2).
 
 ## 2. Pre-Aggregation (Rollups)
+
 **The Move**: Stop serving raw events as the "Core" for everyone. Create a tiered access system.
 
 * **Fact (Granular)**: Keep for Data Scientists / Power Users. (TB scale).
@@ -40,6 +43,7 @@ The challenges faced in the `<client-dbt-project>` project are common in high-vo
 * **Benefit**: Users get the same answers as the Fact table, but the query scans 1/1000th of the data. Full rebuilds of Rollups are almost free.
 
 ## 3. Align with dbt Standards (The "Marts" Split)
+
 **The Move**: Re-organize the directory structure to match the `staging` -> `intermediate` -> `marts` pattern.
 
 | Old Layer | New Standard | Role |
@@ -52,12 +56,15 @@ The challenges faced in the `<client-dbt-project>` project are common in high-vo
 * **Impact**: Better compatibility with dbt Cloud features (semantic layer, dbt mesh, cross-project refs).
 
 ## 4. Leverage BigQuery BI Engine
+
 **The Move**: Allocate memory to the tables frequently used in Looker.
 
 * **BigQuery BI Engine**: An in-memory analysis service. By defining "Reservations," BigQuery caches the most frequently used columns of your Fact tables in RAM.
 * **Result**: Even complex joins can become sub-second. This uses allocated memory to improve runtime join latency.
 ## Summary: The "Service Level" Approach
+
 Don't build one standard for everyone.
 1.  **Self-service analysts**: Give them **OBT Aggregates** (Fast, Simple, Cheap).
 2.  **Advanced users**: Give them **Star Schema Dimensions/Facts** (Flexible, Slightly Slower).
 3.  **Data Engineers**: Own the **Staging & Heavy Logic** (Modular, DRY).
+

@@ -29,6 +29,7 @@ tagging_last_processed: 2026-05-15
 ## Historical Context and Creation
 
 ### Problems with Articles of Confederation
+
 - **Weak Central Government**: No power to tax, regulate commerce, or enforce laws
 - **No Executive Branch**: No single leader to execute decisions
 - **No Federal Judiciary**: No national court system
@@ -37,6 +38,7 @@ tagging_last_processed: 2026-05-15
 - **Foreign Policy Weakness**: Could not enforce treaties or conduct diplomacy effectively
 
 ### The Constitutional Convention (1787)
+
 - **Date**: May 25 - September 17, 1787
 - **Location**: Independence Hall, Philadelphia
 - **Original Purpose**: Revise Articles of Confederation
@@ -47,23 +49,27 @@ tagging_last_processed: 2026-05-15
 ### Major Compromises
 
 #### The Great Compromise (Connecticut Compromise)
+
 - **Issue**: How to represent states in Congress
 - **Solution**: Bicameral legislature
   - **House of Representatives**: Population-based representation
   - **Senate**: Equal representation (2 per state)
 
 #### Three-Fifths Compromise
+
 - **Issue**: How to count enslaved people for representation/taxation
 - **Solution**: Enslaved people counted as 3/5 of a person
 - **Impact**: Increased Southern political power while maintaining slavery
 
 #### Commerce Compromise
+
 - **Issue**: Federal regulation of trade
 - **Solution**: Congress could regulate interstate/foreign commerce but not tax exports
 
 ## Structure and Content
 
 ### Preamble
+
 **"We the People of the United States, in Order to form a more perfect Union..."**
 
 **Six Purposes Stated:**
@@ -77,6 +83,7 @@ tagging_last_processed: 2026-05-15
 ### The Seven Articles
 
 #### Article I - Legislative Branch
+
 **Structure**: Bicameral Congress (House and Senate)
 
 **Key Powers (Section 8)**:
@@ -94,6 +101,7 @@ tagging_last_processed: 2026-05-15
 - No titles of nobility
 
 #### Article II - Executive Branch
+
 **Structure**: President and Vice President (4-year terms)
 
 **Key Powers**:
@@ -107,6 +115,7 @@ tagging_last_processed: 2026-05-15
 **Electoral College System**: Indirect election through state electors
 
 #### Article III - Judicial Branch
+
 **Structure**: Supreme Court and lower federal courts
 
 **Key Powers**:
@@ -116,6 +125,7 @@ tagging_last_processed: 2026-05-15
 - **Trial by Jury**: Guaranteed for criminal cases
 
 #### Article IV - Interstate Relations
+
 **Key Provisions**:
 - **Full Faith and Credit**: States must honor other states' legal documents
 - **Privileges and Immunities**: Citizens have same rights in all states
@@ -123,6 +133,7 @@ tagging_last_processed: 2026-05-15
 - **New States**: Process for admitting new states
 
 #### Article V - Amendment Process
+
 **Two Methods to Propose Amendments**:
 1. **Congressional Route**: 2/3 vote in both houses
 2. **Convention Route**: 2/3 of state legislatures call for convention
@@ -132,18 +143,21 @@ tagging_last_processed: 2026-05-15
 2. **State Conventions**: 3/4 of states
 
 #### Article VI - Supremacy and Oaths
+
 **Key Provisions**:
 - **Supremacy Clause**: Federal law supreme over state law when in conflict
 - **Oath of Office**: All officials must swear to support Constitution
 - **No Religious Test**: Cannot require religious beliefs for federal office
 
 #### Article VII - Ratification
+
 - Required approval by 9 of 13 states
 - Established process for replacing Articles of Confederation
 
 ## Ratification Debate (1787-1788)
 
 ### Federalists (Pro-Constitution)
+
 **Key Leaders**: [[Alexander Hamilton]], [[James Madison]], [[John Jay]]
 
 **Arguments**:
@@ -157,6 +171,7 @@ tagging_last_processed: 2026-05-15
 - **Federalist 51** (Madison): Separation of powers and checks/balances
 
 ### Anti-Federalists (Opposition)
+
 **Key Leaders**: [[Patrick Henry]], [[George Clinton]], [[Mercy Otis Warren]]
 
 **Arguments**:
@@ -167,6 +182,7 @@ tagging_last_processed: 2026-05-15
 - President could become monarchical
 
 ### Ratification Timeline
+
 1. **Delaware** (December 7, 1787) - First state
 2. **Pennsylvania** (December 12, 1787)
 3. **New Jersey** (December 18, 1787)
@@ -184,11 +200,13 @@ tagging_last_processed: 2026-05-15
 ## The Bill of Rights (First 10 Amendments)
 
 ### Origins
+
 - **Promise Made**: Federalists promised Bill of Rights to secure ratification
 - **Madison's Role**: Initially opposed, later championed in First Congress
 - **Ratified**: December 15, 1791
 
 ### The Ten Amendments
+
 1. **Freedom of Religion, Speech, Press, Assembly, Petition**
 2. **Right to Bear Arms** (well-regulated militia)
 3. **No Quartering of Soldiers** in homes
@@ -203,12 +221,14 @@ tagging_last_processed: 2026-05-15
 ## Key Constitutional Principles
 
 ### Separation of Powers
+
 - **Legislative**: Makes laws
 - **Executive**: Enforces laws
 - **Judicial**: Interprets laws
 - **Purpose**: Prevent concentration of power
 
 ### Checks and Balances
+
 **Legislative Checks**:
 - Override presidential vetoes (2/3 vote)
 - Impeach president/judges
@@ -225,12 +245,14 @@ tagging_last_processed: 2026-05-15
 - Interpret executive actions
 
 ### Federalism
+
 - **Enumerated Powers**: Specific federal powers listed
 - **Reserved Powers**: All other powers belong to states (10th Amendment)
 - **Concurrent Powers**: Shared federal-state powers
 - **Supremacy Clause**: Federal law supreme when conflicts arise
 
 ### Popular Sovereignty
+
 - **"We the People"**: Government derives authority from citizens
 - **Elections**: Regular peaceful transfer of power
 - **Amendment Process**: People can change Constitution
@@ -238,11 +260,13 @@ tagging_last_processed: 2026-05-15
 ## Later Amendments (11-27)
 
 ### Reconstruction Amendments (13-15)
+
 - **13th**: Abolished slavery (1865)
 - **14th**: Equal protection, citizenship (1868)
 - **15th**: Voting rights regardless of race (1870)
 
 ### Progressive Era Amendments
+
 - **16th**: Income tax (1913)
 - **17th**: Direct election of senators (1913)
 - **18th**: Prohibition (1919)
@@ -250,6 +274,7 @@ tagging_last_processed: 2026-05-15
 - **21st**: Repeal of Prohibition (1933)
 
 ### Modern Amendments
+
 - **22nd**: Presidential term limits (1951)
 - **25th**: Presidential succession (1967)
 - **26th**: Voting age lowered to 18 (1971)
@@ -258,12 +283,14 @@ tagging_last_processed: 2026-05-15
 ## Constitutional Interpretation
 
 ### Methods of Interpretation
+
 - **Originalism**: Meaning at time of ratification
 - **Living Constitution**: Evolving interpretation for modern times
 - **Textualism**: Plain meaning of words
 - **Precedent**: Following previous court decisions
 
 ### Major Supreme Court Cases
+
 - **Marbury v. Madison** (1803): Established judicial review
 - **McCulloch v. Maryland** (1819): Federal supremacy, implied powers
 - **Brown v. Board** (1954): Equal protection, overturned segregation
@@ -272,6 +299,7 @@ tagging_last_processed: 2026-05-15
 ## Lasting Impact and Legacy
 
 ### Revolutionary Aspects
+
 - **Written Constitution**: Codified fundamental law
 - **Popular Ratification**: People approved government framework
 - **Separation of Powers**: Innovative governmental structure
@@ -279,11 +307,13 @@ tagging_last_processed: 2026-05-15
 - **Individual Rights**: Protected through Bill of Rights
 
 ### Global Influence
+
 - **Model for Other Nations**: Framework copied worldwide
 - **Democratic Constitutionalism**: Inspired constitutional movements
 - **Rule of Law**: Government bound by law, not arbitrary power
 
 ### Ongoing Relevance
+
 - **Adaptability**: Amendment process allows evolution
 - **Stability**: Oldest written constitution still in force
 - **Democratic Framework**: Continues to structure American government

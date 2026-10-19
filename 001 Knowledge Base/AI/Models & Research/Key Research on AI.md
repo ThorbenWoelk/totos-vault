@@ -21,3 +21,4 @@ translated between models.
 - **Platonic Representation Hypothesis:** Proposes that different models learn compatible representations of
 the same underlying reality. The source note highlights vec2vec research in which embeddings from one model
 were translated so another model could reconstruct source material.
+

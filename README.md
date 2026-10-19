@@ -49,3 +49,4 @@ Full plugin state is declared in `.obsidian/community-plugins.json`, `.obsidian/
 | Dataview | `dataview` | 0.5.68 | Query blocks and dashboards |
 | Virtual Linker | `virtual-linker` | 1.5.2 | Glossary-style virtual links |
 | Open in Terminal | `open-in-terminal` | 0.6.0 | Open note path in terminal |
+

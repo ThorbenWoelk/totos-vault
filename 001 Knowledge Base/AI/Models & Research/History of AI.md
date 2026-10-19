@@ -21,3 +21,4 @@ manager and references *The Handbook of Data Science and AI*.
 - **December 2022:** ChatGPT gave the public free access to a conversational AI interface and made AI-assisted
 work broadly visible.
 - **2023:** GPT-4 was released.
+

@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 Alcohol use disorder is a chronic relapsing brain disease characterized by compulsive alcohol use, loss of control over alcohol intake, and a negative emotional state when not using.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period:
     1. Alcohol is often taken in larger amounts or over a longer period than was intended.
     2. There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.
@@ -42,6 +43,7 @@ Alcohol use disorder is a chronic relapsing brain disease characterized by compu
     11. Withdrawal.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6C40 (Disorders due to use of alcohol)
 - **Specific Diagnoses**:
     - **Alcohol Dependence (6C40.2)**:

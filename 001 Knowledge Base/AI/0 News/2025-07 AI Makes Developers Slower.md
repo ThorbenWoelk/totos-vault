@@ -32,3 +32,4 @@ My take:
 - Becker, J., Rush, N., Barnes, E., & Rein, D. (2025, July 12). [Measuring the impact of early-2025 AI on experienced open-source developer productivity](https://arxiv.org/abs/2507.09089). arXiv.
 
 - Surprisingly, we find that allowing AI actually increases completion time by 19%--AI tooling slowed developers down. This slowdown also contradicts predictions from experts in economics (39% shorter) and ML (38% shorter).
+

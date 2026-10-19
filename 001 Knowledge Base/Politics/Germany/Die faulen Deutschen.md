@@ -42,3 +42,4 @@ Wenn die Fixkosten einer Handlung steigen (Arztbesuch, Wartezimmer), lohnt sich 
 Die Annahme, dass D. besonders viel krank macht ist datenseitig nicht zu belegen. Das IGES Institut geht aus unterschiedlichen Gründen für die meisten anderen Länder von einer systematischen Untererfassung aus. Die OECD geht auf Basis von harmonisierten Daten davon aus, dass Deutschland mit denselben postpandemischen Verschiebungen ringt wie seine Nachbarn, allen voran dem massiven Anstieg psychischer Erkrankungen.
 
 Atemwegserkrankungen sind mit knapp 36% der Fälle die häufigste Ursache, dauern aber im Schnitt nur 5,9 Tage; psychische Erkrankungen machen nur 4,8% der Fälle aus, kosten aber durchschnittlich 28,5 Tage pro Fall. Dazu kommt ein Verhaltenswandel: Seit Corona gehen Beschäftigte häufiger zum Arzt und lassen sich häufiger offiziell krankschreiben, auch wenn der Arbeitgeber es nicht verlangt - während Präsentismus, also krank arbeiten, rückläufig ist.
+

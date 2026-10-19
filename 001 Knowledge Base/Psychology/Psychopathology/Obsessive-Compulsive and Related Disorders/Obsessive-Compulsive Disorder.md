@@ -25,12 +25,14 @@ tagging_last_processed: 2026-05-15
 OCD is a common, chronic, and long-lasting disorder in which a person has uncontrollable, reoccurring thoughts (obsessions) and/or behaviors (compulsions) that he or she feels the urge to repeat over and over.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Presence of obsessions, compulsions, or both:
     - **Obsessions**: Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and that often cause marked anxiety or distress.
     - **Compulsions**: Repetitive behaviors (e.g., hand washing, ordering, checking) or mental acts (e.g., praying, counting, repeating words silently) that the individual feels driven to perform in response to an obsession.
 - **Criterion B**: The obsessions or compulsions are time-consuming (e.g., take more than 1 hour per day) or cause clinically significant distress or impairment.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B20
 - **Essential Features**:
     - Presence of persistent **obsessions** and/or **compulsions** (most commonly both).
@@ -43,5 +45,6 @@ OCD is a common, chronic, and long-lasting disorder in which a person has uncont
 
 
 ## Comorbidities
+
 - High rates of comorbidity with [[Generalized Anxiety Disorder]] and depressive disorders.
 

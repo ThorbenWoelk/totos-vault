@@ -70,6 +70,7 @@ A much better strategy seems to be implementing small increments, trying to rest
 #2026-03 Regressions, bugs, slop is created by most if not the most powerful models. The threshold for actually useful AI coding models is GTP-5.4 or Opus 4.6 imho. Everything else can assist - but don't let them drive or you'll regret. 
 
 ## Higher Costs after Cost Efficiency Analyses
+
 Just because S3 docs promote intelligent tiering doesn't mean immediate archiving data is right for this data access patterns in this app. 
 
 Added caching... in a second place on top of existing caching. 

@@ -43,3 +43,4 @@ Potential risks include telework-related stress and video-call fatigue.
 Kornadt et al. (2025), published in *BMC Public Health*, followed 3,403 employed participants across five
 European countries. After controlling for relevant covariates, working from home was negatively associated
 with well-being early in the pandemic and was unrelated to well-being later on.
+

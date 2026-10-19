@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 Narcissistic Personality Disorder is a mental condition in which people have an inflated sense of their own importance, a deep need for excessive attention and admiration, troubled relationships, and a lack of empathy for others.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: A pervasive pattern of grandiosity (in fantasy or behavior), need for admiration, and lack of empathy, beginning by early adulthood and present in a variety of contexts, as indicated by five (or more) of the following:
     1. Has a grandiose sense of self-importance (e.g., exaggerates achievements and talents).
     2. Is preoccupied with fantasies of unlimited success, power, brilliance, beauty, or ideal love.
@@ -37,6 +38,7 @@ Narcissistic Personality Disorder is a mental condition in which people have an 
     9. Shows arrogant, haughty behaviors or attitudes.
 
 ## Key Symptoms
+
 - **Grandiosity**: A grandiose sense of self-importance.
 - **Need for Admiration**: Requiring excessive admiration.
 - **Lack of Empathy**: Unwillingness to recognize or identify with the feelings and needs of others.

@@ -24,6 +24,7 @@ tagging_last_processed: 2026-05-15
 A disorder characterized by an extreme focus on physical symptoms that causes major emotional distress and problems functioning, distinct from the symptoms' medical cause (or lack thereof).
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 300.82
 - **Essential Features**:
     - **One or more somatic symptoms** that are distressing or result in significant disruption of daily life.
@@ -34,6 +35,7 @@ A disorder characterized by an extreme focus on physical symptoms that causes ma
     - Although any one somatic symptom may not be continuously present, the state of being symptomatic is persistent (typically >6 months).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Bodily Distress Disorder** (Code 6C20)
 - **Essential Features**:
     - Presence of **bodily symptoms** that are distressing to the individual.
