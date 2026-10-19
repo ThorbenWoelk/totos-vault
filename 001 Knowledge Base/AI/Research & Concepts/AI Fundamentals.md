@@ -51,3 +51,4 @@ When a sequence needs one vector representation, common strategies include:
 - Average all token vectors.
 - Use a special classification token that aggregates meaning.
 - Compute an attention-weighted average based on token importance.
+

@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 The US government operates under a **separation of powers** system established by the Constitution, dividing authority among three co-equal branches with a system of **checks and balances** to prevent any single branch from dominating.
 
 ### Federalism Structure
+
 - **Dual Sovereignty**: Power shared between federal and state governments
 - **Supremacy Clause** (Article VI): Federal law prevails when conflicts arise with state law
 - **Tenth Amendment**: Powers not delegated to federal government are reserved to states
@@ -36,6 +37,7 @@ The US government operates under a **separation of powers** system established b
 ## Three Branches of Government
 
 ### Legislative Branch (Article I)
+
 **Structure**: Bicameral Congress
 - **House of Representatives**: 435 members, 2-year terms, proportional representation
 - **Senate**: 100 members, 6-year terms, equal state representation (2 per state)
@@ -60,6 +62,7 @@ The US government operates under a **separation of powers** system established b
 **Committee System**: Specialized committees handle specific policy areas (Judiciary, Armed Services, Appropriations, etc.)
 
 ### Executive Branch (Article II)
+
 **Leadership**: President and Vice President (4-year terms)
 
 **Key Powers**:
@@ -77,6 +80,7 @@ The US government operates under a **separation of powers** system established b
 - **Regulatory Commissions**: Independent regulatory bodies
 
 ### Judicial Branch (Article III)
+
 **Structure**: Federal court system
 - **Supreme Court**: 9 justices, lifetime tenure, final constitutional interpreter
 - **Courts of Appeal**: 13 circuits handling appeals
@@ -92,6 +96,7 @@ The US government operates under a **separation of powers** system established b
 ## Federal Executive Departments (Cabinet-Level)
 
 ### The 15 Executive Departments
+
 1. **State Department (DOS)** - Foreign policy and diplomacy
 2. **Treasury Department (TREAS)** - Financial policy, currency, taxes
 3. **Defense Department (DOD)** - Military operations and national defense
@@ -111,6 +116,7 @@ The US government operates under a **separation of powers** system established b
 ## Major Independent Agencies
 
 ### Law Enforcement and Intelligence
+
 - **Federal Bureau of Investigation (FBI)** - Domestic law enforcement
 - **Central Intelligence Agency (CIA)** - Foreign intelligence
 - **National Security Agency (NSA)** - Signals intelligence, cybersecurity
@@ -121,6 +127,7 @@ The US government operates under a **separation of powers** system established b
 - **Transportation Security Administration (TSA)** - Airport/transportation security
 
 ### Regulatory Commissions (Independent)
+
 - **Federal Communications Commission (FCC)** - Communications regulation
 - **Federal Trade Commission (FTC)** - Consumer protection, antitrust
 - **Securities and Exchange Commission (SEC)** - Financial markets regulation
@@ -133,6 +140,7 @@ The US government operates under a **separation of powers** system established b
 - **Consumer Product Safety Commission (CPSC)** - Product safety
 
 ### Service and Research Agencies
+
 - **Environmental Protection Agency (EPA)** - Environmental regulation
 - **National Aeronautics and Space Administration (NASA)** - Space exploration
 - **National Science Foundation (NSF)** - Scientific research funding
@@ -143,6 +151,7 @@ The US government operates under a **separation of powers** system established b
 - **United States Postal Service (USPS)** - Mail delivery (government corporation)
 
 ### International and Development
+
 - **U.S. Agency for International Development (USAID)** - Foreign aid
 - **Peace Corps** - International volunteer service
 - **Export-Import Bank** - Trade financing
@@ -165,14 +174,17 @@ The US government operates under a **separation of powers** system established b
 ## Checks and Balances System
 
 ### Legislative Checks
+
 - **On Executive**: Impeachment, budget control, appointment confirmation
 - **On Judicial**: Impeachment, constitutional amendments, court jurisdiction
 
 ### Executive Checks
+
 - **On Legislative**: Veto power, execution discretion
 - **On Judicial**: Judicial appointments, enforcement of decisions
 
 ### Judicial Checks
+
 - **On Legislative**: Judicial review of laws
 - **On Executive**: Judicial review of executive actions
 
@@ -185,6 +197,7 @@ The modern federal government operates through a vast **administrative state** o
 - **Provide Services**: Direct service delivery to citizens
 
 ### Agency Types
+
 1. **Executive Agencies**: Under presidential control
 2. **Independent Agencies**: Insulated from direct presidential control
 3. **Regulatory Commissions**: Multi-member boards with staggered terms
@@ -193,6 +206,7 @@ The modern federal government operates through a vast **administrative state** o
 ## Federal-State Relationship
 
 ### Federal Powers (Enumerated)
+
 - Interstate commerce regulation
 - Foreign affairs and defense
 - Currency and banking
@@ -201,6 +215,7 @@ The modern federal government operates through a vast **administrative state** o
 - Intellectual property
 
 ### State Powers (Reserved)
+
 - Education systems
 - Law enforcement (criminal law)
 - Public health and safety
@@ -209,6 +224,7 @@ The modern federal government operates through a vast **administrative state** o
 - Family law
 
 ### Concurrent Powers (Shared)
+
 - Taxation
 - Law enforcement
 - Environmental protection

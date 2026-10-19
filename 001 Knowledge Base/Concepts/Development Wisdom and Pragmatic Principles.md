@@ -24,11 +24,13 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Context
+
 Pragmatic development wisdom and experience-based principles that complement formal software design principles. These insights come from years of practical development experience and focus on real-world application rather than theoretical perfection.
 
 ## Pragmatic Development Philosophy
 
 ### "Done is Better Than Perfect" / "Make it Work, Then Make it Right"
+
 **Philosophy**: Prioritize shipping functional solutions over endless optimization.
 
 **Pro**:
@@ -52,6 +54,7 @@ Pragmatic development wisdom and experience-based principles that complement for
 ### Collaborative Development Wisdom
 
 #### Code is a Team Sport
+
 **Reality**: Most code is written, read, and maintained by teams, not individuals.
 
 **Practical implications**:
@@ -62,6 +65,7 @@ Pragmatic development wisdom and experience-based principles that complement for
 - Team coding standards matter more than individual preferences
 
 #### Version Control as Communication
+
 **Beyond backup**: Git history tells the story of your project.
 
 **Best practices from experience**:
@@ -107,6 +111,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 ### Code Evolution Wisdom
 
 #### Incremental Improvement Over Wholesale Rewrites
+
 **Experience shows**:
 - Big bang rewrites often fail or massively overrun 
 - Bit less so in the age of AI - but still matters
@@ -115,6 +120,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 - Feature flags enable gradual rollouts
 
 #### Technical Debt is Not Always Bad
+
 **Nuanced view**:
 - Strategic technical debt can accelerate learning
 - Document debt deliberately rather than accidentally
@@ -124,6 +130,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 ### Testing and Quality Wisdom
 
 #### Test Pyramid in Practice
+
 **Real-world insights**:
 - Unit tests should be fast and reliable
 - Integration tests catch real-world issues
@@ -132,6 +139,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 - Test what you fear breaking most
 
 #### Code Reviews as Learning Tools
+
 **Beyond bug catching**:
 - Share knowledge and patterns across team
 - Discuss tradeoffs and alternatives
@@ -142,6 +150,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 ### Performance and Optimization
 
 #### Premature Optimization is Evil, But...
+
 **Balanced approach**:
 - Profile before optimizing
 - Optimize for the bottlenecks that matter to users
@@ -150,6 +159,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 - Sometimes "fast enough" is fast enough
 
 #### Monitoring Guides Optimization
+
 **Data-driven decisions**:
 - Measure what users actually experience
 - Optimize based on real usage patterns
@@ -157,6 +167,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 ### Communication and Documentation
 
 #### Code Documentation Philosophy
+
 **Practical approach**:
 - Code should be self-documenting through clear naming
 - Comments explain *why*, not *what*
@@ -165,6 +176,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 - Update documentation as part of development, not afterward
 
 #### Cross-Team Communication
+
 **Enabling effective collaboration**:
 - APIs are contracts between teams
 - Deprecation strategies prevent breaking changes
@@ -174,6 +186,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 ### Meta-Wisdom: Context is King
 
 #### Know Your Constraints
+
 **Critical factors that shape decisions**:
 - Team size and experience level
 - Timeline and business pressures
@@ -182,6 +195,7 @@ As long as the interface is agreed upon early, there's some practical benefits t
 - Regulatory and compliance needs
 
 #### Principles as Guidelines, Not Laws
+
 **Wisdom application**:
 - Every principle has exceptions
 - Context determines which principles to prioritize
@@ -196,3 +210,4 @@ This document complements [[Software Design Principles - Comprehensive Guide]].
 All wisdom here connects to [[Everything is a Tradeoff]] by acknowledging that every principle has costs and benefits.
 
 The key insight is that development wisdom comes from understanding not just what to do, but when, why, and how to do it in real-world contexts with real constraints and real teams.
+

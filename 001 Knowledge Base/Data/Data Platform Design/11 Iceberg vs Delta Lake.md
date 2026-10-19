@@ -24,6 +24,7 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Introduction
+
 A useful default framing is **not** "Iceberg is universally better than Delta Lake." The more accurate statement is:
 
 - **Iceberg** has the cleaner design as a **general-purpose, engine-neutral table specification**.
@@ -32,9 +33,11 @@ A useful default framing is **not** "Iceberg is universally better than Delta La
 So if the question is **"Why might Iceberg win long run?"**, the technical answer is mostly about metadata design, schema evolution, partitioning semantics, and multi-engine interoperability.
 
 ## 1. Schema evolution is more native in Iceberg
+
 Iceberg uses **stable field IDs** as a core part of the format design.
 
 ### Why this matters
+
 - Renaming columns is safer.
 - Reordering columns is safer.
 - Nested schema evolution is cleaner.
@@ -43,9 +46,11 @@ Iceberg uses **stable field IDs** as a core part of the format design.
 This makes schema evolution feel more fundamental to the table model.
 
 ### Delta comparison
+
 Delta can support similar outcomes via **column mapping**, but this is more of a protocol feature that must be enabled. Historically, it has also introduced compatibility caveats for some downstream consumers and streaming scenarios.
 
 ## 2. Hidden partitioning + partition evolution are a major Iceberg strength
+
 This is one of the most convincing technical advantages of Iceberg.
 
 Iceberg supports:
@@ -53,6 +58,7 @@ Iceberg supports:
 - **partition spec evolution**
 
 ### Why this matters
+
 - Queries can filter on business columns rather than explicit partition columns.
 - The partition strategy can change over time.
 - Old and new partition layouts can coexist in the same table.
@@ -61,12 +67,15 @@ Iceberg supports:
 For long-lived lakehouse tables, this is elegant and operationally useful.
 
 ### Delta comparison
+
 Delta can also perform well with partitioned tables, but Iceberg's partition model is cleaner and more portable across engines.
 
 ## 3. Iceberg is more spec-first and engine-neutral
+
 Iceberg behaves like a **table format specification** designed to be implemented consistently across many engines.
 
 ### Why this matters
+
 It is a better fit when the same tables are expected to be accessed by multiple systems, such as:
 - Spark
 - Flink
@@ -78,9 +87,11 @@ It is a better fit when the same tables are expected to be accessed by multiple 
 This is less about open source status and more about the shape of the format itself.
 
 ### Delta comparison
+
 Delta is open source, but the deepest and most mature support has historically been strongest in the Spark / Databricks ecosystem.
 
 ## 4. Iceberg metadata design is elegant for very large object-store tables
+
 Iceberg uses a structured metadata model based on:
 - table metadata
 - snapshots
@@ -89,6 +100,7 @@ Iceberg uses a structured metadata model based on:
 - file-level stats
 
 ### Why this matters
+
 This works well for:
 - large tables on object storage
 - scalable file planning
@@ -98,6 +110,7 @@ This works well for:
 The architecture often feels easier to reason about in a multi-engine environment.
 
 ### Delta comparison
+
 Delta uses a transaction log + checkpoints model.
 That design also works well, but it is different:
 - append log entries
@@ -107,6 +120,7 @@ That design also works well, but it is different:
 This is practical and proven, but many engineers consider Iceberg's metadata model cleaner as a portable lakehouse abstraction.
 
 ## 5. Iceberg has strong snapshot / branch / tag semantics
+
 Iceberg has first-class concepts for:
 - snapshots
 - tags
@@ -114,6 +128,7 @@ Iceberg has first-class concepts for:
 - retention rules around them
 
 ### Why this matters
+
 Useful patterns include:
 - retaining historical states for audit
 - reproducibility
@@ -123,6 +138,7 @@ Useful patterns include:
 This aligns well with data engineering workflows where table state itself is something you want to manage explicitly.
 
 ## Where Delta Lake is often stronger
+
 The honest counterpoint: **Iceberg is not simply better across the board**.
 
 Delta is often stronger in environments that rely heavily on:
@@ -135,7 +151,9 @@ Delta is often stronger in environments that rely heavily on:
 If the platform is mostly Spark plus Databricks, Delta can be the better practical choice even if Iceberg has the cleaner cross-engine table design.
 
 ## Decision heuristic
+
 ### Prefer Iceberg when you want
+
 - engine-neutral table semantics
 - long-lived tables across many compute engines
 - strong schema evolution behavior
@@ -144,12 +162,14 @@ If the platform is mostly Spark plus Databricks, Delta can be the better practic
 - catalog-oriented, open lakehouse interoperability
 
 ### Prefer Delta when you want
+
 - the strongest Databricks / Spark experience
 - heavy use of upserts and merges
 - tight streaming integration
 - mature platform optimizations in a Databricks-centric stack
 
 ## Bottom line
+
 The strongest technical case for Iceberg is **not** that Delta is closed or non-open.
 
 It is that Iceberg solves the **shared table format across many engines** problem more cleanly at the specification level.

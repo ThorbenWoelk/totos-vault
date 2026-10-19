@@ -40,3 +40,4 @@ Use it to find weak bridges and noisy note families. Fix those notes directly. D
 ## Purpose
 
 Build a comprehensive knowledge repository for learning, retrieval, and reuse. The shape should stay simple: generated indexes list notes; individual notes create the graph through body links and `connections`.
+

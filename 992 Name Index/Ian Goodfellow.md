@@ -24,3 +24,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/002 Notes/Books/Chip Huyen - AI Engineering (2025).md`
+

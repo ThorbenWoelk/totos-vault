@@ -45,21 +45,27 @@ Agents browsing the web are uniquely vulnerable because they:
 ## 6 Trap Categories
 
 ### 1. Content Injection Traps
+
 Exploit the **gap between human perception, machine parsing, and dynamic rendering**. What a human sees on a page and what an agent "reads" can differ — hidden text, steganographic instructions, rendering-dependent content.
 
 ### 2. Semantic Manipulation Traps
+
 Corrupt an agent's **reasoning and internal verification processes**. Crafted content that leads the agent to draw false conclusions, validate incorrect assumptions, or reach adversary-desired outputs through seemingly coherent logic.
 
 ### 3. Cognitive State Traps
+
 Target an agent's **long-term memory, knowledge bases, and learned behavioural policies**. Persistent poisoning attacks that degrade agent reliability across sessions, not just within a single interaction.
 
 ### 4. Behavioural Control Traps
+
 **Hijack an agent's capabilities** to force unauthorised actions — e.g. making an agent exfiltrate data, submit forms, or take actions outside its sanctioned scope.
 
 ### 5. Systemic Traps
+
 Use **agent-to-agent interaction** to create cascading systemic failure. In multi-agent systems, one compromised agent can propagate malicious instructions or corrupt shared state.
 
 ### 6. Human-in-the-Loop Traps
+
 Exploit **cognitive biases of human overseers** rather than the agent itself — e.g. presenting outputs that manipulate the human into approving adversarial actions.
 
 ## Key Contributions

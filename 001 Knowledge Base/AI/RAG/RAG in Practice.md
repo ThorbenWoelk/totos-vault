@@ -51,3 +51,4 @@ In search, **BM25** is a way to rank results.
 It is a variant of **TF-IDF** where two parameters are added: b, which controls the importance of document length normalization, and k, which controls the relationship between term frequency (TF) and inverse document frequency (IDF). The usually recommended values are b=0.75 and k between 1.2 and 2.
 
 BM25 is much more flexible than TF-IDF and can be adapted to different scenarios.
+

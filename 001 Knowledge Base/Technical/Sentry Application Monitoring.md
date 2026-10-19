@@ -22,6 +22,7 @@ tagging_last_processed: 2026-05-15
 Sentry is an open-source application monitoring and error tracking platform that helps developers detect, trace, and fix issues in real-time production environments.
 
 ## Key Capabilities
+
 - **Error Tracking**: Captures unhandled exceptions and manually logged errors with full stack traces
 - **Performance Monitoring**: Tracks application performance, transaction times, and bottlenecks
 - **Real-time Alerts**: Instant notifications via Slack, email when issues occur
@@ -29,18 +30,21 @@ Sentry is an open-source application monitoring and error tracking platform that
 - **Distributed Tracing**: End-to-end visibility across microservices and distributed systems
 
 ## Core Architecture
+
 - **DSN (Data Source Name)**: URL endpoint where error reports are sent
 - **SDKs**: Available for JavaScript, Python, Ruby, Java, PHP, Go, Rust, C#, and more
 - **Breadcrumbs**: Trail of events (user interactions, API calls) leading to errors
 - **Error Grouping**: Intelligent classification of similar errors into common incidents
 
 ## Key Integrations
+
 - **Issue Tracking**: Jira, GitHub Issues (auto-create tickets from errors)
 - **Version Control**: GitHub, GitLab (link errors to commits, PRs)
 - **CI/CD**: Track releases and correlate errors with deployments
 - **Communication**: Slack notifications, custom webhooks
 
 ## Primary Use Cases
+
 1. **Production Error Monitoring**: Real-time detection of application failures
 2. **Performance Optimization**: Identify slow transactions and bottlenecks
 3. **Release Monitoring**: Track error rates and crash-free sessions per version
@@ -62,6 +66,7 @@ Sentry.captureException(error, {
 ```
 
 ## Key Benefits
+
 - **Proactive Issue Detection**: Catch errors before users report them
 - **Rich Debugging Context**: Full stack traces, user sessions, environment data
 - **Team Collaboration**: Auto-assignment, issue tracking integration

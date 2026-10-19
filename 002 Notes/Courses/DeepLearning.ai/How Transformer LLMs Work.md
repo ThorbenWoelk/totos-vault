@@ -131,3 +131,4 @@ The model's knowledge comes from statistical patterns absorbed during training, 
 ## References
 
 - DeepLearning.AI. (n.d.). [How Transformer LLMs Work](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/ch1aa/understanding-language-models%3A-(word)-embeddings). DeepLearning.AI.
+

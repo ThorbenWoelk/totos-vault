@@ -29,3 +29,4 @@ Name-index entry from local repository mentions. Add details when they become re
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Practice & Risk/AI Landscape 2025.md`
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Practice & Risk/Enterprise AI Readiness.md`
 - `_obsidian/totos-vault/002 Notes/Courses/DeepLearning.ai/Agentic AI.md`
+

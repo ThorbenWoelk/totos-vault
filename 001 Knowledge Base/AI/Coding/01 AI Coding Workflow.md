@@ -38,6 +38,7 @@ Generally follow "plan, then implement" for each new task. Might have to go back
 So open a new thread and:
 
 ### 1 Plan
+
 - Start with the end goal on a high level, as spec-ready and detailed as possible.
 - Let the AI roast the plan. Go back and forth. 
 - Write up the plan as html. 
@@ -45,6 +46,7 @@ So open a new thread and:
 (Don't use plan mode. It's too restrictive.)
 
 ### 2 Implement
+
 - (optional) open a new thread
 - use shottr (or any good screenshot tool), annotate screenshots to give feedback to model
 - review PRs with another AI

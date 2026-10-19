@@ -170,3 +170,4 @@ curl -s -X POST \
 - test direct volume writes via `POST /volume`
 - create a small wrapper or script for repeatable speaker actions
 - extend the same documentation pattern to Chromecast or AirPlay control once a usable local control path is chosen
+

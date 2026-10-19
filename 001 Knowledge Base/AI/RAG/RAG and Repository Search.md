@@ -237,3 +237,4 @@ Why:
 ### Pattern 5: Search And Write Paths Should Be Separate
 
 This matters especially when the underlying data is editable user-owned content.
+

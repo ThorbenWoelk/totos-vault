@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 An eating disorder characterized by recurrent episodes of eating large quantities of food (often very quickly and to the point of discomfort), a feeling of a loss of control during the binge, and distinct from Bulimia Nervosa by the *absence* of regular compensatory behaviors.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 307.51
 - **Essential Features**:
     - **Recurrent episodes of binge eating** characterized by both:
@@ -42,6 +43,7 @@ An eating disorder characterized by recurrent episodes of eating large quantitie
     - **No Compensaatory Behaviors**: Not associated with recurrent use of inappropriate compensatory behaviors (e.g., purging, fasting, excessive exercise).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B82
 - **Essential Features**:
     - **Frequent, recurrent episodes of binge eating**:
@@ -58,6 +60,7 @@ An eating disorder characterized by recurrent episodes of eating large quantitie
     - **Symptom Count**: DSM-5 lists 5 specific behavioral indicators (rapid, alone, guilt, etc.) and requires 3. ICD-11 focuses more on the *core concept* of loss of control and distress without a rigid checkbox of associated behaviors.
 
 ## Clinical Context
+
 - **Prevalence**: The most common eating disorder in the general population.
 - **Comorbidity**: High rates of comorbidity with depression, anxiety, and substance use disorders.
 - **Health Consequences**: Associated with obesity, diabetes, hypertension, and chronic pain conditions.

@@ -25,11 +25,13 @@ tagging_last_processed: 2026-05-15
 Psychological assessment is a process of testing that uses a combination of techniques to help arrive at some hypotheses about a person and their behavior, personality and capabilities. Diagnosis involves identifying and classifying mental health disorders.
 
 ## Key Components
+
 - **Clinical Interview**: The core of assessment, gathering history, symptoms, and context.
 - **Mental Status Examination (MSE)**: Evaluating current cognitive and emotional functioning.
 - **Psychological Testing**: Standardized tests (e.g., IQ tests, personality inventories).
 
 ## Diagnostic Systems
+
 - **DSM-5**: *Diagnostic and Statistical Manual of Mental Disorders* (used primarily in North America).
 - **ICD-11**: *International Classification of Diseases* (used globally).
 

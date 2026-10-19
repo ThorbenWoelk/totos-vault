@@ -156,3 +156,4 @@ Fix the first four and local RAG is practical even on a laptop.
 
 - Cursor. (n.d.). [Security](https://cursor.com/security/). Cursor.
 - Tabnine. (n.d.). [Personalization](https://docs.tabnine.com/main/welcome/readme/personalization). Tabnine Docs.
+

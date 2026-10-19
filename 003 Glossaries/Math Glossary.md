@@ -43,3 +43,4 @@ representations.
 - Earlier layers have small receptive fields and capture local details.
 - Later layers have larger receptive fields and capture whole objects.
 - Information therefore progresses from local features toward global structure.
+

@@ -22,6 +22,7 @@ tagging_last_processed: 2026-05-15
 Trauma-informed care is an organizational structure and treatment framework that involves understanding, recognizing, and responding to the effects of all types of trauma.
 
 ## Key Principles
+
 1.  **Safety**: Creating a physical and emotional environment where the client feels safe.
 2.  **Trustworthiness and Transparency**: Building trust through clear boundaries and consistency.
 3.  **Peer Support**: Recognizing the value of shared experience.
@@ -30,6 +31,7 @@ Trauma-informed care is an organizational structure and treatment framework that
 6.  **Cultural, Historical, and Gender Issues**: Moving past stereotypes and biases.
 
 ## Relevance
+
 Crucial for working with:
 - **[[../Trauma- and Stressor-Related Disorders/Post-Traumatic Stress Disorder|PTSD]]**
 - **[[../Trauma- and Stressor-Related Disorders/Complex PTSD|Complex PTSD]]**

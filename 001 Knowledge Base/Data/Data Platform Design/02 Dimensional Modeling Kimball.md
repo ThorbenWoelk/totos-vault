@@ -23,12 +23,15 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Introduction
+
 **Dimensional Modeling** is a technique popularized by [[Ralph Kimball]]. It is designed to maximize query performance and ease of use for business analysts. The central concept is the **Star Schema**.
 ## The Star Schema
+
 In a Star Schema, data is organized into two types of tables:
 1.  **Fact Tables**: The center of the star. They contain the *metrics* of the business.
 2.  **Dimension Tables**: The points of the star. They contain the *context* or *attributes*.
 ### Fact Tables (`core/facts`)
+
 Facts are "Long and Narrow". They capture events that happen at a specific point in time.
 
 * **Characteristics**:
@@ -43,6 +46,7 @@ Facts are "Long and Narrow". They capture events that happen at a specific point
     *   *Foreign Keys*: `session_sk`, `user_sk`, `page_sk`.
 
 ### Dimension Tables (`core/dims`)
+
 Dimensions are "Short and Wide". They describe the "Who, What, Where" of an event.
 
 * **Characteristics**:
@@ -54,6 +58,7 @@ Dimensions are "Short and Wide". They describe the "Who, What, Where" of an even
     *   *Attributes*: `title`, `rubric`, `author`, `publication_date`.
 
 ## Surrogate Keys (SKs) in Big Data
+
 **Hashed Keys**
 We use **Deterministic Hashing** to generate SKs.
 * **Function**: `farm_fingerprint(string)` (BigQuery specific).
@@ -66,6 +71,7 @@ We use **Deterministic Hashing** to generate SKs.
 3.  **Independence**: It creates a standard `int64` key regardless of whether the source ID is a UUID, a string, or an integer.
 
 ### Implementation Pattern
+
 The macro `calculate_sk_for_id` encapsulates this logic to ensure safety (handling NULLs).
 
 ```sql
@@ -77,6 +83,7 @@ from source_table t
 ```
 
 ## The "Unknown" Member
+
 Every dimension should have a "row 0" or "Unknown" member.
 * **SK**: `0` or `-1`.
 * **Purpose**: When a Fact record has a missing or null foreign key (e.g., a page view where the user is not logged in), it joins to this "Unknown" row rather than dropping out of the join result (inner join) or having NULL attributes (left join).

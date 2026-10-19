@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 A disorder characterized by recurrent behavioral outbursts representing a failure to control aggressive impulses, which are grossly disproportionate to the provocation.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 312.34
 - **Essential Features**:
     - Recurrent behavioral outbursts representing a failure to control aggressive impulses, manifested by either:
@@ -39,6 +40,7 @@ A disorder characterized by recurrent behavioral outbursts representing a failur
     - **Exclusion**: Not better explained by another mental disorder (e.g., Depression, Bipolar, Psychosis, APD, BPD) or substance use.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6C73
 - **Essential Features**:
     - **Repeated brief episodes** of verbal or physical aggression or destruction of property.
@@ -51,6 +53,7 @@ A disorder characterized by recurrent behavioral outbursts representing a failur
     - **Consistency**: The definitions are highly consistent between DSM-5 and ICD-11, focusing on the impulsive, non-instrumental nature of the aggression and the disproportionality of the reaction.
 
 ## Clinical Context
+
 - **Vs. Instrumental Aggression**: IED is "reactive" aggression (hot, emotional), separate from "proactive/instrumental" aggression (cold, goal-directed) seen in Conduct Disorder or Antisocial Personality Disorder.
 - **Cycle**: Tension building -> Explosive Release -> Relief -> Remorse/Regret (often).
 

@@ -287,3 +287,4 @@ Ein zusätzlicher Hop sollte einen konkreten Nutzen liefern: Qualitätsgarantie,
 ## Quellen und Vertiefung
 
 - [Databricks: What is the medallion lakehouse architecture?](https://docs.databricks.com/gcp/en/lakehouse/medallion)
+

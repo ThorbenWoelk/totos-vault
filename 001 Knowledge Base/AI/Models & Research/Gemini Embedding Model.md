@@ -25,23 +25,27 @@ tagging_last_processed: 2026-05-15
 **Model**: gemini-embedding-001  
 
 ## Key Capabilities
+
 - **3072-dimensional vectors** (scalable to 1536, 768)
 - **Multilingual**: 100+ languages supported
 - **Input limit**: 2048 tokens
 - **Performance**: Top MTEB leaderboard performer
 
 ## Primary Use Cases
+
 - Text retrieval and semantic search
 - Text classification and categorization
 - Cross-language applications
 - Domain-specific tasks (science, legal, finance, coding)
 
 ## Technical Features
+
 - Matryoshka Representation Learning (MRL) for flexible dimensionality
 - Unified model across diverse domains
 - Compatible with embed_content endpoint
 
 ## Pricing & Access
+
 - $0.15 per 1M input tokens
 - Available via Gemini API and Vertex AI
 - Free tier available for experimentation
@@ -60,6 +64,7 @@ print(result.embeddings)
 Output format: 3072 float values representing semantic meaning in high-dimensional space.
 
 ## Processing Flow
+
 **Text → Tokens → Embeddings**
 1. Input text gets tokenized into subword units
 2. Tokens processed through neural network  

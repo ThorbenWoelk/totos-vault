@@ -23,3 +23,4 @@ expected to be unique.
 ## Required safeguard
 
 Add a cleansing step that deduplicates the affected identifiers before publishing the destination table.
+

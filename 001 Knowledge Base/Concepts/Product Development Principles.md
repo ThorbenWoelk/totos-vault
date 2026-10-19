@@ -22,11 +22,13 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## Context
+
 Comprehensive guide to product development principles, from user-centric design through product-market fit. These principles guide building products that solve real problems for real users.
 
 ## User-Centric Foundation
 
 ### User Stories
+
 **Definition**: Short, simple descriptions of features from the user's perspective.
 
 **Format**: "As a [user type], I want [functionality] so that [benefit/value]"
@@ -44,6 +46,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - Use personas to make users concrete
 
 ### User Story Mapping
+
 **Definition**: Visual exercise that arranges user stories to understand the user journey and prioritize development.
 
 **Structure**:
@@ -67,6 +70,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ## Product Discovery Methods
 
 ### Jobs-to-be-Done (JTBD)
+
 **Framework**: Understand what job customers are hiring your product to do.
 
 **Core insight**: People don't buy products; they hire them to make progress in their lives.
@@ -80,6 +84,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - Competitive analysis
 
 ### Design Thinking
+
 **Process**: Human-centered approach to innovation and problem-solving.
 
 **Five stages**:
@@ -92,6 +97,7 @@ Comprehensive guide to product development principles, from user-centric design 
 **Benefits**: Reduces risk of building wrong products, increases innovation, improves user satisfaction
 
 ### Customer Development
+
 **Framework**: [[Steve Blank]]'s methodology for understanding customers before building products.
 
 **Four steps**:
@@ -105,6 +111,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ## Validation & Learning Principles
 
 ### Lean Startup Methodology
+
 **Philosophy**: Build products through validated learning, experimentation, and iterative releases.
 
 **Core principles**:
@@ -114,6 +121,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - **Minimum Viable Product**: Learn maximum with minimum effort
 
 ### Minimum Viable Product (MVP)
+
 **Definition**: Version of product that allows team to collect maximum validated learning with least effort.
 
 **Purpose**:
@@ -129,6 +137,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - **Feature MVP**: Single core feature implementation
 
 ### Build-Measure-Learn Cycle
+
 **Process**: Fastest way to get through loop with minimum effort.
 
 **Steps**:
@@ -142,6 +151,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - **Cohort analysis**: Track specific groups over time
 
 ### Pivot vs. Persevere
+
 **Pivot**: Structured course correction to test new hypothesis about product or strategy.
 
 **Types of pivots**:
@@ -154,6 +164,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ## Product Management Principles
 
 ### Product-Market Fit
+
 **Definition**: Being in good market with product that satisfies that market.
 
 **Indicators**:
@@ -171,6 +182,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ### Feature Prioritization Frameworks
 
 #### RICE Method
+
 - **Reach**: How many users will be affected
 - **Impact**: How much will it affect each user
 - **Confidence**: How sure are you about reach/impact estimates
@@ -179,6 +191,7 @@ Comprehensive guide to product development principles, from user-centric design 
 **Score**: (Reach × Impact × Confidence) ÷ Effort
 
 #### Kano Model
+
 **Categories**:
 - **Must-have**: Basic expectations (dissatisfiers if missing)
 - **Performance**: Linear satisfaction improvement
@@ -186,6 +199,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - **Indifferent**: Features users don't care about
 
 ### Product Roadmapping
+
 **Purpose**: Communicate strategic direction while maintaining flexibility.
 
 **Principles**:
@@ -202,6 +216,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ## Advanced Product Concepts
 
 ### Product-Led Growth (PLG)
+
 **Strategy**: Product itself drives customer acquisition, expansion, and retention.
 
 **Characteristics**:
@@ -211,6 +226,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - Data-driven iteration and improvement
 
 ### North Star Framework
+
 **Concept**: Single metric that captures core value delivered to customers.
 
 **Components**:
@@ -219,6 +235,7 @@ Comprehensive guide to product development principles, from user-centric design 
 - **Work streams**: Key initiatives to improve inputs
 
 ### Continuous Discovery
+
 **Practice**: Weekly touchpoints with customers to discover opportunities and validate solutions.
 
 **Activities**:
@@ -231,18 +248,21 @@ Comprehensive guide to product development principles, from user-centric design 
 ### Product Analytics & Metrics
 
 #### Acquisition Metrics
+
 - Customer Acquisition Cost (CAC)
 - Conversion rates across funnel
 - Traffic sources and quality
 - Time to first value
 
 #### Engagement Metrics
+
 - Daily/Monthly Active Users (DAU/MAU)
 - Session duration and frequency
 - Feature adoption rates
 - User journey completion
 
 #### Retention Metrics
+
 - Churn rate and cohort analysis
 - Net Revenue Retention (NRR)
 - Product stickiness (DAU/MAU ratio)
@@ -251,6 +271,7 @@ Comprehensive guide to product development principles, from user-centric design 
 ## Implementation Strategy
 
 ### Product Discovery Process
+
 1. **Problem identification**: Define opportunity space
 2. **User research**: Understand customer needs and context
 3. **Solution ideation**: Generate and evaluate potential solutions
@@ -259,12 +280,14 @@ Comprehensive guide to product development principles, from user-centric design 
 6. **Measurement**: Track outcomes and iterate
 
 ### Team Structure & Collaboration
+
 - **Cross-functional teams**: Product, design, engineering working together
 - **Embedded research**: UX research integrated into team workflow
 - **Regular customer contact**: All team members interact with users
 - **Data-informed decisions**: Combine quantitative and qualitative insights
 
 ### Cultural Principles
+
 - **Customer obsession**: Deep understanding and empathy for users
 - **Hypothesis-driven**: Test assumptions rather than build on faith
 - **Bias toward action**: Prefer quick experiments over lengthy planning

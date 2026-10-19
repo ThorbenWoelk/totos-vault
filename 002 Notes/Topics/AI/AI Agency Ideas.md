@@ -21,3 +21,4 @@ Agency may be the competence that most strongly determines whether someone succe
 
 - How can agency be practiced deliberately?
 - Why is AI more than another layer of abstraction?
+

@@ -231,3 +231,4 @@ cargo run -- \
 - Review changed notes after a full AI tagging pass.
 - Investigate files reported as YAML errors; invalid frontmatter is skipped.
 - Use the Rust standardizer for tagging work.
+

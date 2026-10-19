@@ -24,3 +24,4 @@ In a conversation about mental health, spirituality, and success, Dr. K describe
 When I get bored with one thing, I can move to another and later return. The useful pattern is a deliberate cycle among A, B, C, and D. The unhelpful pattern is a trail of abandoned interests from A through Z.
 
 The conversation frames people as “farmers” or “hunters.” Farmers may find satisfaction in steady routines and concentrating their energy on one pursuit. Hunters pull in disparate stimuli and connect them; their attention needs more movement. ADHD can be understood through this lens: some minds are poorly matched to environments that require sitting in one place and attending to one thing for eight hours.
+

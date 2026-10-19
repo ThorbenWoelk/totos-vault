@@ -16,7 +16,6 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-06-29
 ---
-
 - [ ] TODO: Order alphabetically
 - [ ] TODO: cross reference (only highly) related effects in descriptions - if any
 ## Barnum effect

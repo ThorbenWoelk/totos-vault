@@ -66,3 +66,4 @@ Metacognitive therapy research (Wells, 2009) demonstrates that understanding the
 Csikszentmihalyi's research on optimal experience identifies conditions that reliably **produce flow: clear goals, immediate feedback, challenge matched to skill, and removal of distraction.** 
 
 - Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row.
+

@@ -22,3 +22,4 @@ Back in the day, we chuckled when an LLM found a surprising solution to a task, 
 ## References
 
 - Anthropic. (n.d.). [From shortcuts to sabotage: Natural emergent misalignment from reward hacking](https://www.anthropic.com/research/emergent-misalignment-reward-hacking?utm_source=alphasignal&utm_campaign=2025-11-24&lid=1pw43liweNoVi5ZWN). Anthropic.
+

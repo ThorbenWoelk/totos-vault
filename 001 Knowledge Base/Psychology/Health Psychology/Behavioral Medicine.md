@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 Behavioral medicine is an interdisciplinary field combining medicine and psychology. It is concerned with the integration of knowledge in the biological, behavioral, psychological, and social sciences relevant to health and illness.
 
 ## Key Focus Areas
+
 - **Prevention**: Lifestyle changes to prevent disease (e.g., smoking cessation, weight management).
 - **Disease Management**: Helping patients manage chronic conditions (e.g., diabetes, hypertension) through behavioral adherence.
 - **Biopsychosocial Model**: Viewing health/illness as a product of biological factors (genetic, biochemical), psychological factors (mood, personality, behavior), and social factors (cultural, familial, socioeconomic).

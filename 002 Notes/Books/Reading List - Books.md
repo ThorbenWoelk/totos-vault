@@ -25,3 +25,4 @@ category:
 - [ ] *How to Use Claude Code*
 - [ ] *SQL Pipe Syntax Best Practices* — marked “maybe” in the source note
 - [x] *A Practical Guide to Building Agents*
+

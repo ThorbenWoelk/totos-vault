@@ -18,3 +18,4 @@ evidence that the states cannot be meaningfully distinguished.
 The classic example concerns baldness: if losing one hair does not make a person bald, repeatedly applying
 that premise seems to imply that no number of lost hairs can make the person bald. The faulty conclusion is
 that baldness does not exist.
+

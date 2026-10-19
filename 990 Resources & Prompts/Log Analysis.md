@@ -31,6 +31,7 @@ Inspect Pydantic Logfire traces and Google Cloud Error Reporting logs to identif
 ## 1. Data Retrieval Strategy
 
 ### Pydantic Logfire
+
 If you have access to the `logfire` MCP server or database:
 1.  **Query Exceptions**:
     ```sql
@@ -52,6 +53,7 @@ If you have access to the `logfire` MCP server or database:
 3.  **Inspect specific traces** for context around errors.
 
 ### Google Cloud Platform (GCP)
+
 If you have access to `gcloud` or GCP console references:
 1.  Look for log entries with `severity >= ERROR`.
 2.  Focus on `stackdriver` / `clouderrorreporting` groups to see aggregated crash data.
@@ -86,13 +88,16 @@ If you have access to `gcloud` or GCP console references:
 Produce a **Prioritized Improvement Plan** in Markdown:
 
 ### 🚨 Critical Fixes (Immediate Action)
+
 * **[Bug Name]**: Description.
     *   *Fix*: `Modify src/foo.py...`
 
 ### ⚡ Performance Wins
+
 * **[Slow Endpoint]**: Analysis.
     *   *Optimization*: "Add Redis caching" or "Add DB index on column X".
 
 ### 🧹 Code Quality & Logging
+
 * **[Suggestion]**: "Wrap external API calls in retry logic", "Downgrade 'User not found' log to INFO".
 

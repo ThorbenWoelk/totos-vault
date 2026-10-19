@@ -29,6 +29,7 @@ tagging_last_processed: 2026-05-14
 A marked incongruence between an individual's experienced/expressed gender and their assigned gender.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Name**: **Gender Dysphoria** (Code 302.85 for Adolescents/Adults)
 - **Classification**: Listed under its own chapter "Gender Dysphoria" within the manual of Mental Disorders.
 - **Essential Features (Adolescents/Adults)**:
@@ -43,6 +44,7 @@ A marked incongruence between an individual's experienced/expressed gender and t
     - **Distress/Impairment**: The condition is associated with clinically significant distress or impairment in social, occupational, or other important areas of functioning.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Gender Incongruence** (Code HA60 for Adolescence/Adulthood)
 - **Classification**: **MOVED** out of the "Mental and Behavioural Disorders" chapter entirely. It is now located in a new chapter: **"Conditions related to sexual health"**.
 - **Essential Features**:
@@ -55,6 +57,7 @@ A marked incongruence between an individual's experienced/expressed gender and t
     - **Distress**: DSM-5 diagnoses the *distress* (dysphoria); ICD-11 diagnoses the *incongruence*.
 
 ## Clinical Context
+
 - **Treatment**: The standard of care is gender-affirming care (social transition, hormone therapy, surgery) rather than "reparative" therapies (which are considered unethical).
 - **Minority Stress**: High rates of anxiety/depression in this population are often attributed to societal stigma and discrimination ("Minority Stress Model") rather than the gender identity itself.
 

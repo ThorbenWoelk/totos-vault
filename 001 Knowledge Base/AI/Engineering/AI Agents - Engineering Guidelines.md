@@ -23,6 +23,7 @@ tagging_last_processed: 2026-05-14
 ## Best Practices
 
 ### Multi-vs-single agent
+
 **The architecture decision matrix**
 
 The core principle for developing agentic systems is to treat a strong single-agent baseline as the default starting point, not a weak baseline to be replaced. Developers should only scale complexity when the workload characteristics demand it.
@@ -38,6 +39,7 @@ Here is how you can map your architecture choices to your workload properties:
 - **Does the output require strict regulatory verification?** Move to a centralized multi-agent system and program the orchestrator to aggressively check for logical contradictions and context omissions before aggregating the final output.
 
 #### Design Around KV-Cache
+
 - KV-cache hit rate is the single most important metric for production AI agents
 - Cached input tokens cost 10x less than uncached ones (Claude Sonnet: 0.30 vs 3 USD/MTok)
 - Keep prompt prefix stable—avoid timestamps at beginning of system prompt
@@ -45,24 +47,28 @@ Here is how you can map your architecture choices to your workload properties:
 - Use deterministic serialization (watch JSON key ordering)
 
 #### Use File System as Context
+
 - Treat file system as unlimited, persistent context
 - Models learn to write/read files as externalized memory
 - Always make compression strategies restorable (keep URLs, file paths)
 - Avoid irreversible compression—you can't predict which observation becomes critical later
 
 #### Manipulate Attention Through Recitation
+
 - Create and update todo.md files step-by-step
 - Constantly rewrite objectives into end of context
 - Pushes global plan into model's recent attention span
 - Avoids "lost-in-the-middle" issues and goal misalignment
 
 #### Keep the Wrong Stuff In
+
 - Leave failed actions and errors in context
 - Error recovery is a key indicator of true agentic behavior
 - Model learns from mistakes and shifts priors away from similar actions
 - Don't clean up traces—embrace failure as part of the loop
 
 #### Don't Get Few-Shotted
+
 - Models are excellent mimics—they follow patterns in context
 - Too much uniformity leads to drift and overgeneralization
 - Introduce structured variation in actions/observations
@@ -71,3 +77,4 @@ Here is how you can map your architecture choices to your workload properties:
 ## References
 
 - Manus. (2025, July 18). [Context engineering for AI agents: Lessons from building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus). Manus.
+

@@ -32,3 +32,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/README.md`
+

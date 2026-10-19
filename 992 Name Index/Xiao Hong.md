@@ -24,3 +24,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Practice & Risk/Manus AI.md`
+

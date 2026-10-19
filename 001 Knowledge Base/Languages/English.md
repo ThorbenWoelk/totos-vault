@@ -74,3 +74,4 @@ A non-alcoholic beer.
 ### Psychological operations (PSYOP)
 
 Psyops are operations to convey selected information and indicators to audiences to influence their motives and objective reasoning, and ultimately the behavior of governments, organizations, groups, and large foreign powers. In 2010, the term psychological operations was deemed too menacing by the Department of Defense (DOD), which then directed the Army to replace it with a new term—military information support operations (MISO).
+

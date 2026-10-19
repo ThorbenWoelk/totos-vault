@@ -27,11 +27,13 @@ A robust data platform is built on a foundation of clear, modular architecture. 
 # High-level Data Platform Components
 
 ## Data Ingestion (EL)
+
 ## Data Transformation (T)
 
 ### DWH
 
 #### dbt
+
 In the `<client-dbt-project>` project, we strictly adhered to a multi-layered approach and "DAG" (Directed Acyclic Graph) structure.
 
 ```
@@ -116,3 +118,4 @@ The "Showroom". These tables are consumer-facing, polished, and strictly modeled
 ## Orchestration
 
 # Monitoring
+

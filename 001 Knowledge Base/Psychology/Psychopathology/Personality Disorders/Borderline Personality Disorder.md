@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 Borderline Personality Disorder is a mental health condition characterized by a pattern of ongoing instability in moods, behavior, self-image, and functioning. These experiences often result in impulsive actions and unstable relationships.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: A pervasive pattern of instability of interpersonal relationships, self-image, and affects, and marked impulsivity, beginning by early adulthood and present in a variety of contexts, as indicated by five (or more) of the following:
     1. Frantic efforts to avoid real or imagined abandonment.
     2. A pattern of unstable and intense interpersonal relationships characterized by alternating between extremes of idealization and devaluation.
@@ -40,6 +41,7 @@ Borderline Personality Disorder is a mental health condition characterized by a 
     9. Transient, stress-related paranoid ideation or severe dissociative symptoms.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6D11.5 (Borderline pattern specifier)
 - **Context**: In ICD-11, Personality Disorders are primarily diagnosed by severity (Mild, Moderate, Severe). "Borderline pattern" is a **prominent trait qualifier** used to describe specific features.
 - **Essential Features**:
@@ -60,12 +62,14 @@ Borderline Personality Disorder is a mental health condition characterized by a 
 
 
 ## Key Symptoms
+
 - **Emotional Instability**: Intense episodes of anger, depression, or anxiety.
 - **Fear of Abandonment**: Frantic efforts to avoid real or imagined abandonment.
 - **Unstable Relationships**: Alternating between extremes of idealization and devaluation ("splitting").
 - **Identity Disturbance**: Unstable self-image or sense of self.
 
 ## Theoretical Connections
+
 - **[[Attachment Theory|Attachment Theory]]**: Insecure, particularly disorganized or anxious-ambivalent attachment styles, are often seen as precursors or risk factors.
 - **Comorbidities**: High comorbidity with [[Depression]] and anxiety disorders.
 

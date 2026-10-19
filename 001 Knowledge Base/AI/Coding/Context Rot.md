@@ -18,3 +18,4 @@ models one bounded implementation task at a time.
 
 The purpose of this multi-step workflow is to limit context rot: as a conversation accumulates unrelated
 details, stale attempts, and competing instructions, the model becomes less reliable.
+

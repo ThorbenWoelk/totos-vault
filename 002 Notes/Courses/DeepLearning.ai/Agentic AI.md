@@ -43,7 +43,9 @@ ask_ai() -> regex extract code -> **run** (external feedback) -> evaluate_ai() -
 
 
 ## Evaluation
+
 ### Objective Evaluation
+
 Code-based evaluation, e.g. create ground truth db to evaluate performance against.  
 
 
@@ -62,3 +64,4 @@ More consistent results can be achieved when giving it a **rubric** of binary cr
 ## References
 
 - DeepLearning.AI. (n.d.). [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/lesson/bvuwkr/agentic-ai-applications). DeepLearning.AI.
+

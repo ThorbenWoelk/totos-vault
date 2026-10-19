@@ -55,3 +55,4 @@ session = SessionLocal()
 user = session.query(User).filter(User.id == 1).first()
 print(user.name)  # Direct attribute access
 ```
+

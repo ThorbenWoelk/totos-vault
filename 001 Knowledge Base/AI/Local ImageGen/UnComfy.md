@@ -88,11 +88,13 @@ Crucial for **Image-to-Image** (when you start with an existing picture).
 ## On Mac
 
 ### My M4
+
 - **Hardware Profile:**
     - **Safe Zone:** FP16, BF16, GGUF (Q4/Q8).
     - **Danger Zone:** FP8 (Native), massive unquantized models (>16GB).
     - **Successful Test:** `z_image_turbo_bf16` + `qwen_3_4b`.
 
 ### FP8
+
 "FP8" (8-bit floating point) is a compression trick mainly optimized for NVIDIA's newest cards (4090s, H100s). Most image gen models are using it. Mac's GPU driver (Metal/MPS) does **not** natively support running these FP8 math operations directly. 1. **The Result:** When ComfyUI loads this `17GB` FP8 file on a Mac, it usually thinks, "I can't run this math," and **converts it back to FP16** (16-bit) in order to run it. **17 GB (FP8)** --> **34 GB (FP16)** in RAM. Out of memory error. Stick to **GGUF** versions if you want to run huge models like this on a Mac. GGUF is a format specifically designed to keep models compressed _while_ they run, preventing that RAM explosion.
 

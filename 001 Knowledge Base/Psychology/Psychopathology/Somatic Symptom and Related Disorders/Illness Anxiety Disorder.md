@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 A disorder characterized by excessive worry about having or developing a serious undiagnosed medical condition, despite having minimal or no somatic symptoms.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 300.7
 - **Essential Features**:
     - **Preoccupation** with having or acquiring a serious illness.
@@ -38,6 +39,7 @@ A disorder characterized by excessive worry about having or developing a serious
     - Not better explained by another mental disorder (e.g., Somatic Symptom Disorder, Panic Disorder, OCD).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Hypochondriasis** (Code 6B23)
 - **Essential Features**:
     - **Persistent preoccupation or fear** about the possibility of having one or more serious, progressive, or life-threatening illnesses.
@@ -51,6 +53,7 @@ A disorder characterized by excessive worry about having or developing a serious
     - **Focus**: Both emphasize the *worry* rather than the *symptoms* (distinguishing it from Somatic Symptom Disorder/Bodily Distress Disorder).
 
 ## Clinical Context
+
 - **Core Mechanism**: Catastrophic interpretation of normal bodily sensations.
 - **Cycle**: Worry -> checking/assurance seeking -> temporary relief -> return of worry.
 - **Treatment**: CBT (Cognitive Behavioral Therapy) is the gold standard, focusing on challenging health-related beliefs and reducing checking behaviors.

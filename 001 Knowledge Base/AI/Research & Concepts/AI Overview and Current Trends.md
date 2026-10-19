@@ -23,3 +23,4 @@ The original Kortex note referenced a video here, but its URL did not survive th
 The working assumption is that AI will automate some basic, non-critical software use cases, such as building
 a personal portfolio site. For more complex work, tools such as Cursor and Warp are more likely to make
 development increasingly conversational and interactive than to remove software development altogether.
+

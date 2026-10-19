@@ -28,18 +28,21 @@ tagging_last_processed: 2026-05-14
 # Databricks Notebooks
 
 ## Limitations
+
 - Table results from NB cell are limited to 10,000 rows or 2 MB, whichever is lower.
 - Job clusters have a maximum notebook output size of 30 MB.
 
 # Delta Table
 
 ## OPTIMIZE
+
 Compacting small files into larger ones. 
 `OPTIMIZE` is idempotent. Once files have already been compacted and no new data has been added or modified, re-running `OPTIMIZE` does not trigger any further changes.
 
 # SQL
 
 ## INSERT
+
 - **`INTO` or `OVERWRITE`**
     `OVERWRITE`:
     - Without a `partition_spec` the table is truncated before inserting the first row.
@@ -70,6 +73,7 @@ subquery2
 # Spark
 
 ## Spark Connect vs Classic
+
 Spark connect executes schema analysis lazy instead of eagerly at execution planning time. 
 
 
@@ -87,6 +91,7 @@ Spark connect executes schema analysis lazy instead of eagerly at execution plan
 ## Lakeflow Spark Declarative Pipelines
 
 ### Expectations
+
 | Action                                                                       | SQL syntax                            | Python syntax       | Result                                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------- | ------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [warn](https://docs.databricks.com/aws/en/ldp/expectations#retain) (default) | `EXPECT`                              | `dp.expect`         | Invalid records are written to the target.                                                                                                                                                                           |
@@ -103,6 +108,7 @@ Access application logs in the following ways:
 - **Direct URL:** Append `/logz` to your app URL. For example, if your app URL is `https://my-app-1234567890.my-instance.databricksapps.com`, logs are available at `https://my-app-1234567890.my-instance.databricksapps.com/logz`.
 
 ## Avoid egress costs
+
 Cloudflare R2 object storage incurs no egress fees.
 - **Ridiculously Reliable:** R2 is designed for high durability and resilience, providing 99.999999999% (eleven 9's) annual durability, equivalent to other major providers.
 - **Radically Reprogrammable:** Fully integrated with the [Cloudflare Workers serverless runtime](https://blog.cloudflare.com/introducing-r2-object-storage/), it allows for dynamic content handling.
@@ -112,12 +118,15 @@ Cloudflare R2 object storage incurs no egress fees.
 ## Delta Sharing
 
 ### Protocols
+
 #### databricks to databricks
 
 #### open-sharing protocol
+
 Delta Sharing is designed to securely share data across platforms using an open protocol. Since the vendor does not use Databricks, Delta Sharing ensures secure, real-time access without manual exports or third-party workarounds.
 
 ## Lakehouse Federation
+
 Allows databricks to run queries on external dbs. 
 
 *Query* federation executes query in databricks AND in source db.
@@ -137,10 +146,12 @@ Unlike traditional partitioning, you can redefine clustering keys without rewrit
 ## Logs
 
 ### Audit Logs
+
 Audit logs are JSON events. 
 The serviceName and actionName properties identify the event. 
 
 ### Cluster Logs
+
 Folders:
 - **driver**: Logs from the Spark driver node, which we are most interested in.
 - **executor**: Logs from each Spark executor in the cluster.
@@ -155,10 +166,12 @@ log stream output buffers:
 `logger = PySparkLogger.getLogger()`
 
 ### Automatic Liquid Clustering
+
 Based on **predictive optimization** from analyzing **query workload**. 
 Databricks changes clustering keys only when the predicted cost savings from data skipping improvements outweigh the data clustering cost.
 
 ## Git
+
 The following tasks are not supported by Databricks Repos, and must be performed in your Git provider:
 - Create a pull request
 - Delete branches
@@ -175,11 +188,13 @@ The following tasks are not supported by Databricks Repos, and must be performed
 Pro deploys to Cloud and allows private VPC.
 
 ### Auto-Stop
+
 Automatically shut down the SQL warehouse after it has been idle for a specified period.
 
 ## Resources
 
 ## Memory optimized
+
 For Spark joins, particularly when dealing with large datasets or complex join conditions. This is due to the need to shuffle and potentially store data in memory during the join operation.
 Ensures no disk spills, thereby significantly reducing shuffle overhead and improving performance.
 
@@ -190,6 +205,7 @@ Ensures no disk spills, thereby significantly reducing shuffle overhead and impr
 ## Databricks/Lakeflow Jobs
 
 ### Task-level notifs
+
 Databricks Jobs allow notifications at the task level, enabling targeted alerts when a specific task fails. The engineer can configure the alert only for the final task and direct it to Slack, ensuring other task failures do not trigger notifications.
 
 ## read_files()
@@ -198,6 +214,7 @@ Use path globs for **where to look** (path structure).
 Use pathGlobFilter for **which files to keep** (name/suffix filtering). Does **not** change partition discovery behavior.
 
 ### input_file_name()
+
 Returns the name of the file being read, or empty string if not available.
 
 ## Skewed JOINS: small subgroup in A matches massive part B
@@ -242,6 +259,7 @@ This isolates the problematic data so it doesn't drag down the rest of the pipel
 - **Why it works:** While this introduces an additional shuffle step before the join, it guarantees that the data entering the join phase is evenly distributed in terms of partition size. This brute-force load balancing ensures that no single worker node receives an egregiously large chunk of data at once, enhancing parallelism and masking the effects of the skew.
 
 ## Skewed JOINS: Broadcast small lookup table to avoid shuffle
+
 ### The "Shuffle" in a Standard Join
 
 In a standard join (often a **Sort-Merge Join**), Spark needs to ensure that rows with the exact same join key (e.g., `user_id = 123`) from _both_ tables end up on the exact same worker node so they can be matched together.

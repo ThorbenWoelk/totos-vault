@@ -24,14 +24,17 @@ tagging_last_processed: 2026-05-15
 ## Token to Embedding Pipeline
 
 ### 1. Tokenization → Numbers
+
 - Each token gets unique ID: "Hello" → 1247, "world" → 8934
 - Input sequence becomes number sequence
 
 ### 2. Initial Embedding Lookup
+
 - Token IDs mapped to dense vectors via learned embedding matrix
 - Each token → initial vector (e.g., 768 dimensions)
 
 ### 3. Transformer Processing
+
 **Attention Mechanisms**
 - Each token "attends to" all other tokens for context
 - "bank" near "river" vs "money" gets different processing
@@ -43,19 +46,23 @@ tagging_last_processed: 2026-05-15
 - Each layer builds more abstract understanding
 
 ### 4. Pooling Strategy
+
 - Multiple tokens → single embedding
 - Methods: averaging, CLS token, attention-weighted combination
 
 ### 5. Output Projection
+
 - Final layer projects to target dimensions (3072 for Gemini)
 - Semantic meaning compressed into fixed-size vector space
 
 ## Semantic Learning
+
 - Training on millions of text examples
 - Similar concepts → similar vectors
 - Vector arithmetic: "king" - "man" + "woman" ≈ "queen"
 - Each dimension captures different meaning aspects
 
 ## Key Insight
+
 Embeddings emerge from the network learning to predict/understand text relationships across massive datasets.
 

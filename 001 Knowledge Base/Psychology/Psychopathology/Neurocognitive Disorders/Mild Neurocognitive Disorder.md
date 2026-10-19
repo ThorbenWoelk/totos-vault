@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 A state of cognitive decline greater than expected for an individual's age and education level, but which does not interfere notably with activities of daily life.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 331.83 (G31.84)
 - **Essential Features**:
     - **Modest cognitive decline** from a previous level of performance in one or more cognitive domains.
@@ -37,6 +38,7 @@ A state of cognitive decline greater than expected for an individual's age and e
     - **Exclusion**: Not better explained by delirium or another mental disorder.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Mild Neurocognitive Disorder** (Code 6D71)
 - **Essential Features**:
     - **Mild impairment** in one or more cognitive domains relative to age/education norms.
@@ -46,6 +48,7 @@ A state of cognitive decline greater than expected for an individual's age and e
     - The criteria are virtually identical. Both systems introduced this category to capture the "prodromal" phase of neurodegenerative diseases (like "MCI due to Alzheimer's") or stable deficits (like mild TBI) that don't meet the threshold for dementia.
 
 ## Clinical Context
+
 - **Progression Risk**: Individuals with Mild NCD (especially amnestic type) are at higher risk of progressing to Major NCD (Dementia), but a significant portion remain stable or even revert to normal cognition.
 - **Biomarkers**: In research settings, biomarkers (amyloid PET, tau) are increasingly used to diagnose the specific etiology (e.g., "Mild NCD due to Alzheimer's Disease").
 

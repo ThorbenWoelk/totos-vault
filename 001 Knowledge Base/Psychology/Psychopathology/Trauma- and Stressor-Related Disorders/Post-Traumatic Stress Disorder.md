@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 PTSD is a psychiatric disorder that may occur in people who have experienced or witnessed a traumatic event such as a natural disaster, a serious accident, a terrorist act, war/combat, or rape/sexual violence.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Exposure to actual or threatened death, serious injury, or sexual violence.
 - **Criterion B**: Presence of one or more intrusion symptoms associated with the traumatic event(s) (e.g., memes, nightmares, flashbacks).
 - **Criterion C**: Persistent avoidance of stimuli associated with the traumatic event(s).
@@ -33,6 +34,7 @@ PTSD is a psychiatric disorder that may occur in people who have experienced or 
 - **Criterion F**: Duration of the disturbance is more than 1 month.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B40
 - **Essential Features**:
     - **Stressor**: Exposure to an extremely threatening or horrific event or series of events.
@@ -48,5 +50,6 @@ PTSD is a psychiatric disorder that may occur in people who have experienced or 
 
 
 ## Theoretical Connections
+
 - **[[Attachment Theory|Attachment Theory]]**: Insecure attachment can affect resilience and recovery from trauma.
 

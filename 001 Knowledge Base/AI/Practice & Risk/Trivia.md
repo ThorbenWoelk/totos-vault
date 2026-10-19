@@ -23,3 +23,4 @@ Where does "vibe coding" come from?
 ## References
 
 - Know Your Meme. (2025, March 19). [Vibe coding](https://knowyourmeme.com/memes/vibe-coding). Know Your Meme.
+

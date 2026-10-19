@@ -27,3 +27,4 @@ Name-index entry from local repository mentions. Add details when they become re
 
 - `_obsidian/totos-vault/001 Knowledge Base/AI/RAG/Entity Graph RAG Architecture.md`
 - `_obsidian/totos-vault/001 Knowledge Base/Politics/USA/Declaration of Independence.md`
+

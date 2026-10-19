@@ -26,3 +26,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Papers/2026 AI Agent Traps - Franklin et al.md`
+

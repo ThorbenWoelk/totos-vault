@@ -26,3 +26,4 @@ Name-index entry from local repository mentions. Add details when they become re
 ## Sources
 
 - `_obsidian/totos-vault/002 Notes/Videos/Richard Sutton Interview.md`
+

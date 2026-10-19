@@ -24,6 +24,7 @@ tagging_last_processed: 2026-05-14
 GAD is characterized by persistent and excessive worry about a number of different things. People with GAD may anticipate disaster and may be overly concerned about money, health, family, work, or other issues.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities (such as work or school performance).
 - **Criterion B**: The individual finds it difficult to control the worry.
 - **Criterion C**: The anxiety and worry are associated with three (or more) of the following six symptoms:
@@ -36,6 +37,7 @@ GAD is characterized by persistent and excessive worry about a number of differe
 - **Criterion D**: The anxiety, worry, or physical symptoms cause clinically significant distress or impairment.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B00
 - **Essential Features**:
     - Marked symptoms of anxiety persisting for at least several months, for more days than not, manifested by either:
@@ -55,6 +57,7 @@ GAD is characterized by persistent and excessive worry about a number of differe
 
 
 ## Comorbidities
+
 - High rate of comorbidity with [[Depression]] and other anxiety disorders.
 - Also often comorbid with [[ADHD]].
 

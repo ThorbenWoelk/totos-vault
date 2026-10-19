@@ -23,12 +23,14 @@ tagging_last_processed: 2026-05-15
 Systemic therapy seeks to address people's problems in practical ways, focusing on the interactions between groups of people rather than just on the individual's mind. It considers the "system" (e.g., family, couple, community) as the unit of analysis.
 
 ## Core Concepts
+
 - **Circular Causality**: Events are viewed as mutually influencing each other in a loop, rather than linear cause-and-effect.
 - **Homeostasis**: Systems tend to maintain a state of equilibrium, which can sometimes mean maintaining dysfunctional patterns.
 - **Boundaries**: The rules that define who participates in the system and how.
 - **Triangulation**: A dynamic where two people involve a third person to manage their conflict.
 
 ## Applications
+
 - **Couples Therapy**
 - **Family Therapy**: Treating child behavioral problems, eating disorders (e.g., [[Anorexia Nervosa]]), and substance abuse within the family context.
 

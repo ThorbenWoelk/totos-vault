@@ -20,6 +20,7 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ### literal
+
 A literal is a piece of source code that directly represents a value, without any function call or variable lookup.
 ```
 {
@@ -30,6 +31,7 @@ A literal is a piece of source code that directly represents a value, without 
 ```
 
 ### declarative macro
+
 A macro is code that writes other code (like `json!` in the example).
 
 implements `macro_rules!`

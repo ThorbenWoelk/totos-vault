@@ -23,14 +23,17 @@ tagging_last_processed: 2026-05-15
 Pain is an unpleasant sensory and emotional experience associated with actual or potential tissue damage. The experience of pain is subjective and multidimensional.
 
 ## Biopsychosocial Model of Pain
+
 - **Biological**: Nerve damage, inflammation.
 - **Psychological**: Anxiety, depression, catastrophizing about pain.
 - **Social**: Support systems, work environment.
 
 ## Gate Control Theory
+
 Suggests that the spinal cord contains a neurological "gate" that blocks pain signals or allows them to pass on to the brain. Psychological factors (like attention and mood) can open or close this gate.
 
 ## Management
+
 - **[[Cognitive Behavioral Therapy|CBT]]**: Helps changer negative thought patterns about pain.
 - **Mindfulness**: Reducing awareness of pain sensation.
 

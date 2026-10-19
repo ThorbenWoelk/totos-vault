@@ -24,6 +24,7 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## The Problem: Mutability
+
 Data in the real world changes.
 *   A user moves from Berlin to Munich.
 *   An article's title is fixed from "Teh" to "The".
@@ -32,12 +33,14 @@ If we simply overwrite the data, we lose history.
 ## SCD Types
 
 ### Type 1: Overwrite (SCD1)
+
 * **Action**: Update the existing row with new values.
 * **History**: Lost. We only know the *current* state.
 * **Use Case**: Correcting spelling errors, or when history is genuinely irrelevant.
 * **Example**: `core_dim_user` (for current status).
 
 ### Type 2: Add Row (SCD2)
+
 * **Action**: Mark the old row as "expired" and insert a new row for the current state.
 * **History**: Preserved. We have a row for every state the entity has ever been in.
 * **Columns**: Requires `valid_from` and `valid_to` timestamps.
@@ -46,6 +49,7 @@ If we simply overwrite the data, we lose history.
 ## Implementing SCD2 in dbt
 
 ### 1. The Structure
+
 An SCD2 table will look like this:
 
 | page_sk | page_id | title | valid_from | valid_to |
@@ -57,10 +61,12 @@ An SCD2 table will look like this:
 * **Primary Key**: The `page_id` is no longer unique! You need a new Surrogate Key (`page_sk`) for each *version* of the page.
 
 ### 2. The Logic via dbt Snapshots (Standard)
+
 dbt provides a `snapshots` feature to automate this. It compares source data to target data and handles the inserts/updates.
 *   *Note*: In high-volume scenarios (like this project), custom SQL logic in `intermediate` models is sometimes used instead of standard snapshots for performance control.
 
 ### 3. Point-in-Time Joins (Crucial)
+
 When joining a Fact table to an SCD2 Dimension, a simple join on ID is wrong (it would explode rows, matching all versions). You must join on **Time**.
 
 **The Pattern:**
@@ -81,6 +87,7 @@ left join core_dim_page_changelog as dim
 ```
 
 ## SCDs in `<client-dbt-project>`
+
 The project uses `core_dim_page_changelog` to track edits to articles.
 * **Impact**: When computing "Page Views by Ressort (Department)", we reference the department the article belonged to *at that time*, even if it moved later.
 * **Complexity**: This makes joins slower. The `configure_date_filter` macro (discussed in Module 05) is vital here to ensure we don't scan the entire history of the dimension for every query.
@@ -103,3 +110,4 @@ To keep the Star Schema but fix the specific performance bottleneck in BigQuery:
 ### Key Lesson
 
 **Strict Dimensional Modeling (SCD Type 2) can be high-cost on Columnar Cloud DBs** if implemented as a raw SQL `JOIN ... BETWEEN ...`. The "Modern Data Stack" often prefers **Snapshotting** (periodic full state) or **Activity Schemas** to avoid this specific range-join pattern.
+

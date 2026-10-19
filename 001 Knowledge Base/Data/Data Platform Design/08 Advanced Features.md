@@ -21,6 +21,7 @@ tagging_processed_count: 10
 tagging_last_processed: 2026-05-15
 ---
 ## 1. Seeds: Managing Static Data
+
 **Problem**: You have small mapping tables (e.g., "Country Code to Country Name", "Wall Status IDs") that rarely change. You don't want to keep them in a separate database or hardcode `CASE WHEN` statements.
 
 **Solution: dbt Seeds**
@@ -30,6 +31,7 @@ tagging_last_processed: 2026-05-15
     *   *Example*: `import_seed_country.yml` checks that `iso2` code is `not_null` and `string`. This ensures even your static manual data is validated.
 
 ## 2. Exposures: Downstream Lineage
+
 **Problem**: You change the `core_fact_orders` model. You don't know which Looker dashboard might break.
 
 **Solution: Exposures**
@@ -49,6 +51,7 @@ exposures:
 * **Benefit**: When you build the dbt documentation (`dbt docs generate`), the Lineage Graph extends *beyond* the warehouse tables out to the Dashboards. You can visualize exactly what business asset depends on your code.
 
 ## 3. Documentation
+
 This project uses a standard documentation structure.
 * **YAML Descriptions**: Every model and column is described in `.yml` files.
 * **Doc Blocks**: Reusable standard descriptions (e.g., `{{ doc('view_id') }}`) are defined in `docs/` and referenced in YAML. This ensures that the definition of "View ID" is identical across 50 different tables.

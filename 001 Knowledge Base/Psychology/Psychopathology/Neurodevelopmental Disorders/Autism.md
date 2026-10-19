@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-15
 Autism Spectrum Disorder is a developmental disability caused by differences in the brain. People with ASD often have problems with social communication and interaction, and restricted or repetitive behaviors or interests.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Persistent deficits in social communication and social interaction across multiple contexts (e.g., deficits in social-emotional reciprocity, nonverbal communicative behaviors used for social interaction, developing, maintaining, and understanding relationships).
 - **Criterion B**: Restricted, repetitive patterns of behavior, interests, or activities, as manifested by at least two of the following:
     - Stereotyped or repetitive motor movements, use of objects, or speech.
@@ -36,6 +37,7 @@ Autism Spectrum Disorder is a developmental disability caused by differences in 
 - **Criterion E**: These disturbances are not better explained by intellectual disability or global developmental delay.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6A02
 - **Essential Features**:
     - Persistent deficits in initiating and sustaining **reciprocal social interaction and social communication**.
@@ -49,11 +51,13 @@ Autism Spectrum Disorder is a developmental disability caused by differences in 
 
 
 ## Key Characteristics
+
 - **Social Communication**: Challenges in understanding non-verbal cues, maintaining eye contact, or developing relationships.
 - **Restricted Interests**: Intense focus on specific topics.
 - **Repetitive Behaviors**: Stimming, adherence to routines.
 
 ## Comorbidities
+
 - [[ADHD]]
 - [[Depression]]
 - Anxiety

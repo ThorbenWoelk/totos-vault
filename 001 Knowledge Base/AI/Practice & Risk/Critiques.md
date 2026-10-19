@@ -22,3 +22,4 @@ persuasive argument against it when prompted to critique its own work.
 Many AI applications demonstrate technical possibility without delivering dependable value. NotebookLM, for
 example, can convert a large PDF into a podcast quickly. With deeply technical material, however, the result
 may sound confident and energetic while failing to teach the subject with enough precision.
+

@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 Dissociative Identity Disorder (formerly Multiple Personality Disorder) involves the presence of two or more distinct personality states, or an experience of possession, associated with marked discontinuity in the sense of self and agency.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Disruption of identity characterized by two or more distinct personality states (some cultures may describe this as possession). The disruption involves marked discontinuity in sense of self and agency, accompanied by related alterations in affect, behavior, consciousness, memory, perception, cognition, and/or sensory-motor functioning.
 - **Criterion B**: Recurrent gaps in the recall of everyday events, important personal information, and/or traumatic events that are inconsistent with ordinary forgetting.
 - **Criterion C**: The symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.
@@ -34,6 +35,7 @@ Dissociative Identity Disorder (formerly Multiple Personality Disorder) involves
 - **Criterion E**: The symptoms are not attributable to the physiological effects of a substance (e.g., blackouts or chaotic behavior during alcohol intoxication) or another medical condition (e.g., complex partial seizures).
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6B64
 - **Essential Features**:
     - **Disruption of Identity**: Presence of two or more distinct personality states (dissociative identities) associated with marked discontinuity in the sense of self and agency.
@@ -45,11 +47,13 @@ Dissociative Identity Disorder (formerly Multiple Personality Disorder) involves
     - ICD-11's framework aligns closely with the structural dissociation model often used in complex trauma therapy.
 
 ## Etiology and Context
+
 - **Trauma Model**: DID is strongly associated with severe, chronic childhood trauma (e.g., physical, sexual, or emotional abuse).
 - **Structural Dissociation**: Often conceptualized as a failure of integration of various aspects of identity, memory, and consciousness.
 - **Comorbidity**: Frequent comorbidity with [[Post-Traumatic Stress Disorder|PTSD]] and [[Complex PTSD|Complex PTSD]], as well as depression and anxiety.
 
 ## Treatment Approaches
+
 - **Phase-Oriented Therapy**:
     1.  **Stabilization**: Establishing safety, symptom management, and emotional regulation.
     2.  **Trauma Processing**: Working through traumatic memories with the various identity states.

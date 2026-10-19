@@ -111,9 +111,11 @@ AI loves custom implementations where proper solutions already exist. Even when 
 
 # Others
 ## Creativity
+
 AI is not creative. It does not generate new ideas. It does not really understand subtleties. It does not understand the big picture behind a statement in context.
 
 ## Slop
+
 I'm finding myself questioning youtube videos of landscapes and travel destinations. I'm wondering when might be the first time when what I see is not even real. 
 
 ## Needle in a haystack
@@ -128,6 +130,7 @@ AI models don't find text in large documents reliably. Google has a [package](ht
 Example headline: Updated Developer Guide (cleaned)
 
 ### Edit
+
 This is not as prevalent in late 2025 as it was in early 2025 and depends on harness (AI client) more than model itself.
 
 ## Finding data
@@ -159,3 +162,4 @@ Note: code execution introduces its own complexity — sandboxing, resource limi
 ## References
 
 - Anthropic. (n.d.). [Code execution with MCP: Building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp). Anthropic.
+

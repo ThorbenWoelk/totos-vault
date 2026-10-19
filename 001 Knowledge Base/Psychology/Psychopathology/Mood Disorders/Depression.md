@@ -24,6 +24,7 @@ tagging_last_processed: 2026-05-15
 Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. It affects how you feel, think and behave and can lead to a variety of emotional and physical problems.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A**: Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure.
     1. Depressed mood most of the day, nearly every day.
     2. Markedly diminished interest or pleasure in all, or almost all, activities.
@@ -38,6 +39,7 @@ Depression is a mood disorder that causes a persistent feeling of sadness and lo
 - **Criterion C**: The episode is not attributable to the physiological effects of a substance or to another medical condition.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6A71 (Recurrent Depressive Disorder), 6A70 (Single Episode Depressive Disorder)
 - **Essential Features**:
     - **Depressive Episode**: Period of at least 2 weeks characterized by depressed mood or markedly diminished interest or pleasure in activities, present most of the day, nearly every day.
@@ -58,6 +60,7 @@ Depression is a mood disorder that causes a persistent feeling of sadness and lo
 
 
 ## Symptoms
+
 - Feelings of sadness, tearfulness, emptiness or hopelessness
 - Angry outbursts, irritability or frustration, even over small matters
 - Loss of interest or pleasure in most or all normal activities
@@ -65,5 +68,6 @@ Depression is a mood disorder that causes a persistent feeling of sadness and lo
 - Tiredness and lack of energy
 
 ## Theoretical Perspectives
+
 Depression can be understood through various lenses. For instance, **[[Attachment Theory|Attachment Theory]]** suggests that early insecure attachment can be a risk factor for developing depression later in life, particularly in response to loss or rejection.
 

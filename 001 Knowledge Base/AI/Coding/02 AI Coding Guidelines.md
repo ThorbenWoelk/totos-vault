@@ -53,6 +53,7 @@ It's the job of the developer to decide how complicated an issue is. When lettin
 **Key insight from Manus**: let agent update a `todo.md` file. 
 
 ### Keep Human in the Loop - Always!
+
 Humans are the most critical for providing context awareness that the models lack:
 - **Environment**: E.g. poor internet connection and connection errors might make AI assume the code needs fixing
 - **Implementation awareness**: AI may rebuild code or libraries that already exist like an overconfident coder who doesn't know how to do their research
@@ -66,6 +67,7 @@ Establish:
 - `llms-full.txt` files exist for many libraries. You may also dump your repos docs fully into this format to provide it as additional context to agents
 
 ### Combat Code Base Explosion
+
 Vibe coding is prone to exploding codebase fast:
 - Integrate AI review and refactoring sessions often
 - Use AI in PR review
@@ -75,6 +77,7 @@ Vibe coding is prone to exploding codebase fast:
 	- For critical code: Treat AI changes like any developer's work and peer review every line... yourself!
 
 ### Learning vs Speed Trade-off
+
 The more time you take to 
 - read and review the code
 - let AI explain what it did and why
@@ -88,6 +91,7 @@ The risk of AI coding:
 - Junior developers miss fundamental software engineering concepts
 - Basic concepts still needed when vibe-coding - often to guide the AI
 ### Context Truncation Strategy
+
 Based on Manus insights:
 - Prefer file-based memory over context compression
 - Keep references (URLs, file paths) even when dropping content
@@ -99,3 +103,4 @@ Based on Manus insights:
 - AI Engineer. (2026, April 16). [Building pi in a World of Slop - Mario Zechner](https://www.youtube.com/watch?v=RjfbvDXpFls&list=WL&index=2). YouTube video.
 - Factory. (2026, January 20). [Introducing Agent Readiness](https://factory.ai/news/agent-readiness). Factory.ai.
 - [[Theo]] - t3.gg. (2025, December 4). [How I code with AI right now](https://www.youtube.com/watch?v=-g1yKRo5XtY&t=653s). YouTube video.
+

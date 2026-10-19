@@ -29,3 +29,4 @@ Name-index entry from local repository mentions. Add details when they become re
 
 - `_obsidian/totos-vault/000 raw/_inbox/0 - TIL/2026-03.md`
 - `_obsidian/totos-vault/001 Knowledge Base/AI/Practice & Risk/Aha Moments.md`
+

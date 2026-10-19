@@ -21,6 +21,7 @@ get the same feedback a junior dev gets. And five get merged.
 like they’re standing still.” He’s not bullshitting me. He doesn’t work in SFBA. He’s got no reason to lie.
 
 ## My AI Skeptic Friends Are All Nuts
+
 Emerging issues when coding with AI:
 
 It's taking the AI a short time to spin up boilerplate garbage but it takes a long time to get the details
@@ -41,6 +42,7 @@ Also, open questions are:
 
 how do junior devs learn the basics nowadays when there's no real need to go through that struggly
 ## Strategy
+
 The first question one should ask oneself is which strategy is the right one for the problem at hand.
 
 Vibe coding
@@ -57,11 +59,13 @@ coding like security concerns, complexity creep, high costs, resource limits and
 Depending on the integration of the AI into coding environment, there might be a lot of tedious copy pasting
 involved.
 ## Prompting
+
 The next decision is on which level to communicate with the LLM. Basically, do I take the role of a product
 owner that talks about features and functionality and is ignorant about the implementation approach or do I
 mimic a pair programmer who sits beside the person at the keyboard but is involved in the technical approach
 of implementation?
 ## Rules
+
 As a general rule, it is good to set some guardrails for the AI on a technical level in order to rule out
 implementation decisions that go against your general intent. Which programming
 

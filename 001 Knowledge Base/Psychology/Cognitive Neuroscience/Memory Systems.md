@@ -28,6 +28,7 @@ tagging_last_processed: 2026-05-15
 Memory is not a single unitary faculty but is composed of distinct systems with different neural substrates.
 
 ## Types of Memory
+
 - **Declarative (Explicit) Memory**: "Knowing that".
     - **Episodic**: Personal experiences/events (Hippocampus dependent).
     - **Semantic**: Facts and general knowledge.
@@ -36,6 +37,7 @@ Memory is not a single unitary faculty but is composed of distinct systems with 
     - **Conditioning**: Learned associations (Amygdala/Cerebellum).
 
 ## Disorders of Memory
+
 - **Amnesia**: Often follows **[[Traumatic Brain Injury]]** to the temporal lobes.
 - **Dementia**: Progressive loss seen in **[[Neurodegenerative Diseases]]**.
 

@@ -36,3 +36,4 @@ The mnemonic **Ramen Saves Tragic Idiots** captures four ways to revise a prompt
 - **Chain-of-thought prompting:** Ask the model to work through a problem step by step.
 - **Tree-of-thought prompting:** Ask the model to explore several candidate approaches, such as three
 different design perspectives.
+

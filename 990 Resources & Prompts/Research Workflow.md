@@ -14,3 +14,4 @@ category:
 1. Use [Elicit](https://elicit.com/) to find and compare research papers.
 2. Collect the relevant sources in [NotebookLM](https://notebooklm.google.com/).
 3. Ask Claude to use the scientific background from those sources to critique or improve the target idea.
+

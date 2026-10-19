@@ -26,6 +26,7 @@ tagging_last_processed: 2026-05-14
 A common sleep disorder characterized by persistent difficulty initiating or maintaining sleep, or early morning awakening, which leads to significant functional impairment during the day.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 780.52 (G47.0)
 - **Essential Features**:
     - **Predominant complaint**: Dissatisfaction with sleep quantity or quality associated with one or more of the following:
@@ -39,6 +40,7 @@ A common sleep disorder characterized by persistent difficulty initiating or mai
     - Not better explained by another sleep-wake disorder (e.g., narcolepsy), mental disorder, or substance use.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Chronic Insomnia** (Code 7A00) vs **Short-term Insomnia** (Code 7A01).
 - **Essential Features**:
     - **Persistent difficulty** with sleep initiation, duration, consolidation, or quality.
@@ -49,6 +51,7 @@ A common sleep disorder characterized by persistent difficulty initiating or mai
     - **Duration Split**: ICD-11 explicitly codes separately for **Chronic** (>3 months) and **Short-term** (<3 months). DSM-5 focuses on the "Disorder" usually implying the chronic form (3 months+).
 
 ## Clinical Context
+
 - **Etiology**: often follows a "3P" model: **Predisposing** factors (genetics, worry), **Precipitating** factors (stress event), and **Perpetuating** factors (napping, spending too much time in bed).
 - **Treatment**: **CBT-I (Cognitive Behavioral Therapy for Insomnia)** is the first-line treatment, more effective long-term than medication (hypnotics).
 

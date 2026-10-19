@@ -23,11 +23,13 @@ tagging_last_processed: 2026-05-15
 Executive functions are a set of cognitive processes that are necessary for the cognitive control of behavior: selecting and successfully monitoring behaviors that facilitate the attainment of chosen goals.
 
 ## Core Components
+
 - **Inhibition**: Self-control, resisting impulsive actions.
 - **Working Memory**: Holding information in mind and manipulating it.
 - **Cognitive Flexibility**: Switching between tasks or rules.
 
 ## Clinical Relevance
+
 Deficits in executive function are the hallmark of **[[../Neurodevelopmental Disorders/ADHD]]**, but are also seen in:
 - **[[Traumatic Brain Injury]]**
 - **[[../Psychotic Disorders/Schizophrenia]]**

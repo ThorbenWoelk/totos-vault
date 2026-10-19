@@ -25,6 +25,7 @@ tagging_last_processed: 2026-05-15
 ADHD is a chronic condition including attention difficulty, hyperactivity, and impulsiveness. It often begins in childhood and can persist into adulthood.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Criterion A (Inattention/Hyperactivity)**: a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. 
     - **Inattention**: Six or more symptoms (e.g., fails to give close attention to details, difficulty sustaining attention).
     - **Hyperactivity/Impulsivity**: Six or more symptoms (e.g., fidgets, unable to stay seated, talks excessively).
@@ -34,6 +35,7 @@ ADHD is a chronic condition including attention difficulty, hyperactivity, and i
 - **Criterion E**: The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder and are not better explained by another mental disorder.
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Code**: 6A05
 - **Essential Features**:
     - Persistent pattern (at least 6 months) of **inattention** and/or **hyperactivity-impulsivity** that is outside the limits of normal variation for age and level of intellectual functioning.
@@ -46,11 +48,13 @@ ADHD is a chronic condition including attention difficulty, hyperactivity, and i
 
 
 ## Key Symptoms
+
 - **Inattention**: Difficulty sustaining attention in tasks or play activities.
 - **Hyperactivity**: Fidgeting, inability to stay seated, excessive talking.
 - **Impulsivity**: Difficulty waiting turn, interrupting others.
 
 ## Comorbidities
+
 It is common for ADHD to co-occur with other conditions such as:
 - [[Autism]]
 - [[Depression]]

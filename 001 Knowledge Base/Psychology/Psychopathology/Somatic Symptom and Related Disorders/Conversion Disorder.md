@@ -27,6 +27,7 @@ tagging_last_processed: 2026-05-15
 A condition where patients present with neurological symptoms (e.g., paralysis, seizures, blindness) that cannot be explained by neurological disease, but are real experiences for the patient.
 
 ## Diagnosis (DSM-5 Criteria)
+
 - **Code**: 300.11
 - **Essential Features**:
     - One or more symptoms of **altered voluntary motor or sensory function**.
@@ -42,6 +43,7 @@ A condition where patients present with neurological symptoms (e.g., paralysis, 
     - With anesthesia or sensory loss
 
 ## Diagnosis (ICD-11 Criteria)
+
 - **Name**: **Dissociative Neurological Symptom Disorder** (Code 6B60)
 - **Also Known As**: Functional Neurological Symptom Disorder (FNSD).
 - **Essential Features**:
@@ -53,6 +55,7 @@ A condition where patients present with neurological symptoms (e.g., paralysis, 
     - **Terminology**: The shift to "Functional Neurological Disorder" (FND) is gaining traction clinically to reduce stigma associated with "Conversion" (Freudian origin).
 
 ## Clinical Context
+
 - **Mechanism**: Often viewed as a "software" problem of the brain rather than "hardware" (structural) damage.
 - **Etiology**: Stress and trauma are common triggers, but psychological stressors are *not* strictly required for the diagnosis in DSM-5 (a change from DSM-IV).
 - **Treatment**: Physical Therapy (specifically designed for FND) and CBT are effective.
