@@ -42,3 +42,4 @@ context manager
 newtype pattern
 cache-aside
 covering index
+type narrowing
