@@ -43,3 +43,4 @@ newtype pattern
 cache-aside
 covering index
 type narrowing
+interior mutability
