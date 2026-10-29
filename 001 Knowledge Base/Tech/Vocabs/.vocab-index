@@ -45,3 +45,4 @@ covering index
 type narrowing
 interior mutability
 saga
+predicate pushdown
