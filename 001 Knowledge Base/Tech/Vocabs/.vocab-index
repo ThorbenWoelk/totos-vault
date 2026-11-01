@@ -48,3 +48,4 @@ saga
 predicate pushdown
 mapped type
 lora
+memoization
