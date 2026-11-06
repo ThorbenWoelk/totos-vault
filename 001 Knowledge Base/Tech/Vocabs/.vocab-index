@@ -49,3 +49,4 @@ predicate pushdown
 mapped type
 lora
 memoization
+send trait
