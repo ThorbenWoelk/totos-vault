@@ -50,3 +50,4 @@ mapped type
 lora
 memoization
 send trait
+strangler fig pattern
