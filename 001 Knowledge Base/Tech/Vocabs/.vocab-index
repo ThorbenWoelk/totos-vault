@@ -51,3 +51,4 @@ lora
 memoization
 send trait
 strangler fig pattern
+materialized view
