@@ -53,3 +53,4 @@ send trait
 strangler fig pattern
 materialized view
 satisfies operator
+speculative decoding
