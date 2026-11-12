@@ -54,3 +54,4 @@ strangler fig pattern
 materialized view
 satisfies operator
 speculative decoding
+structural subtyping
