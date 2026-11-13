@@ -43,6 +43,7 @@ newtype pattern
 cache-aside
 covering index
 type narrowing
+kv cache
 interior mutability
 saga
 predicate pushdown
