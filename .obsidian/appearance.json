@@ -1,5 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
   "accentColor": "#dac872",
-  "translucency": false
+  "translucency": false,
+  "showRibbon": true
 }

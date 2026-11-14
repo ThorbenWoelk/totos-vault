@@ -20,8 +20,7 @@ source_vaults:
 tagging_processed_count: 10
 tagging_last_processed: 2026-06-29
 ---
-Name-index entry from local repository mentions. Add details when they become relevant.
-
+Was the 16th U.S. president. Was assassinated in 1865. Led the United States through the American Civil War, defeating the Confederacy and playing a major role in the abolition of slavery.
 ## Sources
 
 - `_obsidian/totos-vault/001 Knowledge Base/Politics/USA/Declaration of Independence.md`

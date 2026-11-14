@@ -23,7 +23,7 @@ source_vaults:
 tagging_processed_count: 10
 tagging_last_processed: 2026-06-29
 ---
-Name-index entry from local repository mentions. Add details when they become relevant.
+AI researcher. Co-founder of OpenAI. Later Director of AI at Tesla. Joined Anthropic in 2026. Coined the term "vibe coding".
 
 ## Sources
 
