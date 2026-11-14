@@ -1,27 +1,3 @@
----
-created: 2025-12-29
-last_edited: 2026-04-29
-tags:
-  - obsidian
-  - vault
-  - public
-  - transparency
-  - ai
-  - automation
-  - git
-  - knowledge-base
-  - plugins
-connections:
-  - "[[Tagging System]]"
-  - "[[03 AI Coding Concepts]]"
-  - "[[The Good]]"
-ai_generated: false
-human_approved: false
-category:
-  - Vault
-tagging_processed_count: 10
-tagging_last_processed: 2026-05-15
----
 Welcome to [[Thorben Wölk|Toto]]'s Obsidian vault.
 
 It holds 

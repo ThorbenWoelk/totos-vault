@@ -1,26 +1,3 @@
----
-created: 2026-04-05
-last_edited: 2026-04-24
-tags:
-- ai-memory
-- workspace
-- procedures
-- knowledge-management
-- asynchronous-communication
-- proactive-documentation
-- assistant
-- note
-- taking
-connections:
-- '[[Tagging System]]'
-- '[[991 AI Memory/Procedures/AGENTS|AGENTS]]'
-ai_generated: true
-human_approved: false
-category:
-- AI Memory
-tagging_processed_count: 10
-tagging_last_processed: 2026-05-15
----
 AI Memory — reserviert für mich als proaktiver Wissens- und Notizassistent.
 
 ## Aktive Struktur

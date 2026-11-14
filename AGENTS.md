@@ -1,26 +1,3 @@
----
-created: 2025-10-06
-last_edited: 2026-04-24
-tags:
-  - vault-guidelines
-  - documentation
-  - style
-  - testing
-  - knowledge-management
-  - markdown
-connections:
-  - "[[Documentation Standards]]"
-  - "[[2025-11-27 App as Markdown Specs]]"
-  - "[[02 AI Coding Guidelines]]"
-  - "[[Levels of AI Autonomy]]"
-ai_generated: false
-human_approved: false
-category:
-  - Vault
-  - Repository Guidelines
-tagging_processed_count: 10
-tagging_last_processed: 2026-05-15
----
 ## Welcome to the vault
 
 This is an Obsidian vault. It is a collection of .md files.
@@ -28,11 +5,12 @@ This is an Obsidian vault. It is a collection of .md files.
 ### Guidelines
 
 - Rule 0: keep this vault fresh
-- Include standard properties in every file
+- Include standard properties in notes, except README and AGENTS files.
+- README and AGENTS files at any depth must not contain properties (YAML frontmatter), including `AGENTS.md.md`.
 
 ### Format
 
-- First line after properties is a headline, `##` for major sections, skip `#` as Obsidian uses filenames as titles. 
+- First line of the body is a headline, `##` for major sections, skip `#` as Obsidian uses filenames as titles.
 - Use 1 empty line after each title and text paragraph.
 - For tabular data, stick to Markdown tables and avoid embedded HTML unless required.
 
