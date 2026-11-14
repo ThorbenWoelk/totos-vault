@@ -21,7 +21,7 @@ source_vaults:
 tagging_processed_count: 10
 tagging_last_processed: 2026-06-29
 ---
-Name-index entry from local repository mentions. Add details when they become relevant.
+The Simpsons' most famous idiot. Lending its name to a while loop used in AI coding.
 
 ## Sources
 

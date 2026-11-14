@@ -8,6 +8,19 @@ This is an Obsidian vault. It is a collection of .md files.
 - Include standard properties in notes, except README and AGENTS files.
 - README and AGENTS files at any depth must not contain properties (YAML frontmatter), including `AGENTS.md.md`.
 
+### Git workflow
+
+- Work directly on `main` in this repository, including development and release preparation.
+- Do not create feature branches, release branches, or pull requests.
+
+### Lower-level instructions
+
+Follow the applicable instructions when working in these folders:
+
+- [AI Memory](<991 AI Memory/AGENTS.md>)
+- [AI Memory procedures](<991 AI Memory/Procedures/AGENTS.md>)
+- [Technical vocabulary](<001 Knowledge Base/Tech/Vocabs/AGENTS.md.md>)
+
 ### Format
 
 - First line of the body is a headline, `##` for major sections, skip `#` as Obsidian uses filenames as titles.

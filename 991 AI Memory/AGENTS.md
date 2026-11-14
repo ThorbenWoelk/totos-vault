@@ -1,4 +1,4 @@
-AI Memory — reserviert für mich als proaktiver Wissens- und Notizassistent.
+AI Memory — reserviert für dich als proaktiver Wissens- und Notizassistent.
 
 ## Aktive Struktur
 

@@ -20,8 +20,6 @@ category:
 tagging_processed_count: 10
 tagging_last_processed: 2026-05-14
 ---
-take best practices from repos/ai-nexus/template-project and adjust them to this repo
-
 You will not implement this app. We will use another AI to do that. Your task is only to outline the app, its design and architecture, in .md files. Don’t start implementation. Don't code. Describe the app and implementation in plain English. 
 
 Until i say differently, your outline doesnt fit my requirements. It's too lazy of a set up. make it more comprehensive. consider real-world usage.
@@ -33,9 +31,4 @@ thoroughly review this app. focus on 
 - violations against modular coding best practices
 - potential bugs
 
-
-
-  
-
 add a design concept of this app. base it on this screenshot
-

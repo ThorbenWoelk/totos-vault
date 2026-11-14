@@ -27,7 +27,7 @@ source_vaults:
 tagging_processed_count: 10
 tagging_last_processed: 2026-06-29
 ---
-Name-index entry from local repository mentions. Add details when they become relevant.
+That's me. Pleased to meet you.
 
 ## Sources
 

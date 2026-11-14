@@ -10,8 +10,6 @@ tags:
 - obsidian
 - procedure
 connections:
-- '[[Tagging System]]'
-- '[[Learning Protocol]]'
 - '[[Local Speaker Discovery and Control]]'
 ai_generated: false
 human_approved: false
